@@ -1,0 +1,103 @@
+%%
+%% Beginning of file 'sample62.tex'
+%%
+%% Modified 2018 January
+%%
+%% This is a sample manuscript marked up using the
+%% AASTeX v6.2 LaTeX 2e macros.
+%%
+%% AASTeX is now based on Alexey Vikhlinin's emulateapj.cls 
+%% (Copyright 2000-2015).  See the classfile for details.
+
+%% AASTeX requires revtex4-1.cls (http://publish.aps.org/revtex4/) and
+%% other external packages (latexsym, graphicx, amssymb, longtable, and epsf).
+%% All of these external packages should already be present in the modern TeX 
+%% distributions.  If not they can also be obtained at www.ctan.org.
+
+%% The first piece of markup in an AASTeX v6.x document is the \documentclass
+%% command. LaTeX will ignore any data that comes before this command. The 
+%% documentclass can take an optional argument to modify the output style.
+%% The command below calls the preprint style  which will produce a tightly 
+%% typeset, one-column, single-spaced document.  It is the default and thus
+%% does not need to be explicitly stated.
+%%
+%%
+%% using aastex version 6.2
+\documentclass[twocolumn]{aastex62}
+
+\usepackage{enumitem}
+\usepackage{amsmath}
+
+\newcommand{\vdag}{(v)^\dagger}
+\newcommand\aastex{AAS\TeX}
+\newcommand\latex{La\TeX}
+
+
+\shorttitle{Updated High Temperature Opacities for DSEP}
+\shortauthors{Boudreaux et al.}
+
+\begin{document}
+
+% \title{Self Consistent Models of He Enhancment in different populations of NGC 2808}
+\title{Updated High-Temperature Opacities for the Dartmouth Stellar Evolution Program}
+
+\author[0000-0002-2600-7513]{Thomas M. Boudreaux}
+\affiliation{Department of Physics and Astronomy, Dartmouth College, Hanover, NH 03755, USA}
+
+\author[0000-0003-3096-4161]{Brian C. Chaboyer}
+\affiliation{Department of Physics and Astronomy, Dartmouth College, Hanover, NH 03755, USA}
+
+\author[0000-0002-2012-7215]{Gregory A. Feiden}
+\affiliation{Department of Physics and Astronomy, University of North Georgia, GA 30597, USA}
+
+
+
+%% Mark off the abstract in the ``abstract'' environment. 
+\begin{abstract}
+	The equations of stellar structure have proven astonishingly predictive
+	when describing stars interior structures.  In their most basic form they
+	constitute 4 ordinary, first-order, differential equations. However, they
+	are not on their own well enough constrained to solve. In addition to the
+	four ODEs, an equation of state, thermal conductivities, nuclear reaction
+	rates, and opacities are all required when modeling a star. Some of these
+	additional constraints can be computed on the fly; however, as yet there is
+	no effective way to compute opacities at run time. Rather, stellar
+	structure programs use pre-tabulated opacities over a range of
+	temperatures, densities, and chemical compositions. The Dartmouth Stellar
+	Evolution Program (DSEP) has used OPAL opacities for the last decade and a
+	half; however, there are now more up to date elemental opacity tables from
+	OPLIB. Moreover, OPAL opacities can no longer be reliably generated for
+	different chemical compositions.  Here we present an overview of how we
+	update DSEP to use opacities from OPLIB in addition to preliminary results
+	from two studies making use of these updated opacities.
+	\vspace{1cm}
+\end{abstract}
+
+
+\keywords{}
+
+%%%%%%%%%%%%%%%%%
+%% INTRODUCTION
+%%%%%%%%%%%%%%%%%
+Example Content, 2
+
+
+\acknowledgments{
+	This research has made use of NASA's astrophysical data system (ADS). We
+	acknowledge the support of an NASA grant (No. 80NSSC18K0634). Additionally,
+	we would like to thank James Colgan for his assistance with the OPLIB
+	opacity tables. We would like to thank Aaron Dotter, and Elisabeth
+	Newton for their assistance. Finally, we thank our colleagues and peers in
+	for their continuing and appreciated support.
+}
+
+
+%% If you wish to include an acknowledgments section in your paper,
+%% separate it off from the body of the text using the \acknowledgments
+%% command.
+\acknowledgments
+
+% \bibliography{src/Bibliography/ms}
+
+
+\end{document}
