@@ -1,0 +1,21 @@
+Meeting Date: Feb 24 2022
+With: Elisabeth
+Subject: Jao Gap Project
+
+Content:
+The Jao Gap shifts on the mass luminosity relation depending on a number of
+factors, age, metallicity, opacity, and perhaps rotation. This idea could
+be reasonably broken out into two parts, a theoretical and an observational. 
+
+	Theoretical:
+		The Jao gap can shift (see above). Evolve a set of models to match the
+		local solar neighborhood (variety of ages and metallicities). Assign
+		each star kinematics. From these kinmematics back track rough ages in
+		the same manner that is used to date stars kinematically in
+		observations. See if the difference in Jao Gap location would be
+		measurable between the roughly young and roughly old populations.
+	Observational:
+		If the theoretical project implies that the difference in Jao Gap
+		locations would change to an extent that was noticeable then attempt
+		to use Gaia data for all Mdwarfs within the solar neighborhood too 
+		measure that change.
