@@ -23,10 +23,18 @@
 %%
 %%
 %% using aastex version 6.2
-\documentclass[twocolumn]{aastex62}
+\documentclass[11pt, manuscript]{aastex62}
 
 \usepackage{enumitem}
 \usepackage{amsmath}
+
+\marginparwidth 0pt
+\oddsidemargin  0pt
+\evensidemargin  0pt
+\marginparsep 0pt
+%\topmargin   -0.5in
+\textwidth   7in
+\textheight  9in %total height of text on page
 
 \newcommand{\vdag}{(v)^\dagger}
 \newcommand\aastex{AAS\TeX}
@@ -39,17 +47,56 @@
 \begin{document}
 
 % \title{Self Consistent Models of He Enhancment in different populations of NGC 2808}
-\title{Models of Stars...(Need Bette Title)}
+\begin{titlepage}
+    \begin{center}
+        \Large
+        \vspace*{1cm}
+		\textbf{Models of Stellar Evolution (Need New Title)} \\
+        \vspace{0.75cm}
+        \large
+        A Thesis Proposal \\
+        \vspace{0.25cm}
+        Submitted to the Faculty \\
+        % \\
+        in partial fulfillment of the requirements for the \\
+        % \\
+        degree of \\
+        \vspace{0.25cm}
+        Doctor of Philosophy \\
+        \vspace{0.25cm}
+        in \\
+        \vspace{0.25cm}
+        Physics and Astronomy \\
+        \vspace{0.5cm}
+        by \\
+        \vspace{0.25cm}
+        Thomas M. Boudreaux \\
+        \vspace{0.3cm}
+        DARTMOUTH COLLEGE \\
+        Hanover, NH \\
+        May 10, 2022
+     \end{center}
+\vspace{1cm}
+\begin{flushright}
+The Examining Committee: \hspace{\parindent}
+\vspace{0.4cm}
+\end{flushright}
+\begin{flushright}
+\line(180,0){140}\\
+        Dr. Brian Chaboyer
+        \end{flushright}
+        
+        \begin{flushright}
+        \line(180,0){140}\\
+        Dr. Elisabeth E. Newton
+        \end{flushright}
+        
+        \begin{flushright}
+        \line(180,0){140}\\
+        Dr. Aaron Dotter
+        \end{flushright}
 
-\author[0000-0002-2600-7513]{Thomas M. Boudreaux}
-\affiliation{Department of Physics and Astronomy, Dartmouth College, Hanover, NH 03755, USA}
-
-\author[0000-0003-3096-4161]{Brian C. Chaboyer}
-\affiliation{Department of Physics and Astronomy, Dartmouth College, Hanover, NH 03755, USA}
-
-\author[0000-0002-2012-7215]{Gregory A. Feiden}
-\affiliation{Department of Physics and Astronomy, University of North Georgia, GA 30597, USA}
-
+\end{titlepage}
 
 
 %% Mark off the abstract in the ``abstract'' environment. 
@@ -79,7 +126,7 @@
 %%%%%%%%%%%%%%%%%
 %% INTRODUCTION
 %%%%%%%%%%%%%%%%%
-Example Content, 2
+\input{src/sections/intro.tex}
 
 
 \acknowledgments{
