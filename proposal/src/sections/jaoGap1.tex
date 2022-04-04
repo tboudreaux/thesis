@@ -1,0 +1,200 @@
+Due to initial mass requirements of the molecular clouds which collapse to form
+stars, star formation is strongly biased towards lower mass, later spectral
+class, stars when compared to higher mass stars. Partly as a result of this
+bias and partly as a result of their extremely long main-sequence lifetimes,
+M-dwarfs make up approximately 70 percent of all stars in the galaxy.
+Moreover, some planet search campaigns have focused on M-dwarfs due to the
+relative ease of detecting small planets in their habitable zones
+\citep[e.g.][]{Nut08}. M-dwarfs then represent both a key component of the
+galactic stellar population as well as the possible set of stars which may host
+habitable exo-planets. Given this key location M-dwarfs occupy in modern
+astronomy it is important to have a thorough understanding of their structure
+and evolution.
+
+\subsubsection{Observations and Instability}
+Gaia Data Release 2 (DR2) revealed a previously unknown structure in in the
+$G_{\text{BP}}-G_{\text{RP}}$, $M_{G}$ color-magnitude diagram (Figure \ref{fig:JaoGap}) corresponding to
+stars with a mass near that where a star transitions from fully convective
+to having both convective and radiative regions within (the fully convective
+transition mass) \citep{Jao2018}. The so called Gaia M-dwarf gap, or Jao gap,
+represents a decrease in luminosity and commensurately a decrease in stellar
+density --- by approximately 17\% --- over this mass range.
+\citet{Jao2018,Baraffe2018} suggest that this density deficiency is due to
+stars between a mass of 0.3 to 0.35 M$_{\odot}$ transitioning into full
+convectivity.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.45\textwidth]{src/Figures/JaoGap.png}
+	\caption{Figure 1 from \citet{Jao2018} showing the so called ``Jao Gap'' at
+	$M_{G}\approx$ 10}
+	\label{fig:JaoGap}
+\end{figure}
+
+A theoretical explanation for such a density deficiency comes from
+\citet{van2012}, who propose that directly above the transition mass between a
+star with a radiative core and convective envelope and a fully convective star,
+due to asymmetric production and destruction of He$^{3}$ during the
+proton-proton I chain (ppI), periodic luminosity variations can be induced.
+This process is known as convective-kissing instability.  Take for example a
+star with a mass right on the fully convective transition.  Such a star will
+descent the pre-MS with a radiative core; however, as the star reaches the zero
+age main sequence (ZAMS) and as the core temperature exceeds $7\times 10^{6}$
+K, enough energy will be produced by the ppI chain that the core becomes
+convective. At this point the star exists with both a convective core and
+envelope, in addition to a thin, radiative, layer separating the two. At this
+Point asymmetries in ppI affect the evolution of the stars convective core.
+
+The proton-proton I chain constitutes three reactions 
+\begin{enumerate} 
+	\item $p + p \longrightarrow d + e^{+} + \nu_{e}$
+	\item $p + d \longrightarrow \ ^{3}\text{He} + \gamma$
+	\item $^{3}\text{He} + ^{3}\text{He} \longrightarrow \ ^{3}\text{He} + 2p$ 
+\end{enumerate} 
+Because reaction 3 of ppI consumes $^{3}$He at a slower rate than it is
+produced by reaction 2, $^{3}$He abundance increases in the core increasing
+energy generation. The core convective zone will therefore expand as more of
+the star becomes unstable to convection. This expansion will continue until the
+core connects with the convective envelope. At this point convective mixing can
+transport material throughout the entire radius of the star and the high
+concentration of $^{3}$He will rapidly diffuse outward, away from the core,
+again decreasing energy generation as reaction 3 slows Down. Ultimately, this
+leads to the convective region around the core pulling back away from the
+convective envelope, leaving in place the radiative transition zone, at which
+point $^{3}$He concentrations build up in the until it once again expands to
+meet the envelope.  This process repeats until chemical equilibrium is reached
+throughout the star and the core can sustain high enough nuclear reaction rates
+to maintain contact with the envelope, resulting in a fully convective star.
+
+
+\subsubsection{Modeling the Gap}
+Since the identification of the Gaia M-dwarf gap, stellar modeling has been
+conducted to better constrain its location, effects, and exact cause
+\citep[e.g.][]{Mansfield2021, Feiden2021}. When modeling the gap manifests as a
+discontinuity in the mass-luminosity relation. However, all modeling of the gap
+has been done using GS98 OPAL high-temperature opacities. This presents similar
+issues to the use of these tables when modeling multiple populations in GCs;
+namely, OPAL tables are no longer the most up to date in their component
+opacities . 
+
+\citet{Mansfield2021} and \citet{Feiden2021} identify that the gap's mass
+location is correlated with model metallicity --- the mass-luminosity
+discontinuity in lower metallicity models being at a commensurately lower mass.
+\citet{Feiden2021} suggests this dependence is due to the steep relation of
+the radiative temperature gradient, $\nabla_{rad}$, on temperature and in turn,
+on stellar mass.
+
+\begin{align}\label{eqn:radGrad}
+	\nabla_{rad} \propto \frac{L\kappa}{T^{4}}
+\end{align}
+
+As metallicity decreases so does opacity, which, by Equation \ref{eqn:radGrad},
+dramatically lowers the temperature where radiation will dominate energy transport
+\citep{Chabrier1997}. Since main sequence stars are virialized the core
+temperature is proportional to the core density and total mass (Equation
+\ref{eqn:TMRelation}). Therefore, if the core temperature where
+convective-kissing instability is expected decreases with metallicity, so to
+will the mass of stars which experience such instabilities.
+
+\begin{align}\label{eqn:TMRelation}
+	T_{c} \propto \rho_{c}M^{2}
+\end{align}
+
+\subsubsection{Consistently Modeling the Gap}
+In order to address the two main issues with using OPAL opacity tables we use
+our OPLIB opacity table web scraper to generate a set of tables that
+consistently model lower metallicities. Specifically, we generate tables for
+$Z_{\odot}=0.017$, $Z=0.01$, $Z=0.001$, and $Z=0.0001$. Compositions are
+derived from the GS98 solar composition, with the mass fractions between metals
+remaining constant, and only the total metal mass fraction is allowed to vary.
+Moreover, Helium mass fraction is held constant as extra mass from the reduced
+metallicity is put into additional Hydrogen. 
+
+For each metallicity 101, uniformly spaced, models from 0.3 to 0.5 M$_{\odot}$
+(spacing of 0.001 M$_{\odot}$) are evolve with both the GS98 OPAL opacity table
+and OPLIB tables, hereafter these are the ``coarse'' models. For each set of
+coarse models the discontinuity in the mass-luminosity relation is identified
+at an age of 7 Gyr (Figures \ref{fig:coarseMassLum} \& \ref{fig:coarseTeffLum}
+shows a characteristic example).
+
+% \begin{figure}
+% 	\centering
+% 	\vspace{5mm}
+% 	\includegraphics[width=0.45\textwidth]{src/Figures/MassLumDisconZ001Paper.pdf}
+% 	\caption{Mass-Luminosity relation for Z=0.01 at 7 Gyr for models run with
+% 	both OPAL and OPLIB high-temperature opacity tables and a mass step between
+% 	them of 0.001 M$_{\odot}$ (top). Derivative of luminosity with respect to
+% 	mass for the OPAL and OPLIB models (bottom).}
+% 	\label{fig:coarseMassLum}
+% 	\includegraphics[width=0.45\textwidth]{src/Figures/MassLumDisconZ001PaperTeff.pdf}
+% 	\caption{Temperature-Luminosity relation for Z=0.01 at 7 Gyr for models run
+% 	with both OPAL and OPLIB high-temperature opacity tables and a mass step
+% 	between them of 0.001 M$_{\odot}$ (top). Derivative of the luminosity with
+% 	respect to the temperature for the OPAL and OPLIB models (bottom)}
+% 	\label{fig:coarseTeffLum}
+% \end{figure}
+
+Immediately, the difference in mass where the discontinuity manifests is clear.
+For each metallicity the discontinuity in the OPLIB models is approximately one
+one-hundredth of a solar mass lower than the discontinuity in the OPAL models. We can
+validate that this discontinuity is indeed correlated with the convective
+transition mass; Figure \ref{fig:convTransition} shows an example of the model
+forming radiative zones at approximately the same masses where the discontinuity
+in the mass-luminosity function exists.
+
+At this resolution only a few models exist within the
+mass range of the discontinuity. In order to better constrain its location we
+run a series of ``fine'' models, with a mass step of 0.0001 M$_{\odot}$ and
+ranging from where the mass derivative first exceeds two sigma away from the
+mean derivative value up to the mass where it last exceeds two sigma away from
+the mean. A characteristic fine mass-luminosity relation is shown in Figure
+\ref{fig:fineMassLum}.
+
+
+% \begin{figure}
+% 	\centering
+% 	\vspace{5mm}
+% 	\includegraphics[width=0.45\textwidth]{src/Figures/ConvectiveMassFraction.pdf}
+% 	\caption{Convective Mass Fraction vs. initial model mass for Z=0.01 at 7
+% 	Gyr (top), Derivative of luminosity with respect to mass for the OPAL and
+% 	OPLIB models (bottom).  Note how the model transitions from fully
+% 	convective at approximately the same mass where the discontinuity exists.}
+% 	\label{fig:convTransition}
+% \end{figure}
+%
+%
+% \begin{figure}
+% 	\centering
+% 	\vspace{5mm}
+% 	\includegraphics[width=0.45\textwidth]{src/Figures/MassLumDisconZ001Paper-fine.pdf}
+% 	\caption{Mass-Luminosity relation for Z=0.01 at 7 Gyr for models run with
+% 	both OPAL and OPLIB high-temperature opacity tables and a mass step between
+% 	them of 0.0001 M$_{\odot}$ (top). Derivative of luminosity with respect to
+% 	mass for the OPAL and OPLIB models (bottom).}
+% 	\label{fig:fineMassLum}
+% \end{figure}
+
+Using the fine models we identify the location of the discontinuity in the same
+manner as before, results of this are presented in Table
+\ref{tab:fineMassRange}. Of note with the mass ranges we measure for the
+discontinuity is that are generally not in agreement with those measured in
+\citet{Mansfield2021}. However, the luminosity difference from over the gap
+($\approx 0.1 mag$) is similar to both the observational difference and that
+reported in \citet{Mansfield2021}. Currently, it is not clear why our mass
+range is not in agreement with the \citet{Mansfield2021} mass range and further
+investigation is therefore needed.
+
+\begin{table*}
+	\centering
+	\begin{tabular}{r | c c c c}
+		\hline
+		$Z=$ & Z$_{\odot}$ & 0.01 & 0.001 & 0.0001 \\
+		\hline
+		\hline
+		OPAL & 0.3803 - 0.384 & 0.3583 - 0.3631 & 0.34 - 0.3448 & 0.362 - 0.3663 \\
+		OPLIB & 0.374 - 0.3767 & 0.3526 - 0.3567 & 0.3358 - 0.3406 & 0.3577 - 0.3621
+	\end{tabular}
+	\caption{Mass ranges for the discontinuity in OPAL and OPLIB models. Masses
+	are given in solar masses.}
+	\label{tab:fineMassRange}
+\end{table*}
