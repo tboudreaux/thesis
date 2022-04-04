@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.1.21)  31 MAR 2022 12:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.1.21)  4 APR 2022 10:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**src/ms.tex
+**src/ms.tex -o
 (./src/ms.tex
 LaTeX2e <2018-04-01> patch level 5
 (/usr/share/texlive/texmf-dist/tex/latex/aastex/aastex62.cls
@@ -474,7 +474,7 @@ Class revtex4-1 Info: cite was not loaded (OK!) on input line 47.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 47.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 47.
 
-No file BoudreauxThesisProposal.aux.
+(./BoudreauxThesisProposal.aux)
 \openout1 = `BoudreauxThesisProposal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
@@ -491,6 +491,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
+
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count160
@@ -557,9 +558,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Class revtex4-1 Warning: No title.
 
 
-LaTeX Warning: Reference `eqn:polytrope' on page 2 undefined on input line 4.
-
-
 Package natbib Warning: Citation `Emden1907' on page 2 undefined on input line 
 5.
 
@@ -570,172 +568,185 @@ e 18.
 [2]
 
 Package natbib Warning: Citation `Dotter2008' on page 3 undefined on input line
- 26.
+ 23.
 
 
 Package natbib Warning: Citation `Kovetz2009' on page 3 undefined on input line
- 26.
+ 23.
 
 
 Package natbib Warning: Citation `Paxton2011' on page 3 undefined on input line
- 26.
+ 23.
 
 
 Package natbib Warning: Citation `Chaboyer2001' on page 3 undefined on input li
-ne 29.
+ne 26.
 
 
 Package natbib Warning: Citation `Bjork2006' on page 3 undefined on input line 
-29.
+26.
 
 
 Package natbib Warning: Citation `Dotter2008' on page 3 undefined on input line
- 29.
+ 26.
 
 
 Package natbib Warning: Citation `Henyey1964' on page 3 undefined on input line
- 33.
-
-
-Package natbib Warning: Citation `Paxton2011' on page 3 undefined on input line
- 53.
-
-
-Package natbib Warning: Citation `Paxton2011' on page 3 undefined on input line
- 64.
-
-
-Package natbib Warning: Citation `Dotter2008' on page 3 undefined on input line
- 68.
+ 42.
 
 [3]
 
+Package natbib Warning: Citation `Paxton2011' on page 4 undefined on input line
+ 62.
+
+
+Package natbib Warning: Citation `Paxton2011' on page 4 undefined on input line
+ 73.
+
+
+Package natbib Warning: Citation `Dotter2008' on page 4 undefined on input line
+ 77.
+
+
 Package natbib Warning: Citation `Seaton1994' on page 4 undefined on input line
- 81.
+ 90.
 
 
 Package natbib Warning: Citation `Iglesias1996' on page 4 undefined on input li
-ne 82.
+ne 91.
 
 
 Package natbib Warning: Citation `Colgan2016' on page 4 undefined on input line
- 83.
-
-
-Package natbib Warning: Citation `Colgan2016' on page 4 undefined on input line
- 95.
+ 92.
 
 [4]
 
-LaTeX Warning: Reference `sec:opac' on page 5 undefined on input line 102.
+Package natbib Warning: Citation `Colgan2016' on page 5 undefined on input line
+ 104.
 
 
-LaTeX Warning: Reference `sec:2808' on page 5 undefined on input line 104.
+LaTeX Warning: Reference `sec:opac' on page 5 undefined on input line 111.
 
 
-LaTeX Warning: Reference `sec:Jao' on page 5 undefined on input line 106.
-
-) (./src/sections/thesis.tex (./src/sections/jaoGap1.tex
-
-Package natbib Warning: Citation `Nut08' on page 5 undefined on input line 8.
+LaTeX Warning: Reference `sec:2808' on page 5 undefined on input line 113.
 
 
-LaTeX Warning: Reference `fig:JaoGap' on page 5 undefined on input line 16.
+LaTeX Warning: Reference `sec:Jao' on page 5 undefined on input line 115.
 
+) (./src/sections/dsep.tex
 
-Package natbib Warning: Citation `Jao2018' on page 5 undefined on input line 19
-.
-
-
-Package natbib Warning: Citation `Jao2018' on page 5 undefined on input line 22
-.
-
-
-Package natbib Warning: Citation `Baraffe2018' on page 5 undefined on input lin
-e 22.
+Package natbib Warning: Citation `Henyey1964' on page 5 undefined on input line
+ 3.
 
 [5]
-<src/Figures/JaoGap.png, id=44, 1637.11626pt x 1228.59pt>
+
+Package natbib Warning: Citation `Paxton2011' on page 6 undefined on input line
+ 23.
+
+
+Package natbib Warning: Citation `Paxton2011' on page 6 undefined on input line
+ 34.
+
+
+Package natbib Warning: Citation `Dotter2008' on page 6 undefined on input line
+ 38.
+
+
+Package natbib Warning: Citation `Seaton1994' on page 6 undefined on input line
+ 51.
+
+
+Package natbib Warning: Citation `Iglesias1996' on page 6 undefined on input li
+ne 52.
+
+
+Package natbib Warning: Citation `Colgan2016' on page 6 undefined on input line
+ 53.
+
+) (./src/sections/thesis.tex [6] (./src/sections/jaoGap1.tex
+
+Package natbib Warning: Citation `Nut08' on page 7 undefined on input line 8.
+
+
+Package natbib Warning: Citation `Jao2018' on page 7 undefined on input line 19
+.
+
+
+Package natbib Warning: Citation `Jao2018' on page 7 undefined on input line 22
+.
+
+
+Package natbib Warning: Citation `Baraffe2018' on page 7 undefined on input lin
+e 22.
+
+<src/Figures/JaoGap.png, id=47, 1637.11626pt x 1228.59pt>
 File: src/Figures/JaoGap.png Graphic file (type png)
 <use src/Figures/JaoGap.png>
 Package pdftex.def Info: src/Figures/JaoGap.png  used on input line 28.
 (pdftex.def)             Requested size: 227.64894pt x 170.83913pt.
 
-
-Package natbib Warning: Citation `Jao2018' on page 6 undefined on input line 30
+Package natbib Warning: Citation `Jao2018' on page 7 undefined on input line 30
 .
 
 
-Package natbib Warning: Citation `van2012' on page 6 undefined on input line 35
+Package natbib Warning: Citation `van2012' on page 7 undefined on input line 35
 .
 
-[6 <./src/Figures/JaoGap.png>]
+[7] [8 <./src/Figures/JaoGap.png>]
 
-Package natbib Warning: Citation `Mansfield2021' on page 7 undefined on input l
+Package natbib Warning: Citation `Mansfield2021' on page 9 undefined on input l
 ine 73.
 
 
-Package natbib Warning: Citation `Feiden2021' on page 7 undefined on input line
+Package natbib Warning: Citation `Feiden2021' on page 9 undefined on input line
  73.
 
 
-Package natbib Warning: Citation `Mansfield2021' on page 7 undefined on input l
+Package natbib Warning: Citation `Mansfield2021' on page 9 undefined on input l
 ine 80.
 
 
-Package natbib Warning: Citation `Feiden2021' on page 7 undefined on input line
+Package natbib Warning: Citation `Feiden2021' on page 9 undefined on input line
  80.
 
 
-Package natbib Warning: Citation `Feiden2021' on page 7 undefined on input line
+Package natbib Warning: Citation `Feiden2021' on page 9 undefined on input line
  83.
 
-[7]
 
-LaTeX Warning: Reference `eqn:radGrad' on page 8 undefined on input line 91.
-
-
-Package natbib Warning: Citation `Chabrier1997' on page 8 undefined on input li
+Package natbib Warning: Citation `Chabrier1997' on page 9 undefined on input li
 ne 93.
 
+[9]
 
-LaTeX Warning: Reference `eqn:TMRelation' on page 8 undefined on input line 95.
-
-
-
-LaTeX Warning: Reference `fig:coarseMassLum' on page 8 undefined on input line 
-117.
+LaTeX Warning: Reference `fig:coarseMassLum' on page 10 undefined on input line
+ 117.
 
 
-LaTeX Warning: Reference `fig:coarseTeffLum' on page 8 undefined on input line 
-117.
+LaTeX Warning: Reference `fig:coarseTeffLum' on page 10 undefined on input line
+ 117.
 
 
-LaTeX Warning: Reference `fig:convTransition' on page 8 undefined on input line
- 141.
+LaTeX Warning: Reference `fig:convTransition' on page 10 undefined on input lin
+e 141.
 
 
-LaTeX Warning: Reference `fig:fineMassLum' on page 8 undefined on input line 15
-1.
-
-[8]
-
-LaTeX Warning: Reference `tab:fineMassRange' on page 9 undefined on input line 
-179.
+LaTeX Warning: Reference `fig:fineMassLum' on page 10 undefined on input line 1
+51.
 
 
-Package natbib Warning: Citation `Mansfield2021' on page 9 undefined on input l
-ine 181.
+Package natbib Warning: Citation `Mansfield2021' on page 10 undefined on input 
+line 181.
 
 
-Package natbib Warning: Citation `Mansfield2021' on page 9 undefined on input l
-ine 183.
+Package natbib Warning: Citation `Mansfield2021' on page 10 undefined on input 
+line 183.
 
 
-Package natbib Warning: Citation `Mansfield2021' on page 9 undefined on input l
-ine 184.
+Package natbib Warning: Citation `Mansfield2021' on page 10 undefined on input 
+line 184.
 
-) (./src/sections/jaoGap2.tex
+[10]) (./src/sections/jaoGap2.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
@@ -743,178 +754,159 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
+)
+(./src/sections/jaoGap3.tex) (./src/sections/ngc2808.tex
 
-
-LaTeX Warning: Reference `sec:p1' on page 9 undefined on input line 2.
-
-) [9] (./src/sections/jaoGap3.tex) (./src/sections/ngc2808.tex
-
-Package natbib Warning: Citation `Herschel1814' on page 10 undefined on input l
+Package natbib Warning: Citation `Herschel1814' on page 11 undefined on input l
 ine 1.
 
 
-Package natbib Warning: Citation `Osborn1971' on page 10 undefined on input lin
+Package natbib Warning: Citation `Osborn1971' on page 11 undefined on input lin
 e 7.
 
 
-Package natbib Warning: Citation `Norris1987' on page 10 undefined on input lin
+Package natbib Warning: Citation `Norris1987' on page 11 undefined on input lin
 e 10.
 
+[11]
 
-Package natbib Warning: Citation `Carretta2010' on page 10 undefined on input l
+Package natbib Warning: Citation `Carretta2010' on page 12 undefined on input l
 ine 15.
 
 
-Package natbib Warning: Citation `Denisenkov1990' on page 10 undefined on input
+Package natbib Warning: Citation `Denisenkov1990' on page 12 undefined on input
  line 23.
 
 
-Package natbib Warning: Citation `Gratton2004' on page 10 undefined on input li
+Package natbib Warning: Citation `Gratton2004' on page 12 undefined on input li
 ne 25.
 
 
-Package natbib Warning: Citation `Briley2004' on page 10 undefined on input lin
+Package natbib Warning: Citation `Briley2004' on page 12 undefined on input lin
 e 25.
 
 
-Package natbib Warning: Citation `Piotto2007' on page 10 undefined on input lin
+Package natbib Warning: Citation `Piotto2007' on page 12 undefined on input lin
 e 31.
 
 
-Package natbib Warning: Citation `Roh2011' on page 10 undefined on input line 3
+Package natbib Warning: Citation `Roh2011' on page 12 undefined on input line 3
 1.
 
 
-Package natbib Warning: Citation `Milone2012' on page 10 undefined on input lin
+Package natbib Warning: Citation `Milone2012' on page 12 undefined on input lin
 e 31.
 
 
-Package natbib Warning: Citation `Gratton2012' on page 10 undefined on input li
+Package natbib Warning: Citation `Gratton2012' on page 12 undefined on input li
 ne 34.
 
 
-Package natbib Warning: Citation `Stetson1988' on page 10 undefined on input li
+Package natbib Warning: Citation `Stetson1988' on page 12 undefined on input li
 ne 35.
 
 
-Package natbib Warning: Citation `Piotto2007' on page 10 undefined on input lin
+Package natbib Warning: Citation `Piotto2007' on page 12 undefined on input lin
 e 38.
 
 
-Package natbib Warning: Citation `anderson2009' on page 10 undefined on input l
+Package natbib Warning: Citation `anderson2009' on page 12 undefined on input l
 ine 40.
 
 
-Package natbib Warning: Citation `milone2011' on page 10 undefined on input lin
+Package natbib Warning: Citation `milone2011' on page 12 undefined on input lin
 e 40.
 
 
-Package natbib Warning: Citation `d2005' on page 10 undefined on input line 43.
+Package natbib Warning: Citation `d2005' on page 12 undefined on input line 43.
 
 
 
-Package natbib Warning: Citation `Piotto2007' on page 10 undefined on input lin
+Package natbib Warning: Citation `Piotto2007' on page 12 undefined on input lin
 e 43.
 
 
-Package natbib Warning: Citation `collaboration2016planck' on page 10 undefined
+Package natbib Warning: Citation `collaboration2016planck' on page 12 undefined
  on input line 44.
 
 
-Package natbib Warning: Citation `vinyoles2017new' on page 10 undefined on inpu
+Package natbib Warning: Citation `vinyoles2017new' on page 12 undefined on inpu
 t line 45.
 
 
-Package natbib Warning: Citation `Gratton2001' on page 10 undefined on input li
+Package natbib Warning: Citation `Gratton2001' on page 12 undefined on input li
 ne 48.
 
 
-Package natbib Warning: Citation `Gratton2004' on page 10 undefined on input li
+Package natbib Warning: Citation `Gratton2004' on page 12 undefined on input li
 ne 48.
 
 
-Package natbib Warning: Citation `Gratton2012' on page 10 undefined on input li
+Package natbib Warning: Citation `Gratton2012' on page 12 undefined on input li
 ne 48.
 
-[10]
+[12]
 
-Package natbib Warning: Citation `Milone2015' on page 11 undefined on input lin
+Package natbib Warning: Citation `Milone2015' on page 13 undefined on input lin
 e 66.
 
+<src/Figures/033ZIsosOPALOPLIB.pdf, id=97, 920.59724pt x 776.74934pt>
+File: src/Figures/033ZIsosOPALOPLIB.pdf Graphic file (type pdf)
+<use src/Figures/033ZIsosOPALOPLIB.pdf>
+Package pdftex.def Info: src/Figures/033ZIsosOPALOPLIB.pdf  used on input line 
+76.
+(pdftex.def)             Requested size: 227.64894pt x 192.07716pt.
 
-LaTeX Warning: Reference `fig:NGC2808ISO' on page 11 undefined on input line 69
-.
-
-
-LaTeX Warning: File `src/Figures/033ZIsosOPALOPLIB.pdf' not found on input line
- 76.
-
-
-! Package pdftex.def Error: File `src/Figures/033ZIsosOPALOPLIB.pdf' not found:
- using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.76 ...twidth]{src/Figures/033ZIsosOPALOPLIB.pdf}
-                                                  
-? q
-OK, entering \batchmode...
- [11]
-
-Package natbib Warning: Citation `Eddington1916' on page 12 undefined on input 
+Package natbib Warning: Citation `Eddington1916' on page 13 undefined on input 
 line 86.
 
 
-Package natbib Warning: Citation `Krishna1966' on page 12 undefined on input li
+Package natbib Warning: Citation `Krishna1966' on page 13 undefined on input li
 ne 86.
 
 
-Package natbib Warning: Citation `Husser2013' on page 12 undefined on input lin
+Package natbib Warning: Citation `Husser2013' on page 13 undefined on input lin
 e 87.
 
 
-Package natbib Warning: Citation `Plez2008' on page 12 undefined on input line 
+Package natbib Warning: Citation `Plez2008' on page 13 undefined on input line 
 92.
 
+[13]
 
-Package natbib Warning: Citation `Bonaca2012' on page 12 undefined on input lin
+Package natbib Warning: Citation `Bonaca2012' on page 14 undefined on input lin
 e 99.
 
 
-Package natbib Warning: Citation `tayar2017correlation' on page 12 undefined on
+Package natbib Warning: Citation `tayar2017correlation' on page 14 undefined on
  input line 99.
 
 
-Package natbib Warning: Citation `creevey2015benchmark' on page 12 undefined on
+Package natbib Warning: Citation `creevey2015benchmark' on page 14 undefined on
  input line 101.
 
-) [12] (./src/sections/47tucNGC6752.tex))
+) (./src/sections/47tucNGC6752.tex)) [14 <./src/Figures/033ZIsosOPALOPLIB.pdf>]
 
 Package natbib Warning: There were undefined citations.
 
- [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
+[15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 154.
  (./BoudreauxThesisProposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 152.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 154.
+
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
  ) 
 Here is how much of TeX's memory you used:
- 9556 strings out of 492641
- 131500 string characters out of 6131787
- 272049 words of memory out of 5000000
- 13280 multiletter control sequences out of 15000+600000
- 16467 words of font info for 66 fonts, out of 8000000 for 9000
+ 9566 strings out of 492641
+ 131782 string characters out of 6131787
+ 272744 words of memory out of 5000000
+ 13283 multiletter control sequences out of 15000+600000
+ 16299 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,9n,37p,229b,453s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,9n,37p,232b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
@@ -924,16 +916,16 @@ ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on BoudreauxThesisProposal.pdf (13 pages, 291020 bytes).
+onts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on BoudreauxThesisProposal.pdf (15 pages, 365002 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 191 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

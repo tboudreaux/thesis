@@ -19,7 +19,7 @@ ASSET_FILES = $(shell find ./src/ -regex '.*\(tex\|bib\|pdf\)$')
 
 default: all clean
 
-all: ms move
+all: ms link
 
 ms: ./src/$(ASSET_FILES)
 	$(LTC) $(LTFLAGS) $(MANUSCRIPT_PATH).tex
@@ -29,6 +29,9 @@ ms: ./src/$(ASSET_FILES)
 
 move: | $(BUILD_DIR)
 	mv $(NAME).pdf $(BUILD_DIR)
+
+link: move
+	ln -s $(BUILD_DIR)/$(NAME).pdf .
 
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
