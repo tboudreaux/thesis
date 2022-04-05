@@ -2,7 +2,7 @@ LTC="pdflatex"
 BTC="bibtex"
 
 NAME="BoudreauxThesisProposal"
-LTFLAGS="--jobname=$(NAME)"
+LTFLAGS="-jobname=$(NAME)"
 BTFLAGS=""
 
 MANUSCRIPT_EXT="ms"
@@ -17,18 +17,22 @@ BUILD_DIR="build"
 ASSET_FILES = $(shell find ./src/ -regex '.*\(tex\|bib\|pdf\)$')
 
 
-default: all clean
+default: veryclean all clean
 
 all: ms link
 
 ms: ./src/$(ASSET_FILES)
 	$(LTC) $(LTFLAGS) $(MANUSCRIPT_PATH).tex
-	- $(BTC) $(BTFLAGS) $(NAME)
+	$(BTC) $(NAME)
 	$(LTC) $(LTFLAGS) $(MANUSCRIPT_PATH).tex -o
 	$(LTC) $(LTFLAGS) $(MANUSCRIPT_PATH).tex -o
 
 move: | $(BUILD_DIR)
-	mv $(NAME).pdf $(BUILD_DIR)
+	mv -f $(NAME).pdf $(BUILD_DIR)
+	mv -f *.aux $(BUILD_DIR)
+	mv -f *.bbl $(BUILD_DIR)
+	mv -f *.blg $(BUILD_DIR)
+	mv -f *.log $(BUILD_DIR)
 
 link: move
 	ln -s $(BUILD_DIR)/$(NAME).pdf .
