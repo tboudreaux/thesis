@@ -27,6 +27,10 @@
 
 \usepackage{enumitem}
 \usepackage{amsmath}
+\usepackage{tikz}
+
+\usetikzlibrary{positioning}
+\usetikzlibrary{decorations.pathreplacing}
 
 \marginparwidth 0pt
 \oddsidemargin  0pt
@@ -132,6 +136,8 @@ The Examining Committee: \hspace{\parindent}
 
 \input{src/sections/thesis.tex}
 
+\input{src/sections/timeline.tex}
+
 
 \acknowledgments{
 	This research has made use of NASA's astrophysical data system (ADS). We
@@ -148,7 +154,7 @@ The Examining Committee: \hspace{\parindent}
 %% command.
 \acknowledgments
 
-% \bibliography{src/Bibliography/ms}
+\bibliography{src/bib/ms}
 
 
 \end{document}
