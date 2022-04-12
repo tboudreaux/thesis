@@ -49,7 +49,7 @@ clean:
 	-rm $(NAME).log
 
 veryclean: clean
-	rm $(NAME).pdf
-	rm -r $(BUILD_DIR)
+	-rm $(NAME).pdf
+	-rm -r $(BUILD_DIR)
 
 

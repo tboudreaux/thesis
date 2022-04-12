@@ -131,6 +131,11 @@ Herschel, W. 1814, Philosophical Transactions of the Royal Society of London,
 \bibitem[{{Krishna Swamy}(1966)}]{Krishna1966}
 {Krishna Swamy}, K.~S. 1966, \apj, 145, 174, \dodoi{10.1086/148752}
 
+\bibitem[{{Lu} {et~al.}(2021){Lu}, {Angus}, {Curtis}, {David}, \&
+  {Kiman}}]{Lu2021}
+{Lu}, Y.~L., {Angus}, R., {Curtis}, J.~L., {David}, T.~J., \& {Kiman}, R. 2021,
+  \aj, 161, 189, \dodoi{10.3847/1538-3881/abe4d6}
+
 \bibitem[{{Mansfield} \& {Kroupa}(2021)}]{Mansfield2021}
 {Mansfield}, S., \& {Kroupa}, P. 2021, \aap, 650, A184,
   \dodoi{10.1051/0004-6361/202140536}
@@ -189,6 +194,10 @@ Norris, J. 1987, The Astrophysical Journal, 313, L65
   {Pradhan}}]{Seaton1994}
 {Seaton}, M.~J., {Yan}, Y., {Mihalas}, D., \& {Pradhan}, A.~K. 1994, \mnras,
   266, 805, \dodoi{10.1093/mnras/266.4.805}
+
+\bibitem[{Sollima(2019)}]{Sollima2019}
+Sollima, A. 2019, Monthly Notices of the Royal Astronomical Society, 489, 2377,
+  \dodoi{10.1093/mnras/stz2093}
 
 \bibitem[{{Stetson} \& {Harris}(1988)}]{Stetson1988}
 {Stetson}, P.~B., \& {Harris}, W.~E. 1988, The Astronomical Journal, 96, 909,
