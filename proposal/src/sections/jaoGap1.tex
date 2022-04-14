@@ -69,15 +69,8 @@ to maintain contact with the envelope, resulting in a fully convective star.
 
 \subsubsection{Modeling the Gap}
 Since the identification of the Gaia M-dwarf gap, stellar modeling has been
-conducted to better constrain its location, effects, and exact cause
-\citep[e.g.][]{Mansfield2021, Feiden2021}. When modeling the gap manifests as a
-discontinuity in the mass-luminosity relation. However, all modeling of the gap
-has been done using GS98 OPAL high-temperature opacities. This presents similar
-issues to the use of these tables when modeling multiple populations in GCs;
-namely, OPAL tables are no longer the most up to date in their component
-opacities . 
-
-\citet{Mansfield2021} and \citet{Feiden2021} identify that the gap's mass
+conducted to better constrain its location, effects, and exact cause.
+Both \citet{Mansfield2021} and \citet{Feiden2021} identify that the gap's mass
 location is correlated with model metallicity --- the mass-luminosity
 discontinuity in lower metallicity models being at a commensurately lower mass.
 \citet{Feiden2021} suggests this dependence is due to the steep relation of
@@ -100,55 +93,76 @@ will the mass of stars which experience such instabilities.
 	T_{c} \propto \rho_{c}M^{2}
 \end{align}
 
-\subsubsection{Consistently Modeling the Gap}
-In order to address the two main issues with using OPAL opacity tables we use
-our OPLIB opacity table web scraper to generate a set of tables that
-consistently model lower metallicities. Specifically, we generate tables for
-$Z_{\odot}=0.017$, $Z=0.01$, $Z=0.001$, and $Z=0.0001$. Compositions are
-derived from the GS98 solar composition, with the mass fractions between metals
-remaining constant, and only the total metal mass fraction is allowed to vary.
-Moreover, Helium mass fraction is held constant as extra mass from the reduced
-metallicity is put into additional Hydrogen. 
+This strong opacity dependence presents a slight problem where modeling is 
+concerned. With current computational tools it's infeasible to compute opacities on the
+fly; rather, Rossland Mean opacity ($\kappa_{R}$) for individual elements must
+be pre-tabulated over a wide range of temperatures and densities. These
+opacities can then be somewhat arbitrarily mixed together and interpolated to
+form opacity lookup-tables. Multiple groups have preformed these calculations
+and subsequently made tables available to the wider community, these include
+the Opacity Project \citep[OP][]{Seaton1994}, Laurence Livermore National Labs
+OPAL opacity tables \citep{Iglesias1996}, and Los Alamos National Labs OPLIB
+opacity tables \citep{Colgan2016}.
 
-For each metallicity 101, uniformly spaced, models from 0.3 to 0.5 M$_{\odot}$
-(spacing of 0.001 M$_{\odot}$) are evolve with both the GS98 OPAL opacity table
-and OPLIB tables, hereafter these are the ``coarse'' models. For each set of
-coarse models the discontinuity in the mass-luminosity relation is identified
-at an age of 7 Gyr (Figures \ref{fig:coarseMassLum} \& \ref{fig:coarseTeffLum}
-shows a characteristic example).
+The OPAL opacity tables in particular are very widely used by current
+generation stellar evolution programs (in addition to current generation
+stellar model and isochrone grids). However, they are no longer the most up
+date elemental opacities. Moreover, the generation mechanism for these tables,
+a webform, is no longer reliably online.  
 
-% \begin{figure}
-% 	\centering
-% 	\vspace{5mm}
-% 	\includegraphics[width=0.45\textwidth]{src/Figures/MassLumDisconZ001Paper.pdf}
-% 	\caption{Mass-Luminosity relation for Z=0.01 at 7 Gyr for models run with
-% 	both OPAL and OPLIB high-temperature opacity tables and a mass step between
-% 	them of 0.001 M$_{\odot}$ (top). Derivative of luminosity with respect to
-% 	mass for the OPAL and OPLIB models (bottom).}
-% 	\label{fig:coarseMassLum}
-% 	\includegraphics[width=0.45\textwidth]{src/Figures/MassLumDisconZ001PaperTeff.pdf}
-% 	\caption{Temperature-Luminosity relation for Z=0.01 at 7 Gyr for models run
-% 	with both OPAL and OPLIB high-temperature opacity tables and a mass step
-% 	between them of 0.001 M$_{\odot}$ (top). Derivative of the luminosity with
-% 	respect to the temperature for the OPAL and OPLIB models (bottom)}
-% 	\label{fig:coarseTeffLum}
-% \end{figure}
+Given the strong theories opacity dependence of the Jao Gap it is reasonable to
+expect updated opacity tables to affect the Jao Gap. Therefore, as part of this
+project we have transitioned DSEP from OPAL opacities to opacities based on
+measurements from Los Alamos national Labs T-1 group
+\citep[OPLIB][]{Colgan2016}. Detailed, statistical, comparisons between the Jao
+Gap's from the two models will be included as a portion of a paper to be
+published on this work; however, a visual comparison is provided here (Figure
+\ref{fig:JaoGapOPALOPLIB} and Table \ref{tab:fineMassRange}).
 
-Immediately, the difference in mass where the discontinuity manifests is clear.
-For each metallicity the discontinuity in the OPLIB models is approximately one
-one-hundredth of a solar mass lower than the discontinuity in the OPAL models. We can
-validate that this discontinuity is indeed correlated with the convective
-transition mass; Figure \ref{fig:convTransition} shows an example of the model
-forming radiative zones at approximately the same masses where the discontinuity
-in the mass-luminosity function exists.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\textwidth]{src/Figures/OPALOPLIB_popsynth_comp.pdf}
+	\caption{Synthetic CMDs derived from simple population synthesis code.
+	(Left) CMD showing the Jao Gap for a GS98 composition stellar population
+	generate from models evolved using OPAL opacity tables. (Right) CMD showing
+	the Jao Gap for a GS98 stellar population generated from models evolved
+	using the OPLIB opacity tables. Note how the OPLIB derived Jao Gap is
+	slightly brighter than the OPAL Jao Gap.}
+	\label{fig:JaoGapOPALOPLIB}
+\end{figure}
 
-At this resolution only a few models exist within the
-mass range of the discontinuity. In order to better constrain its location we
-run a series of ``fine'' models, with a mass step of 0.0001 M$_{\odot}$ and
-ranging from where the mass derivative first exceeds two sigma away from the
-mean derivative value up to the mass where it last exceeds two sigma away from
-the mean. A characteristic fine mass-luminosity relation is shown in Figure
-\ref{fig:fineMassLum}.
+% \subsubsection{OPLIB Opacities}
+% In order to address the two main issues with using OPAL opacity tables we use
+% our OPLIB opacity table web scraper to generate a set of tables that
+% consistently model lower metallicities. Specifically, we generate tables for
+% $Z_{\odot}=0.017$, $Z=0.01$, $Z=0.001$, and $Z=0.0001$. Compositions are
+% derived from the GS98 solar composition, with the mass fractions between metals
+% remaining constant, and only the total metal mass fraction is allowed to vary.
+% Moreover, Helium mass fraction is held constant as extra mass from the reduced
+% metallicity is put into additional Hydrogen. 
+%
+% For each metallicity 101, uniformly spaced, models from 0.3 to 0.5 M$_{\odot}$
+% (spacing of 0.001 M$_{\odot}$) are evolve with both the GS98 OPAL opacity table
+% and OPLIB tables, hereafter these are the ``coarse'' models. For each set of
+% coarse models the discontinuity in the mass-luminosity relation is identified
+% at an age of 7 Gyr (Figures \ref{fig:coarseMassLum} \& \ref{fig:coarseTeffLum}
+% shows a characteristic example).
+%
+% Immediately, the difference in mass where the discontinuity manifests is clear.
+% For each metallicity the discontinuity in the OPLIB models is approximately one
+% one-hundredth of a solar mass lower than the discontinuity in the OPAL models. We can
+% validate that this discontinuity is indeed correlated with the convective
+% transition mass; Figure \ref{fig:convTransition} shows an example of the model
+% forming radiative zones at approximately the same masses where the discontinuity
+% in the mass-luminosity function exists.
+%
+% At this resolution only a few models exist within the
+% mass range of the discontinuity. In order to better constrain its location we
+% run a series of ``fine'' models, with a mass step of 0.0001 M$_{\odot}$ and
+% ranging from where the mass derivative first exceeds two sigma away from the
+% mean derivative value up to the mass where it last exceeds two sigma away from
+% the mean. A characteristic fine mass-luminosity relation is shown in Figure
+% \ref{fig:fineMassLum}.
 
 
 % \begin{figure}
@@ -174,15 +188,15 @@ the mean. A characteristic fine mass-luminosity relation is shown in Figure
 % 	\label{fig:fineMassLum}
 % \end{figure}
 
-Using the fine models we identify the location of the discontinuity in the same
-manner as before, results of this are presented in Table
-\ref{tab:fineMassRange}. Of note with the mass ranges we measure for the
-discontinuity is that are generally not in agreement with those measured in
-\citet{Mansfield2021}. However, the luminosity difference from over the gap
-($\approx 0.1 mag$) is similar to both the observational difference and that
-reported in \citet{Mansfield2021}. Currently, it is not clear why our mass
-range is not in agreement with the \citet{Mansfield2021} mass range and further
-investigation is therefore needed.
+% Using the fine models we identify the location of the discontinuity in the same
+% manner as before, results of this are presented in Table
+% \ref{tab:fineMassRange}. Of note with the mass ranges we measure for the
+% discontinuity is that are generally not in agreement with those measured in
+% \citet{Mansfield2021}. However, the luminosity difference from over the gap
+% ($\approx 0.1 mag$) is similar to both the observational difference and that
+% reported in \citet{Mansfield2021}. Currently, it is not clear why our mass
+% range is not in agreement with the \citet{Mansfield2021} mass range and further
+% investigation is therefore needed.
 
 \begin{table*}
 	\centering

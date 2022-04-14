@@ -29,10 +29,10 @@ such, well tested, stellar evolution program.
 Here we propose to model low-mass stars in both the local solar neighborhood
 and in globular clusters using DSEP. This work will primarily extend our
 understanding of stellar physics in two areas: the effects of chemical
-self-consistency on stellar models \citep[e.g.][]{Dotter2014} and the time
+self-consistency on stellar models \citep[e.g.][]{Dotter2015} and the time
 evolution of the core-convective instabilities which ultimately are believed to
 result in the observed paucity of stars at a Gaia G magnitude of $\sim$10
-\citep{Jao2018, Feiden2020}. 
+\citep{Jao2018, Feiden2021}. 
 
 % Low mass stars form an important component of the stellar population, with
 % stars less than [MASS HERE] making up more than 70\% of stars in the galaxy
@@ -50,8 +50,9 @@ decades, prevailing thought had it globular clusters were composed of a single
 stellar population born from a pristine interstellar media. Single stellar
 populations had been assumed --- as opposed to multiple stellar population
 (MPs) due to spectroscopically uniform iron abundances \citep{Gratton2012} and
-very narrow principal sequences \citep{Stetson1988}, both of which are
-indicative of a single stellar population.  
+very narrow principal sequences \citep[e.g. Figure \ref{fig:M3CMD} taken
+from][]{Sandage1953, Stetson1988}, both of which are indicative of a single
+stellar population.  
 
 These early studies either did not handle or had very large photometric
 uncertainties masking subtly distinguished features within the CMD. Moreover,
@@ -96,36 +97,44 @@ chemically self-consistent manner. Sections \ref{sec:ngc2808} and
 \ref{sec:7tucngc6752} address the details of these projects in more detail.
 
 \subsection{Local Solar Neighborhood}
-\citet{Jao2018} discovered a novel feature in the Gaia Gp-Rp color-magnitude
-diagram. Around $M_{G}=10$ there is an approximatly 17\% decreas in stellar
-density of the volume complete sample of stars \citeauthor{Jao2018} considered.
-Subsequently, this has become known as either the Jao Gap, or Gaia M dwarf Gap.
-Section \ref{} will go into more detail regarding the physics belived to
-underpin this feature; however, in brief convective instabilities in the core
-are belived to form for stars straddeling the fully convective transition mass.
-These instabilities result in stars preferentially falling to either side of
-the gap location.
+\citet{Jao2018} discovered a novel feature in the Gaia $G_{BP}-G_{RP}$
+color-magnitude-diagram. Around $M_{G}=10$ there is an approximately 17\%
+decrease in stellar density of the sample of stars \citeauthor{Jao2018}
+considered. Subsequently, this has become known as either the Jao Gap, or Gaia
+M dwarf Gap. Section \ref{sec:JaoGap1} will go into more detail regarding the
+physics underpinning this feature; however, in brief convective instabilities in
+the core are believed to form for stars straddling the fully convective
+transition mass. These instabilities result in star's luminosities
+preferentially evolving either slightly brighter or dimmer than the
+mass-luminosity relation around the convective transition mass would naively
+indicate \citep{Jao2020}.
 
-Stellar modeling has been sucsessful in reproducing the Jap Gap and, with these
-models, we have begun to constrain parameters which constrain gap location. For
-example, it is now well documented that a stars metallicity can affect the gap
-color by up to [HOW MUCH DID GREG FIND/CHECK FOR OTHER PAPERS ON THIS]. 
+The Jao Gap, inherently a feature of M dwarf populations, provides an enticing
+and unique view into the interior physics of these stars \citep{Feiden2021}.
+This is especially important as, unlike more massive stars, M dwarf seismology
+is currently infeasible due to the short periods and extremely small
+magnitude's which both radial and low-order low-degree non-radial seismic waves
+are predicted to have in such low mass stars \citep{Rodriguez-Lopez2019}. The
+Jao Gap therefore provides one of the only current methods to probe the
+interior physics of M dwarfs.
 
-Initial testting which we have done using DSEP along with work by [PAPER] also
-indicated the Jao Gap's color sensitivity to age. We observe that as models age
-the Jao Gap moves [DIRECTION OF MOVMENT IN MAG AND COLOR SPACE]. Sections \ref{}
-and \ref{} of this proposal lay out a plan to use this observed age-dependence
-to date low-mass stars in the local-solar neighborhood.
+Stellar modeling has been successful in reproducing the Jao Gap
+\citep[e.g.][]{Feiden2021,Mansfield2021} and, with these models, we have begun
+to understand which parameters constrain the Jao gap's location. For example,
+it is now well documented that metallicity affect the Jao gap's color, with
+higher metallicity stellar populations showing the Jao Gap at consistently
+higher masses \citep{Mansfield2021}.
+
+Initial testing we have done using DSEP along with articles from both
+\citeauthor{Feiden2021} and \citeauthor{Mansfield2021} indicated the Jao Gap's
+location sensitivity to age, evolving to higher mass regions of the
+mass-luminosity relation with population age. Per \citet{Mansfield2021} this
+location evolution also does not seem to be strongly sensitive to metallicity.
+Sections \ref{} and \ref{} of this proposal lay out a plan to use this observed
+age-dependence to age-date gyro-kinematically separated populations in the solar
+neighborhood.
 
 \subsection{OPAL (move?)}
-The OPAL opacity tables in particular are very widely used by current
-generation stellar evolution programs (in addition to current generation
-stellar model and isochrone grids). However, they are no longer the most up
-date elemental opacities. Moreover, the generation mechanism for these tables,
-a webform, is no longer reliably online.  Consequently, it makes sense to
-transition to more modern opacity tables with a more stable generation
-mechanism.
-
 Here we will present work transitioning DSEP from OPAL opacities to opacities
 based on measurements from Los Alamos national Labs T-1 group
 \citep[OPLIB][]{Colgan2016}. Moreover, we will present two projects which are
@@ -134,13 +143,6 @@ investigate the affects of chemically self consistent modeling of multiple
 populations within the globular cluster NGC 2808, and for the second project we
 present the effects of the OPLIB opacities on the location of the recently
 discovered Gaia M-dwarf gap.
-
-This paper is organized as follows. In Section \ref{sec:opac} we outline some
-basic information about OPLIB opacities, how we query them, and how we modify
-them to work with DSEP. In Section \ref{sec:2808} we discuss scientific
-background of the first project along with the current work done towards its
-goal. Finally, in Section \ref{sec:Jao} we present our findings on the effects
-of OPLIB opacities on the location of the Gaia M-dwarf gap.
 
 
 
