@@ -28,6 +28,7 @@
 \usepackage{enumitem}
 \usepackage{amsmath}
 \usepackage{tikz}
+\usepackage{changepage}
 
 \usetikzlibrary{positioning}
 \usetikzlibrary{decorations.pathreplacing}
@@ -43,6 +44,8 @@
 \newcommand{\vdag}{(v)^\dagger}
 \newcommand\aastex{AAS\TeX}
 \newcommand\latex{La\TeX}
+
+
 
 
 \shorttitle{Thesis Proposal}
@@ -102,15 +105,24 @@ The Examining Committee: \hspace{\parindent}
 
 \end{titlepage}
 
+\vspace*{5mm}
+\begin{center}
 
-%% Mark off the abstract in the ``abstract'' environment. 
-\vspace{1cm}
-\begin{abstract}
+	\large
+	\textbf{Abstract}
+
+\end{center}
+\begin{adjustwidth}{1.25cm}{1.25cm}
 	\input{src/sections/abssum.tex}
-\end{abstract}
+\end{adjustwidth}
+\clearpage
+% \vspace*{2cm}
+% \begin{abstract}
+% 	\input{src/sections/abssum.tex}
+% \end{abstract}
 
 
-\keywords{}
+% \keywords{}
 
 %%%%%%%%%%%%%%%%%
 %% INTRODUCTION

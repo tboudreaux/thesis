@@ -1,5 +1,5 @@
 \section{INTRODUCTION}
-Over the last half of the 19th and first decade of the 20th centuries Lane,
+Throughout last half of the 19th and first decade of the 20th centuries Lane,
 Ritter, and Emden codified the earliest mathematical model of stellar
 structure, the polytrope (Equation \ref{eqn:polytrope}), in \textit{Gaskugeln}
 (Gas Balls) \citep{Emden1907}.
@@ -28,30 +28,36 @@ such, well tested, stellar evolution program.
 
 Here we propose to model low-mass stars in both the local solar neighborhood
 and in globular clusters using DSEP. This work will primarily extend our
-understanding of stellar physics in two areas: the effects of chemically
-self-consistency on stellar models and time evolution of the core-convective
-instabilities which ultimatly are belived to result in the observed paucity of
-stars at a Gaia G magnitude of $\sim$10. [NEED CITATIONS IN THIS PARAGRAPH]
+understanding of stellar physics in two areas: the effects of chemical
+self-consistency on stellar models \citep[e.g.][]{Dotter2014} and the time
+evolution of the core-convective instabilities which ultimately are believed to
+result in the observed paucity of stars at a Gaia G magnitude of $\sim$10
+\citep{Jao2018, Feiden2020}. 
 
-Low mass stars form an important component of the stellar population, with
-stars less than [MASS HERE] making up more than 70\% of stars in the galaxy
-[CITE]. Moreover, due to their long lives, low-mass stars provide essential
-constraints on ages of various stellar populations [CITE]. In globular
-clusters, where all stars are coeval to one of a limited number of populations,
-low mass stars provide the vast majority of constraints when fitting ischrones [CITE].
-Additionally, stars around the fully-convective transition mass show
-age-dependent core-convective instabilities [CITE].
+% Low mass stars form an important component of the stellar population, with
+% stars less than [MASS HERE] making up more than 70\% of stars in the galaxy
+% [CITE]. In globular clusters, where all stars are coeval to one of a limited
+% number of old populations, low mass stars provide the vast majority of data points
+% when fitting ischrones [CITE]. Additionally, stars around the fully-convective
+% transition mass show age-dependent core-convective instabilities [CITE].
 
 \subsection{Globular Clusters}
+Globular clusters \citep[GC,][]{Herschel1814} are among the oldest groupings of
+stars in the Universe, with typical ages greater than 10 Gyr. They are
+characterized by their compact size --- typical half-light radius $<$ 10 pc but
+up to 10s of pc --- and high surface brightness --- M$_{V} \sim -7$. For
+decades, prevailing thought had it globular clusters were composed of a single
+stellar population born from a pristine interstellar media. Single stellar
+populations had been assumed --- as opposed to multiple stellar population
+(MPs) due to spectroscopically uniform iron abundances \citep{Gratton2012} and
+very narrow principal sequences \citep{Stetson1988}, both of which are
+indicative of a single stellar population.  
 
-Globular clusters in the local universe are primarly composed of old and
-consequently low-mass stars. For decades, prevaling thought had it globular
-clusters were composed of a single stellar population born from a preisten
-interstellar medium. This was supported by visibly tight main sequences and
-clear main sequence turn offs in optical CMDs \citep[Figure
-\ref{fig:M3CMD},][]{Sandage1953}. These early studies either did not handel or
-had very large photometric uncertanties and therefore they were unable to
-discriminate beteween CMD features with small separations,
+These early studies either did not handle or had very large photometric
+uncertainties masking subtly distinguished features within the CMD. Moreover,
+given these studies were ground based they were limited to optical bands where
+colors do not respond strongly to all chemical changes within a star's
+atmosphere.
 
 \begin{figure}
 	\centering
@@ -60,12 +66,34 @@ discriminate beteween CMD features with small separations,
 	\label{fig:M3CMD}
 \end{figure}
 
-[SOMETHING ABOUT EARLY SPECTROSCOPIC INDICATIONS OF MPs]
+Despite the canonical view of single populations composing GCs, there has been
+spectroscopic evidence for chemical inhomogeneities in GCs since the early
+1970s \citep[e.g.][]{Osborn1971} and by the late 1980s, as higher resolution
+photometry became available, multiple clusters were known which exhibited
+features in their CMDs consistent with either bimodal or multimodal stellar
+populations \citep[e.g.][]{Norris1987}.
 
-With the presicion photometric measurements, degenerecies between noise and
-intrinsic scatter were broken and it became clear that globular clusters are
-almost universally composed of multiple stellar populations (MPs). [GRAB SOME
-TEXT FROM THE NGC 2808 SECTION FOR HERE].
+The first conclusive evidence for MPs came with Hubble Space Telescope (HST)
+high precision crowded field photometry in which three distinct main sequences
+in NGC 2808 were identified \citep{Piotto2007}. Since this discovery, split
+main sequences have been found in nearly all Milky Way globular clusters
+studied by HST \citep{anderson2009,milone2011}. Split stellar populations are
+believed to be due to enhanced helium abundances in the stellar populations
+formed after the primordial population of stars \citep{d2005,Piotto2007}. When
+compared to primordial helium mass fractions ($Y$) of $Y\sim 0.25$
+\citep{collaboration2016planck} or solar helium abundances $Y\sim0.27$
+\citep{vinyoles2017new} these populations have mass fractions as high as $Y\sim
+0.4$. Helium enhancement is strongly suspected to be the result of an earlier,
+more massive population dying off, enriching the interstellar medium
+\citep{Gratton2001, Gratton2004, Gratton2012}; however, precise formation channels
+for split stellar populations remain contentious. The primary open question then
+is not why some populations are enhanced in helium; rather, it is to what
+extent they are enhanced. 
+
+Two chapters of this thesis will further constrain the helium enhancement of
+MPs within globular clusters by modeling their stellar populations in a fully
+chemically self-consistent manner. Sections \ref{sec:ngc2808} and
+\ref{sec:7tucngc6752} address the details of these projects in more detail.
 
 \subsection{Local Solar Neighborhood}
 \citet{Jao2018} discovered a novel feature in the Gaia Gp-Rp color-magnitude

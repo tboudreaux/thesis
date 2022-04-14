@@ -3,47 +3,49 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: BoudreauxThesisProposal.aux
 The style file: aasjournal.bst
 Database file #1: src/bib/ms.bib
+Warning--I didn't find a database entry for "Dotter2014"
+Warning--I didn't find a database entry for "Feiden2020"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in Emden1907
-You've used 47 entries,
+You've used 46 entries,
             3166 wiz_defined-function locations,
-            1025 strings with 15473 characters,
-and the built_in function-call counts, 21287 in all, are:
-= -- 1747
-> -- 1621
-< -- 21
-+ -- 542
-- -- 583
-* -- 1876
-:= -- 3958
-add.period$ -- 48
-call.type$ -- 47
-change.case$ -- 266
-chr.to.int$ -- 47
-cite$ -- 48
-duplicate$ -- 793
-empty$ -- 1277
-format.name$ -- 644
-if$ -- 4272
+            1022 strings with 15393 characters,
+and the built_in function-call counts, 20973 in all, are:
+= -- 1719
+> -- 1609
+< -- 20
++ -- 538
+- -- 580
+* -- 1854
+:= -- 3898
+add.period$ -- 47
+call.type$ -- 46
+change.case$ -- 262
+chr.to.int$ -- 46
+cite$ -- 47
+duplicate$ -- 778
+empty$ -- 1251
+format.name$ -- 640
+if$ -- 4207
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 46
-newline$ -- 150
-num.names$ -- 188
-pop$ -- 284
+missing$ -- 45
+newline$ -- 147
+num.names$ -- 184
+pop$ -- 281
 preamble$ -- 1
-purify$ -- 266
+purify$ -- 262
 quote$ -- 0
-skip$ -- 674
+skip$ -- 661
 stack$ -- 0
-substring$ -- 769
+substring$ -- 755
 swap$ -- 14
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 420
+type$ -- 411
 warning$ -- 1
-while$ -- 177
+while$ -- 173
 width$ -- 0
-write$ -- 505
-(There was 1 warning)
+write$ -- 494
+(There were 3 warnings)
