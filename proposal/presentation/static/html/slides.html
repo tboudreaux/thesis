@@ -1,0 +1,607 @@
+<section>
+	<div id="title">
+		<p>Updated High-Temperature Opacities for the Dartmouth Stellar Evolution Program</p>
+		<p style="font-size: 50%"> Thomas M. Boudreaux & Brian C. Chaboyer</p>
+	</div>
+	<div class="footer">
+		<img src="static/imgs/LonePine.png" alt="Lone Pine" width=25 height=50>
+	</div>
+</section>
+
+<section data-auto-animate>
+	<p style="text-align:left">Outline</p>					
+	<div class='multiCol'>
+		<div class='col'>
+			<ul>
+				<li>Stellar Modeling</li>
+				<li>Opacities</li>
+				<li>Multiple Populations in NGC 2808</li>
+				<li>The Gaia M dwarf Gap</li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<section data-auto-animate>
+	<p style="text-align:left">Outline</p>					
+	<div class='multiCol'>
+		<div class='col'>
+			<ul>
+				<li>Stellar Modeling</li>
+				<li style="opacity: 20%">Opacities</li>
+				<li style="opacity: 20%">Multiple Populations in NGC 2808</li>
+				<li style="opacity: 20%">The Gaia M dwarf Gap</li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+
+<!-- Broad Background --!>
+<section> <!-- Modeling --!>
+	<section>
+		How we model stars
+	</section>
+
+	<section data-auto-animate>
+		<div data-id="empPoint" class"slideEmph" style="text-align:left">Stars drive the universe</div>
+	</section>
+	<section data-auto-animate>
+		<div data-id="empPoint" class"slideEmph" style="text-align:left">Stars drive the universe</div>
+		<div style="text-align:left">
+			<p class="listParLeft">Relatively simple physics</p>
+			<p class="fragment listParLeft">Mathematical models for 100 years</p>
+		</div>
+	</section>
+
+	<section>
+		<div data-id="empPoint" class"slideEmph" style="text-align:left">Fluid where pressure and gravity are in equilibrium</div>
+	</section>
+	<section data-auto-animate> <!-- data-background-color='#002837'> --!>
+		Fluid where pressure and gravity are in equilibrium
+		<video autoplay controls loop style="width:50%; height:50%">
+			<source src="static/videos/HydrostaticEvolution.mp4" type="video/mp4">
+			Your browser does not support this video tag.
+		</video>
+	</section>
+
+	<section data-auto-animate>
+		<div data-id="empPoint" class="slideEmph"> The Equations of Stellar Structure</div>
+		<table style="width:100%">
+			<tr>
+				<td style="text-align:left" class="fragment fade-up" data-fragment-index="1">
+					\[\begin{align}
+						\frac{\partial P}{\partial M_{r}} = -\frac{GM_{r}}{4\pi r^{2}}-\frac{1}{4\pi r^{2}}\frac{\partial^{2}r}{\partial t^{2}}
+					\end{align}\]
+				</td>
+				<td style="text-align:left" class="fragment fade-up" data-fragment-index="2">
+					\[\begin{align}
+						\frac{\partial r}{\partial M_{r}} = \frac{1}{4\pi r^{2}\rho}
+					\end{align}\]
+				</td>
+			</tr>
+			<tr>
+				<td style="text-align:left" class="fragment fade-up" data-fragment-index="3">
+					\[\begin{align}
+						\frac{\partial T}{\partial M_{r}} = -\frac{3\kappa L_{r}}{64\pi^{2}acT^{3}r^{4}}
+					\end{align}\]
+				</td>
+				<td style="text-align:left" class="fragment fade-up" data-fragment-index="4">
+					\[\begin{align}
+						\frac{\partial L_{r}}{\partial M_{r}} = \epsilon - T\frac{\partial S}{\partial t}
+					\end{align}\]
+				</td>
+			</tr>
+		</table>
+	</section>
+</section>
+
+<section data-auto-animate>
+	<p style="text-align:left">Outline</p>					
+	<div class='multiCol'>
+		<div class='col'>
+			<ul>
+				<li style="opacity: 20%">Stellar Modeling</li>
+				<li>Opacities</li>
+				<li style="opacity: 20%">Multiple Populations in NGC 2808</li>
+				<li style="opacity: 20%">The Gaia M dwarf Gap</li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<section><!-- Opacities --!>
+	<section>
+		\[\begin{align}
+			\frac{\partial T}{\partial M_{r}} = -\frac{3\kappa L_{r}}{64\pi^{2}acT^{3}r^{4}}
+		\end{align}\]
+	</section>
+	<section>
+		\[\begin{align}
+		\frac{\partial T}{\partial M_{r}} = -\frac{3{\color{red}\kappa} L_{r}}{64\pi^{2}acT^{3}r^{4}}
+		\end{align}\]
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">Opacity is essential</h2>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">Opacity is essential</h2>
+		\[\begin{align}
+		\frac{1}{{\color{red}\kappa}} = \frac{\int_{0}^{\infty}\kappa_{\nu}^{-1}u(\nu, T)d\nu}{\int_{0}^{\infty}u(\nu, T)d\nu}
+		\end{align}\]
+		<div class="footer">
+			* Rossland Mean opacity valid under Local Thermodynamic Equilibrium.
+		</div>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">Opacity is essential</h2>
+		<ul>
+			<li>Electron Scattering</li>
+			<li>Free-Free Transitions</li>
+			<li>Bound-Free Transitions</li>
+			<li>Bound-Bound Transitions</li>
+			<li>Negative Hydrogen Ion</li>
+			<li>Conduction</li>
+			<li>Molecular Contributions</li>
+		</ul>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">Opacity is essential</h2>
+		<ul>
+			<li>Electron Scattering</li>
+			<li>Free-Free Transitions</li>
+			<li>Bound-Free Transitions</li>
+			<li>Bound-Bound Transitions</li>
+			<li style="opacity: 0.33">Negative Hydrogen Ion</li>
+			<li style="opacity: 0.33">Conduction</li>
+			<li style="opacity: 0.33">Molecular Contributions</li>
+		</ul>
+	</section>
+
+	<section>
+		<div data-id="empPoint" class="slideEmph">Practically opacities have to be precomputed</div>
+		<div data-id="empPoint" class="slideEmph fragment">OP, OPAL, & OPLIB</div>
+	</section>
+	<section data-auto-animate data-background-color='#002B36'>
+		<div cxlass="multiCol">
+			<div class="col">
+				Opacity is a function of temperature
+			</div>
+			<div class="col">
+				<img src="static/imgs/StaticOpac.png"  height="250" width="357">
+			</div>
+		</div>
+	</section>
+	<section><!-- data-auto-animate data-background-color='#002837'>--!>
+		<div cxlass="multiCol">
+			<!-- <div class="col"> -->
+				Opacity is a function of temperature & density
+			<!-- </div> -->
+			<!-- <div class="col"> -->
+				<video autoplay controls loop class="video-size">
+					<source src="static/videos/opacity2.mp4" type="video/mp4">
+					Your browser does not support this video tag.
+				</video>
+			<!-- </div> -->
+		</div>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">R?</h2>
+		<span class="fragment">\(R = \frac{\rho}{T_{6}^{3}}\)</span> 
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">R?</h2>
+		<span class="fragment" data-fragment-index=1>Approximately constant through a star</span>
+		<div class="r-stack">
+			<div class="fragment fade-out" data-fragment-index=0 style="position:relative; width:66%; height:66%; margin:0 auto;">
+				<img src="static/imgs/TempDensityEmpty.png">
+			</div>
+			<div class="fragment" data-fragment-index=0 style="position:relative; width:66%; height:66%; margin:0 auto;">
+				<img src="static/imgs/TempDensityR.png">
+			</div>
+		</div>
+	</section>
+</section>
+<section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">DSEP uses OPAL opacity tables</h2>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">DSEP uses OPAL opacity tables</h2>
+		<ul>
+			<li>~25 Years Old</li>
+			<li>Difficult to query</li>
+		</ul>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">DSEP uses OPAL opacity tables</h2>
+		<div>
+			<img src="static/imgs/OPAL.png", height=250, width=500">
+		</div>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">DSEP uses OPAL opacity tables</h2>
+		<div>
+			<img src="static/imgs/Cross.png", height=500, width=500">
+		</div>
+	</section>
+</section>
+<section>
+	<section>
+		<h2 class="r-fit-text">OPLIB</h2>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">OPLIB</h2>
+		<div>
+			<ul>
+				<li>LTE/Non-LTE plasma modeling code from Los Alamos</li>
+				<li>Based on ATOMIC (Magee+ 2004)</li>
+			</ul>
+		</div>
+		<div class=footer>
+			Colgan+ 2016
+		</div>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">OPLIB</h2>
+		<div>
+			<ul>
+				<li>Elemental Opacities From Hydrogen Through Zinc
+					<ul>
+						<li>Bound-Bound</li>
+						<li>Bound-Free</li>
+						<li>Free-Free</li>
+						<li>Scattering</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class=footer>
+			Colgan et al. 2016
+		</div>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">OPLIB</h2>
+		<ul>
+			<li> Query Tables from Web Form </li>
+			<li class="fragment"> Rotate Tables from \(\rho\) to \(R\) </li>
+			<li class="fragment"> Translate format to byte-for-byte representation of OPAL table </li>
+		</ul>
+		<div class="footer">https://aphysics2.lanl.gov/apps/</div>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">OPLIB vs. OPAL</h2>
+		<div style="position:relative; width:640px; height:480px; margin:0 auto;">
+			<img data-fragment-index="0" src="static/imgs/OpacityComparision.png" style="position:absolute;top:0;left:0;" >
+			<img class="fragment fade-in" data-fragment-index="0" src="static/imgs/OpacityComparisionShaded.png" style="position:absolute;top:0;left:0;">
+		</div>
+		<div class="footer">\(\log(R) = -1.5\)</div>
+	</section>
+</section>
+<section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text" data-id="title">Did We Do It Right?</h2>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text" data-id="title">Did We Do It Right?</h2>
+		<div class="multiCol">
+			<div class="col">
+				<h3 class="r-fit-text">Calibrated Solar Models</h3>
+				<div class="fragment" data-fragment-index=0>
+					<ul>
+						<li> Changes on the order of 1%</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col">
+				<div style="position:relative; width:640px; height:480px; margin:0 auto;">
+					<img src="static/imgs/SCCM.png" style="position:absolute;top:0;left:0;">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<h2 class="r-fit-text">Did We Do It Right?</h2>
+		<div style="position:relative; width:640px; height:480px; margin:0 auto;">
+			<div class="fragment fade-in" data-fragment-index=0>
+				<div class="fragment shrink" data-fragment-index=0>
+					<img class="fragment shrink" data-fragment-index=0 src="static/imgs/check.png">
+				</div>
+			</div>
+		</div>
+	</section>
+</section>
+<section data-auto-animate>
+	<p style="text-align:left">Outline</p>					
+	<div class='multiCol'>
+		<div class='col'>
+			<ul>
+				<li style="opacity: 20%">Stellar Modeling</li>
+				<li style="opacity: 20%">Opacities</li>
+				<li>Multiple Populations in NGC 2808</li>
+				<li style="opacity: 20%">The Gaia M dwarf Gap</li>
+			</ul>
+		</div>
+	</div>
+</section>
+<section>
+	<section>
+		<h2 class="r-fit-text">NGC 2808</h2>
+		<div class="footer">Thanks to Gregory Feiden+</div>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">NGC 2808</h2>
+		<div class="multiCol">
+			<div class="col">
+				<div style="position:relative; width:640px; height:480px; margin:0 auto;">
+					<img src="static/imgs/GC_CMD_SP.png">
+				</div>
+				<span><em> Not</em> NGC 2808</span>
+			</div>
+			<div class="col">
+				<ul>
+					<li>Extremely Clean CMD
+						<ul class="fragment" data-fragment-index=0>
+							<li class="fragment" data-fragment-index=0>
+								Similar distances
+							</li>
+							<li class="fragment">Similar ages</li>
+							<li class="fragment">Similar compositions</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer">Billings+ 2006</div>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">NGC 2808</h2>
+		<div class="multiCol">
+			<div class="col">
+				<div style="position:relative; width:640px; height:480px; margin:0 auto;">
+					<img src="static/imgs/GC_CMD_SP.png">
+				</div>
+				<span><em> Not</em> NGC 2808</span>
+			</div>
+			<div class="col">
+				<ul>
+					<li>Extremely Clean CMD
+						<ul>
+							<li style="opacity: 20%;">
+								Similar Distances
+							</li>
+							<li>Similar Ages</li>
+							<li>Similar Compositions</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer">Billings+ 2006.</div>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">NGC 2808</h2>
+		<div style="position:relative; width:640px; height:480px; margin:0 auto;">
+			<img src="static/imgs/NGC_2808_CMD.png">
+		</div>
+		<div class="footer">Piotto+ 2007</div>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">NGC 2808</h2>
+		<h3> Formation Channels </h3>
+		<div>
+			<ul>
+				<li class="fragment"> GC significantly more massive when formed </li>
+				<li class="fragment"> Initial population of pristine stars (large, hot) </li>
+				<li class="fragment"> \(\sim 90\%\) mass lost </li>
+				<li class="fragment"> Subsequent populations enriched </li>
+			</ul>
+		</div>
+	</section>
+	<section data-auto-animate>
+		<span> Helium Cannot be Observed in GCs Effectively </span>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">NGC 2808</h2>
+		Chemical Consistency...
+		<ul>
+			<li class="fragment"> Model multiple populations with self consistent opacities </li>
+			<li class="fragment"> Atmospheric consistency </li>
+		</ul>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">NGC 2808</h2>
+		<div style="position:relative; width:640px; height:480px; margin:0 auto;">
+			<img src="static/imgs/ISO.png">
+		</div>
+	</section>
+</section>
+<section data-auto-animate>
+	<p style="text-align:left">Outline</p>					
+	<div class='multiCol'>
+		<div class='col'>
+			<ul>
+				<li style="opacity: 20%">Stellar Modeling</li>
+				<li style="opacity: 20%">Opacities</li>
+				<li style="opacity: 20%">Multiple Populations in NGC 2808</li>
+				<li>The Gaia M dwarf Gap</li>
+			</ul>
+		</div>
+	</div>
+</section>
+<section>
+	<section>
+		<h2 class="r-fit-text">Gaia M dwarf Gap</h2>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">Gaia M dwarf Gap</h2>
+		<div class="multiCol">
+			<div class="col">
+				<div style="position:relative; width:100%; height:100%; margin:0 auto;">
+					<img src="static/imgs/GapA.png">
+				</div>
+			</div>
+			<div class="col">
+				<div class="r-stack">
+					<div class="fragment fade-out" data-fragment-index=2>
+						<ul>
+							<li class="fragment" data-fragment-index=0> ~17% Drop in density around Mag 10 </li>
+							<li class="fragment" data-fragment-index=1> Asymmetric production of Helium in ppI chain </li>
+						</ul>
+					</div>
+					<div class="fragment" data-fragment-index=2 style="position:relative; width:100%; height:100%; margin:0 auto;">
+						<img src="static/imgs/GapB.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer fragment fade-out" data-fragment-index=2 >Jao+ 2018</div> 
+		<div class="footer fragment fade-in" data-fragment-index=2>Jao+ 2018, Jao & Feiden 2021</div>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">Gaia M dwarf Gap</h2>
+		<div class="r-stack">
+			<div>
+				<ol>
+					<li>\(\ \ \ p + p \rightarrow d + e^{+} + \nu_{e}\) </li>
+					<li>\(\ \ \ p + d \rightarrow \ ^{3}\text{He} + \gamma\)</li>
+					<li>\(\ \ \ ^{3}\text{He} + \ ^{3}\text{He} \rightarrow \ ^{4}\text{He} + 2p\)</li>
+				</ol>
+			</div>
+		</div>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text">Gaia M dwarf Gap</h2>
+		<div class="multiCol">
+			<div class="col">
+				<ul>
+					<li> The mass where the gap occurs is a function of metallicity </li>
+				</ul>
+			</div>
+			<div class="col">
+				<div class="fragment">
+					\[\begin{align}
+						\nabla_{rad} \propto \frac{L\kappa}{T^{4}}
+					\end{align}\]
+				</div>
+			</div>
+		</div>
+	</section>
+	<section data-auto-animate>
+		<span>
+		 We model low mass stars with DSEP and OPLIB tables. 
+		</span>
+	</section>
+	<section data-auto-animate>
+		<div class="r-stack">
+			<div class="fragment fade-out" data-fragment-index=0>
+				<div style="position:relative; width:75%; height:75%; margin:0 auto;">
+					<img src="static/imgs/MassLumDiscon.png">
+				</div>
+			</div>
+			<div class="fragment fade-in" data-fragment-index=0>
+				<div style="position:relative; width:75%; height:75%; margin:0 auto;">
+					<img src="static/imgs/TeffLumDiscon.png">
+				</div>
+			</div>
+	</section>
+	<section data-auto-animate>
+		<h2 data-id="title" class="r-fit-text">Is this due to the convective transition?</h2>
+	</section>
+	<section data-auto-animate>
+		<h3 data-id="title" class="r-fit-text">Is this due to the convective transition?</h3>
+			<div style="position:relative; width:66%; height:66%; margin:0 auto;">
+				<img src="static/imgs/cmf.png">
+			</div>
+	</section>
+	<section>
+		<h2 class="r-fit-text">The Gap</h2>
+		<table style="font-size:26px;">
+			<tr>
+				<th>\(Z=\)</th>
+				<th>\(Z_{\odot}\)</th>
+				<th>\(Z_{0.01}\)</th>
+				<th>\(Z_{0.001}\)</th>
+				<th>\(Z_{0.0001}\)</th>
+			</tr>
+			<tr>
+				<td>OPAL</td>
+				<td>0.3505-0.3605</td>
+				<td>0.3429-0.3526</td>
+				<td>0.3433-0.3422</td>
+				<td>0.3353-0.3423</td>
+			</tr>
+			<tr>
+				<td>OPLIB</td>
+				<td>0.3335-0.3635</td>
+				<td>0.3501-0.3600</td>
+				<td>0.3393-0.3403</td>
+				<td>0.3303-0.3423</td>
+			</tr>
+		</table>
+		<div class="fragment" data-fragment-index=0>
+			<ul>
+				<li class="fragment" data-fragment-index=0> Mass monotonically decreases with Z</li>
+				<li class="fragment" data-fragment-index=1> Mass location differs slightly (\(\sim 0.1 \ M_{\odot}\)) from Feiden+ 2021</li>
+			</ul>
+		</div>
+	</section>
+</section>
+<section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text"> Wrapping Up</h2>
+	</section>
+	<section data-auto-animate>
+		<h2 class="r-fit-text"> Wrapping Up</h2>
+		<ul>
+			<li> DSEP now can use more up to date high temperature opacities (OPLIB) </li>
+			<li class="fragment"> Work has begun self-consistently modeling NGC-2808 </li>
+			<li class="fragment"> We identify <em> a </em> discontinuity correlated with the convective transition mass </li> 
+		</ul>
+	</section>
+	<section>
+		<h2 class="r-fit-text">With Thanks too</h2>
+		<ul>
+			<li> Brian </li>
+			<li> Elisabeth </li>
+			<li> My peers & friends </li>
+		</ul>
+	</section>
+	<section>
+		<h2 class="r-fit-text"> ? </h2>
+	</section>
+</section>
+<section>
+	<ul style="font-size:24px">
+		<li> Bjork, S. R., & Chaboyer, B. 2006, ApJ, 641, 1102, doi: 10.1086/500505 </li>
+		<li> Chaboyer, B., Fenton, W. H., Nelan, J. E., Patnaude, D. J., & Simon, F. E. 2001, ApJ, 562, 521, doi: 10.1086/323872</li>
+		<li> Colgan, J., Kilcrease, D. P., Magee, N. H., et al. 2016, in APS Meeting Abstracts, Vol. 2016, APS Division of Atomic, Molecular and Optical Physics Meeting Abstracts, D1.008 </li>
+		<li> Dotter, A., Chaboyer, B., Jevremović, D., et al. 2008, The Astrophysical Journal Supplement Series, 178, 89 </li>
+		<li> Feiden, G. A., Skidmore, K., & Jao, W.-C. 2021, ApJ, 907, 53, doi: 10.3847/1538-4357/abcc03</li>
+		<li> Jao, W.-C., & Feiden, G. A. 2021, 5, 124, doi: 10.3847/2515-5172/ac053a </li>
+		<li> Jao, W.-C., Henry, T. J., Gies, D. R., & Hambly, N. C. 2018, ApJL, 861, L11, doi: 10.3847/2041-8213/aacdf6 </li>
+		<li> Mansfield, S., & Kroupa, P. 2021, A&A, 650, A184, doi: 10.1051/0004-6361/202140536 </li>
+	</ul>
+</section>
+<section>
+	<section>
+		<div style="position:relative; width:66%; height:66%; margin:0 auto;">
+			<img src="static/imgs/SimCMD.png">
+		</div>
+	</section>
+	<section>
+		<div style="position:relative; width:66%; height:66%; margin:0 auto;">
+			<img src="static/imgs/MassLumFine.png">
+		</div>
+	</section>
+	<section>
+		<div style="position:relative; width:66%; height:66%; margin:0 auto;">
+			<img src="static/imgs/NGC2808CMDFull.png">
+		</div>
+	</section>
+	<section>
+		<div style="position:relative; width:66%; height:66%; margin:0 auto;">
+			<img src="static/imgs/NGC2808MSP.png">
+		</div>
+	</section>
+</section>
