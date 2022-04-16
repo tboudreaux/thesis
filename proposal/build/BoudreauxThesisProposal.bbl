@@ -14,6 +14,10 @@ Anderson, J., Piotto, G., King, I., Bedin, L., \& Guhathakurta, P. 2009, The
 {Baraffe}, I., \& {Chabrier}, G. 2018, \aap, 619, A177,
   \dodoi{10.1051/0004-6361/201834062}
 
+\bibitem[{Bastian \& Lardo(2018)}]{Bastian2018}
+Bastian, N., \& Lardo, C. 2018, Annual Review of Astronomy and Astrophysics,
+  56, 83
+
 \bibitem[{{Bjork} \& {Chaboyer}(2006)}]{Bjork2006}
 {Bjork}, S.~R., \& {Chaboyer}, B. 2006, \apj, 641, 1102, \dodoi{10.1086/500505}
 
@@ -25,10 +29,6 @@ Anderson, J., Piotto, G., King, I., Bedin, L., \& Guhathakurta, P. 2009, The
   {Caldwell}}]{Bonaca2012}
 {Bonaca}, A., {Tanner}, J.~D., {Basu}, S., {et~al.} 2012, The Astrophysical
   Journal Letters, 755, L12, \dodoi{10.1088/2041-8205/755/1/L12}
-
-\bibitem[{Briley {et~al.}(2004)Briley, Cohen, \& Stetson}]{Briley2004}
-Briley, M.~M., Cohen, J.~G., \& Stetson, P.~B. 2004, The Astronomical Journal,
-  127, 1579
 
 \bibitem[{Carretta {et~al.}(2010)Carretta, Bragaglia, Gratton, Recio-Blanco,
   Lucatello, D'Orazi, \& Cassisi}]{Carretta2010}
@@ -61,10 +61,6 @@ Collaboration, P., {et~al.} 2016, XIII. Cosmological parameters
   {et~al.}}]{creevey2015benchmark}
 Creevey, O., Th{\'e}venin, F., Berio, P., {et~al.} 2015, Astronomy \&
   Astrophysics, 575, A26
-
-\bibitem[{{Denisenkov} \& {Denisenkova}(1990)}]{Denisenkov1990}
-{Denisenkov}, P.~A., \& {Denisenkova}, S.~N. 1990, Soviet Astronomy Letters,
-  16, 275
 
 \bibitem[{Dotter {et~al.}(2008)Dotter, Chaboyer, Jevremovi{\'c}, Kostov, Baron,
   \& Ferguson}]{Dotter2008}
@@ -154,18 +150,16 @@ Herschel, W. 1814, Philosophical Transactions of the Royal Society of London,
 Milone, A., Marino, A., Piotto, G., {et~al.} 2012, The Astrophysical Journal,
   745, 27
 
-\bibitem[{{Milone} {et~al.}(2012){Milone}, {Piotto}, {Bedin}, {King},
-  {Anderson}, {Marino}, {Bellini}, {Gratton}, {Renzini}, {Stetson}, {Cassisi},
-  {Aparicio}, {Bragaglia}, {Carretta}, {D'Antona}, {Di Criscienzo},
-  {Lucatello}, {Monelli}, \& {Pietrinferni}}]{Milone2012}
-{Milone}, A.~P., {Piotto}, G., {Bedin}, L.~R., {et~al.} 2012, \apj, 744, 58,
-  \dodoi{10.1088/0004-637X/744/1/58}
+\bibitem[{{Milone} {et~al.}(2013){Milone}, {Marino}, {Piotto}, {Bedin},
+  {Anderson}, {Aparicio}, {Bellini}, {Cassisi}, {D'Antona}, {Grundahl},
+  {Monelli}, \& {Yong}}]{Milone2013}
+{Milone}, A.~P., {Marino}, A.~F., {Piotto}, G., {et~al.} 2013, \apj, 767, 120,
+  \dodoi{10.1088/0004-637X/767/2/120}
 
 \bibitem[{{Milone} {et~al.}(2015){Milone}, {Marino}, {Piotto}, {Renzini},
   {Bedin}, {Anderson}, {Cassisi}, {D'Antona}, {Bellini}, {Jerjen},
   {Pietrinferni}, \& {Ventura}}]{Milone2015}
-{Milone}, A.~P., {Marino}, A.~F., {Piotto}, G., {et~al.} 2015, \apj, 808, 51,
-  \dodoi{10.1088/0004-637X/808/1/51}
+---. 2015, \apj, 808, 51, \dodoi{10.1088/0004-637X/808/1/51}
 
 \bibitem[{Norris(1987)}]{Norris1987}
 Norris, J. 1987, The Astrophysical Journal, 313, L65
@@ -187,18 +181,26 @@ Norris, J. 1987, The Astrophysical Journal, 313, L65
 {Piotto}, G., {Bedin}, L.~R., {Anderson}, J., {et~al.} 2007, The Astrophysical
   Journal Letters, 661, L53, \dodoi{10.1086/518503}
 
+\bibitem[{{Piotto} {et~al.}(2015){Piotto}, {Milone}, {Bedin}, {Anderson},
+  {King}, {Marino}, {Nardiello}, {Aparicio}, {Barbuy}, {Bellini}, {Brown},
+  {Cassisi}, {Cool}, {Cunial}, {Dalessandro}, {D'Antona}, {Ferraro}, {Hidalgo},
+  {Lanzoni}, {Monelli}, {Ortolani}, {Renzini}, {Salaris}, {Sarajedini}, {van
+  der Marel}, {Vesperini}, \& {Zoccali}}]{Piotto2015}
+{Piotto}, G., {Milone}, A.~P., {Bedin}, L.~R., {et~al.} 2015, \aj, 149, 91,
+  \dodoi{10.1088/0004-6256/149/3/91}
+
 \bibitem[{{Plez}(2008)}]{Plez2008}
 {Plez}, B. 2008, Physica Scripta Volume T, 133, 014003,
   \dodoi{10.1088/0031-8949/2008/T133/014003}
 
+\bibitem[{{Prantzos} {et~al.}(2007){Prantzos}, {Charbonnel}, \&
+  {Iliadis}}]{Prantzos2007}
+{Prantzos}, N., {Charbonnel}, C., \& {Iliadis}, C. 2007, \aap, 470, 179,
+  \dodoi{10.1051/0004-6361:20077205}
+
 \bibitem[{{Rodr{\'\i}guez-L{\'o}pez}(2019)}]{Rodriguez-Lopez2019}
 {Rodr{\'\i}guez-L{\'o}pez}, C. 2019, Frontiers in Astronomy and Space Sciences,
   6, 76, \dodoi{10.3389/fspas.2019.00076}
-
-\bibitem[{{Roh} {et~al.}(2011){Roh}, {Lee}, {Joo}, {Han}, {Sohn}, \&
-  {Lee}}]{Roh2011}
-{Roh}, D.-G., {Lee}, Y.-W., {Joo}, S.-J., {et~al.} 2011, \apjl, 733, L45,
-  \dodoi{10.1088/2041-8205/733/2/L45}
 
 \bibitem[{{Sandage}(1953)}]{Sandage1953}
 {Sandage}, A.~R. 1953, \aj, 58, 61, \dodoi{10.1086/106822}
@@ -207,6 +209,10 @@ Norris, J. 1987, The Astrophysical Journal, 313, L65
   {Pradhan}}]{Seaton1994}
 {Seaton}, M.~J., {Yan}, Y., {Mihalas}, D., \& {Pradhan}, A.~K. 1994, \mnras,
   266, 805, \dodoi{10.1093/mnras/266.4.805}
+
+\bibitem[{Sneden {et~al.}(1992)Sneden, Kraft, Prosser, \& Langer}]{Sneden1992}
+Sneden, C., Kraft, R.~P., Prosser, C.~F., \& Langer, G. 1992, The Astronomical
+  Journal, 104, 2121
 
 \bibitem[{Sollima(2019)}]{Sollima2019}
 Sollima, A. 2019, Monthly Notices of the Royal Astronomical Society, 489, 2377,

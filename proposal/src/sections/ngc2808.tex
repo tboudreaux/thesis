@@ -8,30 +8,50 @@ may have chemical inhomogeneities and multiple populations; rather, it is one
 where those chemical inhomogeneities and multiple populations themselves are
 the defining element of a GC.
 
-Variations in observed abundances were initially attributed to evolutionary
-mixing \citep{Denisenkov1990}. However, enhanced abundances are still observed
-in scarcely evolved main sequence stars, ruling out evolutionary mixing as the
-primary mechanism \citep{Gratton2004,Briley2004}. Moreover, mixing of a degree
-high enough to explain the observed anomaly in cyanogen abundances would result
-in extended lifetimes and a broadened main sequence turn off region in the CMD
-of ancient GCs, which is not observationally supported. More recently,
-precision Hubble photometry revealed that almost every cluster in orbit of the
-milky way comprises multiple main sequences \citep{Piotto2007, Roh2011,
-Milone2012} (MP) as opposed to a single stellar population (SP).
+All globular clusters older than 2 Gyr studied in detail show populations
+enriched in He, N, and Na while also being deplete in O and C
+\citep{Piotto2015,Bastian2018}. These light element abundance patterns also are
+not strongly correlated with variations in heavy element abundances. One
+consequence of this fact is the aforementioned spectroscopically uniform Fe
+abundances. Further, high-resolution spectral studies reveal anti-correlations
+between N-C abundances, Na-O abundances, and potentially Al-Mg
+\citep{Sneden1992, Gratton2012}. Typical stellar fusion reactions can deplete
+core oxygen; however, the observed abundances of Na, Al, and Mg cannot be
+explained by the likes of the CNO cycle \citep{Prantzos2007}.
 
-Due to the relatively high and tight temperature range of partial ionization
-for helium it cannot be observed in globular clusters; consequently, the
-evidence for these enhanced helium abundances originates from comparison of
-theoretical stellar isochrones to the observed color magnitude diagrams of
-globular clusters. None of the isochrones used to date in these comparison have
-been generated from models with self consistent chemistries. 
+Formation channels for these multiple populations remain a point of debat
+amoung astronomers. All seriously considered formation channels consist of some
+older, more massive, population of stars polute the prisine cluter media before
+a second population forms, now enriched in heavier elements they themselves
+could not have generated [CITE]. The three primary candidates for these
+poluters are asymtotic giant branch stars (AGBs), fast rotating massive stars
+(FRMSs), and very massive stars (VMSs). Hot hydrogen burning is a feature of
+each of these models and consequently they all {\it qualitativley} agree with
+the observed elemental abundances. However, non of the standard models can
+currently account for all specific abundances [CITE].
 
-\subsection{Population Opacities}
-Given the relative historic difficulty in generating new opacity tables,
-stellar models have tended to use opacity tables whos range of compositions is
-derived from simple rescaling of the some solar composition. Here we use our
-OPLIB web scraper to generate opacity tables with compositions specific to each
-population in NGC 2808.
+Despite these challenges, predictions of He enhancement distinguishing MPs have
+lined up well with isochrone fitting results. Therefore, it is currently
+accepted that MPs are primarily parameterized by their Helium abundances
+[CITE]. Depending on the cluster, Ys as high as 0.4 have been inferred [CITE].
+However, due to the relatively high and tight temperature range of partial
+ionization for He it cannot be observed in globular clusters; consequently, the
+evidence for enhanced He in GCs originates from comparison of theoretical
+stellar isochrones to the observed color-magnitude-diagrams of globular
+clusters. Therefore, a careful handling of chemistry is essential when modeling
+with the aim of discriminating between MPs; yet, only a very limited number of
+GCs have yet been studied with chemically self-consistent (structure and
+atmosphere) isochrones \citep[e.g.][NGC 6752]{Dotter2015}.
+
+This thesis will contain chapters where we expand the number of clusters which
+have been self-consistently modeled. In this chapter we will focus on the two
+extreme population of NGC 2808 identified by [CITE], A and E.
+
+\subsubsection{Population Opacities}
+For similar reasons as discussed in \S\ref{sec:japGap1} we conduct this research
+with OPLIB high-temperature opacity tables as opposed to OPAL tables. We use
+our OPLIB web scraper to generate opacity tables with compositions specific to
+each population in NGC 2808.
 
 These population have been studied in depth by Feiden and their chemical
 compositions were determined in \citet{Milone2015} (see Table 2 in that paper).
@@ -50,7 +70,7 @@ tables.
 	\label{fig:NGC2808ISO}
 \end{figure}
 
-\subsection{Additional Consistency}
+\subsubsection{Additional Consistency}
 The lack of self consistency presents problems at other stages of stellar
 evolution codes. Perhaps most importantly, where the interior of a stellar
 model meets the atmosphere. Atmospheric models such as a grey

@@ -18,16 +18,3 @@ reaction rates which then inform the next structure solution continues until
 DSEP can no longer find a solution.  This can happen as the stellar structure
 equations are extremely stiff. In addition, for finite radial mesh sizes,
 discontinuities can occur.
-
-As DSEP pushes a star along its evolutionary track the radiative opacity must
-be known for a wide range of temperatures, pressures, and compositions.
-Specifically, opacity is a key parameter in the equation of energy transport.
-With current computational tools it's infeasible to compute opacities on the
-fly; rather, Rossland Mean opacity ($\kappa_{R}$) for individual elements must
-be pre-tabulated over a wide range of temperatures and densities. These
-opacities can then be somewhat arbitrarily mixed together and interpolated to
-form opacity lookup-tables. Multiple groups have preformed these calculations
-and subsequently made tables available to the wider community, these include
-the Opacity Project \citep[OP][]{Seaton1994}, Laurence Livermore National Labs
-OPAL opacity tables \citep{Iglesias1996}, and Los Alamos National Labs OPLIB
-opacity tables \citep{Colgan2016}.
