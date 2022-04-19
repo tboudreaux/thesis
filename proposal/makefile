@@ -8,14 +8,20 @@ BTFLAGS=""
 SUNAME="BoudreauxThesisProposal_Summary"
 SULTFLAGS="-jobname=$(SUNAME)"
 
+TLNAME="TIMELINE"
+TLFLAGS="-jobname=$(TLNAME)"
+
 MANUSCRIPT_EXT="ms"
 SUEXT="summary"
 
+TIKZ_DIR="tikz"
 SRC_DIR="src"
-FIG_DIR="figures"
+FIG_DIR="$(SRC_DIR)/Figures"
 
 MANUSCRIPT_PATH=$(SRC_DIR)/$(MANUSCRIPT_EXT)
 SUPATH=$(SRC_DIR)/$(SUEXT)
+
+TLPATH="./src/timeline_wrtout.tex"
 
 BUILD_DIR="build"
 ASSET_FILES = $(shell find ./src/ -regex '.*\(tex\|bib\|pdf\)$')
@@ -23,7 +29,7 @@ ASSET_FILES = $(shell find ./src/ -regex '.*\(tex\|bib\|pdf\)$')
 
 default: veryclean all clean
 
-all: ms summary link
+all: ms summary link timelineConvert
 
 ms: ./src/$(ASSET_FILES)
 	$(LTC) $(LTFLAGS) $(MANUSCRIPT_PATH).tex
@@ -33,6 +39,14 @@ ms: ./src/$(ASSET_FILES)
 
 summary: ./src/summary.tex
 	$(LTC) $(SULTFLAGS) $(SUPATH).tex
+
+timelineFig: ./src/tikz/timeline_fig.tex ./src/timeline_wrtout.tex
+	$(LTC) $(TLFLAGS) $(TLPATH)
+
+timelineConvert: timelineFig
+	pdftoppm -png -singlefile $(TLNAME).pdf $(TLNAME)
+	mv $(TLNAME).png $(FIG_DIR)
+
 
 move: | $(BUILD_DIR)
 	mv -f $(NAME).pdf $(BUILD_DIR)
@@ -60,9 +74,13 @@ clean:
 	-rm $(SUNAME).blg
 	-rm $(SUNAME).aux
 	-rm $(SUNAME).log
+	-rm $(TLNAME).aux
+	-rm $(TLNAME).log
+	-rm $(TLNAME).pdf
 
 veryclean: clean
 	-rm $(NAME).pdf
+	-rm $(TLNAME).pdf
 	-rm $(SUNAME).pdf
 	-rm -r $(BUILD_DIR)
 

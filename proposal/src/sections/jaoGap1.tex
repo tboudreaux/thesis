@@ -1,6 +1,6 @@
 Due to initial mass requirements of the molecular clouds which collapse to form
 stars, star formation is strongly biased towards lower mass, later spectral
-class, stars when compared to higher mass stars. Partly as a result of this
+class stars when compared to higher mass stars. Partly as a result of this
 bias and partly as a result of their extremely long main-sequence lifetimes,
 M-dwarfs make up approximately 70 percent of all stars in the galaxy.
 Moreover, some planet search campaigns have focused on M-dwarfs due to the
@@ -13,15 +13,14 @@ and evolution.
 
 \subsubsection{Observations and Instability}
 Gaia Data Release 2 (DR2) revealed a previously unknown structure in in the
-$G_{\text{BP}}-G_{\text{RP}}$, $M_{G}$ color-magnitude diagram (Figure \ref{fig:JaoGap}) corresponding to
-stars with a mass near that where a star transitions from fully convective
-to having both convective and radiative regions within (the fully convective
-transition mass) \citep{Jao2018}. The so called Gaia M-dwarf gap, or Jao gap,
-represents a decrease in luminosity and commensurately a decrease in stellar
-density --- by approximately 17\% --- over this mass range.
-\citet{Jao2018,Baraffe2018} suggest that this density deficiency is due to
-stars between a mass of 0.3 to 0.35 M$_{\odot}$ transitioning into full
-convectivity.
+$G_{\text{BP}}-G_{\text{RP}}$, $M_{G}$ color-magnitude diagram (Figure
+\ref{fig:JaoGap}) corresponding to stars with a mass near that where a star
+transitions from fully convective to having both convective and radiative
+regions within (the fully convective transition mass --- 0.3 to 0.35
+M$_{\odot}$) \citep{Jao2018,Baraffe2018}. The so-called Gaia M-dwarf gap, or
+Jao gap, represents a decrease in luminosity and commensurately a decrease in
+stellar density --- by approximately 17\% --- over this mass range.
+
 
 \begin{figure}
 	\centering
@@ -38,12 +37,13 @@ due to asymmetric production and destruction of He$^{3}$ during the
 proton-proton I chain (ppI), periodic luminosity variations can be induced.
 This process is known as convective-kissing instability.  Take for example a
 star with a mass right on the fully convective transition.  Such a star will
-descent the pre-MS with a radiative core; however, as the star reaches the zero
+descend the pre-MS with a radiative core; however, as the star reaches the zero
 age main sequence (ZAMS) and as the core temperature exceeds $7\times 10^{6}$
 K, enough energy will be produced by the ppI chain that the core becomes
 convective. At this point the star exists with both a convective core and
-envelope, in addition to a thin, radiative, layer separating the two. At this
-Point asymmetries in ppI affect the evolution of the stars convective core.
+envelope, in addition to a thin, radiative, layer separating the two.
+Subsequently, asymmetries in ppI affect the evolution of the star's convective
+core.
 
 The proton-proton I chain constitutes three reactions 
 \begin{enumerate} 
@@ -58,10 +58,10 @@ the star becomes unstable to convection. This expansion will continue until the
 core connects with the convective envelope. At this point convective mixing can
 transport material throughout the entire radius of the star and the high
 concentration of $^{3}$He will rapidly diffuse outward, away from the core,
-again decreasing energy generation as reaction 3 slows Down. Ultimately, this
+again decreasing energy generation as reaction 3 slows down. Ultimately, this
 leads to the convective region around the core pulling back away from the
 convective envelope, leaving in place the radiative transition zone, at which
-point $^{3}$He concentrations build up in the until it once again expands to
+point $^{3}$He concentrations build up in the core until it once again expands to
 meet the envelope.  This process repeats until chemical equilibrium is reached
 throughout the star and the core can sustain high enough nuclear reaction rates
 to maintain contact with the envelope, resulting in a fully convective star.
@@ -86,7 +86,7 @@ dramatically lowers the temperature where radiation will dominate energy transpo
 \citep{Chabrier1997}. Since main sequence stars are virialized the core
 temperature is proportional to the core density and total mass (Equation
 \ref{eqn:TMRelation}). Therefore, if the core temperature where
-convective-kissing instability is expected decreases with metallicity, so to
+convective-kissing instability is expected decreases with metallicity, so too
 will the mass of stars which experience such instabilities.
 
 \begin{align}\label{eqn:TMRelation}
@@ -94,11 +94,11 @@ will the mass of stars which experience such instabilities.
 \end{align}
 
 This strong opacity dependence presents a slight problem where modeling is 
-concerned. With current computational tools it's infeasible to compute opacities on the
+concerned. With current computational tools it is infeasible to compute opacities on the
 fly; rather, Rossland Mean opacity ($\kappa_{R}$) for individual elements must
 be pre-tabulated over a wide range of temperatures and densities. These
 opacities can then be somewhat arbitrarily mixed together and interpolated to
-form opacity lookup-tables. Multiple groups have preformed these calculations
+form opacity lookup-tables. Multiple groups have performed these calculations
 and subsequently made tables available to the wider community, these include
 the Opacity Project \citep[OP][]{Seaton1994}, Laurence Livermore National Labs
 OPAL opacity tables \citep{Iglesias1996}, and Los Alamos National Labs OPLIB
@@ -106,18 +106,26 @@ opacity tables \citep{Colgan2016}.
 
 The OPAL opacity tables in particular are very widely used by current
 generation stellar evolution programs (in addition to current generation
-stellar model and isochrone grids). However, they are no longer the most up
-date elemental opacities. Moreover, the generation mechanism for these tables,
-a webform, is no longer reliably online.  
+stellar model and isochrone grids). However, they are no longer the most
+up-to-date elemental opacities or numerically precise. Moreover, the generation
+mechanism for these tables, a webform, is no longer reliably online.  
 
-Given the strong theories opacity dependence of the Jao Gap it is reasonable to
-expect updated opacity tables to affect the Jao Gap. Therefore, as part of this
-project we have transitioned DSEP from OPAL opacities to opacities based on
-measurements from Los Alamos national Labs T-1 group
-\citep[OPLIB][]{Colgan2016}. Detailed, statistical, comparisons between the Jao
-Gap's from the two models will be included as a portion of a paper to be
-published on this work; however, a visual comparison is provided here (Figure
-\ref{fig:JaoGapOPALOPLIB} and Table \ref{tab:fineMassRange}).
+Given its strong theoretical opacity dependence, it is reasonable to expect
+updated opacity tables to affect, the Jap Gap's mass range. Therefore, as part
+of this project we have transitioned DSEP from OPAL high temperature opacities
+to opacities based on measurements from Los Alamos national Labs T-1 group
+\citep[OPLIB][]{Colgan2016}. This chapter in the thesis will detail the opacity
+transition, provide validation of the new opacity tables, and conduct an
+in-depth statistical comparison between the locations of Jao Gaps from
+populations modeled using both OPAL and OPLIB opacities.
+
+Preliminary work shows populations modeled with OPLIB opacities have Jao Gaps
+at consistently lower masses than those modeled using OPAL opacities (Figure
+\ref{fig:JaoGapOPALOPLIB} and Table \ref{tab:fineMassRange}). This is in line
+with expectations based on OPLIB opacities begin uniformly lower than OPAL
+opacities for temperature above $10^{6}$ K (Figure \ref{fig:opacComp}) --- with
+the lower opacities requiring commensurately lower core temperatures before
+radiation dominates energy transport. 
 
 \begin{figure}
 	\centering
@@ -130,6 +138,15 @@ published on this work; however, a visual comparison is provided here (Figure
 	slightly brighter than the OPAL Jao Gap.}
 	\label{fig:JaoGapOPALOPLIB}
 \end{figure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\centering
+	\includegraphics[width=0.48\textwidth]{src/Figures/OpacityComparision.pdf}
+	\caption{Rossland Mean Opacity from both OPAL (black solid) and OPLIB (red
+	dashed). Note how above 10$^{6}$ K OPLIB opacities are uniformly smaller
+	than those from OPAL.}
+	\label{fig:opacComp}
+\end{wrapfigure}
 
 % \subsubsection{OPLIB Opacities}
 % In order to address the two main issues with using OPAL opacity tables we use
