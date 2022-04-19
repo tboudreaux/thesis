@@ -27,15 +27,22 @@ BUILD_DIR="build"
 ASSET_FILES = $(shell find ./src/ -regex '.*\(tex\|bib\|pdf\)$')
 
 
-default: veryclean all clean
+default: draft
 
-all: ms summary link timelineConvert
+draft: veryclean ms summary link watermark timelineConvert clean
+
+final: veryclean ms summary link timelineConvert clean
 
 ms: ./src/$(ASSET_FILES)
 	$(LTC) $(LTFLAGS) $(MANUSCRIPT_PATH).tex
 	$(BTC) $(NAME)
 	$(LTC) $(LTFLAGS) $(MANUSCRIPT_PATH).tex -o
 	$(LTC) $(LTFLAGS) $(MANUSCRIPT_PATH).tex -o
+
+watermark:
+	pdftk $(NAME).pdf background misc/Stamp.pdf output $(NAME)_mark.pdf
+	rm $(NAME).pdf
+	mv $(NAME)_mark.pdf $(NAME).pdf
 
 summary: ./src/summary.tex
 	$(LTC) $(SULTFLAGS) $(SUPATH).tex
