@@ -6,3 +6,5 @@ plugin/
 package-lock.json
 ._*
 ._.*
+*.aux
+*.log
