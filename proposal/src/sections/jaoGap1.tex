@@ -1,42 +1,22 @@
-Due to initial mass requirements of the molecular clouds which collapse to form
-stars, star formation is strongly biased towards lower mass, later spectral
-class stars when compared to higher mass stars. Partly as a result of this
-bias and partly as a result of their extremely long main-sequence lifetimes,
-M-dwarfs make up approximately 70 percent of all stars in the galaxy.
-Moreover, some planet search campaigns have focused on M-dwarfs due to the
-relative ease of detecting small planets in their habitable zones
-\citep[e.g.][]{Nut08}. M-dwarfs then represent both a key component of the
-galactic stellar population as well as the possible set of stars which may host
-habitable exo-planets. Given this key location M-dwarfs occupy in modern
-astronomy it is important to have a thorough understanding of their structure
-and evolution.
-
-\subsubsection{Observations and Instability}
-Gaia Data Release 2 (DR2) revealed a previously unknown structure in in the
-$G_{\text{BP}}-G_{\text{RP}}$, $M_{G}$ color-magnitude diagram (Figure
-\ref{fig:JaoGap}) corresponding to stars with a mass near that where a star
-transitions from fully convective to having both convective and radiative
-regions within (the fully convective transition mass --- 0.3 to 0.35
-M$_{\odot}$) \citep{Jao2018,Baraffe2018}. The so-called Gaia M-dwarf gap, or
-Jao gap, represents a decrease in luminosity and commensurately a decrease in
-stellar density --- by approximately 17\% --- over this mass range.
-
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.45\textwidth]{src/Figures/JaoGap.png}
-	\caption{Figure 1 from \citet{Jao2018} showing the so called ``Jao Gap'' at
-	$M_{G}\approx$ 10}
-	\label{fig:JaoGap}
-\end{figure}
-
-A theoretical explanation for such a density deficiency comes from
-\citet{van2012}, who propose that directly above the transition mass between a
-star with a radiative core and convective envelope and a fully convective star,
+% Due to initial mass requirements of the molecular clouds which collapse to form
+% stars, star formation is strongly biased towards lower mass, later spectral
+% class stars when compared to higher mass stars. Partly as a result of this
+% bias and partly as a result of their extremely long main-sequence lifetimes,
+% M-dwarfs make up approximately 70 percent of all stars in the galaxy.
+% Moreover, some planet search campaigns have focused on M-dwarfs due to the
+% relative ease of detecting small planets in their habitable zones
+% \citep[e.g.][]{Nut08}. M-dwarfs then represent both a key component of the
+% galactic stellar population as well as the possible set of stars which may host
+% habitable exo-planets. Given this key location M-dwarfs occupy in modern
+% astronomy it is important to have a thorough understanding of their structure
+% and evolution.
+%
+% \subsubsection{Observations and Instability}
+A theoretical explanation for the Jao Gap (Figure \ref{fig:JaoGap}) comes from
+\citet{van2012}, who propose that in a star directly above the transition mass,
 due to asymmetric production and destruction of He$^{3}$ during the
 proton-proton I chain (ppI), periodic luminosity variations can be induced.
-This process is known as convective-kissing instability.  Take for example a
-star with a mass right on the fully convective transition.  Such a star will
+This process is known as convective-kissing instability. Such a star will
 descend the pre-MS with a radiative core; however, as the star reaches the zero
 age main sequence (ZAMS) and as the core temperature exceeds $7\times 10^{6}$
 K, enough energy will be produced by the ppI chain that the core becomes
@@ -44,6 +24,14 @@ convective. At this point the star exists with both a convective core and
 envelope, in addition to a thin, radiative, layer separating the two.
 Subsequently, asymmetries in ppI affect the evolution of the star's convective
 core.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\textwidth]{src/Figures/JaoGap.png}
+	\caption{Figure 1 from \citet{Jao2018} showing the so called ``Jao Gap'' at
+	$M_{G}\approx$ 10}
+	\label{fig:JaoGap}
+\end{figure}
 
 The proton-proton I chain constitutes three reactions 
 \begin{enumerate} 
@@ -120,33 +108,33 @@ in-depth statistical comparison between the locations of Jao Gaps from
 populations modeled using both OPAL and OPLIB opacities.
 
 Preliminary work shows populations modeled with OPLIB opacities have Jao Gaps
-at consistently lower masses than those modeled using OPAL opacities (Figure
-\ref{fig:JaoGapOPALOPLIB} and Table \ref{tab:fineMassRange}). This is in line
-with expectations based on OPLIB opacities begin uniformly lower than OPAL
-opacities for temperature above $10^{6}$ K (Figure \ref{fig:opacComp}) --- with
-the lower opacities requiring commensurately lower core temperatures before
-radiation dominates energy transport. 
+at consistently lower masses / redder colors than those modeled using OPAL
+opacities (Figure \ref{fig:JaoGapOPALOPLIB} and Table \ref{tab:fineMassRange}).
+This is in line with expectations based on OPLIB opacities begin uniformly
+lower than OPAL opacities for temperature above $10^{6}$ K (Figure
+\ref{fig:opacComp}) --- with the lower opacities requiring commensurately lower
+core temperatures before radiation dominates energy transport. 
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.85\textwidth]{src/Figures/OPALOPLIB_popsynth_comp.pdf}
 	\caption{Synthetic CMDs derived from simple population synthesis code.
 	(Left) CMD showing the Jao Gap for a GS98 composition stellar population
-	generate from models evolved using OPAL opacity tables. (Right) CMD showing
+	generated from models evolved using OPAL opacity tables. (Right) CMD showing
 	the Jao Gap for a GS98 stellar population generated from models evolved
 	using the OPLIB opacity tables. Note how the OPLIB derived Jao Gap is
 	slightly brighter than the OPAL Jao Gap.}
 	\label{fig:JaoGapOPALOPLIB}
 \end{figure}
 
-\begin{wrapfigure}{r}{0.5\textwidth}
+\begin{figure}
 	\centering
-	\includegraphics[width=0.48\textwidth]{src/Figures/OpacityComparision.pdf}
+	\includegraphics[width=0.75\textwidth]{src/Figures/OpacityComparision.pdf}
 	\caption{Rossland Mean Opacity from both OPAL (black solid) and OPLIB (red
 	dashed). Note how above 10$^{6}$ K OPLIB opacities are uniformly smaller
 	than those from OPAL.}
 	\label{fig:opacComp}
-\end{wrapfigure}
+\end{figure}
 
 % \subsubsection{OPLIB Opacities}
 % In order to address the two main issues with using OPAL opacity tables we use

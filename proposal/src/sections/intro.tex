@@ -12,7 +12,7 @@ Where $\xi$ and $\theta$ are dimensionless parameterizations of radius and
 temperature respectively, and $n$ is known as the polytropic index. Despite this
 early work, it wasn't until the late 1930s and early 1940s that the full set of
 equations needed to describe the structure of a steady state,
-radially-symmetric, star (known as the equations of stellar structure) began to
+radially-symmetric, star --- the equations of stellar structure --- began to
 take shape as proton-proton chains and the Carbon-Nitrogen-Oxygen cycle were,
 for the first time, seriously considered as energy generation mechanisms
 \citep{Cowling1966}. Since then, and especially with the proliferation of
@@ -26,7 +26,7 @@ over time to track the evolution of an individual star. The Dartmouth Stellar
 Evolution Program (DSEP) \citep{Chaboyer2001, Bjork2006, Dotter2008} is one
 such, well tested, stellar evolution program.
 
-Here we propose to model low-mass stars in both the local solar neighborhood
+Here we propose to model low-mass stars in both the solar neighborhood
 and in globular clusters using DSEP. This work will primarily extend our
 understanding of stellar physics in two areas: the effects of chemical
 self-consistency on stellar models \citep[e.g.][]{Dotter2015} and the time
@@ -47,18 +47,18 @@ stars in the universe, with typical ages greater than 10 Gyr. They are
 characterized by their compact size --- typical half-light radius $<$ 10 pc but
 up to 10s of pc --- and high surface brightness --- M$_{V} \sim -7$. For
 decades, prevailing thought had it that globular clusters were composed of a single
-stellar population born from a pristine interstellar media. Single stellar
+stellar population born from a pristine media. Single stellar
 populations had been assumed, as opposed to multiple stellar population
 (MPs), due to spectroscopically uniform iron abundances \citep{Gratton2012} and
 very narrow principal sequences \citep[e.g. Figure \ref{fig:M3CMD} taken
-from][]{Sandage1953, Stetson1988}, both of which are indicative of a single
-stellar population.  
+from][]{Sandage1953, Stetson1988}.
 
-These early studies either did not handle or had very large photometric
-uncertainties masking subtly distinguished features within the CMD. Moreover,
+These early studies either did not handle --- or had very large --- photometric
+uncertainties, masking subtly distinguished features within the CMD. Moreover,
 given these studies were ground based they were limited to optical bands where
 colors do not respond strongly to all chemical changes within a star's
-atmosphere.
+atmosphere (water lines, which UV and IR colors will more strongly
+respond too, are of particular interest).
 
 \begin{figure}
 	\centering
@@ -79,17 +79,16 @@ high precision crowded field photometry in which three distinct main sequences
 in NGC 2808 were identified \citep{Piotto2007}. Since this discovery, split
 main sequences have been found in nearly all Milky Way globular clusters
 studied by HST \citep{anderson2009,milone2011}. Split stellar populations are
-believed to be due to enhanced helium abundances in the stellar populations
+believed to be due to enhanced helium abundances, with signifigant observed
+star-to-star light-element abundance variation, in their stellar populations
 formed after the primordial population of stars \citep{d2005,Piotto2007}. When
 compared to primordial helium mass fractions ($Y$) of $Y\sim 0.25$
 \citep{collaboration2016planck} or solar helium abundances $Y\sim0.27$
 \citep{vinyoles2017new} these populations have mass fractions as high as $Y\sim
 0.4$. Helium enhancement is strongly suspected to be the result of an earlier,
 more massive population dying off, enriching the interstellar medium
-\citep{Gratton2001, Gratton2004, Gratton2012}; however, precise formation channels
-for split stellar populations remain contentious. The primary open question then
-is not why some populations are enhanced in helium; rather, it is to what
-extent they are enhanced. 
+\citep{Gratton2001, Gratton2004, Gratton2012}; however, precise formation
+channels for split stellar populations remain contentious. 
 
 Two chapters of this thesis will further constrain the helium enhancement of
 MPs within globular clusters by modeling their stellar populations in a fully
@@ -102,12 +101,12 @@ color-magnitude-diagram. Around $M_{G}=10$ there is an approximately 17\%
 decrease in stellar density of the sample of stars \citeauthor{Jao2018}
 considered. Subsequently, this has become known as either the Jao Gap, or Gaia
 M dwarf Gap. Section \ref{sec:p1} will go into more detail regarding the
-physics underpinning this feature; however, in brief convective instabilities in
-the core are believed to form for stars straddling the fully convective
-transition mass. These instabilities result in stars' luminosities
-preferentially evolving either slightly brighter or dimmer than the
-mass-luminosity relation around the convective transition mass would naively
-indicate \citep{Jao2020}.
+physics underpinning this feature; however, in brief convective instabilities
+in the core are believed to form for stars straddling the fully convective
+transition mass (0.3 - 0.35 M$_{\odot}$) \citep{Baraffe2018}. These
+instabilities result in stars' luminosities preferentially evolving either
+slightly brighter or dimmer than the mass-luminosity relation around the
+convective transition mass would naively indicate \citep{Jao2020}.
 
 The Jao Gap, inherently a feature of M dwarf populations, provides an enticing
 and unique view into the interior physics of these stars \citep{Feiden2021}.
@@ -123,13 +122,13 @@ Stellar modeling has been successful in reproducing the Jao Gap
 to understand which parameters constrain the Jao Gap's location. For example,
 it is now well documented that metallicity affects the Jao Gap's color, with
 higher metallicity stellar populations showing the Jao Gap at consistently
-higher masses \citep{Mansfield2021}.
+higher masses / bluer colors \citep{Mansfield2021}.
 
 Initial testing we have done using DSEP along with articles from both
-\citeauthor{Feiden2021} and \citeauthor{Mansfield2021} indicated the Jao Gap's
+\citeauthor{Feiden2021} and \citeauthor{Mansfield2021} demonstrates the Jao Gap's
 location sensitivity to age, evolving to higher mass regions of the
-mass-luminosity relation with population age. Per \citet{Mansfield2021} this
-location evolution also does not seem to be strongly sensitive to metallicity.
-Sections \ref{sec:p2} and \ref{sec:p3} of this proposal lay out a plan to use this observed
-age-dependence to age-date gyro-kinematically separated populations in the solar
-neighborhood.
+mass-luminosity relation with population age. Per \citet{Mansfield2021} the
+degree of this location evolution also does not seem to be strongly sensitive
+to metallicity. Sections \ref{sec:p2} and \ref{sec:p3} of this proposal lay out
+a plan to use this observed age dependence to age-date kinematically separated
+populations in the solar neighborhood.

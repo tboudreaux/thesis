@@ -1,4 +1,27 @@
-Where the project laid out in \S \ref{sec:p2} study the feasibility of using the
-Jao Gap to date stellar populations; this project will apply this technique to
-observational data. Specifically, we measure the Jao Gap location in populations
-separated by gyro-kinematic age-dating in the solar neighboorhood.
+Where the project laid out in \S \ref{sec:p2} will study the feasibility of
+using the Jao Gap to date stellar populations; this project will apply this
+technique to observational data. We will use Gaia photometry for the solar
+neighborhood to study weather the Jao Gap's theoretical age-dependence is
+observable.
+
+Our sample will be pulled from the GCNS. It is known that the Jao Gap is
+observable in this sample \citep[Figure 17 in][]{GaiaCollaboration2021};
+however, we are less interested in if the gap shows up at all and instead
+interested in if subsets of the population show the gap in different locations.
+Using Gaia reported vertical velocity displacments and follwing methods from
+\citep{Lu2021}  we will slice the GCNS into rough age groups (e.g. $< 2$ Gyr, $\geq
+2$ and $< 6$ Gyr, and $\geq 6$ Gyr). Then, following binning methods laied
+out in \citet{Jao2018} we will measure the Jao Gap location for each group.
+
+Both binarity and variations in metallicity will smear the Jao Gap. The
+Renormalised Unit Weight Error (RUWE) reported by Gaia, which tracks excess
+astrometric noise, can be used to filter for wide binaries with mass ratios
+near 1 \citep[e.g.][]{Deacon2020, Kervella2022}. Recent work has shown that the
+RUWE is biased in the GCNS and that a further renormalization of the unit
+weight error is needed \citep{Penoyre2022}. Therefore, in this work we will
+adopt the Local Unit Weight Error (LUWE) from \citet{Penoyre2022} to clean our
+sample of binaries. Additionally, we can model populations assuming a local M
+Dwarf binary fraction \citep{Winters2019} to place bounds on gap and gap shift
+detectability. Similarly we will adopt a metallicity function for the solar
+neighborhood (though this is approximatly constant) \citep{Holmberg2009} when
+modeling the gap to place bounds on it and its shift detectability.

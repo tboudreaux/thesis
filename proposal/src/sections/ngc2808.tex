@@ -22,7 +22,7 @@ and Mg cannot be explained by the likes of the CNO cycle \citep{Prantzos2007}.
 Formation channels for these multiple populations remain a point of debate
 amoung astronomers. Most proposed formation channels consist of some older,
 more massive, population of stars polluting the pristine cluter media before a
-second population forms, now enriched in heavier elements they themselves could
+second population forms, now enriched in heavier elements which they themselves could
 not have generated \citep[for a detailed review see ][]{Gratton2012}. The four
 primary candidates for these polluters are asymtotic giant branch stars
 \citep[AGBs,][]{Ventura2001,DErcole2010}, fast rotating massive stars
@@ -41,10 +41,10 @@ models require signifigant mass loss ($\sim 90\%$) between cluster formation
 and the current epoch --- implying that a signifigant fraction of halo stars
 formed in GCs \citep{Renzini2008,DErcole2008,Bastian2015}.
 
-Despite these challenges, predictions of He enhancement distinguishing MPs have
-lined up well with isochrone fitting results. Therefore, it is currently
-accepted that MPs are primarily parameterized by their Helium abundances
-[CITE]. Depending on the cluster, Ys as high as 0.4 have been inferred [CITE].
+In addition to the light-element anti-correlations observed it is also known
+that younger populations are signifigantly enhanced in Helium
+\citep{Piotto2007, Piotto2015, Latour2019}. Depending on the cluster, Helium
+mass fractions as high as $Y=0.4$ have been inferred \citep[e.g][]{Milone2015}.
 However, due to the relatively high and tight temperature range of partial
 ionization for He it cannot be observed in globular clusters; consequently, the
 evidence for enhanced He in GCs originates from comparison of theoretical
@@ -55,26 +55,27 @@ GCs have yet been studied with chemically self-consistent (structure and
 atmosphere) isochrones \citep[e.g.][NGC 6752]{Dotter2015}.
 
 This thesis will contain chapters where we expand the number of clusters which
-have been self-consistently modeled. In this chapter we will focus on the two
-extreme population of NGC 2808 identified by \citep{Milone2015}, A and E.
+have been self-consistently modeled. In this chapter we will focus on
+chemically self-consistent modeling of the two extreme population of NGC 2808
+identified by \citep{Milone2015}, A and E.
 
 One key element of NGC 2808 modeling is the incorporation of new atmospheric
-models, generated from the MARCS grid of model atmospheres \citep{Plez2008},
-which match interior elemental abundances. Members of our collaboration have
-provided atmosphic models for populations A and E. Integration of these new
-model atmospheres into DSEP is ongoing.
+models, generated from the \texttt{MARCS} grid of model atmospheres \citep{Plez2008},
+which match interior elemental abundances. \texttt{MARCS} provides one-dimensional,
+hydrostatic, plane-parallel and spherical LTE atmopsheric models
+\citep{Gustafsson2008}. Members of our collaboration have generated atmosphic
+models for populations A and E.  Integration of these new model atmospheres
+into DSEP is ongoing. 
 
 \subsubsection{Population Opacities}
 For similar reasons as discussed in \S\ref{sec:p1} we conduct this research
-with OPLIB high-temperature opacity tables as opposed to OPAL tables. We use
-our OPLIB web scraper to generate opacity tables with compositions specific to
-each population in NGC 2808.
-
-We do not generate chemically self-consistent low temperature opacities as
-\citep{Dotter2015} do NGC 6752. Instead we shift the atmospheric fitting
-point deep enough into the stars so that only the high temperature opacity
-tables need be consulted. Specifically we drop the atmospheric fitting point from
-an optical depth of $\tau = 1$ to $\tau = 100$. 
+with OPLIB high-temperature opacity tables as opposed to OPAL tables. We will
+also generate low temperature opacity tables using the \texttt{MARCS}.
+Moreover, we confirm that the atmosphere and structure meet in an optically
+thick region of the star by shifting the atmospheric fitting point from an optical
+depth of $\tau = 2/3$ (used by DSEP currently for \texttt{PHOENIX} model atmospheres) to
+some higher $\tau$. We will experiment to identify the best optical depth to
+fit at.. 
 
 These population have been studied in depth by Feiden and their chemical
 compositions were determined in \citet{Milone2015} (see Table 2 in that paper).
@@ -86,14 +87,14 @@ the overall lower opacities of the OPLIB tables.
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.45\textwidth]{src/Figures/033ZIsosOPALOPLIB.pdf}
+	\includegraphics[width=0.75\textwidth]{src/Figures/033ZIsosOPALOPLIB.pdf}
 	\caption{10 Gyr \& Y=0.33 isochrones for models generated with OPAL and
-	OPLIB opacities tables (top). Residuals between isochrones (bottom).}
+	OPLIB opacities tables (top). $\log(L)$ Residuals between isochrones (bottom).}
 	\label{fig:NGC2808ISO}
 \end{figure}
 
 \subsubsection{Additional Consistency}
-The isochrones used to infer the degree of helium enhancements assume that
+The isochrones generally used to infer the degree of helium enhancements assume that
 convection operates in the same manner in metal-poor stars as it does in the
 Sun. However, observations from \textit{Kepler} of metal-poor red giants
 \citep{Bonaca2012, tayar2017correlation}, in concert with interferometric

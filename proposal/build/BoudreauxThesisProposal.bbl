@@ -54,9 +54,6 @@ Carretta, E., Bragaglia, A., Gratton, R.~G., {et~al.} 2010, Astronomy \&
   Abstracts, Vol. 2016, APS Division of Atomic, Molecular and Optical Physics
   Meeting Abstracts, D1.008
 
-\bibitem[{Collaboration {et~al.}(2016)}]{collaboration2016planck}
-Collaboration, P., {et~al.} 2016, XIII. Cosmological parameters
-
 \bibitem[{{Cowling}(1966)}]{Cowling1966}
 {Cowling}, T.~G. 1966, \qjras, 7, 121
 
@@ -70,6 +67,10 @@ Creevey, O., Th{\'e}venin, F., Berio, P., {et~al.} 2015, Astronomy \&
   {Izzard}}]{deMink2009}
 {de Mink}, S.~E., {Pols}, O.~R., {Langer}, N., \& {Izzard}, R.~G. 2009, \aap,
   507, L1, \dodoi{10.1051/0004-6361/200913205}
+
+\bibitem[{Deacon \& Kraus(2020)}]{Deacon2020}
+Deacon, N.~R., \& Kraus, A.~L. 2020, Monthly Notices of the Royal Astronomical
+  Society, 496, 5176, \dodoi{10.1093/mnras/staa1877}
 
 \bibitem[{{Decressin} {et~al.}(2007){Decressin}, {Meynet}, {Charbonnel},
   {Prantzos}, \& {Ekstr{\"o}m}}]{Decressin2007}
@@ -112,6 +113,12 @@ D’Antona, F., Bellazzini, M., Caloi, V., {et~al.} 2005, The Astrophysical
 {Feiden}, G.~A., {Skidmore}, K., \& {Jao}, W.-C. 2021, \apj, 907, 53,
   \dodoi{10.3847/1538-4357/abcc03}
 
+\bibitem[{{Gaia Collaboration} {et~al.}(2021){Gaia Collaboration}, {Smart},
+  {Sarro}, {Rybizki}, {Reyl{\'e}}, {Robin}, {Hambly}, {Abbas}, {Barstow}, {de
+  Bruijne}, \& et~al.}]{GaiaCollaboration2021}
+{Gaia Collaboration}, {Smart}, R.~L., {Sarro}, L.~M., {et~al.} 2021, \aap, 649,
+  A6, \dodoi{10.1051/0004-6361/202039498}
+
 \bibitem[{{Gratton} {et~al.}(2004){Gratton}, {Sneden}, \&
   {Carretta}}]{Gratton2004}
 {Gratton}, R., {Sneden}, C., \& {Carretta}, E. 2004, \araa, 42, 385,
@@ -129,9 +136,19 @@ D’Antona, F., Bellazzini, M., Caloi, V., {et~al.} 2005, The Astrophysical
 {Gratton}, R.~G., {Bonifacio}, P., {Bragaglia}, A., {et~al.} 2001, \aap, 369,
   87, \dodoi{10.1051/0004-6361:20010144}
 
+\bibitem[{{Gustafsson} {et~al.}(2008){Gustafsson}, {Edvardsson}, {Eriksson},
+  {J{\o}rgensen}, {Nordlund}, \& {Plez}}]{Gustafsson2008}
+{Gustafsson}, B., {Edvardsson}, B., {Eriksson}, K., {et~al.} 2008, \aap, 486,
+  951, \dodoi{10.1051/0004-6361:200809724}
+
 \bibitem[{Herschel(1814)}]{Herschel1814}
 Herschel, W. 1814, Philosophical Transactions of the Royal Society of London,
   248
+
+\bibitem[{{Holmberg} {et~al.}(2009){Holmberg}, {Nordstr{\"o}m}, \&
+  {Andersen}}]{Holmberg2009}
+{Holmberg}, J., {Nordstr{\"o}m}, B., \& {Andersen}, J. 2009, \aap, 501, 941,
+  \dodoi{10.1051/0004-6361/200811191}
 
 \bibitem[{{Iglesias} \& {Rogers}(1996)}]{Iglesias1996}
 {Iglesias}, C.~A., \& {Rogers}, F.~J. 1996, \apj, 464, 943,
@@ -145,6 +162,11 @@ Herschel, W. 1814, Philosophical Transactions of the Royal Society of London,
 {Jao}, W.-C., {Henry}, T.~J., {Gies}, D.~R., \& {Hambly}, N.~C. 2018, \apjl,
   861, L11, \dodoi{10.3847/2041-8213/aacdf6}
 
+\bibitem[{{Kervella} {et~al.}(2022){Kervella}, {Arenou}, \&
+  {Th{\'e}venin}}]{Kervella2022}
+{Kervella}, P., {Arenou}, F., \& {Th{\'e}venin}, F. 2022, \aap, 657, A7,
+  \dodoi{10.1051/0004-6361/202142146}
+
 \bibitem[{{Kiman} {et~al.}(2021){Kiman}, {Faherty}, {Cruz}, {Gagn{\'e}},
   {Angus}, {Schmidt}, {Mann}, {Bardalez Gagliuffi}, \& {Rice}}]{Kiman2021}
 {Kiman}, R., {Faherty}, J.~K., {Cruz}, K.~L., {et~al.} 2021, \aj, 161, 277,
@@ -153,6 +175,12 @@ Herschel, W. 1814, Philosophical Transactions of the Royal Society of London,
 \bibitem[{{Kovetz} {et~al.}(2009){Kovetz}, {Yaron}, \& {Prialnik}}]{Kovetz2009}
 {Kovetz}, A., {Yaron}, O., \& {Prialnik}, D. 2009, \mnras, 395, 1857,
   \dodoi{10.1111/j.1365-2966.2009.14670.x}
+
+\bibitem[{{Latour} {et~al.}(2019){Latour}, {Husser}, {Giesers}, {Kamann},
+  {G{\"o}ttgens}, {Dreizler}, {Brinchmann}, {Bastian}, {Wendt}, {Weilbacher},
+  \& {Molinski}}]{Latour2019}
+{Latour}, M., {Husser}, T.~O., {Giesers}, B., {et~al.} 2019, \aap, 631, A14,
+  \dodoi{10.1051/0004-6361/201936242}
 
 \bibitem[{{Lu} {et~al.}(2021){Lu}, {Angus}, {Curtis}, {David}, \&
   {Kiman}}]{Lu2021}
@@ -182,10 +210,6 @@ Milone, A., Marino, A., Piotto, G., {et~al.} 2012, The Astrophysical Journal,
 \bibitem[{Norris(1987)}]{Norris1987}
 Norris, J. 1987, The Astrophysical Journal, 313, L65
 
-\bibitem[{{Nutzman} \& {Charbonneau}(2008)}]{Nut08}
-{Nutzman}, P., \& {Charbonneau}, D. 2008, \pasp, 120, 317,
-  \dodoi{10.1086/533420}
-
 \bibitem[{{Osborn}(1971)}]{Osborn1971}
 {Osborn}, W. 1971, The Observatory, 91, 223
 
@@ -193,6 +217,12 @@ Norris, J. 1987, The Astrophysical Journal, 313, L65
   {Lesaffre}, \& {Timmes}}]{Paxton2011}
 {Paxton}, B., {Bildsten}, L., {Dotter}, A., {et~al.} 2011, The Astrophysical
   Journal Supplement Series, 192, 3, \dodoi{10.1088/0067-0049/192/1/3}
+
+\bibitem[{{Penoyre} {et~al.}(2022){Penoyre}, {Belokurov}, \&
+  {Evans}}]{Penoyre2022}
+{Penoyre}, Z., {Belokurov}, V., \& {Evans}, N.~W. 2022, arXiv e-prints,
+  arXiv:2202.06963.
+\newblock \doarXiv{2202.06963}
 
 \bibitem[{{Piotto} {et~al.}(2007){Piotto}, {Bedin}, {Anderson}, {King},
   {Cassisi}, {Milone}, {Villanova}, {Pietrinferni}, \& {Renzini}}]{Piotto2007}
@@ -207,9 +237,16 @@ Norris, J. 1987, The Astrophysical Journal, 313, L65
 {Piotto}, G., {Milone}, A.~P., {Bedin}, L.~R., {et~al.} 2015, \aj, 149, 91,
   \dodoi{10.1088/0004-6256/149/3/91}
 
+\bibitem[{{Plank Collaboration}(2016)}]{collaboration2016planck}
+{Plank Collaboration}. 2016, XIII. Cosmological parameters
+
 \bibitem[{{Plez}(2008)}]{Plez2008}
 {Plez}, B. 2008, Physica Scripta Volume T, 133, 014003,
   \dodoi{10.1088/0031-8949/2008/T133/014003}
+
+\bibitem[{Plez(2011)}]{Plez2011}
+Plez, B. 2011, Journal of Physics: Conference Series, 328, 012005,
+  \dodoi{10.1088/1742-6596/328/1/012005}
 
 \bibitem[{{Prantzos} {et~al.}(2007){Prantzos}, {Charbonnel}, \&
   {Iliadis}}]{Prantzos2007}
@@ -276,5 +313,10 @@ Tayar, J., Somers, G., Pinsonneault, M.~H., {et~al.} 2017, The Astrophysical
   Song}]{vinyoles2017new}
 Vinyoles, N., Serenelli, A.~M., Villante, F.~L., {et~al.} 2017, The
   Astrophysical Journal, 835, 202
+
+\bibitem[{{Winters} {et~al.}(2019){Winters}, {Henry}, {Jao}, {Subasavage},
+  {Chatelain}, {Slatten}, {Riedel}, {Silverstein}, \& {Payne}}]{Winters2019}
+{Winters}, J.~G., {Henry}, T.~J., {Jao}, W.-C., {et~al.} 2019, \aj, 157, 216,
+  \dodoi{10.3847/1538-3881/ab05dc}
 
 \end{thebibliography}

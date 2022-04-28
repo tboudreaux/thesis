@@ -29,7 +29,7 @@ ASSET_FILES = $(shell find ./src/ -regex '.*\(tex\|bib\|pdf\)$')
 
 default: draft
 
-draft: veryclean ms summary link watermark timelineConvert clean
+draft: veryclean ms summary watermark link timelineConvert clean
 
 final: veryclean ms summary link timelineConvert clean
 
@@ -40,7 +40,8 @@ ms: ./src/$(ASSET_FILES)
 	$(LTC) $(LTFLAGS) $(MANUSCRIPT_PATH).tex -o
 
 watermark:
-	pdftk $(NAME).pdf background misc/Stamp.pdf output $(NAME)_mark.pdf
+	# pdftk $(NAME).pdf background misc/Stamp.pdf output $(NAME)_mark.pdf
+	pdftk $(NAME).pdf stamp misc/Stamp.pdf output $(NAME)_mark.pdf
 	rm $(NAME).pdf
 	mv $(NAME)_mark.pdf $(NAME).pdf
 
@@ -51,8 +52,8 @@ timelineFig: ./src/tikz/timeline_fig.tex ./src/timeline_wrtout.tex
 	$(LTC) $(TLFLAGS) $(TLPATH)
 
 timelineConvert: timelineFig
-	pdftoppm -png -singlefile $(TLNAME).pdf $(TLNAME)
-	mv $(TLNAME).png $(FIG_DIR)
+	- pdftoppm -png -singlefile $(TLNAME).pdf $(TLNAME)
+	- mv $(TLNAME).png $(FIG_DIR)
 
 
 move: | $(BUILD_DIR)
