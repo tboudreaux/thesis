@@ -27,7 +27,7 @@ BUILD_DIR="build"
 ASSET_FILES = $(shell find ./src/ -regex '.*\(tex\|bib\|pdf\)$')
 
 
-default: draft
+default: final
 
 draft: veryclean ms summary watermark link timelineConvert clean
 
