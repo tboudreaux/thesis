@@ -119,6 +119,11 @@ D’Antona, F., Bellazzini, M., Caloi, V., {et~al.} 2005, The Astrophysical
 {Gaia Collaboration}, {Smart}, R.~L., {Sarro}, L.~M., {et~al.} 2021, \aap, 649,
   A6, \dodoi{10.1051/0004-6361/202039498}
 
+\bibitem[{{Gnedin} {et~al.}(2002){Gnedin}, {Zhao}, {Pringle}, {Fall}, {Livio},
+  \& {Meylan}}]{Gnedin2002}
+{Gnedin}, O.~Y., {Zhao}, H., {Pringle}, J.~E., {et~al.} 2002, \apjl, 568, L23,
+  \dodoi{10.1086/340319}
+
 \bibitem[{{Gratton} {et~al.}(2004){Gratton}, {Sneden}, \&
   {Carretta}}]{Gratton2004}
 {Gratton}, R., {Sneden}, C., \& {Carretta}, E. 2004, \araa, 42, 385,
@@ -181,6 +186,11 @@ Herschel, W. 1814, Philosophical Transactions of the Royal Society of London,
   \& {Molinski}}]{Latour2019}
 {Latour}, M., {Husser}, T.~O., {Giesers}, B., {et~al.} 2019, \aap, 631, A14,
   \dodoi{10.1051/0004-6361/201936242}
+
+\bibitem[{{Lee} {et~al.}(1999){Lee}, {Joo}, {Sohn}, {Rey}, {Lee}, \&
+  {Walker}}]{Lee1999}
+{Lee}, Y.~W., {Joo}, J.~M., {Sohn}, Y.~J., {et~al.} 1999, \nat, 402, 55,
+  \dodoi{10.1038/46985}
 
 \bibitem[{{Lu} {et~al.}(2021){Lu}, {Angus}, {Curtis}, {David}, \&
   {Kiman}}]{Lu2021}

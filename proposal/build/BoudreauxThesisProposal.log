@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.1.21)  28 APR 2022 09:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.1.21)  11 MAY 2022 08:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -860,21 +860,21 @@ File: src/Figures/Gould53.png Graphic file (type png)
 <use src/Figures/Gould53.png>
 Package pdftex.def Info: src/Figures/Gould53.png  used on input line 65.
 (pdftex.def)             Requested size: 379.4175pt x 266.17053pt.
- [4 <./src/Figures/Gould53.png>] [5]) (./src/sections/thesis.tex
-(./src/sections/jaoGap1.tex [6]
-<src/Figures/JaoGap.png, id=176, 1637.11626pt x 1228.59pt>
+ [4 <./src/Figures/Gould53.png>] [5]) (./src/sections/thesis.tex [6]
+(./src/sections/jaoGap1.tex
+<src/Figures/JaoGap.png, id=180, 1637.11626pt x 1228.59pt>
 File: src/Figures/JaoGap.png Graphic file (type png)
 <use src/Figures/JaoGap.png>
 Package pdftex.def Info: src/Figures/JaoGap.png  used on input line 30.
 (pdftex.def)             Requested size: 379.4175pt x 284.72563pt.
- [7 <./src/Figures/JaoGap.png>] [8]
-<src/Figures/OPALOPLIB_popsynth_comp.pdf, id=219, 1245.28911pt x 476.70503pt>
+ [7 <./src/Figures/JaoGap.png>] [8] [9]
+<src/Figures/OPALOPLIB_popsynth_comp.pdf, id=232, 1245.28911pt x 476.70503pt>
 File: src/Figures/OPALOPLIB_popsynth_comp.pdf Graphic file (type pdf)
 <use src/Figures/OPALOPLIB_popsynth_comp.pdf>
 Package pdftex.def Info: src/Figures/OPALOPLIB_popsynth_comp.pdf  used on input
  line 120.
 (pdftex.def)             Requested size: 430.00958pt x 164.60889pt.
-<src/Figures/OpacityComparision.pdf, id=220, 927.61877pt x 775.82573pt>
+<src/Figures/OpacityComparision.pdf, id=233, 927.61877pt x 775.82573pt>
 File: src/Figures/OpacityComparision.pdf Graphic file (type pdf)
 <use src/Figures/OpacityComparision.pdf>
 Package pdftex.def Info: src/Figures/OpacityComparision.pdf  used on input line
@@ -889,35 +889,32 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
- [9] [10 <./src/Figures/OPALOPLIB_popsynth_comp.pdf> <./src/Figures/OpacityComp
-arision.pdf
-
-pdfTeX warning: pdflatex (file ./src/Figures/OpacityComparision.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
->] [11]
+ [10 <./src/Figures/OPALOPLIB_popsynth_comp.pdf>] [11 <./src/Figures/OpacityCom
+parision.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 40--40
 [][]| [] [][][][]$\OT1/cmr/m/n/10 https : / / gea . esac . esa . int / archive 
 / documentation / GDR2 / Data[]processing / chap[]cu5pho / sec[]cu5pho[]calibr 
 /
  []
 
-<src/Figures/JaoGapTheoreticalTimeEvolution.pdf, id=312, 1900.6712pt x 1306.631
+[12]
+<src/Figures/JaoGapTheoreticalTimeEvolution.pdf, id=329, 1900.6712pt x 1306.631
 44pt>
 File: src/Figures/JaoGapTheoreticalTimeEvolution.pdf Graphic file (type pdf)
 <use src/Figures/JaoGapTheoreticalTimeEvolution.pdf>
 Package pdftex.def Info: src/Figures/JaoGapTheoreticalTimeEvolution.pdf  used o
 n input line 95.
 (pdftex.def)             Requested size: 404.71353pt x 278.20877pt.
-[12]
-<src/Figures/WvelDist.pdf, id=328, 618.41801pt x 447.48776pt>
+ [13 <./src/Figures/JaoGapTheoreticalTimeEvolution.pdf>]
+<src/Figures/WvelDist.pdf, id=368, 618.41801pt x 447.48776pt>
 File: src/Figures/WvelDist.pdf Graphic file (type pdf)
 <use src/Figures/WvelDist.pdf>
 Package pdftex.def Info: src/Figures/WvelDist.pdf  used on input line 117.
 (pdftex.def)             Requested size: 379.4175pt x 274.55125pt.
-) [13 <./src/Figures/JaoGapTheoreticalTimeEvolution.pdf>]
-(./src/sections/jaoGap3.tex) [14 <./src/Figures/WvelDist.pdf>]
+)
+(./src/sections/jaoGap3.tex [14 <./src/Figures/WvelDist.pdf>])
 (./src/sections/ngc2808.tex [15] [16]
-<src/Figures/033ZIsosOPALOPLIB.pdf, id=487, 920.59724pt x 776.74934pt>
+<src/Figures/033ZIsosOPALOPLIB.pdf, id=494, 920.59724pt x 776.74934pt>
 File: src/Figures/033ZIsosOPALOPLIB.pdf Graphic file (type pdf)
 <use src/Figures/033ZIsosOPALOPLIB.pdf>
 Package pdftex.def Info: src/Figures/033ZIsosOPALOPLIB.pdf  used on input line 
@@ -943,10 +940,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
 
  ) 
 Here is how much of TeX's memory you used:
- 20008 strings out of 492641
- 364521 string characters out of 6131787
- 470798 words of memory out of 5000000
- 23400 multiletter control sequences out of 15000+600000
+ 20015 strings out of 492641
+ 364637 string characters out of 6131787
+ 477970 words of memory out of 5000000
+ 23405 multiletter control sequences out of 15000+600000
  16468 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,9n,65p,421b,686s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -966,10 +963,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on BoudreauxThesisProposal.pdf (23 pages, 914179 bytes).
+Output written on BoudreauxThesisProposal.pdf (23 pages, 915025 bytes).
 PDF statistics:
- 689 PDF objects out of 1000 (max. 8388607)
- 613 compressed objects within 7 object streams
- 121 named destinations out of 1000 (max. 500000)
+ 697 PDF objects out of 1000 (max. 8388607)
+ 621 compressed objects within 7 object streams
+ 123 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
