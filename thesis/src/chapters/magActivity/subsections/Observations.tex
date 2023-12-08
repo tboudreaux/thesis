@@ -1,0 +1,45 @@
+\section{Observations \& Data Reduction}\label{sec:Observations}
+We \textbf{initially} selected a sample of 55 mid-late M-dwarfs from targets of
+the MEarth survey \citep{Ber12} to observe. Targets were selected based on high
+proper motions and availability of a previously measured photometric rotation
+period, or an expectation of a measurement based on data available from
+MEarth-South at the time. These rotational periods were derived photometrically
+\citep[e.g.][]{Newton2016,Man16,Med20}. For star 2MASS J06022261-2019447, which
+was categorized as an ``uncertain detection'' from MEarth photometry by
+\citet{Newton2018}, including new data from MEarth DR10 we find a period of 95
+days. This value was determined following similar methodology to \citet{Irw11}
+and \citet{Newton2016,Newton2018}, and is close to the reported candidate
+period of 116 days.  References for all periods are provided in the machine
+readable version of Table \ref{tab:finalData}.   
+
+High resolution spectra were collected from March to October 2017 using the
+Magellan Inamori Kyocera Echelle (MIKE) spectrograh on the 6.5 meter Magellan 2
+telescope at the Las Campanas Observatory in Chile. MIKE is a high resolution
+double echelle spectrograph with blue and red arms. Respectively, these cover
+wavelengths from 3350 - 5000 \AA\ and 4900-9500 \AA\ \citep{Ber03}. We
+collected data using a 0.75x5.00" slit resulting in a resolving power of 32700.
+Each science target was observed an average of four times with mean integration
+times per observation ranging from 53.3 to 1500 seconds. \textbf{Ca II H\&K
+lines were observed over a wide range of signa-to-noise ratios, from $\sim 5$ up
+to $\sim 240$ with mean and median values of 68 and 61 respectively.}
+
+We use the \texttt{CarPy} pipeline \citep{Kel00, Kel03} to reduce our blue arm
+spectra. \texttt{CarPy}'s data products are wavelength calibrated, blaze
+corrected, and background subtracted spectra comprising 36 orders. We shift all
+resultant target spectra into the rest frame by cross correlating against a
+velocity template spectrum. For the velocity template we use an observation of
+Proxima Centari in our sample. This spectrum's velocity is both barycentrically
+corrected, using astropy's \texttt{SkyCoord} module \citep{Ast18}, and
+corrected for Proxima Centari's measured radial velocity, -22.4 km s$^{-1}$
+\citep{Tor06}. Each echelle order of every other target observation is cross
+correlated against the corresponding order in the template spectra using
+\texttt{specutils} \texttt{template\_correlate} function \citep{Nic21}.
+Velocity offsets for each order are inferred from a Gaussian fit to the
+correlation vs. velocity lag function. For each target, we apply a three sigma
+clip to list of echelle order velocities, visually verifying this clip removed
+low S/N orders. We take the mean of the sigma-clipped velocities Finally, each
+wavelength bin is shifted according to its measured velocity.
+
+Ultimately, two targets (2MASS J16570570-0420559 and 2MASS J04102815-5336078)
+had S/N ratios around the Ca II H\&K lines which were too low to be of use,
+reducing the number of R'$_{HK}$ measurement we can make from 55 to 53. 

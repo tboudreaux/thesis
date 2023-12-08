@@ -1,0 +1,30 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Globular Clusters}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Why Globular Clusters Matter}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Modeling Globular Clusters}{chapter.2}% 4
+\BOOKMARK [2][-]{subsection.2.2.1}{Problems Modeling Globular Clusters}{section.2.2}% 5
+\BOOKMARK [1][-]{section.2.3}{Modeling NGC 2808}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.4}{Modeling NGC 6752}{chapter.2}% 7
+\BOOKMARK [0][-]{chapter.3}{Magnetic Fields In M Dwarfs}{}% 8
+\BOOKMARK [1][-]{section.3.1}{Magnetic Activity in M dwarfs}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.2}{Observations \046 Data Reduction}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.3}{Analysis}{chapter.3}% 11
+\BOOKMARK [2][-]{subsection.3.3.1}{Rotation and Rossby Number}{section.3.3}% 12
+\BOOKMARK [1][-]{section.3.4}{Rotation\205Activity Relation}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.5}{Magnetic Activities in M dwarfs Closing Thoughts}{chapter.3}% 14
+\BOOKMARK [0][-]{chapter.4}{Jao Gap}{}% 15
+\BOOKMARK [1][-]{section.4.1}{Jao Gap Sensitivity to Opacity}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.2}{INTRODUCTION}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.3}{Jao Gap}{chapter.4}% 18
+\BOOKMARK [2][-]{subsection.4.3.1}{Efforts to Model the Gap}{section.4.3}% 19
+\BOOKMARK [1][-]{section.4.4}{Updated Opacities}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.4.1}{Table Querying and Conversion}{section.4.4}% 21
+\BOOKMARK [2][-]{subsection.4.4.2}{Solar Calibrated Stellar Models}{section.4.4}% 22
+\BOOKMARK [1][-]{section.4.5}{pyTOPSScrape}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.6}{Interpolating \040R}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.7}{Modeling}{chapter.4}% 25
+\BOOKMARK [2][-]{subsection.4.7.1}{Population Synthesis}{section.4.7}% 26
+\BOOKMARK [2][-]{subsection.4.7.2}{Mixing Length Dependence}{section.4.7}% 27
+\BOOKMARK [1][-]{section.4.8}{Results}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.9}{Jao Gap connection to Magnatism}{chapter.4}% 29
+\BOOKMARK [0][-]{chapter.5}{Conclusions}{}% 30

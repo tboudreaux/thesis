@@ -1,13 +1,23 @@
 % mythesis.cls
-\ProvidesClass{mythesis}[2023/12/05 My custom thesis class]
-\LoadClass{article}
+\ProvidesClass{GuariniThesis}[2023/12/05 My custom thesis class]
+% \LoadClass{article}
+\LoadClass{book}
 
 % Load required packages
 \RequirePackage{graphicx} % Required for inserting images
 \RequirePackage{setspace}
 \RequirePackage[left=1.5in, right=1in, top=1in, bottom=1in]{geometry}
-\RequirePackage{color}
+\RequirePackage{xcolor}
 \RequirePackage{calc}
+\RequirePackage{titlesec}
+\RequirePackage{natbib}
+\RequirePackage{amsmath}
+
+\RequirePackage{hyperref}
+\hypersetup{colorlinks=true}
+\hypersetup{linkcolor=black}
+
+
 
 % Define the fontsize and linespacing
 \renewcommand{\normalsize}{\fontsize{12}{14.4}\selectfont}
@@ -35,6 +45,7 @@
 }
 
 
+
 % Title page definition
 \renewcommand{\maketitle}{
    \begin{titlepage}
@@ -42,8 +53,6 @@
       \begin{center}
           \vspace*{1cm}
           \textbf{\@thesisTitle}
-          % ... rest of the title page as above
-          % Use \@authorName, \@field, etc. where needed
     
            \vspace{0.5cm}
             A Thesis\\
@@ -130,6 +139,7 @@ Dean of the Guarini School of Graduate and Advanced Studies
 }% Preface section
 \newcommand{\GuariniAbstract}{
   \newpage
+  \pagenumbering{roman}
   \setstretch{1.5}
   \fontsize{12}{14.4}
   \selectfont
@@ -151,6 +161,7 @@ Dean of the Guarini School of Graduate and Advanced Studies
   \vspace*{\fill}
   \begin{center}
     \textbf{Copyright Notice}
+
         This work is licensed under the Creative Commons\\
         Attribution-NonCommercial-ShareAlike 4.0 International License.\\
         To view a copy of this license, visit\\
@@ -163,6 +174,7 @@ Dean of the Guarini School of Graduate and Advanced Studies
 
 \newcommand{\makePrelim}{
     \maketitle
+    \copyrightnotice
     \dedication
     \GuariniAbstract
     \preface
@@ -173,3 +185,77 @@ Dean of the Guarini School of Graduate and Advanced Studies
 }
 
 \endinput
+
+% Astronomy Jounral Abreviations
+\let\jnl@style=\rmfamily 
+\def\ref@jnl#1{{\jnl@style#1}}% 
+\newcommand\aj{\ref@jnl{AJ}}%        % Astronomical Journal 
+\newcommand\psj{\ref@jnl{PSJ}}%       % Planetary Science Journal
+\newcommand\araa{\ref@jnl{ARA\&A}}%  % Annual Review of Astron and Astrophys 
+\renewcommand\apj{\ref@jnl{ApJ}}%    % Astrophysical Journal 
+\newcommand\apjl{\ref@jnl{ApJL}}     % Astrophysical Journal, Letters 
+\newcommand\apjs{\ref@jnl{ApJS}}%    % Astrophysical Journal, Supplement 
+\renewcommand\ao{\ref@jnl{ApOpt}}%   % Applied Optics 
+\newcommand\apss{\ref@jnl{Ap\&SS}}%  % Astrophysics and Space Science 
+\newcommand\aap{\ref@jnl{A\&A}}%     % Astronomy and Astrophysics 
+\newcommand\aapr{\ref@jnl{A\&A~Rv}}%  % Astronomy and Astrophysics Reviews 
+\newcommand\aaps{\ref@jnl{A\&AS}}%    % Astronomy and Astrophysics, Supplement 
+\newcommand\azh{\ref@jnl{AZh}}%       % Astronomicheskii Zhurnal 
+\newcommand\baas{\ref@jnl{BAAS}}%     % Bulletin of the AAS 
+\newcommand\icarus{\ref@jnl{Icarus}}% % Icarus
+\newcommand\jaavso{\ref@jnl{JAAVSO}}  % The Journal of the American Association of Variable Star Observers
+\newcommand\jrasc{\ref@jnl{JRASC}}%   % Journal of the RAS of Canada 
+\newcommand\memras{\ref@jnl{MmRAS}}%  % Memoirs of the RAS 
+\newcommand\mnras{\ref@jnl{MNRAS}}%   % Monthly Notices of the RAS 
+\renewcommand\pra{\ref@jnl{PhRvA}}% % Physical Review A: General Physics 
+\renewcommand\prb{\ref@jnl{PhRvB}}% % Physical Review B: Solid State 
+\renewcommand\prc{\ref@jnl{PhRvC}}% % Physical Review C 
+\renewcommand\prd{\ref@jnl{PhRvD}}% % Physical Review D 
+\renewcommand\pre{\ref@jnl{PhRvE}}% % Physical Review E 
+\renewcommand\prl{\ref@jnl{PhRvL}}% % Physical Review Letters 
+\newcommand\pasp{\ref@jnl{PASP}}%     % Publications of the ASP 
+\newcommand\pasj{\ref@jnl{PASJ}}%     % Publications of the ASJ 
+\newcommand\qjras{\ref@jnl{QJRAS}}%   % Quarterly Journal of the RAS 
+\newcommand\skytel{\ref@jnl{S\&T}}%   % Sky and Telescope 
+\newcommand\solphys{\ref@jnl{SoPh}}% % Solar Physics 
+\newcommand\sovast{\ref@jnl{Soviet~Ast.}}% % Soviet Astronomy 
+\newcommand\ssr{\ref@jnl{SSRv}}% % Space Science Reviews 
+\newcommand\zap{\ref@jnl{ZA}}%       % Zeitschrift fuer Astrophysik 
+\renewcommand\nat{\ref@jnl{Nature}}%  % Nature 
+\newcommand\iaucirc{\ref@jnl{IAUC}}% % IAU Cirulars 
+\newcommand\aplett{\ref@jnl{Astrophys.~Lett.}}%  % Astrophysics Letters 
+\newcommand\apspr{\ref@jnl{Astrophys.~Space~Phys.~Res.}}% % Astrophysics Space Physics Research 
+\newcommand\bain{\ref@jnl{BAN}}% % Bulletin Astronomical Institute of the Netherlands 
+\newcommand\fcp{\ref@jnl{FCPh}}%   % Fundamental Cosmic Physics 
+\newcommand\gca{\ref@jnl{GeoCoA}}% % Geochimica Cosmochimica Acta 
+\newcommand\grl{\ref@jnl{Geophys.~Res.~Lett.}}%  % Geophysics Research Letters 
+\renewcommand\jcp{\ref@jnl{JChPh}}%     % Journal of Chemical Physics 
+\newcommand\jgr{\ref@jnl{J.~Geophys.~Res.}}%     % Journal of Geophysics Research 
+\newcommand\jqsrt{\ref@jnl{JQSRT}}%   % Journal of Quantitiative Spectroscopy and Radiative Trasfer 
+\newcommand\memsai{\ref@jnl{MmSAI}}% % Mem. Societa Astronomica Italiana 
+\newcommand\nphysa{\ref@jnl{NuPhA}}%     % Nuclear Physics A 
+\newcommand\physrep{\ref@jnl{PhR}}%       % Physics Reports 
+\newcommand\physscr{\ref@jnl{PhyS}}%        % Physica Scripta 
+\newcommand\planss{\ref@jnl{Planet.~Space~Sci.}}%  % Planetary Space Science 
+\newcommand\procspie{\ref@jnl{Proc.~SPIE}}%      % Proceedings of the SPIE 
+
+\newcommand\actaa{\ref@jnl{AcA}}%  % Acta Astronomica
+\newcommand\caa{\ref@jnl{ChA\&A}}%  % Chinese Astronomy and Astrophysics
+\newcommand\cjaa{\ref@jnl{ChJA\&A}}%  % Chinese Journal of Astronomy and Astrophysics
+\newcommand\jcap{\ref@jnl{JCAP}}%  % Journal of Cosmology and Astroparticle Physics
+\newcommand\na{\ref@jnl{NewA}}%  % New Astronomy
+\newcommand\nar{\ref@jnl{NewAR}}%  % New Astronomy Review
+\newcommand\pasa{\ref@jnl{PASA}}%  % Publications of the Astron. Soc. of Australia
+\newcommand\rmxaa{\ref@jnl{RMxAA}}%  % Revista Mexicana de Astronomia y Astrofisica
+
+%% added feb 9, 2016
+\newcommand\maps{\ref@jnl{M\&PS}}% Meteoritics and Planetary Science
+\newcommand\aas{\ref@jnl{AAS Meeting Abstracts}}% American Astronomical Society Meeting Abstracts
+\newcommand\dps{\ref@jnl{AAS/DPS Meeting Abstracts}}% American Astronomical Society/Division for Planetary Sciences Meeting Abstracts
+
+
+
+\let\astap=\aap 
+\let\apjlett=\apjl 
+\let\apjsupp=\apjs 
+\let\applopt=\ao

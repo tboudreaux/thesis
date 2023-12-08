@@ -1,0 +1,73 @@
+\section{INTRODUCTION}\label{sec:intro}
+Due to the initial mass requirements of the molecular clouds which collapse to form
+stars, star formation is strongly biased towards lower mass, later spectral
+class stars when compared to higher mass stars. Partly as a result of this
+bias and partly as a result of their extremely long main-sequence lifetimes,
+M Dwarfs make up approximately 70 percent of all stars in the galaxy. Moreover,
+some planet search campaigns have focused on M Dwarfs due to the relative ease
+of detecting small planets in their habitable zones \citep[e.g.][]{Nut08}.
+M Dwarfs then represent both a key component of the galactic stellar population
+as well as the possible set of stars which may host habitable exoplanets.
+Given this key location M Dwarfs occupy in modern astronomy it is important to
+have a thorough understanding of their structure and evolution.
+
+\citet{Jao2018} discovered a novel feature in the Gaia Data Release 2 (DR2)
+$G_{BP}-G_{RP}$ color-magnitude-diagram. Around $M_{G}=10$ there is an
+approximately 17 percent decrease in stellar density of the sample of stars
+\citet{Jao2018} considered. Subsequently, this has become known as either the
+Jao Gap, or Gaia M Dwarf Gap. Following the initial detection of the Gap in DR2
+the Gap has also potentially been observed in 2MASS \citep{Skrutskie2006,
+Jao2018}; however, the significance of this detection is quite weak and it
+relies on the prior of the Gap's location from Gaia data. Further, the Gap is
+also present in Gaia Early Data Release 3 (EDR3) \citep{Jao2021}. These EDR3
+and 2MASS data sets then indicate that this feature is not a bias inherent to
+DR2.
+
+The Gap is generally attributed to convective instabilities in the cores of
+stars straddling the fully convective transition mass (0.3 - 0.35 M$_{\odot}$)
+\citep{Baraffe2018}. These instabilities interrupt the normal, slow, main
+sequence luminosity evolution of a star and result in luminosities lower
+than expected from the main sequence mass-luminosity relation \citep{Jao2020}.
+
+The Jao Gap, inherently a feature of M Dwarf populations, provides an enticing
+and unique view into the interior physics of these stars \citep{Feiden2021}.
+This is especially important as, unlike more massive stars, M Dwarf seismology
+is infeasible due to the short periods and extremely small
+magnitudes which both radial and low-order low-degree non-radial seismic waves
+are predicted to have in such low mass stars \citep{Rodriguez-Lopez2019}. The
+Jao Gap therefore provides one of the only current methods to probe the
+interior physics of M Dwarfs.
+
+Despite the early success of modeling the Gap some issues remain.
+\citet{Jao2020, Jao2021} identify that the Gap has a wedge shape which has not been
+successful reproduced by any current modeling efforts and which implies a
+somewhat unusual population composition of young, metal-poor stars. Further,
+\citet{Jao2020} identify substructure, an additional over density of stars,
+directly below the Gap, again a feature not yet fully captured by current
+models. 
+
+All currently published models of the Jao Gap make use of OPAL high temperature
+radiative opacities. Here we investigate the effect of using the more
+up-to-date OPLIB high temperature radiative opacities and whether these opacity
+tables bring models more in line with observations. In Section \ref{sec:JaoGap}
+we provide an overview of the physics believed to result in the Jao Gap, in
+Section \ref{sec:opac} we review the differences between OPAL and OPLIB and
+describe how we update DSEP to use OPLIB opacity tables. Section
+\ref{sec:modeling} walks through the stellar evolution and population synthesis
+modeling we perform. Finally, in Section \ref{sec:results} we present our
+findings. 
+
+% Stellar modeling has been successful in reproducing the Jao Gap
+% \citep[e.g.][]{Feiden2021,Mansfield2021} and, with these models, we have begun
+% to understand which parameters constrain the Jao Gap's location. For example,
+% it is now well documented that metallicity affects the Jao Gap's color, with
+% higher metallicity stellar populations showing the Jao Gap at consistently
+% higher masses / bluer colors \citep{Mansfield2021}.
+%
+% {\color{red} EXPAND THIS, READ SOME OTHER GAP PAPERS TO SEE WHAT THEY DO}
+
+% Both \citeauthor{Feiden2021} and \citeauthor{Mansfield2021} demonstrate the Jao
+% Gap's location sensitivity to age, evolving to higher mass regions of the
+% mass-luminosity relation with population age. Per \citet{Mansfield2021} the
+% degree of this location evolution also does not seem to be strongly sensitive
+% to metallicity. 

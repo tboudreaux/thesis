@@ -1,0 +1,20 @@
+\section{\texttt{pyTOPSScrape}}\label{apx:pytopsscrape}
+\texttt{pyTOPSScrape} provides an easy to use command line and python interface
+for the OPLIB opacity tables accessed through the TOPS web form. Extensive
+documentation of both the command line and programmatic interfaces is linked
+in the version controlled repository. However, here we provide a brief,
+illustrative, example of potential use.
+
+Assuming \texttt{pyTOPSScrape} has been installed and given some working
+directory which contains a file describing a base composition (``comp.dat'')
+and another file containing a list of rescalings of that base composition
+(``rescalings.dat'') (both of these file formats are described in detail in the
+documentation), one can query OPLIB opacity tables and convert them to a form
+mimicking that of type 1 OPAL high temperature opacity tables using the
+following shell command.
+
+\begin{verbatim}
+	$ generateTOPStables comp.dat rescalings.dat -d ./TOPSCache -o out.opac -j 20
+\end{verbatim}
+
+\noindent For further examples of pyTOPSScrape please visit the repository.

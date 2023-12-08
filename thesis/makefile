@@ -13,7 +13,7 @@ all: pdf
 
 pdf: ./src/$(ASSET_FILE)
 	cd src && $(LTC) $(TFLAGS) $(SRC_DIR)/$(MAIN_SRC)
-	cd src && $(BTC) $(NAME)
+	-cd src && $(BTC) $(NAME)
 	cd src && $(LTC) $(TFLAGS) $(SRC_DIR)/$(MAIN_SRC)
 	cd src && $(LTC) $(TFLAGS) $(SRC_DIR)/$(MAIN_SRC)
 	cp src/$(NAME).pdf .

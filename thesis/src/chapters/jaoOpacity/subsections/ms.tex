@@ -1,0 +1,120 @@
+\documentclass[preprint2]{aastex62}
+\newcommand{\vdag}{(v)^\dagger}
+\newcommand\aastex{AAS\TeX}
+\newcommand\latex{La\TeX}
+
+\usepackage{amsmath}
+\usepackage{cancel}
+\usepackage{float}
+
+\shorttitle{Updated Opacities for DSEP}
+\shortauthors{Boudreaux et al.}
+% \watermark{DRAFT}
+% \graphicspath{{./}{figures/}{src/figures}}
+
+\begin{document}
+
+\title{Updated High-Temperature Opacities for The Dartmouth Stellar Evolution
+Program and their Effect on the Jao Gap Location}
+
+\correspondingauthor{Thomas M. Boudreaux}
+\email{thomas.m.boudreaux.gr@dartmouth.edu,\\thomas@boudreauxmail.com}
+
+\author[0000-0002-2600-7513]{Thomas M. Boudreaux}
+\affiliation{Department of Physics and Astronomy, Dartmouth College, Hanover, NH 03755, USA}
+
+\author[0000-0003-3096-4161]{Brian C. Chaboyer}
+\affiliation{Department of Physics and Astronomy, Dartmouth College, Hanover, NH 03755, USA}
+
+\received{9/20/2022}
+\revised{12/12/2022}
+\revised{1/23/2023}
+\accepted{1/24/2023}
+% \submitjournal{ApJ}
+
+
+\begin{abstract}
+
+	The Jao Gap, a 17 percent decrease in stellar density at M$_{G} \sim$ 10
+	identified in both Gaia DR2 and EDR3 data, presents a new method to probe
+	the interior structure of stars near the fully convective transition mass.
+	The Gap is believed to originate from convective kissing instability
+	wherein asymmetric production of $^{3}$He causes the core convective zone
+	of a star to periodically expand and contract and consequently the stars’
+	luminosity to vary. Modeling of the Gap has revealed a sensitivity in its
+	magnitude to a population’s metallicity primarily through opacity. Thus
+	far, models of the Jao Gap have relied on OPAL high-temperature radiative
+	opacities. Here we present updated synthetic population models tracing the
+	Gap location modeled with the Dartmouth stellar evolution code using the
+	OPLIB high-temperature radiative opacities. Use of these updated opacities
+	changes the predicted location of the Jao Gap by $\sim$0.05 mag as compared
+	to models which use the OPAL opacities. This difference is likeley too
+	small to be detectable in empirical data.
+
+\end{abstract}
+
+\keywords{Stellar Evolution (1599) --- Stellar Evolutionary Models (2046)}
+
+\input{intro.tex}
+
+\input{JaoGap.tex}
+
+\input{opacity.tex}
+
+% \input{SSCM.tex}
+
+\input{Modeling.tex}
+
+\input{Results.tex}
+
+\input{Conclusion.tex}
+
+
+
+\acknowledgments{
+	This work has made use of the NASA astrophysical data system (ADS). We
+	would like to thank Elisabeth Newton, Aaron Dotter, and Gregory Feiden for
+	their support and for useful discussion related to the topic of this paper.
+	We would like to thank our reviewer for their critical eye and their
+	guidance to investigate to effects of the mixing length on the Gap
+	Location. Additionally, we would like to thank James Colgan and the Los
+	Alamos T-1 group for their assistance with the OPLIB opacity tables and
+	support for the public release of \texttt{pyTOPSScrape}. We acknowledge the
+	support of a NASA grant (No. 80NSSC18K0634). 
+}
+\acknowledgments
+
+% \begin{acknowledgments}
+% 	This work has made use of the NASA astrophysical data system (ADS). We
+% 	would like to thank Elisabeth Newton, Aaron Dotter, and Gregory Feiden for
+% 	their support and for useful discussion related to the topic of this paper.
+% 	We would like to thank our reviewer for their critical eye and their
+% 	guidance to investigate to effects of the mixing length on the Gap
+% 	Location. Additionally, we would like to thank James Colgan and the Los
+% 	Alamos T-1 group for their assistance with the OPLIB opacity tables and
+% 	support for the public release of \texttt{pyTOPSScrape}. We acknowledge the
+% 	support of a NASA grant (No. 80NSSC18K0634). 
+% \end{acknowledgments}
+
+\software{
+	The Dartmouth Stellar Evolution Program (DSEP) \citep{Dotter2008},
+	\texttt{BeautifulSoup} \citep{richardson2007beautiful},
+	\texttt{mechanize} \citep{chandra2015python},
+	\texttt{FreeEOS} \citep{Irwin2012},
+	\texttt{pyTOPSScrape} \citep{Boudreaux22}
+}
+
+\appendix
+
+\input{pytopsscrape.tex}
+
+\input{interp.tex}
+
+
+
+\bibliography{ms}{}
+\bibliographystyle{aasjournal}
+
+
+\end{document}
+
