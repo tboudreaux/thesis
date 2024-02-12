@@ -1,0 +1,172 @@
+\chapter{A Breif History of Humans \& Stars}
+\begin{quote}\em
+  Doubt thou the stars are fire;
+  Doubt that the sun doth move;
+  Doubt the truth to be a liar;
+\end{quote}
+\begin{flushright}
+-- Hamlet, Act 2, Scene 2
+\end{flushright}
+\section{A post prelude prelude}
+I will start by saying that I am not trained in history and perhapse it is
+self-indulgent to being with such an ameture overview of another academic
+field. However, all of the abstraction which we surruond ourselves with in so
+many of the physical sciences may sometimes sever us from underlying
+motivations as to why we are interested. It is true that we often speak to the
+public and to funding agencies about grand ambition and infinite possibility;
+however, our day-to-day lives are not defined by these things. We spend so much
+of our time either immersed in the fine details or prostelatizing about greater
+purpose that I find that I often feel discconected from the real reason I am
+interested in astronomy. I study astronomy because I am interested in space,
+there is no greater reason, nothing more substantial than a five year old
+sitting with their father outside their preschool asking about why the stars
+and moon are the way that they are. With that being said, please bear with me
+as I walk us through a breif history of some of the places stars have had in
+human civilization and the evolution of our understanding of them.
+
+
+\section{Stars In Ancient Times}
+The ansestors of humans have no doubt been looking at the sky since before they
+were humans; however, there are limited ways to study these prehistoric
+astronomers. Some reminatnts of ealy human (pre-history, $\gtrapprox$ 5000 yrs
+ago) stargazing to remain, largely in the form of earthn works \addcite. The
+earliest records we have show stars playing an imporant role in regligious
+practices, navigation, and time keeping \addcite. These early understandings
+recognized differences between the fixed stars and the wandring stars though
+it would be many more centuries and millenia before the full extent of those
+differences became clear \addcite.
+
+As far back as the 1300s B.C.E there were accurate star charts being produced
+by ancient Egyptian, Babylonian, and Chinese astronomers. Fourth century B.C.E
+Greeks develope star catalougs and many of the moden day English names of stars
+still derive from these early catalougs.
+
+The understanding of fixed stars at this time was not one of objects similar to
+our sun; rather, they were thought to be seperate things altogether. Various
+cosmologies supposed that stars were points on a celestial sphere which
+surrounded the earth, such as the Babylonian cosmology with posited that the
+stars existed in a heaven of their own which was interlocked with 2 other
+heavens.
+
+\section{Astronomy Becomes a Science}
+The ancient Greeks, Babylonians, and Chinese contributed greatly to our
+understanding of the universe; however, it was later work, largely by Islamic
+and Indian scholars which form the basis of what we think of as modern
+astronomy. These astronomers were not yet conceptualizing the universe the way
+that we model it today; however, they began systamatized observations of the
+universe in ways which would be recognizable. One of the main driving forces of
+astronomy during this period was nagivation and to that end new instrumentation
+was developed and early observatories were built. In 934 C.E. \textit{The Book
+of Fixed Stars} was written by Abd al-Rahman al-Sufi. A expansion of the kinds
+of catalougs which began over a millenia earlier and allowed for more precise
+navigation of ships. 
+
+By the 10th Century C.E. Islamic scholars had found evidence that the Earth was not,
+contrary to Ptolomeic ideas, stationary. In the following centuries multiple 
+critisicms of Ptolemeic theories were published, though none going quite as far
+as doubting the geocentric model of the universe. One primary change to these
+ancient theories was the regognition that the Earth rotates about its axis 
+as opposed to the heavens rotaing around earth \addcite. 
+
+\section{The Birth of Modern Astronomy}
+Modern Astronomy does not have a single birth, and different cultures at
+different points in time have contributed in various ways to our modern understanding. 
+
+\chapter{Stars in the Modern World}
+Over the last half of the 19th and first decade of the 20th centuries Lane,
+Ritter, and Emden codified the earliest mathematical model of stellar
+structure, the polytrope (Equation \ref{eqn:polytrope}), in \textit{Gaskugeln}
+(Gas Balls) \citep{Emden1907}.
+
+\begin{align}\label{eqn:polytrope}
+	\frac{d}{d\xi}\left(\xi^{2}\frac{d\theta}{d\xi}\right) = -\xi^{2}\theta^{n}
+\end{align}
+
+Where $\xi$ and $\theta$ are dimensionless parameterizations of radius and
+temperature respectively, and $n$ is known as the polytropic index. Despite this
+early work, it wasn't until the late 1930s and early 1940s that the full set of
+equations needed to describe the structure of a steady state,
+radially-symmetric, star (known as the equations of stellar structure) began to
+take shape as proton-proton chains and the Carbon-Nitrogen-Oxygen cycle were,
+for the first time, seriously considered as energy generation mechanisms
+\citep{Cowling1966}. Since then, and especially with the proliferation of
+computers in astronomy, the equations of stellar structure have proven
+themselves an incredibly predictive set of models.  
+
+\chapter{Stellar Structure Evolution}
+There are currently many stellar structure codes \citep[e.g.][]{Dotter2008,
+Kovetz2009, Paxton2011} which integrate the equations of stellar structure ---
+in addition to equations of state and lattices of nuclear reaction rates ---
+over time to track the evolution of an individual star. The Dartmouth Stellar
+Evolution Program (DSEP) \citep{Chaboyer2001, Bjork2006, Dotter2008} is one
+such, well tested, stellar evolution program.
+
+DSEP solves the equations of stellar structure using the Henyey method
+\citep{Henyey1964}. This is a relaxation technique making use of a
+Newton–Raphson root finder and therefore requires some initial guess to relax
+towards a solution. This guess will be either some initial, polytropic, model
+or the solution from the previous timestep.  In order to evolve a model through
+time DSEP alternates between solving for reaction rates and the structure
+equations. At some temperature and pressure from the solution to the structure
+equations DSEP finds the energy generation rate due to proton-proton chains,
+the CNO cycle, and the tripe-alpha process from known nuclear cross sections.
+These reaction rates yield both photon and neutrino luminosities as well as
+chemical changes over some small time step. Thermodynamic variables are
+calculated using an equation of state routine which is dependent on the initial
+model mass. All the updated physical quantities (pressure, luminosity, mean
+molecular mass, temperature) are then used to solve the structure equations
+again. This process of using a solution to the structure equations to calculate
+reaction rates which then inform the next structure solution continues until
+DSEP can no longer find a solution.  This can happen as the stellar structure
+equations are extremely stiff. In addition, for finite radial mesh sizes,
+discontinuities can occur.
+
+While other stellar evolution programs, such as the widely used Modules for
+Experimentation in Stellar Astrophysics (MESA) \citep{Paxton2011}, consider a
+more complex handling of nuclear reaction rate calculations, and are
+consequently more applicable to a wider range of spectral classes than DSEP,
+DSEP has certain advantages over these other programs that make it well suited
+for certain tasks, such as low-mass modeling. For one, DSEP generally can
+evolve models much more rapidly than MESA and has a smaller memory footprint
+while doing it. This execution time difference is largely due to the fact that
+DSEP makes some simplifying assumptions due to its focus only on models with
+initial masses between 0.1 and 5 M$_{\odot}$ compared to MESA’s more general
+approach.  Moreover, MESA elects to take a very careful handling of numeric
+uncertainty, going so far as to guarantee byte-to-byte similarity of the same
+model run on different architectures \citep{Paxton2011}. DSEP on the other hand
+makes no such guarantee. Rather, models evolved using DSEP will be accurate
+down to some arbitrary, user controllable, tolerance but beyond that point may
+vary from one computer to another. Despite this trade off in generality and
+precision, the current grid of isochrones generated by DSEP \citep{Dotter2008},
+has been heavily cited since its initial release in 2008, proving that there is
+a place for a code as specific as DSEP.
+
+
+\chapter{Stars as Stellar Labratories}
+
+\begin{itemize}
+  \item Overview of what makes stars so important to human history
+  \item Overview of what makes stars so important to the history of the universe 
+  \item General overview of the history of stellar stucture
+    \begin{itemize}
+      \item History of thought on stars
+      \item First attempts to describe what stars were
+      \item Early modern attempts to describe stars (i.e. gravity collapse)
+      \item Start of modern stellar astrophysics
+      \item history of stellar structure equations
+      \item history of computer models
+      \item history and provinence of DSEP
+    \end{itemize}
+  \item Why is it important to understand stellar physics going forward
+  \item Switch gears to talk about GC because of how they are
+    \begin{itemize}
+      \item The roll GC play in understanding the universe
+      \item labs to test stellar physics!
+    \end{itemize}
+  \item Talk about Jao Gap
+    \begin{itemize}
+      \item Talk about the Jao Gap as a stellar labratory (interiors of low mass stars)
+    \end{itemize}
+  \item Talk about the RGBB, again a lab for stellar physics
+  \item breif overview of what will be presented in the thesis
+\end{itemize}

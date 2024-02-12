@@ -12,10 +12,10 @@ default: all
 all: pdf
 
 pdf: ./src/$(ASSET_FILE)
-	cd src && $(LTC) $(TFLAGS) $(SRC_DIR)/$(MAIN_SRC)
+	cd src && $(LTC) $(TFLAGS) $(SRC_DIR)/$(MAIN_SRC) --file-line-error
 	-cd src && $(BTC) $(NAME)
-	cd src && $(LTC) $(TFLAGS) $(SRC_DIR)/$(MAIN_SRC)
-	cd src && $(LTC) $(TFLAGS) $(SRC_DIR)/$(MAIN_SRC)
+	cd src && $(LTC) $(TFLAGS) $(SRC_DIR)/$(MAIN_SRC) --file-line-error
+	cd src && $(LTC) $(TFLAGS) $(SRC_DIR)/$(MAIN_SRC) --file-line-error
 	cp src/$(NAME).pdf .
 clean:
 	-rm $(NAME).blg

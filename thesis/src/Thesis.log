@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.1.21)  8 DEC 2023 14:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.1.21)  12 FEB 2024 13:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./ms.tex
+**./ms.tex --file-line-error
 (./ms.tex
 LaTeX2e <2018-04-01> patch level 5
 (./GuariniThesis.cls
@@ -185,6 +185,16 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
@@ -292,29 +302,56 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip53
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 17.
+Package hyperref Info: Option `colorlinks' set `true' on input line 22.
 )
 (./Thesis.aux
 
+LaTeX Warning: Label `fig:BestFitResults' multiply defined.
+
+
+LaTeX Warning: Label `tab:BestFitResults' multiply defined.
+
+
 LaTeX Warning: Label `sec:results' multiply defined.
+
+
+LaTeX Warning: Label `sec:opac' multiply defined.
+
+
+LaTeX Warning: Label `sec:modeling' multiply defined.
+
+
+LaTeX Warning: Label `sec:results' multiply defined.
+
+
+LaTeX Warning: Label `sec:intro' multiply defined.
+
+
+LaTeX Warning: Label `sec:results' multiply defined.
+
+
+LaTeX Warning: Label `sec:modeling' multiply defined.
+
+
+LaTeX Warning: Label `sec:conclusion' multiply defined.
 
 )
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count118
@@ -380,7 +417,7 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box30
-Package hyperref Info: Link coloring ON on input line 16.
+Package hyperref Info: Link coloring ON on input line 19.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -389,401 +426,294 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count124
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
-LaTeX Info: Redefining \nameref on input line 16.
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
 
 (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write3
 \openout3 = `Thesis.out'.
 
- [1
+LaTeX Font Info:    Try loading font information for U+msa on input line 20.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 20.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
 |\OT1/cmr/bx/n/14.4 Abstract|
  []
 
 [1] [2] (./Thesis.toc [3
 
-])
+] [4])
 \tf@toc=\write4
 \openout4 = `Thesis.toc'.
 
- [4] (./Thesis.lot)
+ [5] [6
+
+] (./Thesis.lot)
 \tf@lot=\write5
 \openout5 = `Thesis.lot'.
 
- [5
-
-] [6
+ [7] [8
 
 ] (./Thesis.lof
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package natbib Warning: Citation `Def17' on page vii undefined on input line 6.
+ [9]
+Overfull \hbox (1.02158pt too wide) in paragraph at lines 17--17
+ [][] [][][]\OT1/cmr/m/n/12 (left) CMD show-ing the pho-to-met-ric off-set be-t
+ween the ACS and HUGS 
+ []
 
-
-
-Package natbib Warning: Citation `Def17' on page vii undefined on input line 6.
-
-
-
-Package natbib Warning: Citation `Def17' on page vii undefined on input line 6.
-
-
-
-Package natbib Warning: Citation `Def17' on page vii undefined on input line 7.
-
-
-
-Package natbib Warning: Citation `Mamajek2008' on page vii undefined on input l
-ine 7.
-
-
-Package natbib Warning: Citation `Mamajek2008' on page vii undefined on input l
-ine 7.
-
-
-Package natbib Warning: Citation `Def17' on page vii undefined on input line 8.
-
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 8.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+[10]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
-
-
-Package natbib Warning: Citation `GaiaCollaboration2021' on page vii undefined 
-on input line 10.
-
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]
-Underfull \vbox (badness 1275) has occurred while \output is active []
+ [11]
+Underfull \vbox (badness 7613) has occurred while \output is active []
 
- [8])
+ [12]
+Underfull \vbox (badness 1895) has occurred while \output is active []
+
+ [13])
 \tf@lof=\write6
 \openout6 = `Thesis.lof'.
 
 
-[9]
-Chapter 1.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+[14]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) 
+has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.21 \chapter
-             {Globular Clusters} [1
+l.22 \part{Introduction}
+                         [1
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.21 \chapter
-             {Globular Clusters} [2
-
-]
-Chapter 2.
+l.22 \part{Introduction}
+                         [2] (./chapters/introduction/intro.tex
+Chapter 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28 \chapter
-             {Magnetic Fields In M Dwarfs} [3] [4
+l.38 
+      [3
+
+] [4] [5] [6
+
+]
+Chapter 2.
+[7] [8
 
 ]
 Chapter 3.
+
+Underfull \vbox (badness 6300) has occurred while \output is active []
+
+ [9]
+[10]
+Chapter 4.
+[11
+
+]) [12] [13
+
+] [14] (./chapters/GCs/GC.tex
+Chapter 5.
+[15
+
+] [16
+
+]
+Chapter 6.
+[17] [18
+
+]
+Chapter 7.
+(./chapters/ngc2808/ngc2808.tex (./chapters/ngc2808/subsections/intro.tex
+[19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21])
+(./chapters/ngc2808/subsections/observations.tex)
+(./chapters/ngc2808/subsections/modeling.tex
+
+LaTeX Warning: Float too large for page by 34.30235pt on input line 71.
+
+[22] [23]) (./chapters/ngc2808/subsections/AtmopshericModels.tex [24]
+<figures/ngc2808/notebookFigures/AtmosphereComparison.pdf, id=939, 704.53233pt 
+x 607.4316pt>
+File: figures/ngc2808/notebookFigures/AtmosphereComparison.pdf Graphic file (ty
+pe pdf)
+<use figures/ngc2808/notebookFigures/AtmosphereComparison.pdf>
+Package pdftex.def Info: figures/ngc2808/notebookFigures/AtmosphereComparison.p
+df  used on input line 39.
+(pdftex.def)             Requested size: 216.81pt x 186.93008pt.
+)
+(./chapters/ngc2808/subsections/fidanka.tex [25 <./figures/ngc2808/notebookFigu
+res/AtmosphereComparison.pdf>] [26]
+
+Package natbib Warning: Citation `' on page 27 undefined on input line 45.
+
+<figures/ngc2808/notebookFigures/DensityMapDemo.png, id=974, 899.7615pt x 601.2
+864pt>
+File: figures/ngc2808/notebookFigures/DensityMapDemo.png Graphic file (type png
+)
+<use figures/ngc2808/notebookFigures/DensityMapDemo.png>
+Package pdftex.def Info: figures/ngc2808/notebookFigures/DensityMapDemo.png  us
+ed on input line 57.
+(pdftex.def)             Requested size: 390.25536pt x 260.79596pt.
+
+Underfull \vbox (badness 2245) has occurred while \output is active []
+
+ [27]
+[28 <./figures/ngc2808/notebookFigures/DensityMapDemo.png>]
+<figures/ngc2808/notebookFigures/DensityBinsDemo.png, id=989, 633.8079pt x 446.
+6286pt>
+File: figures/ngc2808/notebookFigures/DensityBinsDemo.png Graphic file (type pn
+g)
+<use figures/ngc2808/notebookFigures/DensityBinsDemo.png>
+Package pdftex.def Info: figures/ngc2808/notebookFigures/DensityBinsDemo.png  u
+sed on input line 80.
+(pdftex.def)             Requested size: 195.12767pt x 137.49933pt.
+<figures/ngc2808/BGMMMixingBin.pdf, id=997, 851.58667pt x 385.81227pt>
+File: figures/ngc2808/BGMMMixingBin.pdf Graphic file (type pdf)
+<use figures/ngc2808/BGMMMixingBin.pdf>
+Package pdftex.def Info: figures/ngc2808/BGMMMixingBin.pdf  used on input line 
+103.
+(pdftex.def)             Requested size: 390.25536pt x 176.80467pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29 <./figures/ngc2808/notebookFigures/DensityBinsDemo.png>]
+<figures/ngc2808/vertFit.png, id=1008, 630.55576pt x 1155.95865pt>
+File: figures/ngc2808/vertFit.png Graphic file (type png)
+<use figures/ngc2808/vertFit.png>
+Package pdftex.def Info: figures/ngc2808/vertFit.png  used on input line 127.
+(pdftex.def)             Requested size: 195.12767pt x 357.7085pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30 <./figures/ngc2808/BGMMMixingBin.pdf>] [31 <./figures/ngc2808/VertFit.png>
+]
+Underfull \vbox (badness 6204) has occurred while \output is active []
+
+ [32]
+<figures/ngc2808/ExtractedIsoFit.pdf, id=1047, 623.50385pt x 443.93193pt>
+File: figures/ngc2808/ExtractedIsoFit.pdf Graphic file (type pdf)
+<use figures/ngc2808/ExtractedIsoFit.pdf>
+Package pdftex.def Info: figures/ngc2808/ExtractedIsoFit.pdf  used on input lin
+e 193.
+(pdftex.def)             Requested size: 195.12767pt x 138.92482pt.
+<figures/ngc2808/DistributionOfErrors.pdf, id=1049, 617.28119pt x 603.58702pt>
+File: figures/ngc2808/DistributionOfErrors.pdf Graphic file (type pdf)
+<use figures/ngc2808/DistributionOfErrors.pdf>
+Package pdftex.def Info: figures/ngc2808/DistributionOfErrors.pdf  used on inpu
+t line 202.
+(pdftex.def)             Requested size: 195.12767pt x 190.79404pt.
+)
+(./chapters/ngc2808/subsections/fitting.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33 <./figures/ngc2808/ExtractedIsoFit.pdf>]
+<figures/ngc2808/BestFitResults.pdf, id=1068, 627.63138pt x 458.11752pt>
+File: figures/ngc2808/BestFitResults.pdf Graphic file (type pdf)
+<use figures/ngc2808/BestFitResults.pdf>
+Package pdftex.def Info: figures/ngc2808/BestFitResults.pdf  used on input line
+ 18.
+(pdftex.def)             Requested size: 390.25536pt x 284.85478pt.
+ [34 <./figures/ngc2808/DistributionOfErrors.pdf>] [35 <./figures/ngc2808/BestF
+itResults.pdf>]
+<figures/ngc2808/ClusterAnalysis.pdf, id=1100, 614.79007pt x 443.93193pt>
+File: figures/ngc2808/ClusterAnalysis.pdf Graphic file (type pdf)
+<use figures/ngc2808/ClusterAnalysis.pdf>
+Package pdftex.def Info: figures/ngc2808/ClusterAnalysis.pdf  used on input lin
+e 55.
+(pdftex.def)             Requested size: 195.12767pt x 140.89601pt.
+ [36 <./figures/ngc2808/ClusterAnalysis.pdf>]
+<figures/ngc2808/photometricOffset.pdf, id=1120, 1183.59634pt x 458.11752pt>
+File: figures/ngc2808/photometricOffset.pdf Graphic file (type pdf)
+<use figures/ngc2808/photometricOffset.pdf>
+Package pdftex.def Info: figures/ngc2808/photometricOffset.pdf  used on input l
+ine 80.
+(pdftex.def)             Requested size: 390.25536pt x 151.05342pt.
+<figures/ngc2808/HeliumMeanOffset.pdf, id=1122, 633.3489pt x 437.70929pt>
+File: figures/ngc2808/HeliumMeanOffset.pdf Graphic file (type pdf)
+<use figures/ngc2808/HeliumMeanOffset.pdf>
+Package pdftex.def Info: figures/ngc2808/HeliumMeanOffset.pdf  used on input li
+ne 94.
+(pdftex.def)             Requested size: 195.12767pt x 134.8536pt.
+) (./chapters/ngc2808/subsections/results.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37 <./figures/ngc2808/photometricOffset.pdf>]
+File: figures/ngc2808/BestFitResults.pdf Graphic file (type pdf)
+<use figures/ngc2808/BestFitResults.pdf>
+Package pdftex.def Info: figures/ngc2808/BestFitResults.pdf  used on input line
+ 13.
+(pdftex.def)             Requested size: 195.12767pt x 142.42738pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38 <./figures/ngc2808/HeliumMeanOffset.pdf>])
+(./chapters/ngc2808/subsections/conclusion.tex)) [39] [40
+
+]
+Chapter 8.
+) [41] [42
+
+] [43] [44]
+Chapter 9.
 (./chapters/magActivity/magActivity.tex
 (./chapters/magActivity/subsections/Introduction.tex
 
-Package natbib Warning: Citation `Nut08' on page 5 undefined on input line 4.
+Package natbib Warning: Citation `Cha97' on page 45 undefined on input line 34.
 
 
-Package natbib Warning: Citation `Haw91' on page 5 undefined on input line 6.
+[45
 
-
-Package natbib Warning: Citation `Del98' on page 5 undefined on input line 6.
-
-
-Package natbib Warning: Citation `Sch14' on page 5 undefined on input line 6.
-
-
-Package natbib Warning: Citation `Owe16' on page 5 undefined on input line 7.
-
-
-Package natbib Warning: Citation `Shi16' on page 5 undefined on input line 8.
-
-
-Package natbib Warning: Citation `Rob14' on page 5 undefined on input line 12.
-
-
-Package natbib Warning: Citation `Newton2016' on page 5 undefined on input line
- 12.
-
-
-Package natbib Warning: Citation `Van16' on page 5 undefined on input line 12.
-
-
-Package natbib Warning: Citation `Cha14' on page 5 undefined on input line 15.
-
-
-Package natbib Warning: Citation `Par55' on page 5 undefined on input line 18.
-
-
-Package natbib Warning: Citation `Cam17' on page 5 undefined on input line 18.
-
-
-Package natbib Warning: Citation `Par55' on page 5 undefined on input line 20.
-
-
-Package natbib Warning: Citation `Noy84' on page 5 undefined on input line 26.
-
-
-Package natbib Warning: Citation `Tom96' on page 5 undefined on input line 26.
-
-
-Package natbib Warning: Citation `Dik99' on page 5 undefined on input line 26.
-
-
-Package natbib Warning: Citation `Tho96' on page 5 undefined on input line 28.
-
-
-Package natbib Warning: Citation `Par75' on page 5 undefined on input line 32.
-
-
-Package natbib Warning: Citation `Cha97' on page 5 undefined on input line 34.
-
-
-Package natbib Warning: Citation `barnes2004differential' on page 5 undefined o
-n input line 36.
-
-
-Package natbib Warning: Citation `barnes2005dependence' on page 5 undefined on 
-input line 36.
-
-
-Package natbib Warning: Citation `Yad13' on page 5 undefined on input line 37.
-
-[5]
-
-Package natbib Warning: Citation `Skumanich1972' on page 6 undefined on input l
-ine 55.
-
-
-Package natbib Warning: Citation `Pal81' on page 6 undefined on input line 55.
-
-
-Package natbib Warning: Citation `Pal81' on page 6 undefined on input line 69.
-
-
-Package natbib Warning: Citation `Vilhu1984' on page 6 undefined on input line 
-71.
-
-
-Package natbib Warning: Citation `Noy84' on page 6 undefined on input line 72.
-
-
-Package natbib Warning: Citation `Wri11' on page 6 undefined on input line 78.
-
-
-Package natbib Warning: Citation `Mamajek2008' on page 6 undefined on input lin
-e 81.
-
-
-Package natbib Warning: Citation `Reiners2014' on page 6 undefined on input lin
-e 81.
-
-
-Package natbib Warning: Citation `Leh20' on page 6 undefined on input line 81.
-
-
-Package natbib Warning: Citation `Magaudda2020' on page 6 undefined on input li
-ne 81.
-
-[6]
-
-Package natbib Warning: Citation `Vau81' on page 7 undefined on input line 84.
-
-
-Package natbib Warning: Citation `Sua15' on page 7 undefined on input line 84.
-
-
-Package natbib Warning: Citation `Def17' on page 7 undefined on input line 84.
-
-
-Package natbib Warning: Citation `Hou17' on page 7 undefined on input line 84.
-
-
-Package natbib Warning: Citation `Browning2010' on page 7 undefined on input li
-ne 89.
-
-
-Package natbib Warning: Citation `Hou17' on page 7 undefined on input line 89.
-
-
-Package natbib Warning: Citation `Newton2016' on page 7 undefined on input line
- 89.
-
-
-Package natbib Warning: Citation `Newton2017' on page 7 undefined on input line
- 119.
-
-) (./chapters/magActivity/subsections/Observations.tex
+] [46]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]
-
-Package natbib Warning: Citation `Ber12' on page 8 undefined on input line 3.
-
-
-Package natbib Warning: Citation `Newton2016' on page 8 undefined on input line
- 7.
-
-
-Package natbib Warning: Citation `Man16' on page 8 undefined on input line 7.
-
-
-Package natbib Warning: Citation `Med20' on page 8 undefined on input line 7.
-
-
-Package natbib Warning: Citation `Newton2018' on page 8 undefined on input line
- 9.
-
-
-Package natbib Warning: Citation `Irw11' on page 8 undefined on input line 10.
-
-
-Package natbib Warning: Citation `Newton2016' on page 8 undefined on input line
- 11.
-
-
-Package natbib Warning: Citation `Newton2018' on page 8 undefined on input line
- 11.
-
-
-Package natbib Warning: Citation `Ber03' on page 8 undefined on input line 19.
-
-
-Package natbib Warning: Citation `Kel00' on page 8 undefined on input line 26.
-
-
-Package natbib Warning: Citation `Kel03' on page 8 undefined on input line 26.
-
-
-Package natbib Warning: Citation `Ast18' on page 8 undefined on input line 32.
-
-
-Package natbib Warning: Citation `Tor06' on page 8 undefined on input line 34.
-
-
-Package natbib Warning: Citation `Nic21' on page 8 undefined on input line 36.
-
-[8]) (./chapters/magActivity/subsections/Analysis.tex
+ [47])
+(./chapters/magActivity/subsections/Observations.tex [48])
+(./chapters/magActivity/subsections/Analysis.tex
 Overfull \hbox (11.85489pt too wide) in paragraph at lines 43--1
 []\OT1/cmr/m/n/12 Ultimately, two tar-gets (2MASS J16570570-0420559 and 2MASS J
 04102815-5336078)
  []
 
-
-Package natbib Warning: Citation `Wil63' on page 9 undefined on input line 3.
-
-
-Package natbib Warning: Citation `Catalano1983' on page 9 undefined on input li
-ne 6.
-
-
-Package natbib Warning: Citation `Wil68' on page 9 undefined on input line 8.
-
-<figures/magActivity/SIndexBandpass.pdf, id=356, 912.13545pt x 446.35814pt>
+[49]
+<figures/magActivity/SIndexBandpass.pdf, id=1367, 912.13545pt x 446.35814pt>
 File: figures/magActivity/SIndexBandpass.pdf Graphic file (type pdf)
 <use figures/magActivity/SIndexBandpass.pdf>
 Package pdftex.def Info: figures/magActivity/SIndexBandpass.pdf  used on input 
 line 25.
 (pdftex.def)             Requested size: 390.25536pt x 190.96992pt.
+ [50 <./figures/magActivity/SIndexBandpass.pdf>]
+Underfull \vbox (badness 2529) has occurred while \output is active []
 
-Package natbib Warning: Citation `Lov11' on page 9 undefined on input line 34.
-
-[9]
-Underfull \vbox (badness 7963) has occurred while \output is active []
-
- [10 <./figures/magActivity/SIndexBandpass.pdf>]
-
-Package natbib Warning: Citation `Middelkoop1982' on page 11 undefined on input
- line 67.
-
-
-Package natbib Warning: Citation `Middelkoop1982' on page 11 undefined on input
- line 72.
-
-
-Package natbib Warning: Citation `Rutten1984' on page 11 undefined on input lin
-e 72.
-
-
-Package natbib Warning: Citation `SuarezMascareno2016' on page 11 undefined on 
-input line 77.
-
-
-Package natbib Warning: Citation `Def17' on page 11 undefined on input line 79.
-
-
-
-Package natbib Warning: Citation `Hal07' on page 11 undefined on input line 88.
-
-
-
-Package natbib Warning: Citation `Def17' on page 11 undefined on input line 104
-.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11]
-
-Package natbib Warning: Citation `Pizzolato2000' on page 12 undefined on input 
-line 142.
-
-
-Package natbib Warning: Citation `Wri18' on page 12 undefined on input line 142
-.
-
-
-Package natbib Warning: Citation `Wri18' on page 12 undefined on input line 147
-.
-
-
-Package natbib Warning: Citation `Wri18' on page 12 undefined on input line 155
-.
-
-) (./chapters/magActivity/subsections/Results.tex [12]
-
-Package natbib Warning: Citation `Baroch2020' on page 13 undefined on input lin
-e 14.
-
-
-Package natbib Warning: Citation `Perdelwitz2021' on page 13 undefined on input
- line 14.
-
-
-Package natbib Warning: Citation `Kesseli2018' on page 13 undefined on input li
-ne 14.
-
-
-Package natbib Warning: Citation `Schroder2009' on page 13 undefined on input l
-ine 14.
-
-
-Package natbib Warning: Citation `Def17' on page 13 undefined on input line 17.
-
-
-
-Package natbib Warning: Citation `Salvatier2016' on page 13 undefined on input 
-line 22.
-
+ [51]
+[52]) (./chapters/magActivity/subsections/Results.tex [53]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 40.
@@ -797,460 +727,110 @@ Overfull \hbox (166.35228pt too wide) in paragraph at lines 1--62
 
 LaTeX Warning: Float too large for page by 114.16278pt on input line 50.
 
-<figures/magActivity/RpHKvsR0_MC_justThisPaper.pdf, id=411, 1325.66655pt x 612.
-1776pt>
+<figures/magActivity/RpHKvsR0_MC_justThisPaper.pdf, id=1465, 1325.66655pt x 612
+.1776pt>
 File: figures/magActivity/RpHKvsR0_MC_justThisPaper.pdf Graphic file (type pdf)
 
 <use figures/magActivity/RpHKvsR0_MC_justThisPaper.pdf>
 Package pdftex.def Info: figures/magActivity/RpHKvsR0_MC_justThisPaper.pdf  use
 d on input line 53.
 (pdftex.def)             Requested size: 390.25536pt x 180.20784pt.
-<figures/magActivity/RpHKvsR0_MC.pdf, id=412, 1315.57697pt x 612.1776pt>
+<figures/magActivity/RpHKvsR0_MC.pdf, id=1466, 1315.57697pt x 612.1776pt>
 File: figures/magActivity/RpHKvsR0_MC.pdf Graphic file (type pdf)
 <use figures/magActivity/RpHKvsR0_MC.pdf>
 Package pdftex.def Info: figures/magActivity/RpHKvsR0_MC.pdf  used on input lin
 e 60.
 (pdftex.def)             Requested size: 390.25536pt x 181.59032pt.
-
-Package natbib Warning: Citation `Def17' on page 13 undefined on input line 65.
-
-
-
-Package natbib Warning: Citation `Def17' on page 13 undefined on input line 65.
-
-
-
-Package natbib Warning: Citation `Def17' on page 13 undefined on input line 65.
-
-
-
-Package natbib Warning: Citation `Def17' on page 13 undefined on input line 65.
-
-
-
-Package natbib Warning: Citation `Def17' on page 13 undefined on input line 65.
-
-
-
-Package natbib Warning: Citation `Def17' on page 13 undefined on input line 65.
-
-
-<figures/magActivity/RpHKvsR0_MC_fits.pdf, id=413, 1435.15862pt x 612.1776pt>
+<figures/magActivity/RpHKvsR0_MC_fits.pdf, id=1479, 1435.15862pt x 612.1776pt>
 File: figures/magActivity/RpHKvsR0_MC_fits.pdf Graphic file (type pdf)
 <use figures/magActivity/RpHKvsR0_MC_fits.pdf>
 Package pdftex.def Info: figures/magActivity/RpHKvsR0_MC_fits.pdf  used on inpu
 t line 70.
 (pdftex.def)             Requested size: 390.25536pt x 166.46713pt.
+[54 <./figures/magActivity/RpHKvsR0_MC_justThisPaper.pdf>] [55] [56 <./figures/
+magActivity/RpHKvsR0_MC.pdf> <./figures/magActivity/RpHKvsR0_MC_fits.pdf
 
-Package natbib Warning: Citation `Def17' on page 13 undefined on input line 74.
-
-
-
-Package natbib Warning: Citation `Mamajek2008' on page 13 undefined on input li
-ne 74.
-
-
-Package natbib Warning: Citation `Mamajek2008' on page 13 undefined on input li
-ne 74.
-
-
-Package natbib Warning: Citation `Def17' on page 13 undefined on input line 74.
-
-
-
-Package natbib Warning: Citation `Mamajek2008' on page 13 undefined on input li
-ne 74.
-
-
-Package natbib Warning: Citation `Mamajek2008' on page 13 undefined on input li
-ne 74.
-
-[13] [14] [15 <./figures/magActivity/RpHKvsR0_MC_justThisPaper.pdf> <./figures/
-magActivity/RpHKvsR0_MC.pdf
-
-pdfTeX warning: pdflatex (file ./figures/magActivity/RpHKvsR0_MC.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
->]
-
-Package natbib Warning: Citation `Def17' on page 16 undefined on input line 95.
-
-
-
-Package natbib Warning: Citation `Mamajek2008' on page 16 undefined on input li
-ne 95.
-
-
-Package natbib Warning: Citation `Wri18' on page 16 undefined on input line 95.
-
-
-
-Package natbib Warning: Citation `Wri18' on page 16 undefined on input line 95.
-
-
-
-Package natbib Warning: Citation `Newton2018' on page 16 undefined on input lin
-e 113.
-
-
-Package natbib Warning: Citation `Hawley96' on page 16 undefined on input line 
-113.
-
-[16 <./figures/magActivity/RpHKvsR0_MC_fits.pdf>]
-
-Package natbib Warning: Citation `Mamajek2008' on page 17 undefined on input li
-ne 118.
-
-
-Package natbib Warning: Citation `Reiners2014' on page 17 undefined on input li
-ne 118.
-
-
-Package natbib Warning: Citation `Leh20' on page 17 undefined on input line 118
-.
-
-
-Package natbib Warning: Citation `Med20' on page 17 undefined on input line 118
-.
-
-
-Package natbib Warning: Citation `Wri11' on page 17 undefined on input line 118
-.
-
-
-Package natbib Warning: Citation `Nunez2015' on page 17 undefined on input line
- 118.
-
-
-Package natbib Warning: Citation `Newton2017' on page 17 undefined on input lin
-e 118.
-
-
-Package natbib Warning: Citation `Med20' on page 17 undefined on input line 141
-.
-
-
-Package natbib Warning: Citation `Med20' on page 17 undefined on input line 141
-.
-
-
+pdfTeX warning: pdflatex (file ./figures/magActivity/RpHKvsR0_MC_fits.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+>] [57]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
-
-Package natbib Warning: Citation `Newton2016' on page 18 undefined on input lin
-e 144.
-
-
-Package natbib Warning: Citation `Browning2010' on page 18 undefined on input l
-ine 153.
-
-
-Package natbib Warning: Citation `vaughan1980' on page 18 undefined on input li
-ne 153.
-
-
-Package natbib Warning: Citation `Magaudda2020' on page 18 undefined on input l
-ine 153.
-
-
-Package natbib Warning: Citation `Def17' on page 18 undefined on input line 159
-.
-
-
-Package natbib Warning: Citation `Def17' on page 18 undefined on input line 165
-.
-
-
-Package natbib Warning: Citation `Wri18' on page 18 undefined on input line 166
-.
-
-
-Package natbib Warning: Citation `Def17' on page 18 undefined on input line 166
-.
-
-
-Package natbib Warning: Citation `Def17' on page 18 undefined on input line 174
-.
-
-
-Package natbib Warning: Citation `Schrijver1987' on page 18 undefined on input 
-line 181.
-
-
-Package natbib Warning: Citation `Rauscher2006' on page 18 undefined on input l
-ine 181.
-
-
-Package natbib Warning: Citation `Hou17' on page 18 undefined on input line 181
-.
-
-
-Package natbib Warning: Citation `Rauscher2006' on page 18 undefined on input l
-ine 181.
-
-
-Package natbib Warning: Citation `West2015' on page 18 undefined on input line 
-181.
-
-
-Package natbib Warning: Citation `Newton2016' on page 18 undefined on input lin
-e 181.
-
-
+ [58]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
-
-Package natbib Warning: Citation `Def17' on page 19 undefined on input line 184
-.
-
-
-Package natbib Warning: Citation `Def17' on page 19 undefined on input line 184
-.
-
-<figures/magActivity/B2020vsAD2016_Masses.pdf, id=506, 782.41577pt x 448.4426pt
->
+ [59]
+<figures/magActivity/B2020vsAD2016_Masses.pdf, id=1658, 782.41577pt x 448.4426p
+t>
 File: figures/magActivity/B2020vsAD2016_Masses.pdf Graphic file (type pdf)
 <use figures/magActivity/B2020vsAD2016_Masses.pdf>
 Package pdftex.def Info: figures/magActivity/B2020vsAD2016_Masses.pdf  used on 
 input line 191.
 (pdftex.def)             Requested size: 203.80193pt x 116.80444pt.
-
-Package natbib Warning: Citation `Def17' on page 19 undefined on input line 195
-.
-
-
-Package natbib Warning: Citation `Def17' on page 19 undefined on input line 195
-.
-
-
-Package natbib Warning: Citation `Newton2017' on page 19 undefined on input lin
-e 200.
-
-
-Package natbib Warning: Citation `Wri18' on page 19 undefined on input line 201
-.
-
-
-Package natbib Warning: Citation `Magaudda2020' on page 19 undefined on input l
-ine 201.
-
-) (./chapters/magActivity/subsections/Conclusions.tex)) [19 <./figures/magActiv
-ity/B2020vsAD2016_Masses.pdf>] [20]
-Chapter 4.
+)
+(./chapters/magActivity/subsections/Conclusions.tex)) [60 <./figures/magActivit
+y/B2020vsAD2016_Masses.pdf>]
+Chapter 10.
 (./chapters/jaoOpacity/jaoOpacity.tex
-(./chapters/jaoOpacity/subsections/intro.tex
+(./chapters/jaoOpacity/subsections/intro.tex [61
 
-Package natbib Warning: Citation `Nut08' on page 21 undefined on input line 8.
-
-
-Package natbib Warning: Citation `Jao2018' on page 21 undefined on input line 1
-4.
-
-
-Package natbib Warning: Citation `Jao2018' on page 21 undefined on input line 1
-7.
-
-
-Package natbib Warning: Citation `Skrutskie2006' on page 21 undefined on input 
-line 20.
-
-
-Package natbib Warning: Citation `Jao2018' on page 21 undefined on input line 2
-0.
-
-
-Package natbib Warning: Citation `Jao2021' on page 21 undefined on input line 2
-2.
-
-[21
-
-]
-
-Package natbib Warning: Citation `Baraffe2018' on page 22 undefined on input li
-ne 28.
-
-
-Package natbib Warning: Citation `Jao2020' on page 22 undefined on input line 3
-0.
-
-
-Package natbib Warning: Citation `Feiden2021' on page 22 undefined on input lin
-e 33.
-
-
-Package natbib Warning: Citation `Rodriguez-Lopez2019' on page 22 undefined on 
-input line 37.
-
-
-Package natbib Warning: Citation `Jao2020' on page 22 undefined on input line 4
-2.
-
-
-Package natbib Warning: Citation `Jao2021' on page 22 undefined on input line 4
-2.
-
-
-Package natbib Warning: Citation `Jao2020' on page 22 undefined on input line 4
-5.
-
-) (./chapters/jaoOpacity/subsections/JaoGap.tex
-
-Package natbib Warning: Citation `van2012' on page 22 undefined on input line 3
-.
-
-
+])
+(./chapters/jaoOpacity/subsections/JaoGap.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
-
-Package natbib Warning: Citation `MacDonald2018' on page 23 undefined on input 
-line 16.
-
-
-Package natbib Warning: Citation `MacDonald2018' on page 23 undefined on input 
-line 18.
-
-
-Package natbib Warning: Citation `Baraffe1997' on page 23 undefined on input li
-ne 19.
-
-
-Package natbib Warning: Citation `Jao2021' on page 23 undefined on input line 2
-4.
-
-<figures/jaoOpacity/JaoGapEDR3.png, id=541, 627.0627pt x 621.2811pt>
+ [62]
+<figures/jaoOpacity/JaoGapEDR3.png, id=1742, 627.0627pt x 621.2811pt>
 File: figures/jaoOpacity/JaoGapEDR3.png Graphic file (type png)
 <use figures/jaoOpacity/JaoGapEDR3.png>
 Package pdftex.def Info: figures/jaoOpacity/JaoGapEDR3.png  used on input line 
 30.
 (pdftex.def)             Requested size: 195.12767pt x 193.3251pt.
 
-Package natbib Warning: Citation `GaiaCollaboration2021' on page 23 undefined o
-n input line 31.
-
-[23]
-<figures/jaoOpacity/Kippenhan.pdf, id=552, 1090.36191pt x 464.12189pt>
+[63]
+<figures/jaoOpacity/Kippenhan.pdf, id=1759, 1090.36191pt x 464.12189pt>
 File: figures/jaoOpacity/Kippenhan.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/Kippenhan.pdf>
 Package pdftex.def Info: figures/jaoOpacity/Kippenhan.pdf  used on input line 5
 9.
 (pdftex.def)             Requested size: 411.93768pt x 175.34126pt.
 
+Underfull \vbox (badness 1014) has occurred while \output is active []
 
-Package natbib Warning: Citation `Mansfield2021' on page 24 undefined on input 
-line 74.
+ [64 <./figures/jaoOpacity/JaoGapEDR3.png>]) (./chapters/jaoOpacity/subsections
+/opacity.tex
+Underfull \vbox (badness 2165) has occurred while \output is active []
 
-
-Package natbib Warning: Citation `Feiden2021' on page 24 undefined on input lin
-e 74.
-
-
-Package natbib Warning: Citation `Feiden2021' on page 24 undefined on input lin
-e 77.
-
-[24 <./figures/jaoOpacity/JaoGapEDR3.png>]
-
-Package natbib Warning: Citation `Chabrier1997' on page 25 undefined on input l
-ine 87.
-
-
-Package natbib Warning: Citation `Feiden2021' on page 25 undefined on input lin
-e 102.
-
-) (./chapters/jaoOpacity/subsections/opacity.tex
-
-Package natbib Warning: Citation `Seaton1994' on page 25 undefined on input lin
-e 11.
-
-
-Package natbib Warning: Citation `Iglesias1996' on page 25 undefined on input l
-ine 12.
-
-
-Package natbib Warning: Citation `Colgan2016' on page 25 undefined on input lin
-e 13.
-
-
-Package natbib Warning: Citation `Dotter2008' on page 25 undefined on input lin
-e 15.
-
-
-Package natbib Warning: Citation `Choi2016' on page 25 undefined on input line 
-15.
-
-
-Package natbib Warning: Citation `Amard2019' on page 25 undefined on input line
- 15.
-
-
-Package natbib Warning: Citation `Colgan2016' on page 25 undefined on input lin
-e 16.
-
-
+ [65 <./figures/jaoOpacity/Kippenhan.pdf>]
 Overfull \hbox (9.57262pt too wide) in paragraph at lines 10--18
 \OT1/cmr/m/n/12 Multiple groups have re-leased high-temperature opac-i-ties in-
 clud-ing, the Opac-ity Project
  []
 
+[66]
+<figures/jaoOpacity/OpacityComparision.pdf, id=1844, 683.11987pt x 651.09698pt>
 
-Underfull \vbox (badness 4242) has occurred while \output is active []
-
- [25 <./figures/jaoOpacity/Kippenhan.pdf>]
-
-Package natbib Warning: Citation `Colgan2016' on page 26 undefined on input lin
-e 23.
-
-
-Package natbib Warning: Citation `Magee2004' on page 26 undefined on input line
- 24.
-
-
-Package natbib Warning: Citation `Hakel2006' on page 26 undefined on input line
- 24.
-
-
-Package natbib Warning: Citation `Fontes2016' on page 26 undefined on input lin
-e 24.
-
-
-Package natbib Warning: Citation `Bahcall2005' on page 26 undefined on input li
-ne 27.
-
-
-Package natbib Warning: Citation `Ferguson2005' on page 26 undefined on input l
-ine 36.
-
-<figures/jaoOpacity/OpacityComparision.pdf, id=584, 683.11987pt x 651.09698pt>
 File: figures/jaoOpacity/OpacityComparision.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/OpacityComparision.pdf>
 Package pdftex.def Info: figures/jaoOpacity/OpacityComparision.pdf  used on inp
 ut line 48.
 (pdftex.def)             Requested size: 195.12767pt x 185.98183pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
-
-Package natbib Warning: Citation `Boudreaux22' on page 27 undefined on input li
+Package natbib Warning: Citation `Boudreaux22' on page 67 undefined on input li
 ne 75.
 
-[27 <./figures/jaoOpacity/OpacityComparision.pdf>]
-
-Package natbib Warning: Citation `Grevesse1998' on page 28 undefined on input l
-ine 97.
-
-<figures/jaoOpacity/HRDiagramOPALvsOPLIB_SCCM.pdf, id=617, 925.66647pt x 776.74
-934pt>
+[67 <./figures/jaoOpacity/OpacityComparision.pdf>]
+<figures/jaoOpacity/HRDiagramOPALvsOPLIB_SCCM.pdf, id=1875, 925.66647pt x 776.7
+4934pt>
 File: figures/jaoOpacity/HRDiagramOPALvsOPLIB_SCCM.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/HRDiagramOPALvsOPLIB_SCCM.pdf>
 Package pdftex.def Info: figures/jaoOpacity/HRDiagramOPALvsOPLIB_SCCM.pdf  used
  on input line 107.
 (pdftex.def)             Requested size: 195.12767pt x 163.72664pt.
-) (./chapters/jaoOpacity/subsections/pytopsscrape.tex
+ [68 <./figures/jaoOpacity/HRDiagramOPALvsOPLIB_SCCM.pdf>])
+(./chapters/jaoOpacity/subsections/pytopsscrape.tex
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1.
- [28 <./figures/jaoOpacity/HRDiagramOPALvsOPLIB_SCCM.pdf>]
+
 Overfull \hbox (41.85522pt too wide) in paragraph at lines 18--18
 []\OT1/cmtt/m/n/12 $ generateTOPStables comp.dat rescalings.dat -d ./TOPSCache 
 -o out.opac -j 20[] 
@@ -1273,14 +853,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[29]
+[69]
 
-Package natbib Warning: Citation `2020SciPy-NMeth' on page 30 undefined on inpu
+Package natbib Warning: Citation `2020SciPy-NMeth' on page 70 undefined on inpu
 t line 29.
-
-
-Package natbib Warning: Citation `Dierckx1981' on page 30 undefined on input li
-ne 30.
 
 
 Overfull \hbox (0.67586pt too wide) in paragraph at lines 28--36
@@ -1289,229 +865,265 @@ p2d \OT1/cmr/m/n/12 func-tion within \OT1/cmtt/m/n/12 scipy\OT1/cmr/m/n/12 's \
 OT1/cmtt/m/n/12 interpolate
  []
 
-<figures/jaoOpacity/FractionalDifference.pdf, id=646, 533.75356pt x 457.65639pt
->
+
+Underfull \vbox (badness 7012) has occurred while \output is active []
+
+ [70]
+<figures/jaoOpacity/FractionalDifference.pdf, id=1914, 533.75356pt x 457.65639p
+t>
 File: figures/jaoOpacity/FractionalDifference.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/FractionalDifference.pdf>
 Package pdftex.def Info: figures/jaoOpacity/FractionalDifference.pdf  used on i
 nput line 54.
 (pdftex.def)             Requested size: 195.12767pt x 167.30507pt.
-) (./chapters/jaoOpacity/subsections/Modeling.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30]
-
-Package natbib Warning: Citation `MacDonald2018' on page 31 undefined on input 
-line 15.
-
-
-Package natbib Warning: Citation `Jermyn2022' on page 31 undefined on input lin
-e 18.
-
-
-Package natbib Warning: Citation `Chabrier1997' on page 31 undefined on input l
-ine 21.
-
-
-Package natbib Warning: Citation `Bahcall2001' on page 31 undefined on input li
-ne 23.
-
-
-Package natbib Warning: Citation `Chabrier1997' on page 31 undefined on input l
-ine 26.
-
-
-Underfull \vbox (badness 1132) has occurred while \output is active []
-
- [31 <./figures/jaoOpacity/FractionalDifference.pdf>]
-
-Package natbib Warning: Citation `Mansfield2021' on page 32 undefined on input 
-line 30.
-
-
-Package natbib Warning: Citation `Jao2020' on page 32 undefined on input line 3
-0.
-
-
-Package natbib Warning: Citation `Feiden2021' on page 32 undefined on input lin
-e 30.
-
-
-Package natbib Warning: Citation `Mansfield2021' on page 32 undefined on input 
-line 35.
-
-<figures/jaoOpacity/OPALPunchIn.pdf, id=673, 668.9019pt x 611.02657pt>
+)
+(./chapters/jaoOpacity/subsections/Modeling.tex [71 <./figures/jaoOpacity/Fract
+ionalDifference.pdf>]
+<figures/jaoOpacity/OPALPunchIn.pdf, id=1952, 668.9019pt x 611.02657pt>
 File: figures/jaoOpacity/OPALPunchIn.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/OPALPunchIn.pdf>
 Package pdftex.def Info: figures/jaoOpacity/OPALPunchIn.pdf  used on input line
  39.
 (pdftex.def)             Requested size: 195.12767pt x 178.24672pt.
-<figures/jaoOpacity/OPLIBPunchIn.pdf, id=674, 658.30984pt x 611.02657pt>
+<figures/jaoOpacity/OPLIBPunchIn.pdf, id=1953, 658.30984pt x 611.02657pt>
 File: figures/jaoOpacity/OPLIBPunchIn.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/OPLIBPunchIn.pdf>
 Package pdftex.def Info: figures/jaoOpacity/OPLIBPunchIn.pdf  used on input lin
 e 40.
 (pdftex.def)             Requested size: 195.12767pt x 181.10902pt.
-
-Package natbib Warning: Citation `GaiaCollaboration2021' on page 32 undefined o
-n input line 53.
-
-[32 <./figures/jaoOpacity/OPALPunchIn.pdf> <./figures/jaoOpacity/OPLIBPunchIn.p
-df
-
-pdfTeX warning: pdflatex (file ./figures/jaoOpacity/OPLIBPunchIn.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
->]
-<figures/jaoOpacity/pdist.pdf, id=716, 722.7pt x 722.7pt>
+ [72]
+<figures/jaoOpacity/pdist.pdf, id=1968, 722.7pt x 722.7pt>
 File: figures/jaoOpacity/pdist.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/pdist.pdf>
 Package pdftex.def Info: figures/jaoOpacity/pdist.pdf  used on input line 73.
 (pdftex.def)             Requested size: 195.12767pt x 195.12057pt.
+ [73 <./figures/jaoOpacity/OPALPunchIn.pdf> <./figures/jaoOpacity/OPLIBPunchIn.
+pdf
 
-
-Package natbib Warning: Citation `Sollima2019' on page 33 undefined on input li
-ne 82.
-
-
-Package natbib Warning: Citation `Creevey2022' on page 33 undefined on input li
-ne 89.
-
-
-Package natbib Warning: Citation `Choi2016' on page 33 undefined on input line 
-90.
-
-[33 <./figures/jaoOpacity/pdist.pdf>]
-<figures/jaoOpacity/OPALOPLIB_popsynth_compare.pdf, id=736, 1251.48045pt x 476.
-70503pt>
+pdfTeX warning: pdflatex (file ./figures/jaoOpacity/OPLIBPunchIn.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+>] [74 <./figures/jaoOpacity/pdist.pdf>]
+<figures/jaoOpacity/OPALOPLIB_popsynth_compare.pdf, id=2039, 1251.48045pt x 476
+.70503pt>
 File: figures/jaoOpacity/OPALOPLIB_popsynth_compare.pdf Graphic file (type pdf)
 
 <use figures/jaoOpacity/OPALOPLIB_popsynth_compare.pdf>
 Package pdftex.def Info: figures/jaoOpacity/OPALOPLIB_popsynth_compare.pdf  use
 d on input line 117.
 (pdftex.def)             Requested size: 368.57965pt x 140.394pt.
- [34 <./figures/jaoOpacity/OPALOPLIB_popsynth_compare.pdf>]
-
-Package natbib Warning: Citation `Baraffe1997' on page 35 undefined on input li
-ne 135.
-
-
-Package natbib Warning: Citation `Trampedach2014' on page 35 undefined on input
- line 150.
-
-
-Package natbib Warning: Citation `Joyce2018' on page 35 undefined on input line
- 150.
-
-<figures/jaoOpacity/./alphaMLComparisionCMD.pdf, id=770, 648.7902pt x 450.15462
-pt>
+ [75 <./figures/jaoOpacity/OPALOPLIB_popsynth_compare.pdf>]
+<figures/jaoOpacity/./alphaMLComparisionCMD.pdf, id=2073, 648.7902pt x 450.1546
+2pt>
 File: figures/jaoOpacity/./alphaMLComparisionCMD.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/./alphaMLComparisionCMD.pdf>
 Package pdftex.def Info: figures/jaoOpacity/./alphaMLComparisionCMD.pdf  used o
 n input line 154.
 (pdftex.def)             Requested size: 195.12767pt x 135.38399pt.
-<figures/jaoOpacity/./MixingLengthScaling.pdf, id=771, 672.9843pt x 450.15462pt
->
+<figures/jaoOpacity/./MixingLengthScaling.pdf, id=2074, 672.9843pt x 450.15462p
+t>
 File: figures/jaoOpacity/./MixingLengthScaling.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/./MixingLengthScaling.pdf>
 Package pdftex.def Info: figures/jaoOpacity/./MixingLengthScaling.pdf  used on 
 input line 161.
 (pdftex.def)             Requested size: 195.12767pt x 130.52089pt.
 
-Underfull \vbox (badness 2644) has occurred while \output is active []
+Underfull \vbox (badness 2582) has occurred while \output is active []
 
- [35 <./figures/jaoOpacity/./alphaMLComparisionCMD.pdf>])
-(./chapters/jaoOpacity/subsections/Results.tex
+ [76 <./figures/jaoOpacity/./alphaMLComparisionCMD.pdf> <./figures/jaoOpacity/.
+/MixingLengthScaling.pdf
 
-Package natbib Warning: Citation `2020SciPy-NMeth' on page 36 undefined on inpu
+pdfTeX warning: pdflatex (file ./figures/jaoOpacity/./MixingLengthScaling.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+>]) (./chapters/jaoOpacity/subsections/Results.tex
+
+Package natbib Warning: Citation `2020SciPy-NMeth' on page 77 undefined on inpu
 t line 8.
 
-[36 <./figures/jaoOpacity/./MixingLengthScaling.pdf>]
-<figures/jaoOpacity/OPAL_Jao_locator.pdf, id=807, 681.01828pt x 657.52058pt>
+<figures/jaoOpacity/OPAL_Jao_locator.pdf, id=2108, 681.01828pt x 657.52058pt>
 File: figures/jaoOpacity/OPAL_Jao_locator.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/OPAL_Jao_locator.pdf>
 Package pdftex.def Info: figures/jaoOpacity/OPAL_Jao_locator.pdf  used on input
  line 13.
 (pdftex.def)             Requested size: 195.12767pt x 188.38857pt.
-<figures/jaoOpacity/OPLIB_Jao_locator.pdf, id=808, 681.01828pt x 657.52058pt>
+<figures/jaoOpacity/OPLIB_Jao_locator.pdf, id=2109, 681.01828pt x 657.52058pt>
 File: figures/jaoOpacity/OPLIB_Jao_locator.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/OPLIB_Jao_locator.pdf>
 Package pdftex.def Info: figures/jaoOpacity/OPLIB_Jao_locator.pdf  used on inpu
 t line 14.
 (pdftex.def)             Requested size: 195.12767pt x 188.38857pt.
- [37 <./figures/jaoOpacity/OPAL_Jao_locator.pdf> <./figures/jaoOpacity/OPLIB_Ja
-o_locator.pdf
+[77 <./figures/jaoOpacity/OPAL_Jao_locator.pdf> <./figures/jaoOpacity/OPLIB_Jao
+_locator.pdf
 
 pdfTeX warning: pdflatex (file ./figures/jaoOpacity/OPLIB_Jao_locator.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
 >]
-
-Package natbib Warning: Citation `Feiden2021' on page 38 undefined on input lin
-e 52.
-
-
-Package natbib Warning: Citation `Jao2021' on page 38 undefined on input line 5
-8.
-
-<figures/jaoOpacity/SameMassConvectiveZoneComp.pdf, id=854, 650.56808pt x 618.5
-7545pt>
+<figures/jaoOpacity/SameMassConvectiveZoneComp.pdf, id=2158, 650.56808pt x 618.
+57545pt>
 File: figures/jaoOpacity/SameMassConvectiveZoneComp.pdf Graphic file (type pdf)
 
 <use figures/jaoOpacity/SameMassConvectiveZoneComp.pdf>
 Package pdftex.def Info: figures/jaoOpacity/SameMassConvectiveZoneComp.pdf  use
 d on input line 72.
 (pdftex.def)             Requested size: 195.12767pt x 185.52687pt.
+ [78]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \vbox (badness 5802) has occurred while \output is active []
-
- [38 <./figures/jaoOpacity/SameMassConvectiveZoneComp.pdf>]
-
-Package natbib Warning: Citation `Jao2020' on page 39 undefined on input line 9
-6.
-
-<figures/jaoOpacity/Core3HECompSameMass.pdf, id=871, 662.95078pt x 624.75449pt>
-
+ [79 <./figures/jaoOpacity/SameMassConvectiveZoneComp.pdf>]
+<figures/jaoOpacity/Core3HECompSameMass.pdf, id=2181, 662.95078pt x 624.75449pt
+>
 File: figures/jaoOpacity/Core3HECompSameMass.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/Core3HECompSameMass.pdf>
 Package pdftex.def Info: figures/jaoOpacity/Core3HECompSameMass.pdf  used on in
 put line 111.
 (pdftex.def)             Requested size: 195.12767pt x 183.88152pt.
+)) [80 <./figures/jaoOpacity/Core3HECompSameMass.pdf>]
+Chapter 11.
+(./chapters/jaoMagActivity/jaoMagActivity.tex
+(./chapters/jaoMagActivity/subsections/intro.tex [81
 
-Package natbib Warning: Citation `Feiden2021' on page 39 undefined on input lin
-e 124.
+]
+Underfull \vbox (badness 2205) has occurred while \output is active []
 
-))
+ [82])
+(./chapters/jaoMagActivity/subsections/results.tex [83]
+<figures/jaoMagActivity/Combined.pdf, id=2246, 639.99196pt x 437.70929pt>
+File: figures/jaoMagActivity/Combined.pdf Graphic file (type pdf)
+<use figures/jaoMagActivity/Combined.pdf>
+Package pdftex.def Info: figures/jaoMagActivity/Combined.pdf  used on input lin
+e 19.
+(pdftex.def)             Requested size: 195.12767pt x 133.45103pt.
+<figures/jaoMagActivity/Deviation.pdf, id=2257, 622.44894pt x 437.70929pt>
+File: figures/jaoMagActivity/Deviation.pdf Graphic file (type pdf)
+<use figures/jaoMagActivity/Deviation.pdf>
+Package pdftex.def Info: figures/jaoMagActivity/Deviation.pdf  used on input li
+ne 37.
+(pdftex.def)             Requested size: 195.12767pt x 137.21126pt.
+<figures/jaoMagActivity/fpDist.pdf, id=2258, 608.56743pt x 603.58702pt>
+File: figures/jaoMagActivity/fpDist.pdf Graphic file (type pdf)
+<use figures/jaoMagActivity/fpDist.pdf>
+Package pdftex.def Info: figures/jaoMagActivity/fpDist.pdf  used on input line 
+45.
+(pdftex.def)             Requested size: 195.12767pt x 193.5294pt.
+
+Underfull \vbox (badness 1048) has occurred while \output is active []
+
+ [84 <./figures/jaoMagActivity/Combined.pdf>] [85 <./figures/jaoMagActivity/Dev
+iation.pdf> <./figures/jaoMagActivity/fpDist.pdf
+
+pdfTeX warning: pdflatex (file ./figures/jaoMagActivity/fpDist.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>]
+<figures/jaoMagActivity/ReducedDeviation.pdf, id=2302, 622.44894pt x 437.70929p
+t>
+File: figures/jaoMagActivity/ReducedDeviation.pdf Graphic file (type pdf)
+<use figures/jaoMagActivity/ReducedDeviation.pdf>
+Package pdftex.def Info: figures/jaoMagActivity/ReducedDeviation.pdf  used on i
+nput line 79.
+(pdftex.def)             Requested size: 195.12767pt x 137.21126pt.
+
+
+Package natbib Warning: Citation `Feiden2022' on page 86 undefined on input lin
+e 111.
+
+
+Underfull \vbox (badness 1286) has occurred while \output is active []
+
+ [86 <./figures/jaoMagActivity/ReducedDeviation.pdf>]
+<figures/jaoMagActivity/GapLocationMC.pdf, id=2330, 622.44894pt x 437.70929pt>
+File: figures/jaoMagActivity/GapLocationMC.pdf Graphic file (type pdf)
+<use figures/jaoMagActivity/GapLocationMC.pdf>
+Package pdftex.def Info: figures/jaoMagActivity/GapLocationMC.pdf  used on inpu
+t line 119.
+(pdftex.def)             Requested size: 195.12767pt x 137.21126pt.
+
+
+Package natbib Warning: Citation `023AJ....165..192G' on page 87 undefined on i
+nput line 130.
+
+
+Underfull \vbox (badness 1062) has occurred while \output is active []
+
+ [87]
+
+Package natbib Warning: Citation `https://doi.org/10.5281/zenodo.7697238' on pa
+ge 88 undefined on input line 150.
+
+
+Package natbib Warning: Citation `SalvatierProbabilistic2016' on page 88 undefi
+ned on input line 159.
+
+
+Underfull \vbox (badness 4328) has occurred while \output is active []
+
+ [88 <./figures/jaoMagActivity/GapLocationMC.pdf>])
+(./chapters/jaoMagActivity/subsections/modeling.tex [89]
+<figures/jaoMagActivity/Kippenhan_clamped.pdf, id=2381, 1034.60086pt x 450.0260
+5pt>
+File: figures/jaoMagActivity/Kippenhan_clamped.pdf Graphic file (type pdf)
+<use figures/jaoMagActivity/Kippenhan_clamped.pdf>
+Package pdftex.def Info: figures/jaoMagActivity/Kippenhan_clamped.pdf  used on 
+input line 47.
+(pdftex.def)             Requested size: 390.25536pt x 169.74817pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39]
-[40 <./figures/jaoOpacity/Core3HECompSameMass.pdf>]
-Chapter 5.
+ [90]
+<figures/jaoMagActivity/simpleBEvolution.pdf, id=2390, 628.67159pt x 446.88333p
+t>
+File: figures/jaoMagActivity/simpleBEvolution.pdf Graphic file (type pdf)
+<use figures/jaoMagActivity/simpleBEvolution.pdf>
+Package pdftex.def Info: figures/jaoMagActivity/simpleBEvolution.pdf  used on i
+nput line 68.
+(pdftex.def)             Requested size: 195.12767pt x 138.70287pt.
+
+Underfull \vbox (badness 2980) has occurred while \output is active []
+
+ [91 <./figures/jaoMagActivity/Kippenhan_clamped.pdf> <./figures/jaoMagActivity
+/simpleBEvolution.pdf>]
+<figures/jaoMagActivity/SpreadModel.pdf, id=2415, 631.1627pt x 437.70929pt>
+File: figures/jaoMagActivity/SpreadModel.pdf Graphic file (type pdf)
+<use figures/jaoMagActivity/SpreadModel.pdf>
+Package pdftex.def Info: figures/jaoMagActivity/SpreadModel.pdf  used on input 
+line 90.
+(pdftex.def)             Requested size: 195.12767pt x 135.32114pt.
+ [92 <./figures/jaoMagActivity/SpreadModel.pdf>])
+(./chapters/jaoMagActivity/subsections/conclusion.tex [93])) [94] [95
+
+] [96]
+(./Thesis.bbl
+Underfull \hbox (badness 1270) in paragraph at lines 77--80
+[]\OT1/cmr/m/n/12 Barentsen, G., Hedges, C., Vin^^S^^Pcius, Z., et al. 2020, Ke
+-p-lerGO/Lightkurve:
+ []
+
+[97
+
+] [98] [99] [100] [101] [102] [103] [104] [105])
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
-[41
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
+[106]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
  (./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8F617664430CF95EB768C4B217358509;2035.
+(rerunfilecheck)             Checksum: 07331AAD24478813AA128C9B53FB678F;4222.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 7619 strings out of 492641
- 111125 string characters out of 6131787
- 252273 words of memory out of 5000000
- 11219 multiletter control sequences out of 15000+600000
- 12032 words of font info for 44 fonts, out of 8000000 for 9000
+ 9022 strings out of 492641
+ 134488 string characters out of 6131787
+ 287295 words of memory out of 5000000
+ 12228 multiletter control sequences out of 15000+600000
+ 14920 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,11n,37p,1083b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,11n,37p,1747b,738s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/te
@@ -1535,11 +1147,11 @@ lic/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
 2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-
-Output written on Thesis.pdf (53 pages, 4904449 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Thesis.pdf (123 pages, 11446406 bytes).
 PDF statistics:
- 992 PDF objects out of 1000 (max. 8388607)
- 849 compressed objects within 9 object streams
- 136 named destinations out of 1000 (max. 500000)
- 341 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2678 PDF objects out of 2984 (max. 8388607)
+ 2400 compressed objects within 24 object streams
+ 439 named destinations out of 1000 (max. 500000)
+ 684 words of extra memory for PDF output out of 10000 (max. 10000000)
 

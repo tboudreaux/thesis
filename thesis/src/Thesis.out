@@ -1,30 +1,61 @@
-\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
-\BOOKMARK [0][-]{chapter.2}{Globular Clusters}{}% 2
-\BOOKMARK [1][-]{section.2.1}{Why Globular Clusters Matter}{chapter.2}% 3
-\BOOKMARK [1][-]{section.2.2}{Modeling Globular Clusters}{chapter.2}% 4
-\BOOKMARK [2][-]{subsection.2.2.1}{Problems Modeling Globular Clusters}{section.2.2}% 5
-\BOOKMARK [1][-]{section.2.3}{Modeling NGC 2808}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.4}{Modeling NGC 6752}{chapter.2}% 7
-\BOOKMARK [0][-]{chapter.3}{Magnetic Fields In M Dwarfs}{}% 8
-\BOOKMARK [1][-]{section.3.1}{Magnetic Activity in M dwarfs}{chapter.3}% 9
-\BOOKMARK [1][-]{section.3.2}{Observations \046 Data Reduction}{chapter.3}% 10
-\BOOKMARK [1][-]{section.3.3}{Analysis}{chapter.3}% 11
-\BOOKMARK [2][-]{subsection.3.3.1}{Rotation and Rossby Number}{section.3.3}% 12
-\BOOKMARK [1][-]{section.3.4}{Rotation\205Activity Relation}{chapter.3}% 13
-\BOOKMARK [1][-]{section.3.5}{Magnetic Activities in M dwarfs Closing Thoughts}{chapter.3}% 14
-\BOOKMARK [0][-]{chapter.4}{Jao Gap}{}% 15
-\BOOKMARK [1][-]{section.4.1}{Jao Gap Sensitivity to Opacity}{chapter.4}% 16
-\BOOKMARK [1][-]{section.4.2}{INTRODUCTION}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.3}{Jao Gap}{chapter.4}% 18
-\BOOKMARK [2][-]{subsection.4.3.1}{Efforts to Model the Gap}{section.4.3}% 19
-\BOOKMARK [1][-]{section.4.4}{Updated Opacities}{chapter.4}% 20
-\BOOKMARK [2][-]{subsection.4.4.1}{Table Querying and Conversion}{section.4.4}% 21
-\BOOKMARK [2][-]{subsection.4.4.2}{Solar Calibrated Stellar Models}{section.4.4}% 22
-\BOOKMARK [1][-]{section.4.5}{pyTOPSScrape}{chapter.4}% 23
-\BOOKMARK [1][-]{section.4.6}{Interpolating \040R}{chapter.4}% 24
-\BOOKMARK [1][-]{section.4.7}{Modeling}{chapter.4}% 25
-\BOOKMARK [2][-]{subsection.4.7.1}{Population Synthesis}{section.4.7}% 26
-\BOOKMARK [2][-]{subsection.4.7.2}{Mixing Length Dependence}{section.4.7}% 27
-\BOOKMARK [1][-]{section.4.8}{Results}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.9}{Jao Gap connection to Magnatism}{chapter.4}% 29
-\BOOKMARK [0][-]{chapter.5}{Conclusions}{}% 30
+\BOOKMARK [-1][-]{part.1}{I Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.1}{A Breif History of Humans \046 Stars}{part.1}% 2
+\BOOKMARK [1][-]{section.1.1}{A post prelude prelude}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Stars In Ancient Times}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.3}{Astronomy Becomes a Science}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.4}{The Birth of Modern Astronomy}{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{Stars in the Modern World}{part.1}% 7
+\BOOKMARK [0][-]{chapter.3}{Stellar Structure Evolution}{part.1}% 8
+\BOOKMARK [0][-]{chapter.4}{Stars as Stellar Labratories}{part.1}% 9
+\BOOKMARK [-1][-]{part.2}{II Globular Clusters}{}% 10
+\BOOKMARK [0][-]{chapter.5}{Why Study Globular Clusters}{part.2}% 11
+\BOOKMARK [0][-]{chapter.6}{Modeling Globular Clusters}{part.2}% 12
+\BOOKMARK [1][-]{section.6.1}{Problems Modeling Globular Clusters}{chapter.6}% 13
+\BOOKMARK [0][-]{chapter.7}{Modeling NGC 2808}{part.2}% 14
+\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 15
+\BOOKMARK [1][-]{section.7.2}{Stellar Models}{chapter.7}% 16
+\BOOKMARK [1][-]{section.7.3}{Chemical Consistency}{chapter.7}% 17
+\BOOKMARK [2][-]{subsection.7.3.1}{Atmospheric Boundary Conditions}{section.7.3}% 18
+\BOOKMARK [2][-]{subsection.7.3.2}{Opacities}{section.7.3}% 19
+\BOOKMARK [1][-]{section.7.4}{fidanka}{chapter.7}% 20
+\BOOKMARK [2][-]{subsection.7.4.1}{Fiducial Line Measurement}{section.7.4}% 21
+\BOOKMARK [2][-]{subsection.7.4.2}{Stellar Population Synthesis}{section.7.4}% 22
+\BOOKMARK [2][-]{subsection.7.4.3}{Isochrone Optimization}{section.7.4}% 23
+\BOOKMARK [2][-]{subsection.7.4.4}{Fidanka Testing}{section.7.4}% 24
+\BOOKMARK [1][-]{section.7.5}{Isochrone Fitting}{chapter.7}% 25
+\BOOKMARK [2][-]{subsection.7.5.1}{The Number of Populartions in NGC 2808}{section.7.5}% 26
+\BOOKMARK [2][-]{subsection.7.5.2}{ACS-HUGS Photometric Zero Point Offset}{section.7.5}% 27
+\BOOKMARK [1][-]{section.7.6}{Results}{chapter.7}% 28
+\BOOKMARK [2][-]{subsection.7.6.1}{The Number of Populartions in NGC 2808}{section.7.6}% 29
+\BOOKMARK [1][-]{section.7.7}{Conclusion}{chapter.7}% 30
+\BOOKMARK [0][-]{chapter.8}{Modeling NGC 6752}{part.2}% 31
+\BOOKMARK [-1][-]{part.3}{III Magnetic Fields and the Gaia M dwarf Gap}{}% 32
+\BOOKMARK [0][-]{chapter.9}{Magnetic Fields In M Dwarfs}{part.3}% 33
+\BOOKMARK [1][-]{section.9.1}{Magnetic Activity in M dwarfs}{chapter.9}% 34
+\BOOKMARK [1][-]{section.9.2}{Observations \046 Data Reduction}{chapter.9}% 35
+\BOOKMARK [1][-]{section.9.3}{Analysis}{chapter.9}% 36
+\BOOKMARK [2][-]{subsection.9.3.1}{Rotation and Rossby Number}{section.9.3}% 37
+\BOOKMARK [1][-]{section.9.4}{Rotation\205Activity Relation}{chapter.9}% 38
+\BOOKMARK [1][-]{section.9.5}{Magnetic Activities in M dwarfs Closing Thoughts}{chapter.9}% 39
+\BOOKMARK [0][-]{chapter.10}{Gap Sensitivity to Opacity Source}{part.3}% 40
+\BOOKMARK [1][-]{section.10.1}{INTRODUCTION}{chapter.10}% 41
+\BOOKMARK [1][-]{section.10.2}{Jao Gap}{chapter.10}% 42
+\BOOKMARK [2][-]{subsection.10.2.1}{Efforts to Model the Gap}{section.10.2}% 43
+\BOOKMARK [1][-]{section.10.3}{Updated Opacities}{chapter.10}% 44
+\BOOKMARK [2][-]{subsection.10.3.1}{Table Querying and Conversion}{section.10.3}% 45
+\BOOKMARK [2][-]{subsection.10.3.2}{Solar Calibrated Stellar Models}{section.10.3}% 46
+\BOOKMARK [1][-]{section.10.4}{pyTOPSScrape}{chapter.10}% 47
+\BOOKMARK [1][-]{section.10.5}{Interpolating \040R}{chapter.10}% 48
+\BOOKMARK [1][-]{section.10.6}{Modeling}{chapter.10}% 49
+\BOOKMARK [2][-]{subsection.10.6.1}{Population Synthesis}{section.10.6}% 50
+\BOOKMARK [2][-]{subsection.10.6.2}{Mixing Length Dependence}{section.10.6}% 51
+\BOOKMARK [1][-]{section.10.7}{Results}{chapter.10}% 52
+\BOOKMARK [0][-]{chapter.11}{Jao Gap connection to Magnatism}{part.3}% 53
+\BOOKMARK [1][-]{section.11.1}{INTRODUCTION}{chapter.11}% 54
+\BOOKMARK [1][-]{section.11.2}{Correlation}{chapter.11}% 55
+\BOOKMARK [2][-]{subsection.11.2.1}{Rotation}{section.11.2}% 56
+\BOOKMARK [2][-]{subsection.11.2.2}{Limitations}{section.11.2}% 57
+\BOOKMARK [1][-]{section.11.3}{Modeling}{chapter.11}% 58
+\BOOKMARK [2][-]{subsection.11.3.1}{Limitations}{section.11.3}% 59
+\BOOKMARK [1][-]{section.11.4}{Conclusion}{chapter.11}% 60
+\BOOKMARK [-1][-]{part.4}{IV Conclusions}{}% 61

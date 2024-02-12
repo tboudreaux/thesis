@@ -8,33 +8,38 @@
 \committeeChair{Brian C. Chaboyer}
 \committeeMemberOne{Elisabeth R. Newton}
 \committeeMemberTwo{Aaron Dotter}
-\externalMember{Gregory Feiden}
+\externalMember{Jamie Tayar}
 \dedicationText{For Poppy, who taught me to build and supported as I did.}
 \prefaceText{This work was conducted under the supervision of Brian Chaboyer and I would not have been able to complete this thesis without his continued support. I would like to that Brian immensely for his continued support and for being a wonderful teacher. Further, I am more grateful than words can express for the love and support which my parents, Karol and Don, have provided me throughout my entire life. They have guided, cared, and loved me from the day I told them I was going to be an astronomer in pre-school to the day I defend this thesis. Finally, I would like to thank my friends for always being there for me and for making graduate school both fun and an incredible learning experience.}
 \abstractText{Low mass stars account for approximately 70 percent of the stellar populations; yet, due to their small sizes and cool temperatures they account for only {\color{red} NUMBER} percent of the galaxies luminosity function. Consequently, across multiple domains there has been a dearth of interest in these key astronomical objects. In this thesis I present two projects which have further revealed properties of low mass stars. Firstly, I present chemically self consistent models of the globular clusters NGC 2808 and NGC 6752. Due to the ages of both clusters, these models are dominated by low mass stars. We find that chemical consistency between a stars structural and atmospheric models makes only a trivial difference in model predictions. Secondly, I present a detailed investigation into the Gaia M Dwarf Gap (the Jao Gap) looking at how the Jao Gap's theoretical location is effected by high temperature radiative opacity source and how the physics which drives the Jao Gap's formation may also drive perturbations to stellar magnetic field strength.}
 
+\newcommand\fidanka{\texttt{Fidanka} }
+\newcommand\addcite{{\color{red}[CITATION HERE]}}
+
 \begin{document}
 \makePrelim
 
-\chapter{Introduction}
+\part{Introduction}
+\input{chapters/introduction/intro.tex}
 
-\chapter{Globular Clusters}
-\section{Why Globular Clusters Matter}
-\section{Modeling Globular Clusters}
-\subsection{Problems Modeling Globular Clusters}
-\section{Modeling NGC 2808}
-\section{Modeling NGC 6752}
+\part{Globular Clusters}
+\input{chapters/GCs/GC.tex}
 
+\part{Magnetic Fields and the Gaia M dwarf Gap}
 \chapter{Magnetic Fields In M Dwarfs}
 \input{chapters/magActivity/magActivity}
 
-\chapter{Jao Gap}
-\section{Jao Gap Sensitivity to Opacity}
+\chapter{Gap Sensitivity to Opacity Source}
 \input{chapters/jaoOpacity/jaoOpacity}
 
-\section{Jao Gap connection to Magnatism}
+\chapter{Jao Gap connection to Magnatism}
+\input{chapters/jaoMagActivity/jaoMagActivity}
 
-\chapter{Conclusions}
+\part{Conclusions}
+
+\bibliography{bib/ms} % Entries are in the refs.bib file
+\bibliographystyle{aasjournal} % We choose the "plain" reference style
+
 
 % Now the user can start typing
 \end{document}
