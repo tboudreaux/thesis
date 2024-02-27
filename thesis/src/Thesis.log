@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.1.21)  27 FEB 2024 10:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.1.21)  27 FEB 2024 10:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -915,6 +915,7 @@ l.22 \part{Introduction}
                    \relax 
 l.22 \part{Introduction}
                          [2] (./chapters/introduction/intro.tex
+(./chapters/introduction/subsections/history.tex
 Chapter 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
@@ -941,18 +942,18 @@ Underfull \hbox (badness 2556) in paragraph at lines 123--133
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
-[7] [8]
+ [6])
+(./chapters/introduction/subsections/stellarStructure.tex [7] [8]
 Chapter 2.
 
 Underfull \vbox (badness 6300) has occurred while \output is active []
 
  [9
 
-]
-[10]
+])
+(./chapters/introduction/subsections/labs.tex [10]
 Chapter 3.
-[11
+) [11
 
 ]) [12] [13
 
@@ -1812,8 +1813,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
  ) 
 Here is how much of TeX's memory you used:
- 23074 strings out of 492641
- 448850 string characters out of 6131787
+ 23084 strings out of 492641
+ 449199 string characters out of 6131787
  611603 words of memory out of 5000000
  25945 multiletter control sequences out of 15000+600000
  17082 words of font info for 66 fonts, out of 8000000 for 9000

@@ -1,0 +1,26 @@
+\begin{itemize}
+  \item Overview of what makes stars so important to human history
+  \item Overview of what makes stars so important to the history of the universe 
+  \item General overview of the history of stellar stucture
+    \begin{itemize}
+      \item History of thought on stars
+      \item First attempts to describe what stars were
+      \item Early modern attempts to describe stars (i.e. gravity collapse)
+      \item Start of modern stellar astrophysics
+      \item history of stellar structure equations
+      \item history of computer models
+      \item history and provinence of DSEP
+    \end{itemize}
+  \item Why is it important to understand stellar physics going forward
+  \item Switch gears to talk about GC because of how they are
+    \begin{itemize}
+      \item The roll GC play in understanding the universe
+      \item labs to test stellar physics!
+    \end{itemize}
+  \item Talk about Jao Gap
+    \begin{itemize}
+      \item Talk about the Jao Gap as a stellar labratory (interiors of low mass stars)
+    \end{itemize}
+  \item Talk about the RGBB, again a lab for stellar physics
+  \item breif overview of what will be presented in the thesis
+\end{itemize}
