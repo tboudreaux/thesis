@@ -1,17 +1,17 @@
 \documentclass{GuariniThesis}
 
 % Define the details of your thesis
-\thesisTitle{MODELS OF LOW MASS STARS}
+\thesisTitle{MODELS OF LOW MASS STARS AS PHYSICAL LABRATORIES}
 \authorName{Emily M. Boudreaux}
 \field{Physics and Astronomy}
-\defenseDate{April 2024}
+\defenseDate{April 24th 2024}
 \committeeChair{Brian C. Chaboyer}
 \committeeMemberOne{Elisabeth R. Newton}
 \committeeMemberTwo{Aaron Dotter}
 \externalMember{Jamie Tayar}
 \dedicationText{For Poppy, who taught me to build and supported as I did.}
-\prefaceText{This work was conducted under the supervision of Brian Chaboyer and I would not have been able to complete this thesis without his continued support. I would like to that Brian immensely for his continued support and for being a wonderful teacher. Further, I am more grateful than words can express for the love and support which my parents, Karol and Don, have provided me throughout my entire life. They have guided, cared, and loved me from the day I told them I was going to be an astronomer in pre-school to the day I defend this thesis. Finally, I would like to thank my friends for always being there for me and for making graduate school both fun and an incredible learning experience.}
-\abstractText{Low mass stars account for approximately 70 percent of the stellar populations; yet, due to their small sizes and cool temperatures they account for only {\color{red} NUMBER} percent of the galaxies luminosity function. Consequently, across multiple domains there has been a dearth of interest in these key astronomical objects. In this thesis I present two projects which have further revealed properties of low mass stars. Firstly, I present chemically self consistent models of the globular clusters NGC 2808 and NGC 6752. Due to the ages of both clusters, these models are dominated by low mass stars. We find that chemical consistency between a stars structural and atmospheric models makes only a trivial difference in model predictions. Secondly, I present a detailed investigation into the Gaia M Dwarf Gap (the Jao Gap) looking at how the Jao Gap's theoretical location is effected by high temperature radiative opacity source and how the physics which drives the Jao Gap's formation may also drive perturbations to stellar magnetic field strength.}
+\prefaceText{\input{misc/prelud.tex}}
+\abstractText{\input{misc/abstract.tex}}
 
 \newcommand\fidanka{\texttt{Fidanka} }
 \newcommand\addcite{{\color{red}[CITATION HERE]}}
@@ -22,18 +22,20 @@
 \part{Introduction}
 \input{chapters/introduction/intro.tex}
 
-\part{Globular Clusters}
+\part{Stellar Populations as Labratories}
 \input{chapters/GCs/GC.tex}
 
-\part{Magnetic Fields and the Gaia M dwarf Gap}
-\chapter{Magnetic Fields In M Dwarfs}
-\input{chapters/magActivity/magActivity}
-
 \chapter{Gap Sensitivity to Opacity Source}
-\input{chapters/jaoOpacity/jaoOpacity}
+\input{chapters/jaoOpacity/jaoOpacity.tex}
 
 \chapter{Jao Gap connection to Magnatism}
-\input{chapters/jaoMagActivity/jaoMagActivity}
+\input{chapters/jaoMagActivity/jaoMagActivity.tex}
+
+\part{Individual Stars as Labratories}
+\chapter{Magnetic Fields In M Dwarfs}
+\input{chapters/magActivity/magActivity.tex}
+
+\input{chapters/rgb_bump/rgbb.tex}
 
 \part{Conclusions}
 

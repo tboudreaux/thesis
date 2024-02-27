@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Thesis.aux
 The style file: aasjournal.bst
-Reallocated field_info (elt_size=4) to 10249 items from 5000.
+Reallocated field_info (elt_size=4) to 11090 items from 5000.
 Database file #1: bib/ms.bib
 Repeated entry---line 603 of file bib/ms.bib
  : @misc{Boudreaux2022
@@ -10,56 +10,83 @@ Repeated entry---line 603 of file bib/ms.bib
 I'm skipping whatever remains of this entry
 Warning--entry type for "Nic21" isn't style-file defined
 --line 1338 of file bib/ms.bib
+Warning--I didn't find a database entry for "Amb38"
+Warning--I didn't find a database entry for "Spi40"
+Warning--I didn't find a database entry for "Mad17"
+Warning--I didn't find a database entry for "Ren17"
+Warning--I didn't find a database entry for "Wil03"
+Warning--I didn't find a database entry for "Gon05"
+Warning--I didn't find a database entry for "Lan07"
 Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "Cha97"
 Warning--I didn't find a database entry for "Boudreaux22"
 Warning--I didn't find a database entry for "2020SciPy-NMeth"
-Warning--I didn't find a database entry for "Feiden2022"
-Warning--I didn't find a database entry for "023AJ....165..192G"
-Warning--I didn't find a database entry for "https://doi.org/10.5281/zenodo.7697238"
+Warning--I didn't find a database entry for "Lammer2012"
+Warning--I didn't find a database entry for "Gallet2017"
+Warning--I didn't find a database entry for "Kislyakova2017"
+Warning--I didn't find a database entry for "Saar1985"
+Warning--I didn't find a database entry for "Astudillo-Defru2017"
+Warning--I didn't find a database entry for "Wright2018"
+Warning--I didn't find a database entry for "Shulyak2015"
+Warning--I didn't find a database entry for "Chabrier2006"
+Warning--I didn't find a database entry for "Kochukhov2021"
+Warning--I didn't find a database entry for "Kleeorin2023"
+Warning--I didn't find a database entry for "Spada2020"
+Warning--I didn't find a database entry for "Curtis2020"
+Warning--I didn't find a database entry for "Dungee2022"
+Warning--I didn't find a database entry for "Kumar2023"
+Warning--I didn't find a database entry for "Cretignier2024"
+Warning--I didn't find a database entry for "Vaughan1981"
+Warning--I didn't find a database entry for "Houdebine2017"
+Warning--I didn't find a database entry for "Boisse2011"
+Warning--I didn't find a database entry for "Robertson2020"
+Warning--I didn't find a database entry for "2019A&A...623A..24F"
+Warning--I didn't find a database entry for "2023MNRAS.518.3147K"
+Warning--I didn't find a database entry for "Angus2023"
 Warning--I didn't find a database entry for "SalvatierProbabilistic2016"
+Warning--I didn't find a database entry for "Boudreaux2023"
+Warning--I didn't find a database entry for "Cha97"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in GeertBarentsenKeplerGO2020
 Warning--empty publisher in Emden1907
-You've used 173 entries,
+You've used 175 entries,
             3222 wiz_defined-function locations,
-            2013 strings with 54519 characters,
-and the built_in function-call counts, 85231 in all, are:
-= -- 6607
-> -- 7151
+            2083 strings with 55722 characters,
+and the built_in function-call counts, 86249 in all, are:
+= -- 6686
+> -- 7241
 < -- 66
-+ -- 2398
-- -- 2583
-* -- 7584
-:= -- 15756
-add.period$ -- 187
-call.type$ -- 173
-change.case$ -- 1022
-chr.to.int$ -- 171
-cite$ -- 175
-duplicate$ -- 3122
-empty$ -- 4979
-format.name$ -- 2786
-if$ -- 17017
++ -- 2428
+- -- 2618
+* -- 7679
+:= -- 15945
+add.period$ -- 189
+call.type$ -- 175
+change.case$ -- 1034
+chr.to.int$ -- 173
+cite$ -- 177
+duplicate$ -- 3158
+empty$ -- 5035
+format.name$ -- 2821
+if$ -- 17219
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 166
-newline$ -- 538
-num.names$ -- 695
-pop$ -- 1420
+missing$ -- 168
+newline$ -- 544
+num.names$ -- 703
+pop$ -- 1436
 preamble$ -- 1
-purify$ -- 1022
+purify$ -- 1034
 quote$ -- 0
-skip$ -- 2494
+skip$ -- 2522
 stack$ -- 0
-substring$ -- 3080
+substring$ -- 3114
 swap$ -- 58
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1551
+type$ -- 1569
 warning$ -- 2
-while$ -- 660
+while$ -- 667
 width$ -- 0
-write$ -- 1759
+write$ -- 1779
 (There was 1 error message)

@@ -14,6 +14,14 @@
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
 \RequirePackage{hyperref}
+\RequirePackage{tabularx}
+\RequirePackage{longtable}
+\RequirePackage{wrapfig}
+\RequirePackage{tcolorbox}
+\RequirePackage{caption}
+
+\tcbuselibrary{skins, breakable}
+
 \hypersetup{
     colorlinks=true, % Enable coloring of links
     citecolor=blue,  % Set citation links to blue
@@ -213,9 +221,12 @@ Dean of the Guarini School of Graduate and Advanced Studies
   \fontsize{12}{14.4}
   \selectfont
   \section*{Preface}
+  \phantomsection
+  \addcontentsline{toc}{section}{B. Preface}
   \@prefaceText
   \newpage
 }% Preface section
+
 \newcommand{\GuariniAbstract}{
   \newpage
   \pagenumbering{roman}
@@ -223,6 +234,7 @@ Dean of the Guarini School of Graduate and Advanced Studies
   \fontsize{12}{14.4}
   \selectfont
   {\centering\section*{Abstract}}
+  \addcontentsline{toc}{section}{A. Abstract}
   \@abstractText
   \newpage
 }
@@ -252,16 +264,49 @@ Dean of the Guarini School of Graduate and Advanced Studies
 }
 
 \newcommand{\makePrelim}{
+    \cleardoublepage
+    \phantomsection
+    \addcontentsline{toc}{part}{Preliminaries}
+
     \maketitle
     \copyrightnotice
     \dedication
     \GuariniAbstract
     \preface
+
+
+    \cleardoublepage
+    \phantomsection
+    \addcontentsline{toc}{section}{C. Table Of Contents}
     \tableofcontents
+
+    \cleardoublepage
+    \phantomsection
+    \addcontentsline{toc}{section}{E. List of Tables}
     \listoftables
+
+    \cleardoublepage
+    \phantomsection
+    \addcontentsline{toc}{section}{F. List of Figures}
     \listoffigures
+
     \contentStart
 }
 
+\newcounter{sidebarcounter}
+\renewcommand{\thesidebarcounter}{\arabic{sidebarcounter}}
+\newcounter{sidebareq}[sidebarcounter]
+\renewcommand{\thesidebareq}{A\thesidebarcounter.\arabic{sidebareq}}
+\newenvironment{sidebar}[3][r]
+  {
+    \wrapfigure{#1}{0.66\textwidth}
+    \begin{tcolorbox}[title=Aside \number\numexpr\thesidebarcounter+1\relax: #2]
+    \refstepcounter{sidebarcounter}
+    \if\relax\detokenize{#3}\relax
+    \else
+      \label{#3}
+    \fi
+  }
+    {\end{tcolorbox}\endwrapfigure}
 \endinput
 
