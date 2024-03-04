@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Thesis.aux
 The style file: aasjournal.bst
-Reallocated field_info (elt_size=4) to 11090 items from 5000.
+Reallocated field_info (elt_size=4) to 11003 items from 5000.
 Database file #1: bib/ms.bib
 Repeated entry---line 603 of file bib/ms.bib
  : @misc{Boudreaux2022
@@ -10,13 +10,7 @@ Repeated entry---line 603 of file bib/ms.bib
 I'm skipping whatever remains of this entry
 Warning--entry type for "Nic21" isn't style-file defined
 --line 1338 of file bib/ms.bib
-Warning--I didn't find a database entry for "Amb38"
-Warning--I didn't find a database entry for "Spi40"
-Warning--I didn't find a database entry for "Mad17"
-Warning--I didn't find a database entry for "Ren17"
-Warning--I didn't find a database entry for "Wil03"
-Warning--I didn't find a database entry for "Gon05"
-Warning--I didn't find a database entry for "Lan07"
+Warning--I didn't find a database entry for "sayili1981observatory"
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Boudreaux22"
 Warning--I didn't find a database entry for "2020SciPy-NMeth"
@@ -45,48 +39,49 @@ Warning--I didn't find a database entry for "Angus2023"
 Warning--I didn't find a database entry for "SalvatierProbabilistic2016"
 Warning--I didn't find a database entry for "Boudreaux2023"
 Warning--I didn't find a database entry for "Cha97"
+Warning--I didn't find a database entry for "Joyce2015"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in GeertBarentsenKeplerGO2020
 Warning--empty publisher in Emden1907
-You've used 175 entries,
+You've used 177 entries,
             3222 wiz_defined-function locations,
-            2083 strings with 55722 characters,
-and the built_in function-call counts, 86249 in all, are:
-= -- 6686
-> -- 7241
-< -- 66
-+ -- 2428
-- -- 2618
-* -- 7679
-:= -- 15945
-add.period$ -- 189
-call.type$ -- 175
-change.case$ -- 1034
-chr.to.int$ -- 173
-cite$ -- 177
-duplicate$ -- 3158
-empty$ -- 5035
-format.name$ -- 2821
-if$ -- 17219
+            2087 strings with 56186 characters,
+and the built_in function-call counts, 87193 in all, are:
+= -- 6762
+> -- 7314
+< -- 67
++ -- 2452
+- -- 2643
+* -- 7760
+:= -- 16115
+add.period$ -- 191
+call.type$ -- 177
+change.case$ -- 1045
+chr.to.int$ -- 175
+cite$ -- 179
+duplicate$ -- 3194
+empty$ -- 5093
+format.name$ -- 2851
+if$ -- 17411
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 168
-newline$ -- 544
-num.names$ -- 703
-pop$ -- 1436
+missing$ -- 170
+newline$ -- 550
+num.names$ -- 711
+pop$ -- 1453
 preamble$ -- 1
-purify$ -- 1034
+purify$ -- 1045
 quote$ -- 0
-skip$ -- 2522
+skip$ -- 2551
 stack$ -- 0
-substring$ -- 3114
+substring$ -- 3154
 swap$ -- 58
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1569
+type$ -- 1587
 warning$ -- 2
-while$ -- 667
+while$ -- 675
 width$ -- 0
-write$ -- 1779
+write$ -- 1799
 (There was 1 error message)

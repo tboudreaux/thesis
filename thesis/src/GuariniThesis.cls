@@ -19,6 +19,7 @@
 \RequirePackage{wrapfig}
 \RequirePackage{tcolorbox}
 \RequirePackage{caption}
+\RequirePackage{subcaption}
 
 \tcbuselibrary{skins, breakable}
 

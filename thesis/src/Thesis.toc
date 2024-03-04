@@ -5,70 +5,66 @@
 \contentsline {section}{E. List of Tables}{xi}{section*.6}
 \contentsline {section}{F. List of Figures}{xiii}{section*.8}
 \contentsline {part}{I\hspace {1em}Introduction}{1}{part.1}
-\contentsline {chapter}{\numberline {1}A Breif History of Humans \& Stars}{3}{chapter.1}
+\contentsline {chapter}{\numberline {1}A Brief History of Humans \& Stars}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}A post prelude prelude}{3}{section.1.1}
 \contentsline {section}{\numberline {1.2}Pre-Modern Astronomy}{4}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Stars In Ancient Times}{4}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Astronomy Becomes a Science}{4}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}The Birth of Modern Astronomy}{5}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}Stars in the Modern World}{5}{section.1.3}
+\contentsline {subsection}{\numberline {1.2.2}Astronomy Becomes a Science}{5}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}The Birth of Modern Astronomy}{6}{subsection.1.2.3}
 \contentsline {chapter}{\numberline {2}Stellar Structure Evolution}{9}{chapter.2}
-\contentsline {chapter}{\numberline {3}Stars as Stellar Labratories}{11}{chapter.3}
-\contentsline {part}{II\hspace {1em}Stellar Populations as Labratories}{13}{part.2}
-\contentsline {chapter}{\numberline {4}Why Study Globular Clusters}{15}{chapter.4}
-\contentsline {chapter}{\numberline {5}Modeling Globular Clusters}{19}{chapter.5}
-\contentsline {section}{\numberline {5.1}Problems Modeling Globular Clusters}{20}{section.5.1}
-\contentsline {chapter}{\numberline {6}Multiple Populations in NGC 2808}{21}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{21}{section.6.1}
-\contentsline {section}{\numberline {6.2}Stellar Models}{21}{section.6.2}
-\contentsline {section}{\numberline {6.3}Chemical Consistency}{22}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Atmospheric Boundary Conditions}{24}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Opacities}{25}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}fidanka}{25}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Fiducial Line Measurement}{26}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Stellar Population Synthesis}{31}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}Isochrone Optimization}{32}{subsection.6.4.3}
-\contentsline {subsection}{\numberline {6.4.4}Fidanka Testing}{32}{subsection.6.4.4}
-\contentsline {section}{\numberline {6.5}Isochrone Fitting}{33}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}The Number of Populartions in NGC 2808}{35}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}ACS-HUGS Photometric Zero Point Offset}{36}{subsection.6.5.2}
-\contentsline {section}{\numberline {6.6}Results}{37}{section.6.6}
-\contentsline {subsection}{\numberline {6.6.1}The Number of Populartions in NGC 2808}{39}{subsection.6.6.1}
-\contentsline {section}{\numberline {6.7}Conclusion}{39}{section.6.7}
-\contentsline {chapter}{\numberline {7}Modeling NGC 6752}{41}{chapter.7}
-\contentsline {chapter}{\numberline {8}Gap Sensitivity to Opacity Source}{43}{chapter.8}
-\contentsline {section}{\numberline {8.1}INTRODUCTION}{43}{section.8.1}
-\contentsline {section}{\numberline {8.2}Jao Gap}{45}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Efforts to Model the Gap}{47}{subsection.8.2.1}
-\contentsline {section}{\numberline {8.3}Updated Opacities}{48}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Table Querying and Conversion}{49}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}Solar Calibrated Stellar Models}{51}{subsection.8.3.2}
-\contentsline {section}{\numberline {8.4}\texttt {pyTOPSScrape}}{53}{section.8.4}
-\contentsline {section}{\numberline {8.5}Interpolating $\rho \rightarrow $ R}{53}{section.8.5}
-\contentsline {section}{\numberline {8.6}Modeling}{55}{section.8.6}
-\contentsline {subsection}{\numberline {8.6.1}Population Synthesis}{56}{subsection.8.6.1}
-\contentsline {subsection}{\numberline {8.6.2}Mixing Length Dependence}{60}{subsection.8.6.2}
-\contentsline {section}{\numberline {8.7}Results}{62}{section.8.7}
-\contentsline {chapter}{\numberline {9}Jao Gap connection to Magnatism}{69}{chapter.9}
-\contentsline {section}{\numberline {9.1}INTRODUCTION}{69}{section.9.1}
-\contentsline {section}{\numberline {9.2}Correlation}{71}{section.9.2}
-\contentsline {subsection}{\numberline {9.2.1}Conicidence with the Jao Gap Magnitude}{76}{subsection.9.2.1}
-\contentsline {subsection}{\numberline {9.2.2}Rotation}{77}{subsection.9.2.2}
-\contentsline {subsection}{\numberline {9.2.3}Limitations}{84}{subsection.9.2.3}
-\contentsline {section}{\numberline {9.3}Modeling}{87}{section.9.3}
-\contentsline {subsection}{\numberline {9.3.1}Limitations}{90}{subsection.9.3.1}
-\contentsline {section}{\numberline {9.4}Conclusion}{92}{section.9.4}
-\contentsline {part}{III\hspace {1em}Individual Stars as Labratories}{93}{part.3}
-\contentsline {chapter}{\numberline {10}Magnetic Fields In M Dwarfs}{95}{chapter.10}
-\contentsline {section}{\numberline {10.1}Magnetic Activity in M dwarfs}{95}{section.10.1}
-\contentsline {section}{\numberline {10.2}Observations \& Data Reduction}{98}{section.10.2}
-\contentsline {section}{\numberline {10.3}Analysis}{99}{section.10.3}
-\contentsline {subsection}{\numberline {10.3.1}Rotation and Rossby Number}{102}{subsection.10.3.1}
-\contentsline {section}{\numberline {10.4}Rotation--Activity Relation}{103}{section.10.4}
-\contentsline {section}{\numberline {10.5}Magnetic Activities in M dwarfs Closing Thoughts}{109}{section.10.5}
-\contentsline {chapter}{\numberline {11}The Red Giant Branch Bump}{111}{chapter.11}
-\contentsline {section}{\numberline {11.1}The Red Giant Branch Bunch in NGC 2808}{112}{section.11.1}
-\contentsline {subsection}{\numberline {11.1.1}Population E and the Case of the Missing Bump}{113}{subsection.11.1.1}
-\contentsline {section}{\numberline {11.2}Effects of Opacities on the Red Giant Branch Bump}{114}{section.11.2}
-\contentsline {section}{\numberline {11.3}Going forward}{114}{section.11.3}
-\contentsline {part}{IV\hspace {1em}Conclusions}{115}{part.4}
+\contentsline {section}{\numberline {2.1}Equations of Stellar Stucture}{11}{section.2.1}
+\contentsline {chapter}{\numberline {3}This Thesis}{15}{chapter.3}
+\contentsline {part}{II\hspace {1em}Stellar Populations}{17}{part.2}
+\contentsline {chapter}{\numberline {4}Multiple Populations in NGC 2808}{19}{chapter.4}
+\contentsline {section}{\numberline {4.1}Stellar Models}{22}{section.4.1}
+\contentsline {section}{\numberline {4.2}Chemical Consistency}{24}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Atmospheric Boundary Conditions}{24}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Opacities}{26}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}fidanka}{26}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Fiducial Line Measurement}{27}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Stellar Population Synthesis}{31}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Isochrone Optimization}{33}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Fidanka Testing}{33}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Isochrone Fitting}{34}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}The Number of Populartions in NGC 2808}{36}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}ACS-HUGS Photometric Zero Point Offset}{37}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Results}{38}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}The Number of Populartions in NGC 2808}{40}{subsection.4.5.1}
+\contentsline {section}{\numberline {4.6}Conclusion}{40}{section.4.6}
+\contentsline {chapter}{\numberline {5}Gap Sensitivity to Opacity Source}{43}{chapter.5}
+\contentsline {section}{\numberline {5.1}The Jao Gap}{43}{section.5.1}
+\contentsline {section}{\numberline {5.2}The Underlying Physics of the Gap}{45}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Efforts to Model the Gap}{47}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}Updated Opacities}{48}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Table Querying and Conversion}{49}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Solar Calibrated Stellar Models}{51}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}\texttt {pyTOPSScrape}}{53}{section.5.4}
+\contentsline {section}{\numberline {5.5}Interpolating $\rho \rightarrow $ R}{53}{section.5.5}
+\contentsline {section}{\numberline {5.6}Modeling}{54}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Population Synthesis}{56}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Mixing Length Dependence}{60}{subsection.5.6.2}
+\contentsline {section}{\numberline {5.7}Results}{62}{section.5.7}
+\contentsline {chapter}{\numberline {6}Jao Gap connection to Magnatism}{69}{chapter.6}
+\contentsline {section}{\numberline {6.1}The Jao Gap and Magnatism}{69}{section.6.1}
+\contentsline {section}{\numberline {6.2}Correlation}{70}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Conicidence with the Jao Gap Magnitude}{75}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Rotation}{76}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Limitations}{83}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Modeling}{86}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Limitations}{90}{subsection.6.3.1}
+\contentsline {section}{\numberline {6.4}Conclusion}{91}{section.6.4}
+\contentsline {part}{III\hspace {1em}Individual Stars}{93}{part.3}
+\contentsline {chapter}{\numberline {7}Magnetic Fields In M Dwarfs}{95}{chapter.7}
+\contentsline {section}{\numberline {7.1}Magnetic Activity in M dwarfs}{95}{section.7.1}
+\contentsline {section}{\numberline {7.2}Observations \& Data Reduction}{98}{section.7.2}
+\contentsline {section}{\numberline {7.3}Analysis}{100}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Rotation and Rossby Number}{103}{subsection.7.3.1}
+\contentsline {section}{\numberline {7.4}Rotation--Activity Relation}{104}{section.7.4}
+\contentsline {section}{\numberline {7.5}Magnetic Activities in M dwarfs Closing Thoughts}{110}{section.7.5}
+\contentsline {chapter}{\numberline {8}The Red Giant Branch Bump}{113}{chapter.8}
+\contentsline {section}{\numberline {8.1}The Red Giant Branch Bunch in NGC 2808}{114}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Population E and the Case of the Missing Bump}{115}{subsection.8.1.1}
+\contentsline {section}{\numberline {8.2}Effects of Opacities on the Red Giant Branch Bump}{116}{section.8.2}
+\contentsline {section}{\numberline {8.3}Going forward}{118}{section.8.3}
+\contentsline {part}{IV\hspace {1em}Conclusions}{119}{part.4}
+\contentsline {chapter}{\numberline {9}So Long and Thanks for all the Fish}{121}{chapter.9}

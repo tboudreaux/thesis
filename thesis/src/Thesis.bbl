@@ -310,6 +310,13 @@ Ferguson, T.~S. 1973, The annals of statistics, 209
 {Gastine}, T., {Yadav}, R.~K., {Morin}, J., {Reiners}, A., \& {Wicht}, J. 2014,
   \mnras, 438, L76
 
+\bibitem[{{Giacobbe} {et~al.}(2020){Giacobbe}, {Benedetto}, {Damasso},
+  {Sozzetti}, {Christille}, {Lattanzi}, {Calcidese}, {Carbognani}, {Barbato},
+  {Pinamonti}, { Poggio}, {Lanza}, {Bernagozzi}, {Cenadelli}, {Lanteri}, \&
+  {Bertolini}}]{Giacobbe2020}
+{Giacobbe}, P., {Benedetto}, M., {Damasso}, M., {et~al.} 2020, \mnras, 491,
+  5216
+
 \bibitem[{{Gratton} {et~al.}(2004){Gratton}, {Sneden}, \&
   {Carretta}}]{Gratton2004}
 {Gratton}, R., {Sneden}, C., \& {Carretta}, E. 2004, \araa, 42, 385
@@ -721,6 +728,11 @@ Smith, G.~H. 1987, Publications of the Astronomical Society of the Pacific, 99,
 Sneden, C., Kraft, R.~P., Prosser, C.~F., \& Langer, G. 1992, The Astronomical
   Journal, 104, 2121
 
+\bibitem[{{Soderblom} {et~al.}(1991){Soderblom}, {Duncan}, \&
+  {Johnson}}]{Soderblom1991}
+{Soderblom}, D.~R., {Duncan}, D.~K., \& {Johnson}, D. R.~H. 1991, \apj, 375,
+  722
+
 \bibitem[{Sollima(2019)}]{Sollima2019}
 Sollima, A. 2019, Monthly Notices of the Royal Astronomical Society, 489, 2377.
 \newblock \url{https://doi.org/10.1093/mnras/stz2093}
@@ -797,6 +809,9 @@ Vaughan, A.~H., \& Preston, G.~W. 1980, Publications of the Astronomical
 \bibitem[{{Vilhu}(1984)}]{Vilhu1984}
 {Vilhu}, O. 1984, \aap, 133, 117
 
+\bibitem[{{West} \& {Basri}(2009)}]{West2009}
+{West}, A.~A., \& {Basri}, G. 2009, \apj, 693, 1283
+
 \bibitem[{{West} {et~al.}(2015){West}, {Weisenburger}, {Irwin},
   {Berta-Thompson}, {Charbonneau}, {Dittmann}, \& {Pineda}}]{West2015}
 {West}, A.~A., {Weisenburger}, K.~L., {Irwin}, J., {et~al.} 2015, \apj, 812, 3
@@ -806,10 +821,6 @@ Vaughan, A.~H., \& Preston, G.~W. 1980, Publications of the Astronomical
 
 \bibitem[{{Wilson}(1968)}]{Wil68}
 ---. 1968, \apj, 153, 221
-
-\bibitem[{{Winters} {et~al.}(2019){Winters}, {Henry}, {Jao}, {Subasavage},
-  {Chatelain}, {Slatten}, {Riedel}, {Silverstein}, \& {Payne}}]{Winters2019}
-{Winters}, J.~G., {Henry}, T.~J., {Jao}, W.-C., {et~al.} 2019, \aj, 157, 216
 
 \bibitem[{Wright {et~al.}(2011)Wright, Drake, Mamajek, \& Henry}]{Wri11}
 Wright, N.~J., Drake, J.~J., Mamajek, E.~E., \& Henry, G.~W. 2011, The

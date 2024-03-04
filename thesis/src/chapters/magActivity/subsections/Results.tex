@@ -1,6 +1,6 @@
 \section{Rotation--Activity Relation}\label{sec:results}
-\textbf{We show our rotation-activity relation in Figures
-\ref{fig:RpHKvsRossbySelf} \& \ref{fig:RpHKvsRossbyDef}. }\textbf{Note that
+We show our rotation-activity relation in Figures
+\ref{fig:RpHKvsRossbySelf} \& \ref{fig:RpHKvsRossbyDef}. Note that
 errors are shown in both figures; however, they render smaller than the data
 point size. Ca II H\&K is also known to be time variable
 \citep[e.g.][]{Baroch2020,Perdelwitz2021}, which is not captured in our
@@ -11,7 +11,7 @@ is known to affect $R'_{HK}$ measurements \citep[figure 8]{Schroder2009}. The
 data used to generate this figure is given in Table \ref{tab:finalData}. Table
 \ref{tab:finalData} includes uncertainties, the R'$_{HK}$ measurements for
 stars which did not have photometrically derived rotational periods in MEarth,
-and data for 2MASS J10252645+0512391}
+and data for 2MASS J10252645+0512391
 
 We find a rotation activity relationship qualitatively similar to that
 presented in \citet{Def17}. Our rotation activity relationship exhibits both
@@ -21,31 +21,30 @@ rotation activity relation given in Equation \ref{eqn:fitEqn} to our data using
 Markov Chain Monte Carlo (MCMC), implemented in \texttt{pymc}
 \citep{Salvatier2016}. 
 
-{\scriptsize
-    \begin{equation}\label{eqn:fitEqn}
-        \log(R'_{HK}) = \begin{cases}
-            \log(R_{s}) & Ro < Ro_{s} \\
-            k\log(Ro) + \log(R_{s}) - k\log(Ro_{s}) & Ro \geq Ro_{s}
-        \end{cases}
-    \end{equation}
-}
+  \begin{equation}\label{eqn:fitEqn}
+      \log(R'_{HK}) = \begin{cases}
+          \log(R_{s}) & Ro < Ro_{s} \\
+          k\log(Ro) + \log(R_{s}) - k\log(Ro_{s}) & Ro \geq Ro_{s}
+      \end{cases}
+  \end{equation}
 
 \noindent $Ro_{s}$ is the Rossby number cutoff between the saturated and
 unsaturated regime. $R_{s}$ is the maximum, saturated, value of $R'_{HK}$ and
-$k$ is the index of the power law when $Ro \geq Ro_{s}$. \textbf{Due to the
+$k$ is the index of the power law when $Ro \geq Ro_{s}$. Due to the
 issues measuring $R'_{HK}$ for high vsini targets discussed above, we exclude
-2MASS J10252645+0512391 from this fit.} All logarithms are base ten unless
+2MASS J10252645+0512391 from this fit. All logarithms are base ten unless
 another base is explicitly given.
 \begin{table}[ht]
   \small
     \centering
     \setlength{\tabcolsep}{4pt}
-  % \renewcommand{\arraystretch}{0.9} % Default value: 1
     \input{tables/magActivity/finalDataProducts}
   \caption{Calculated Rossby Numbers and $R'_{HK}$ values. All circular data
-  points in Figures \ref{fig:RpHKvsRossbySelf} \& \ref{fig:RpHKvsRossbyDef}
-  are present in this table. Masses are taken from the MEarth database. A
-  machine readable version of this table is \textbf{available}}
+  points in Figures \ref{fig:RpHKvsRossbySelf} \& \ref{fig:RpHKvsRossbyDef} are
+  present in this table. Masses are taken from the MEarth database. A machine
+  readable version of this table is available. Rows where the activity metric
+  is bolded were estimates derived from our model fit not empirical
+  measurements.}
     \label{tab:finalData}
 \end{table}
 \begin{figure*}
@@ -82,7 +81,7 @@ We find best fit parameters with one $\sigma$ errors:
     \item $\log(R_{s}) = -4.436\pm0.048$
 
 \end{itemize}
-\textbf{A comparison of the rotation activity derived in this work to those
+A comparison of the rotation activity derived in this work to those
 from both \citet{Def17} and \citet{Mamajek2008} is presented in Figure
 \ref{fig:RpHKvsRossbyFits}. For the 6 targets which do not have measured
 rotational periods we include an estimate of $Ro$ and $p_{rot}$ in the machine
@@ -92,13 +91,13 @@ inferred via Equation \ref{eqn:convectiveOverturn} as it lacks a V-K color
 measurement. Instead, we infer $\tau_{c}$ via \citet{Wri18} Equation 6 (this
 paper Equation \ref{eqn:ConvectiveOverturnTimeMass}) using mass. Similar to our
 manner of inferring $\tau_{c}$ via color, when inferring $\tau_c$ via mass, we
-adopt the larger of the two antisymmetric errors from \citet{Wri18}.}
+adopt the larger of the two antisymmetric errors from \citet{Wri18}.
 
 \begin{equation}\label{eqn:ConvectiveOverturnTimeMass}
 	\log_{10}(\tau_{c}) = 2.33\pm0.06 - 1.5\pm0.21\left(M/M_{\odot}\right) + 0.31\pm0.17\left(M/M_{\odot}\right)^{2}
 \end{equation}
 
-\textbf{Note that $R'_{HK}$ for one of six of these targets (2MASS
+Note that $R'_{HK}$ for one of six of these targets (2MASS
 J15165576-0037116) is consistent to within 1$\sigma$ of the saturated value;
 therefore, the reported $Ro$ for this target should only be taken as an upper
 bound. The remaining five targets have measured $R'_{HK}$ values consistent
@@ -110,22 +109,22 @@ Of the four classed as uncertain, 2MASS 12384914-3822527 and 2MASS
 H-alpha emission \citep{Hawley96}. These two stars and the two non-detections
 have Ca II H\&K activity levels suggesting very long periods. 2MASS
 13464102-5830117 has a candidate period of 45 days, and 2MASS 15165576-0037116
-of 0.8 days, both consistent with their higher levels of Ca II H\&K emission.}
+of 0.8 days, both consistent with their higher levels of Ca II H\&K emission.
 
 As a test of the proposed weak correlation between activity and rotation in the
-``saturated'' regime \textbf{seen in some works \citep{Mamajek2008,
+``saturated'' regime seen in some works \citep{Mamajek2008,
 Reiners2014, Leh20, Med20} --- though not in others \citep{Wri11, Nunez2015,
-Newton2017} --- }  we fit a second model whose power law index is allowed to
-vary at $Ro < Ro_{s}$. \textbf{We find a saturated regime power law index of
-$-0.052\pm0.117$,} consistent with 0 to within 1$\sigma$. \textbf{Moreover,}
+Newton2017} ---   we fit a second model whose power law index is allowed to
+vary at $Ro < Ro_{s}$. We find a saturated regime power law index of
+$-0.052\pm0.117$, consistent with 0 to within 1$\sigma$. Moreover,
 all other parameter for this model are consistent to within one $\sigma$ of the
 nominal  parameters for the model where the index is constrained to 0 below
-$Ro=Ro_{s}$. \textbf{We can constrain the slope in the saturated
+$Ro=Ro_{s}$. We can constrain the slope in the saturated
 regime to be between -0.363 and 0.259 at the $3\sigma$ confidence level.
 Ultimately, we adopt the most standard activity interpretation, a
-fully-saturated regime} at $Ro < Ro_{s}$. 
+fully-saturated regime at $Ro < Ro_{s}$. 
 
-\textbf{We investigate whether our lack of detection of a slope for $Ro <
+We investigate whether our lack of detection of a slope for $Ro <
 Ro_{s}$ is due to the limited number of observations in that region when
 compared to other works \citep[e.g.][93 targets $Ro < Ro_{s}$]{Med20} through
 injection and recovery tests. We inject, fake, rotation-activity measurements
@@ -138,19 +137,19 @@ injected slope to the three sigma confidence level. Ultimately, we need more
 than 65 data points --- 43 more than we observed in the saturated regime --- to
 consistently recover this slope. Therefore, given the spread of our data we
 cannot detect slopes on the order of what has previously been reported in the
-literature.}
+literature.
 
-We observe a gap in rotational period \textbf{over a comparable range} to the
+We observe a gap in rotational period over a comparable range to the
 one presented in \citet{Newton2016} Figure 2. Namely, that M-dwarfs are
 preferentially observed as either fast or slow rotators, with a seeming lack of
 stars existing at mid rotational periods. This period gap manifests in the
 Rossby Number and can be seen in Figure \ref{fig:RpHKvsRossbyDef} as a lack of
-our targets near to the knee-point in the fit. \textbf{This period gap likely
+our targets near to the knee-point in the fit. This period gap likely
 corresponds to that seen by \citet{Browning2010}, who found a paucity of M
 dwarfs at intermediate activity levels in Ca II H\&K and note the similarity to
 the Vaughn-Preston gap established in higher mass stars \citep{vaughan1980}.
 \citet{Magaudda2020} also identify a double-gap in x-ray activity for stars in
-the unsaturated regime; it is not clear that the gap we see is related.} As a
+the unsaturated regime; it is not clear that the gap we see is related. As a
 consequence of this period gap, there exists a degeneracy in our data
 between moving the knee-point and allowing the activity level to vary in the
 saturated regime.  In the following, we adopt the model of a fully saturated
@@ -173,22 +172,22 @@ while the saturated value, $R_{s}$, differs.
 The mass ranges of our respective samples explain the differences in saturation
 values between our work and that of \citet{Def17}. Our work focuses on
 mid-to-late M-dwarfs and includes no stars above a mass of $0.5$ M$_{\odot}$
-(Figure \ref{fig:massDistribution}).  \textbf{The strength of Ca II H\&K
+(Figure \ref{fig:massDistribution}).  The strength of Ca II H\&K
 emission is known to decrease as stellar mass decreases \citep{Schrijver1987,
 Rauscher2006, Hou17}. As \citet{Rauscher2006} note, this is the opposite as the
 trend seen in H-alpha; the latter primarily reflects the increasing length of
 time that lower M dwarfs remain active and rapidly rotating \citep{West2015,
-Newton2016}.}
+Newton2016}.
 
-\textbf{A mass dependence can be seen in Figure 10 in \citet{Def17}, consistent
-with expectations from the literature.} If we clip the data from \citet{Def17}
+A mass dependence can be seen in Figure 10 in \citet{Def17}, consistent
+with expectations from the literature. If we clip the data from \citet{Def17}
 Table 3 to the same mass range as our data-set ($M_{*} < 0.5M_{\odot}$) and fit
 the same function as above, we find that all best fit parameters are consistent
 to within one sigma between the two data-sets. 
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.47\textwidth]{figures/magActivity/B2020vsAD2016_Masses.pdf}
+    \includegraphics[width=0.85\textwidth]{figures/magActivity/B2020vsAD2016_Masses.pdf}
 	\caption{Distribution of masses between our sample and the sample presented
 	in \citet{Def17}. Note how the two studies have approximately the same
 	sample sizes; however, our sample is more tightly concentrated at lower

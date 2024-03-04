@@ -5,70 +5,66 @@
 \BOOKMARK [1][-]{section*.6}{E. List of Tables}{section*.1}% 5
 \BOOKMARK [1][-]{section*.8}{F. List of Figures}{section*.1}% 6
 \BOOKMARK [-1][-]{part.1}{I Introduction}{}% 7
-\BOOKMARK [0][-]{chapter.1}{A Breif History of Humans \046 Stars}{part.1}% 8
+\BOOKMARK [0][-]{chapter.1}{A Brief History of Humans \046 Stars}{part.1}% 8
 \BOOKMARK [1][-]{section.1.1}{A post prelude prelude}{chapter.1}% 9
 \BOOKMARK [1][-]{section.1.2}{Pre-Modern Astronomy}{chapter.1}% 10
 \BOOKMARK [2][-]{subsection.1.2.1}{Stars In Ancient Times}{section.1.2}% 11
 \BOOKMARK [2][-]{subsection.1.2.2}{Astronomy Becomes a Science}{section.1.2}% 12
 \BOOKMARK [2][-]{subsection.1.2.3}{The Birth of Modern Astronomy}{section.1.2}% 13
-\BOOKMARK [1][-]{section.1.3}{Stars in the Modern World}{chapter.1}% 14
-\BOOKMARK [0][-]{chapter.2}{Stellar Structure Evolution}{part.1}% 15
-\BOOKMARK [0][-]{chapter.3}{Stars as Stellar Labratories}{part.1}% 16
-\BOOKMARK [-1][-]{part.2}{II Stellar Populations as Labratories}{}% 17
-\BOOKMARK [0][-]{chapter.4}{Why Study Globular Clusters}{part.2}% 18
-\BOOKMARK [0][-]{chapter.5}{Modeling Globular Clusters}{part.2}% 19
-\BOOKMARK [1][-]{section.5.1}{Problems Modeling Globular Clusters}{chapter.5}% 20
-\BOOKMARK [0][-]{chapter.6}{Multiple Populations in NGC 2808}{part.2}% 21
-\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 22
-\BOOKMARK [1][-]{section.6.2}{Stellar Models}{chapter.6}% 23
-\BOOKMARK [1][-]{section.6.3}{Chemical Consistency}{chapter.6}% 24
-\BOOKMARK [2][-]{subsection.6.3.1}{Atmospheric Boundary Conditions}{section.6.3}% 25
-\BOOKMARK [2][-]{subsection.6.3.2}{Opacities}{section.6.3}% 26
-\BOOKMARK [1][-]{section.6.4}{fidanka}{chapter.6}% 27
-\BOOKMARK [2][-]{subsection.6.4.1}{Fiducial Line Measurement}{section.6.4}% 28
-\BOOKMARK [2][-]{subsection.6.4.2}{Stellar Population Synthesis}{section.6.4}% 29
-\BOOKMARK [2][-]{subsection.6.4.3}{Isochrone Optimization}{section.6.4}% 30
-\BOOKMARK [2][-]{subsection.6.4.4}{Fidanka Testing}{section.6.4}% 31
-\BOOKMARK [1][-]{section.6.5}{Isochrone Fitting}{chapter.6}% 32
-\BOOKMARK [2][-]{subsection.6.5.1}{The Number of Populartions in NGC 2808}{section.6.5}% 33
-\BOOKMARK [2][-]{subsection.6.5.2}{ACS-HUGS Photometric Zero Point Offset}{section.6.5}% 34
-\BOOKMARK [1][-]{section.6.6}{Results}{chapter.6}% 35
-\BOOKMARK [2][-]{subsection.6.6.1}{The Number of Populartions in NGC 2808}{section.6.6}% 36
-\BOOKMARK [1][-]{section.6.7}{Conclusion}{chapter.6}% 37
-\BOOKMARK [0][-]{chapter.7}{Modeling NGC 6752}{part.2}% 38
-\BOOKMARK [0][-]{chapter.8}{Gap Sensitivity to Opacity Source}{part.2}% 39
-\BOOKMARK [1][-]{section.8.1}{INTRODUCTION}{chapter.8}% 40
-\BOOKMARK [1][-]{section.8.2}{Jao Gap}{chapter.8}% 41
-\BOOKMARK [2][-]{subsection.8.2.1}{Efforts to Model the Gap}{section.8.2}% 42
-\BOOKMARK [1][-]{section.8.3}{Updated Opacities}{chapter.8}% 43
-\BOOKMARK [2][-]{subsection.8.3.1}{Table Querying and Conversion}{section.8.3}% 44
-\BOOKMARK [2][-]{subsection.8.3.2}{Solar Calibrated Stellar Models}{section.8.3}% 45
-\BOOKMARK [1][-]{section.8.4}{pyTOPSScrape}{chapter.8}% 46
-\BOOKMARK [1][-]{section.8.5}{Interpolating \040R}{chapter.8}% 47
-\BOOKMARK [1][-]{section.8.6}{Modeling}{chapter.8}% 48
-\BOOKMARK [2][-]{subsection.8.6.1}{Population Synthesis}{section.8.6}% 49
-\BOOKMARK [2][-]{subsection.8.6.2}{Mixing Length Dependence}{section.8.6}% 50
-\BOOKMARK [1][-]{section.8.7}{Results}{chapter.8}% 51
-\BOOKMARK [0][-]{chapter.9}{Jao Gap connection to Magnatism}{part.2}% 52
-\BOOKMARK [1][-]{section.9.1}{INTRODUCTION}{chapter.9}% 53
-\BOOKMARK [1][-]{section.9.2}{Correlation}{chapter.9}% 54
-\BOOKMARK [2][-]{subsection.9.2.1}{Conicidence with the Jao Gap Magnitude}{section.9.2}% 55
-\BOOKMARK [2][-]{subsection.9.2.2}{Rotation}{section.9.2}% 56
-\BOOKMARK [2][-]{subsection.9.2.3}{Limitations}{section.9.2}% 57
-\BOOKMARK [1][-]{section.9.3}{Modeling}{chapter.9}% 58
-\BOOKMARK [2][-]{subsection.9.3.1}{Limitations}{section.9.3}% 59
-\BOOKMARK [1][-]{section.9.4}{Conclusion}{chapter.9}% 60
-\BOOKMARK [-1][-]{part.3}{III Individual Stars as Labratories}{}% 61
-\BOOKMARK [0][-]{chapter.10}{Magnetic Fields In M Dwarfs}{part.3}% 62
-\BOOKMARK [1][-]{section.10.1}{Magnetic Activity in M dwarfs}{chapter.10}% 63
-\BOOKMARK [1][-]{section.10.2}{Observations \046 Data Reduction}{chapter.10}% 64
-\BOOKMARK [1][-]{section.10.3}{Analysis}{chapter.10}% 65
-\BOOKMARK [2][-]{subsection.10.3.1}{Rotation and Rossby Number}{section.10.3}% 66
-\BOOKMARK [1][-]{section.10.4}{Rotation\205Activity Relation}{chapter.10}% 67
-\BOOKMARK [1][-]{section.10.5}{Magnetic Activities in M dwarfs Closing Thoughts}{chapter.10}% 68
-\BOOKMARK [0][-]{chapter.11}{The Red Giant Branch Bump}{part.3}% 69
-\BOOKMARK [1][-]{section.11.1}{The Red Giant Branch Bunch in NGC 2808}{chapter.11}% 70
-\BOOKMARK [2][-]{subsection.11.1.1}{Population E and the Case of the Missing Bump}{section.11.1}% 71
-\BOOKMARK [1][-]{section.11.2}{Effects of Opacities on the Red Giant Branch Bump}{chapter.11}% 72
-\BOOKMARK [1][-]{section.11.3}{Going forward}{chapter.11}% 73
-\BOOKMARK [-1][-]{part.4}{IV Conclusions}{}% 74
+\BOOKMARK [0][-]{chapter.2}{Stellar Structure Evolution}{part.1}% 14
+\BOOKMARK [1][-]{section.2.1}{Equations of Stellar Stucture}{chapter.2}% 15
+\BOOKMARK [0][-]{chapter.3}{This Thesis}{part.1}% 16
+\BOOKMARK [-1][-]{part.2}{II Stellar Populations}{}% 17
+\BOOKMARK [0][-]{chapter.4}{Multiple Populations in NGC 2808}{part.2}% 18
+\BOOKMARK [1][-]{section.4.1}{Stellar Models}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.2}{Chemical Consistency}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.2.1}{Atmospheric Boundary Conditions}{section.4.2}% 21
+\BOOKMARK [2][-]{subsection.4.2.2}{Opacities}{section.4.2}% 22
+\BOOKMARK [1][-]{section.4.3}{fidanka}{chapter.4}% 23
+\BOOKMARK [2][-]{subsection.4.3.1}{Fiducial Line Measurement}{section.4.3}% 24
+\BOOKMARK [2][-]{subsection.4.3.2}{Stellar Population Synthesis}{section.4.3}% 25
+\BOOKMARK [2][-]{subsection.4.3.3}{Isochrone Optimization}{section.4.3}% 26
+\BOOKMARK [2][-]{subsection.4.3.4}{Fidanka Testing}{section.4.3}% 27
+\BOOKMARK [1][-]{section.4.4}{Isochrone Fitting}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.4.1}{The Number of Populartions in NGC 2808}{section.4.4}% 29
+\BOOKMARK [2][-]{subsection.4.4.2}{ACS-HUGS Photometric Zero Point Offset}{section.4.4}% 30
+\BOOKMARK [1][-]{section.4.5}{Results}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.5.1}{The Number of Populartions in NGC 2808}{section.4.5}% 32
+\BOOKMARK [1][-]{section.4.6}{Conclusion}{chapter.4}% 33
+\BOOKMARK [0][-]{chapter.5}{Gap Sensitivity to Opacity Source}{part.2}% 34
+\BOOKMARK [1][-]{section.5.1}{The Jao Gap}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.2}{The Underlying Physics of the Gap}{chapter.5}% 36
+\BOOKMARK [2][-]{subsection.5.2.1}{Efforts to Model the Gap}{section.5.2}% 37
+\BOOKMARK [1][-]{section.5.3}{Updated Opacities}{chapter.5}% 38
+\BOOKMARK [2][-]{subsection.5.3.1}{Table Querying and Conversion}{section.5.3}% 39
+\BOOKMARK [2][-]{subsection.5.3.2}{Solar Calibrated Stellar Models}{section.5.3}% 40
+\BOOKMARK [1][-]{section.5.4}{pyTOPSScrape}{chapter.5}% 41
+\BOOKMARK [1][-]{section.5.5}{Interpolating \040R}{chapter.5}% 42
+\BOOKMARK [1][-]{section.5.6}{Modeling}{chapter.5}% 43
+\BOOKMARK [2][-]{subsection.5.6.1}{Population Synthesis}{section.5.6}% 44
+\BOOKMARK [2][-]{subsection.5.6.2}{Mixing Length Dependence}{section.5.6}% 45
+\BOOKMARK [1][-]{section.5.7}{Results}{chapter.5}% 46
+\BOOKMARK [0][-]{chapter.6}{Jao Gap connection to Magnatism}{part.2}% 47
+\BOOKMARK [1][-]{section.6.1}{The Jao Gap and Magnatism}{chapter.6}% 48
+\BOOKMARK [1][-]{section.6.2}{Correlation}{chapter.6}% 49
+\BOOKMARK [2][-]{subsection.6.2.1}{Conicidence with the Jao Gap Magnitude}{section.6.2}% 50
+\BOOKMARK [2][-]{subsection.6.2.2}{Rotation}{section.6.2}% 51
+\BOOKMARK [2][-]{subsection.6.2.3}{Limitations}{section.6.2}% 52
+\BOOKMARK [1][-]{section.6.3}{Modeling}{chapter.6}% 53
+\BOOKMARK [2][-]{subsection.6.3.1}{Limitations}{section.6.3}% 54
+\BOOKMARK [1][-]{section.6.4}{Conclusion}{chapter.6}% 55
+\BOOKMARK [-1][-]{part.3}{III Individual Stars}{}% 56
+\BOOKMARK [0][-]{chapter.7}{Magnetic Fields In M Dwarfs}{part.3}% 57
+\BOOKMARK [1][-]{section.7.1}{Magnetic Activity in M dwarfs}{chapter.7}% 58
+\BOOKMARK [1][-]{section.7.2}{Observations \046 Data Reduction}{chapter.7}% 59
+\BOOKMARK [1][-]{section.7.3}{Analysis}{chapter.7}% 60
+\BOOKMARK [2][-]{subsection.7.3.1}{Rotation and Rossby Number}{section.7.3}% 61
+\BOOKMARK [1][-]{section.7.4}{Rotation\205Activity Relation}{chapter.7}% 62
+\BOOKMARK [1][-]{section.7.5}{Magnetic Activities in M dwarfs Closing Thoughts}{chapter.7}% 63
+\BOOKMARK [0][-]{chapter.8}{The Red Giant Branch Bump}{part.3}% 64
+\BOOKMARK [1][-]{section.8.1}{The Red Giant Branch Bunch in NGC 2808}{chapter.8}% 65
+\BOOKMARK [2][-]{subsection.8.1.1}{Population E and the Case of the Missing Bump}{section.8.1}% 66
+\BOOKMARK [1][-]{section.8.2}{Effects of Opacities on the Red Giant Branch Bump}{chapter.8}% 67
+\BOOKMARK [1][-]{section.8.3}{Going forward}{chapter.8}% 68
+\BOOKMARK [-1][-]{part.4}{IV Conclusions}{}% 69
+\BOOKMARK [0][-]{chapter.9}{So Long and Thanks for all the Fish}{part.4}% 70
