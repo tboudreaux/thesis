@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.1.21)  4 MAR 2024 12:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.1.21)  7 MAR 2024 11:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -686,7 +686,381 @@ Library (tcolorbox): 'tcbbreakable.code.tex' version '4.14'
 Package hyperref Info: Option `colorlinks' set `true' on input line 31.
 \c@sidebarcounter=\count151
 \c@sidebareq=\count152
-) (./Thesis.aux
+) (/usr/share/texlive/texmf-dist/tex/latex/textgreek/textgreek.sty
+Package: textgreek 2011/10/09 v0.7 Greek symbols in text
+Package textgreek Info: Loading the definitions for the Greek fontencoding. on 
+input line 39.
+
+(/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
+File: lgrenc.def 2015/12/07 v0.13.1 LGR Greek font encoding definitions
+Now handling font encoding LGR ...
+... processing UTF-8 mapping file for font encoding LGR
+
+(/usr/share/texlive/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu
+File: lgrenc.dfu 2015/08/05 1.6 UTF-8 support for Greek
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+0259 (decimal 601)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+0374 (decimal 884)
+   defining Unicode char U+0375 (decimal 885)
+   defining Unicode char U+037A (decimal 890)
+   defining Unicode char U+037E (decimal 894)
+   defining Unicode char U+0384 (decimal 900)
+   defining Unicode char U+0385 (decimal 901)
+   defining Unicode char U+0386 (decimal 902)
+   defining Unicode char U+0387 (decimal 903)
+   defining Unicode char U+0388 (decimal 904)
+   defining Unicode char U+0389 (decimal 905)
+   defining Unicode char U+038A (decimal 906)
+   defining Unicode char U+038C (decimal 908)
+   defining Unicode char U+038E (decimal 910)
+   defining Unicode char U+038F (decimal 911)
+   defining Unicode char U+0390 (decimal 912)
+   defining Unicode char U+0391 (decimal 913)
+   defining Unicode char U+0392 (decimal 914)
+   defining Unicode char U+0393 (decimal 915)
+   defining Unicode char U+0394 (decimal 916)
+   defining Unicode char U+0395 (decimal 917)
+   defining Unicode char U+0396 (decimal 918)
+   defining Unicode char U+0397 (decimal 919)
+   defining Unicode char U+0398 (decimal 920)
+   defining Unicode char U+0399 (decimal 921)
+   defining Unicode char U+039A (decimal 922)
+   defining Unicode char U+039B (decimal 923)
+   defining Unicode char U+039C (decimal 924)
+   defining Unicode char U+039D (decimal 925)
+   defining Unicode char U+039E (decimal 926)
+   defining Unicode char U+039F (decimal 927)
+   defining Unicode char U+03A0 (decimal 928)
+   defining Unicode char U+03A1 (decimal 929)
+   defining Unicode char U+03A3 (decimal 931)
+   defining Unicode char U+03A4 (decimal 932)
+   defining Unicode char U+03A5 (decimal 933)
+   defining Unicode char U+03A6 (decimal 934)
+   defining Unicode char U+03A7 (decimal 935)
+   defining Unicode char U+03A8 (decimal 936)
+   defining Unicode char U+03A9 (decimal 937)
+   defining Unicode char U+03AA (decimal 938)
+   defining Unicode char U+03AB (decimal 939)
+   defining Unicode char U+03AC (decimal 940)
+   defining Unicode char U+03AD (decimal 941)
+   defining Unicode char U+03AE (decimal 942)
+   defining Unicode char U+03AF (decimal 943)
+   defining Unicode char U+03B0 (decimal 944)
+   defining Unicode char U+03B1 (decimal 945)
+   defining Unicode char U+03B2 (decimal 946)
+   defining Unicode char U+03B3 (decimal 947)
+   defining Unicode char U+03B4 (decimal 948)
+   defining Unicode char U+03B5 (decimal 949)
+   defining Unicode char U+03B6 (decimal 950)
+   defining Unicode char U+03B7 (decimal 951)
+   defining Unicode char U+03B8 (decimal 952)
+   defining Unicode char U+03B9 (decimal 953)
+   defining Unicode char U+03BA (decimal 954)
+   defining Unicode char U+03BB (decimal 955)
+   defining Unicode char U+03BC (decimal 956)
+   defining Unicode char U+03BD (decimal 957)
+   defining Unicode char U+03BE (decimal 958)
+   defining Unicode char U+03BF (decimal 959)
+   defining Unicode char U+03C0 (decimal 960)
+   defining Unicode char U+03C1 (decimal 961)
+   defining Unicode char U+03C2 (decimal 962)
+   defining Unicode char U+03C3 (decimal 963)
+   defining Unicode char U+03C4 (decimal 964)
+   defining Unicode char U+03C5 (decimal 965)
+   defining Unicode char U+03C6 (decimal 966)
+   defining Unicode char U+03C7 (decimal 967)
+   defining Unicode char U+03C8 (decimal 968)
+   defining Unicode char U+03C9 (decimal 969)
+   defining Unicode char U+03CA (decimal 970)
+   defining Unicode char U+03CB (decimal 971)
+   defining Unicode char U+03CC (decimal 972)
+   defining Unicode char U+03CD (decimal 973)
+   defining Unicode char U+03CE (decimal 974)
+   defining Unicode char U+03D0 (decimal 976)
+   defining Unicode char U+03D1 (decimal 977)
+   defining Unicode char U+03D5 (decimal 981)
+   defining Unicode char U+03D6 (decimal 982)
+   defining Unicode char U+03D8 (decimal 984)
+   defining Unicode char U+03D9 (decimal 985)
+   defining Unicode char U+03DA (decimal 986)
+   defining Unicode char U+03DB (decimal 987)
+   defining Unicode char U+03DC (decimal 988)
+   defining Unicode char U+03DD (decimal 989)
+   defining Unicode char U+03DF (decimal 991)
+   defining Unicode char U+03E0 (decimal 992)
+   defining Unicode char U+03E1 (decimal 993)
+   defining Unicode char U+03F0 (decimal 1008)
+   defining Unicode char U+03F1 (decimal 1009)
+   defining Unicode char U+03F4 (decimal 1012)
+   defining Unicode char U+03F5 (decimal 1013)
+   defining Unicode char U+1F00 (decimal 7936)
+   defining Unicode char U+1F01 (decimal 7937)
+   defining Unicode char U+1F02 (decimal 7938)
+   defining Unicode char U+1F03 (decimal 7939)
+   defining Unicode char U+1F04 (decimal 7940)
+   defining Unicode char U+1F05 (decimal 7941)
+   defining Unicode char U+1F06 (decimal 7942)
+   defining Unicode char U+1F07 (decimal 7943)
+   defining Unicode char U+1F08 (decimal 7944)
+   defining Unicode char U+1F09 (decimal 7945)
+   defining Unicode char U+1F0A (decimal 7946)
+   defining Unicode char U+1F0B (decimal 7947)
+   defining Unicode char U+1F0C (decimal 7948)
+   defining Unicode char U+1F0D (decimal 7949)
+   defining Unicode char U+1F0E (decimal 7950)
+   defining Unicode char U+1F0F (decimal 7951)
+   defining Unicode char U+1F10 (decimal 7952)
+   defining Unicode char U+1F11 (decimal 7953)
+   defining Unicode char U+1F12 (decimal 7954)
+   defining Unicode char U+1F13 (decimal 7955)
+   defining Unicode char U+1F14 (decimal 7956)
+   defining Unicode char U+1F15 (decimal 7957)
+   defining Unicode char U+1F18 (decimal 7960)
+   defining Unicode char U+1F19 (decimal 7961)
+   defining Unicode char U+1F1A (decimal 7962)
+   defining Unicode char U+1F1B (decimal 7963)
+   defining Unicode char U+1F1C (decimal 7964)
+   defining Unicode char U+1F1D (decimal 7965)
+   defining Unicode char U+1F20 (decimal 7968)
+   defining Unicode char U+1F21 (decimal 7969)
+   defining Unicode char U+1F22 (decimal 7970)
+   defining Unicode char U+1F23 (decimal 7971)
+   defining Unicode char U+1F24 (decimal 7972)
+   defining Unicode char U+1F25 (decimal 7973)
+   defining Unicode char U+1F26 (decimal 7974)
+   defining Unicode char U+1F27 (decimal 7975)
+   defining Unicode char U+1F28 (decimal 7976)
+   defining Unicode char U+1F29 (decimal 7977)
+   defining Unicode char U+1F2A (decimal 7978)
+   defining Unicode char U+1F2B (decimal 7979)
+   defining Unicode char U+1F2C (decimal 7980)
+   defining Unicode char U+1F2D (decimal 7981)
+   defining Unicode char U+1F2E (decimal 7982)
+   defining Unicode char U+1F2F (decimal 7983)
+   defining Unicode char U+1F30 (decimal 7984)
+   defining Unicode char U+1F31 (decimal 7985)
+   defining Unicode char U+1F32 (decimal 7986)
+   defining Unicode char U+1F33 (decimal 7987)
+   defining Unicode char U+1F34 (decimal 7988)
+   defining Unicode char U+1F35 (decimal 7989)
+   defining Unicode char U+1F36 (decimal 7990)
+   defining Unicode char U+1F37 (decimal 7991)
+   defining Unicode char U+1F38 (decimal 7992)
+   defining Unicode char U+1F39 (decimal 7993)
+   defining Unicode char U+1F3A (decimal 7994)
+   defining Unicode char U+1F3B (decimal 7995)
+   defining Unicode char U+1F3C (decimal 7996)
+   defining Unicode char U+1F3D (decimal 7997)
+   defining Unicode char U+1F3E (decimal 7998)
+   defining Unicode char U+1F3F (decimal 7999)
+   defining Unicode char U+1F40 (decimal 8000)
+   defining Unicode char U+1F41 (decimal 8001)
+   defining Unicode char U+1F42 (decimal 8002)
+   defining Unicode char U+1F43 (decimal 8003)
+   defining Unicode char U+1F44 (decimal 8004)
+   defining Unicode char U+1F45 (decimal 8005)
+   defining Unicode char U+1F48 (decimal 8008)
+   defining Unicode char U+1F49 (decimal 8009)
+   defining Unicode char U+1F4A (decimal 8010)
+   defining Unicode char U+1F4B (decimal 8011)
+   defining Unicode char U+1F4C (decimal 8012)
+   defining Unicode char U+1F4D (decimal 8013)
+   defining Unicode char U+1F50 (decimal 8016)
+   defining Unicode char U+1F51 (decimal 8017)
+   defining Unicode char U+1F52 (decimal 8018)
+   defining Unicode char U+1F53 (decimal 8019)
+   defining Unicode char U+1F54 (decimal 8020)
+   defining Unicode char U+1F55 (decimal 8021)
+   defining Unicode char U+1F56 (decimal 8022)
+   defining Unicode char U+1F57 (decimal 8023)
+   defining Unicode char U+1F59 (decimal 8025)
+   defining Unicode char U+1F5B (decimal 8027)
+   defining Unicode char U+1F5D (decimal 8029)
+   defining Unicode char U+1F5F (decimal 8031)
+   defining Unicode char U+1F60 (decimal 8032)
+   defining Unicode char U+1F61 (decimal 8033)
+   defining Unicode char U+1F62 (decimal 8034)
+   defining Unicode char U+1F63 (decimal 8035)
+   defining Unicode char U+1F64 (decimal 8036)
+   defining Unicode char U+1F65 (decimal 8037)
+   defining Unicode char U+1F66 (decimal 8038)
+   defining Unicode char U+1F67 (decimal 8039)
+   defining Unicode char U+1F68 (decimal 8040)
+   defining Unicode char U+1F69 (decimal 8041)
+   defining Unicode char U+1F6A (decimal 8042)
+   defining Unicode char U+1F6B (decimal 8043)
+   defining Unicode char U+1F6C (decimal 8044)
+   defining Unicode char U+1F6D (decimal 8045)
+   defining Unicode char U+1F6E (decimal 8046)
+   defining Unicode char U+1F6F (decimal 8047)
+   defining Unicode char U+1F70 (decimal 8048)
+   defining Unicode char U+1F71 (decimal 8049)
+   defining Unicode char U+1F72 (decimal 8050)
+   defining Unicode char U+1F73 (decimal 8051)
+   defining Unicode char U+1F74 (decimal 8052)
+   defining Unicode char U+1F75 (decimal 8053)
+   defining Unicode char U+1F76 (decimal 8054)
+   defining Unicode char U+1F77 (decimal 8055)
+   defining Unicode char U+1F78 (decimal 8056)
+   defining Unicode char U+1F79 (decimal 8057)
+   defining Unicode char U+1F7A (decimal 8058)
+   defining Unicode char U+1F7B (decimal 8059)
+   defining Unicode char U+1F7C (decimal 8060)
+   defining Unicode char U+1F7D (decimal 8061)
+   defining Unicode char U+1F80 (decimal 8064)
+   defining Unicode char U+1F81 (decimal 8065)
+   defining Unicode char U+1F82 (decimal 8066)
+   defining Unicode char U+1F83 (decimal 8067)
+   defining Unicode char U+1F84 (decimal 8068)
+   defining Unicode char U+1F85 (decimal 8069)
+   defining Unicode char U+1F86 (decimal 8070)
+   defining Unicode char U+1F87 (decimal 8071)
+   defining Unicode char U+1F88 (decimal 8072)
+   defining Unicode char U+1F89 (decimal 8073)
+   defining Unicode char U+1F8A (decimal 8074)
+   defining Unicode char U+1F8B (decimal 8075)
+   defining Unicode char U+1F8C (decimal 8076)
+   defining Unicode char U+1F8D (decimal 8077)
+   defining Unicode char U+1F8E (decimal 8078)
+   defining Unicode char U+1F8F (decimal 8079)
+   defining Unicode char U+1F90 (decimal 8080)
+   defining Unicode char U+1F91 (decimal 8081)
+   defining Unicode char U+1F92 (decimal 8082)
+   defining Unicode char U+1F93 (decimal 8083)
+   defining Unicode char U+1F94 (decimal 8084)
+   defining Unicode char U+1F95 (decimal 8085)
+   defining Unicode char U+1F96 (decimal 8086)
+   defining Unicode char U+1F97 (decimal 8087)
+   defining Unicode char U+1F98 (decimal 8088)
+   defining Unicode char U+1F99 (decimal 8089)
+   defining Unicode char U+1F9A (decimal 8090)
+   defining Unicode char U+1F9B (decimal 8091)
+   defining Unicode char U+1F9C (decimal 8092)
+   defining Unicode char U+1F9D (decimal 8093)
+   defining Unicode char U+1F9E (decimal 8094)
+   defining Unicode char U+1F9F (decimal 8095)
+   defining Unicode char U+1FA0 (decimal 8096)
+   defining Unicode char U+1FA1 (decimal 8097)
+   defining Unicode char U+1FA2 (decimal 8098)
+   defining Unicode char U+1FA3 (decimal 8099)
+   defining Unicode char U+1FA4 (decimal 8100)
+   defining Unicode char U+1FA5 (decimal 8101)
+   defining Unicode char U+1FA6 (decimal 8102)
+   defining Unicode char U+1FA7 (decimal 8103)
+   defining Unicode char U+1FA8 (decimal 8104)
+   defining Unicode char U+1FA9 (decimal 8105)
+   defining Unicode char U+1FAA (decimal 8106)
+   defining Unicode char U+1FAB (decimal 8107)
+   defining Unicode char U+1FAC (decimal 8108)
+   defining Unicode char U+1FAD (decimal 8109)
+   defining Unicode char U+1FAE (decimal 8110)
+   defining Unicode char U+1FAF (decimal 8111)
+   defining Unicode char U+1FB0 (decimal 8112)
+   defining Unicode char U+1FB1 (decimal 8113)
+   defining Unicode char U+1FB2 (decimal 8114)
+   defining Unicode char U+1FB3 (decimal 8115)
+   defining Unicode char U+1FB4 (decimal 8116)
+   defining Unicode char U+1FB6 (decimal 8118)
+   defining Unicode char U+1FB7 (decimal 8119)
+   defining Unicode char U+1FB8 (decimal 8120)
+   defining Unicode char U+1FB9 (decimal 8121)
+   defining Unicode char U+1FBA (decimal 8122)
+   defining Unicode char U+1FBB (decimal 8123)
+   defining Unicode char U+1FBC (decimal 8124)
+   defining Unicode char U+1FBD (decimal 8125)
+   defining Unicode char U+1FBE (decimal 8126)
+   defining Unicode char U+1FBF (decimal 8127)
+   defining Unicode char U+1FC0 (decimal 8128)
+   defining Unicode char U+1FC1 (decimal 8129)
+   defining Unicode char U+1FC2 (decimal 8130)
+   defining Unicode char U+1FC3 (decimal 8131)
+   defining Unicode char U+1FC4 (decimal 8132)
+   defining Unicode char U+1FC6 (decimal 8134)
+   defining Unicode char U+1FC7 (decimal 8135)
+   defining Unicode char U+1FC8 (decimal 8136)
+   defining Unicode char U+1FC9 (decimal 8137)
+   defining Unicode char U+1FCA (decimal 8138)
+   defining Unicode char U+1FCB (decimal 8139)
+   defining Unicode char U+1FCC (decimal 8140)
+   defining Unicode char U+1FCD (decimal 8141)
+   defining Unicode char U+1FCE (decimal 8142)
+   defining Unicode char U+1FCF (decimal 8143)
+   defining Unicode char U+1FD0 (decimal 8144)
+   defining Unicode char U+1FD1 (decimal 8145)
+   defining Unicode char U+1FD2 (decimal 8146)
+   defining Unicode char U+1FD3 (decimal 8147)
+   defining Unicode char U+1FD6 (decimal 8150)
+   defining Unicode char U+1FD7 (decimal 8151)
+   defining Unicode char U+1FD8 (decimal 8152)
+   defining Unicode char U+1FD9 (decimal 8153)
+   defining Unicode char U+1FDA (decimal 8154)
+   defining Unicode char U+1FDB (decimal 8155)
+   defining Unicode char U+1FDD (decimal 8157)
+   defining Unicode char U+1FDE (decimal 8158)
+   defining Unicode char U+1FDF (decimal 8159)
+   defining Unicode char U+1FE0 (decimal 8160)
+   defining Unicode char U+1FE1 (decimal 8161)
+   defining Unicode char U+1FE2 (decimal 8162)
+   defining Unicode char U+1FE3 (decimal 8163)
+   defining Unicode char U+1FE4 (decimal 8164)
+   defining Unicode char U+1FE5 (decimal 8165)
+   defining Unicode char U+1FE6 (decimal 8166)
+   defining Unicode char U+1FE7 (decimal 8167)
+   defining Unicode char U+1FE8 (decimal 8168)
+   defining Unicode char U+1FE9 (decimal 8169)
+   defining Unicode char U+1FEA (decimal 8170)
+   defining Unicode char U+1FEB (decimal 8171)
+   defining Unicode char U+1FEC (decimal 8172)
+   defining Unicode char U+1FED (decimal 8173)
+   defining Unicode char U+1FEE (decimal 8174)
+   defining Unicode char U+1FEF (decimal 8175)
+   defining Unicode char U+1FF2 (decimal 8178)
+   defining Unicode char U+1FF3 (decimal 8179)
+   defining Unicode char U+1FF4 (decimal 8180)
+   defining Unicode char U+1FF6 (decimal 8182)
+   defining Unicode char U+1FF7 (decimal 8183)
+   defining Unicode char U+1FF8 (decimal 8184)
+   defining Unicode char U+1FF9 (decimal 8185)
+   defining Unicode char U+1FFA (decimal 8186)
+   defining Unicode char U+1FFB (decimal 8187)
+   defining Unicode char U+1FFC (decimal 8188)
+   defining Unicode char U+1FFD (decimal 8189)
+   defining Unicode char U+1FFE (decimal 8190)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+10144 (decimal 65860)
+   defining Unicode char U+10145 (decimal 65861)
+   defining Unicode char U+10146 (decimal 65862)
+   defining Unicode char U+10147 (decimal 65863)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
+File: greek-fontenc.def 2015/08/04 v0.13 Common Greek font encoding definitions
+
+))
+Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/
+*}. on input line 69.
+)
+(./Thesis.aux
 
 LaTeX Warning: Label `fig:starsInHistory' multiply defined.
 
@@ -723,21 +1097,28 @@ LaTeX Warning: Label `sec:results' multiply defined.
 )
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 20.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 20.
+ (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
+)
+LaTeX Font Info:    ... okay on input line 20.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count153
 \scratchdimen=\dimen196
@@ -802,7 +1183,7 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring ON on input line 19.
+Package hyperref Info: Link coloring ON on input line 20.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -811,9 +1192,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count159
 )
-LaTeX Info: Redefining \ref on input line 19.
-LaTeX Info: Redefining \pageref on input line 19.
-LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \ref on input line 20.
+LaTeX Info: Redefining \pageref on input line 20.
+LaTeX Info: Redefining \nameref on input line 20.
 
 (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write6
@@ -822,12 +1203,12 @@ LaTeX Info: Redefining \nameref on input line 19.
  ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 20.
+LaTeX Font Info:    Try loading font information for U+msa on input line 21.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 20.
+LaTeX Font Info:    Try loading font information for U+msb on input line 21.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -836,17 +1217,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
 |\OT1/cmr/bx/n/14.4 Abstract|
  []
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 20.
+(hyperref)                than one, level fixed on input line 21.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 20.
+(hyperref)                be the same. Added a new anchor on input line 21.
 
 (./misc/abstract.tex) [1] (./misc/prelud.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -882,7 +1263,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [13
 
 ]
-Overfull \hbox (1.02158pt too wide) in paragraph at lines 17--17
+Overfull \hbox (1.02158pt too wide) in paragraph at lines 16--16
  [][] [][][]\OT1/cmr/m/n/12 (left) CMD show-ing the pho-to-met-ric off-set be-t
 ween the ACS and HUGS 
  []
@@ -897,18 +1278,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1275) has occurred while \output is active []
 
  [17]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 49.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 48.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
-Overfull \hbox (34.52246pt too wide) in paragraph at lines 53--53
+Overfull \hbox (34.52246pt too wide) in paragraph at lines 52--52
  \OT1/cmr/m/n/12 evolved with OPAL+Ferg opac-i-ties and mod-els evolved with OP
 LIB+Aesopus 
  []
@@ -921,14 +1302,14 @@ LIB+Aesopus
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.22 \part{Introduction}
+l.23 \part{Introduction}
                          [1
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.22 \part{Introduction}
+l.23 \part{Introduction}
                          [2] (./chapters/introduction/intro.tex
 (./chapters/introduction/subsections/history.tex
 Chapter 1.
@@ -940,53 +1321,45 @@ l.36
       [3
 
 ]
-<figures/introduction/Ptolomey.pdf, id=750, 1105.73097pt x 1105.73097pt>
+<figures/introduction/Ptolomey.pdf, id=793, 1105.73097pt x 1105.73097pt>
 File: figures/introduction/Ptolomey.pdf Graphic file (type pdf)
 <use figures/introduction/Ptolomey.pdf>
 Package pdftex.def Info: figures/introduction/Ptolomey.pdf  used on input line 
-48.
+50.
 (pdftex.def)             Requested size: 130.08733pt x 130.08368pt.
-<figures/introduction/ModernStarsGaiaL7.png, id=751, 1105.12875pt x 1105.12875p
+<figures/introduction/ModernStarsGaiaL7.png, id=794, 1105.12875pt x 1105.12875p
 t>
 File: figures/introduction/ModernStarsGaiaL7.png Graphic file (type png)
 <use figures/introduction/ModernStarsGaiaL7.png>
 Package pdftex.def Info: figures/introduction/ModernStarsGaiaL7.png  used on in
-put line 55.
+put line 57.
 (pdftex.def)             Requested size: 130.08733pt x 130.08029pt.
 
-Underfull \hbox (badness 1448) in paragraph at lines 58--58
+Underfull \hbox (badness 1448) in paragraph at lines 60--60
 \OT1/cmr/m/n/9 DR3 archive with a mean g
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 58--58
+Underfull \hbox (badness 1484) in paragraph at lines 60--60
 \OT1/cmr/m/n/9 may have been all the stars
  []
 
-<figures/introduction/ModernStarsGaiaL10.png, id=753, 1105.731pt x 1105.731pt>
+<figures/introduction/ModernStarsGaiaL10.png, id=796, 1105.731pt x 1105.731pt>
 File: figures/introduction/ModernStarsGaiaL10.png Graphic file (type png)
 <use figures/introduction/ModernStarsGaiaL10.png>
 Package pdftex.def Info: figures/introduction/ModernStarsGaiaL10.png  used on i
-nput line 63.
+nput line 65.
 (pdftex.def)             Requested size: 130.08733pt x 130.0837pt.
-
-Underfull \vbox (badness 2142) has occurred while \output is active []
-
- [4 <./figures/introduction/Ptolomey.pdf> <./figures/introduction/ModernStarsGa
-iaL7.png> <./figures/introduction/ModernStarsGaiaL10.png>]
-
-Package natbib Warning: Citation `sayili1981observatory' on page 5 undefined on
- input line 113.
-
-
+[4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
-<figures/introduction/EarlyObservatory.png, id=769, 442.65375pt x 312.66812pt>
+ [5 <./figures/introduction/Ptolomey.pdf> <./figures/introduction/ModernStarsGa
+iaL7.png> <./figures/introduction/ModernStarsGaiaL10.png>]
+<figures/introduction/EarlyObservatory.png, id=876, 442.65375pt x 312.66812pt>
 File: figures/introduction/EarlyObservatory.png Graphic file (type png)
 <use figures/introduction/EarlyObservatory.png>
 Package pdftex.def Info: figures/introduction/EarlyObservatory.png  used on inp
-ut line 119.
+ut line 123.
 (pdftex.def)             Requested size: 368.57965pt x 260.35893pt.
 )
 (./chapters/introduction/subsections/stellarStructure.tex [6 <./figures/introdu
@@ -1018,13 +1391,13 @@ Underfull \hbox (badness 1237) in paragraph at lines 22--31
 Underfull \vbox (badness 6300) has occurred while \output is active []
 
  [9]
-<figures/introduction/runofp.pdf, id=797, 628.67159pt x 443.93193pt>
+<figures/introduction/runofp.pdf, id=910, 628.67159pt x 443.93193pt>
 File: figures/introduction/runofp.pdf Graphic file (type pdf)
 <use figures/introduction/runofp.pdf>
 Package pdftex.def Info: figures/introduction/runofp.pdf  used on input line 70
 .
 (pdftex.def)             Requested size: 195.12767pt x 137.78682pt.
-<figures/introduction/PolytropeTempProfile15.pdf, id=798, 617.74147pt x 463.248
+<figures/introduction/PolytropeTempProfile15.pdf, id=911, 617.74147pt x 463.248
 28pt>
 File: figures/introduction/PolytropeTempProfile15.pdf Graphic file (type pdf)
 <use figures/introduction/PolytropeTempProfile15.pdf>
@@ -1046,42 +1419,39 @@ Overfull \hbox (5.51389pt too wide) in paragraph at lines 125--131
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12])
-(./chapters/introduction/subsections/thisThesis.tex [13] [14
+(./chapters/introduction/subsections/thisThesis.tex [13])) [14] [15
 
-]
+] [16]
+(./chapters/GCs/GC.tex
 Chapter 3.
-)) [15] [16
-
-] [17] [18] (./chapters/GCs/GC.tex
-Chapter 4.
 
 Underfull \vbox (badness 3229) has occurred while \output is active []
 
- [19
+ [17
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
+ [18]
 (./chapters/ngc2808/ngc2808.tex (./chapters/ngc2808/subsections/intro.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21])
+ [19])
 (./chapters/ngc2808/subsections/modeling.tex
 
 LaTeX Warning: Float too large for page by 53.96898pt on input line 75.
 
-[22] [23]) (./chapters/ngc2808/subsections/AtmopshericModels.tex
+[20] [21]) (./chapters/ngc2808/subsections/AtmopshericModels.tex
 
 Package caption Warning: \label without proper reference on input line 40.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:AEAtmComp' on page 24 undefined on input line 35.
+LaTeX Warning: Reference `fig:AEAtmComp' on page 22 undefined on input line 35.
 
 
-[24]
-<figures/ngc2808/notebookFigures/AtmosphereComparison.pdf, id=1108, 704.53233pt
+[22]
+<figures/ngc2808/notebookFigures/AtmosphereComparison.pdf, id=1220, 704.53233pt
  x 607.4316pt>
 File: figures/ngc2808/notebookFigures/AtmosphereComparison.pdf Graphic file (ty
 pe pdf)
@@ -1092,19 +1462,19 @@ df  used on input line 39.
 ) (./chapters/ngc2808/subsections/fidanka.tex
 Underfull \vbox (badness 1242) has occurred while \output is active []
 
- [25 <./figures/ngc2808/notebookFigures/AtmosphereComparison.pdf>] [26]
+ [23 <./figures/ngc2808/notebookFigures/AtmosphereComparison.pdf>] [24]
 
-Package natbib Warning: Citation `' on page 27 undefined on input line 45.
+Package natbib Warning: Citation `' on page 25 undefined on input line 45.
 
 
 Package caption Warning: \label without proper reference on input line 58.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:densityMapDemo' on page 27 undefined on input lin
+LaTeX Warning: Reference `fig:densityMapDemo' on page 25 undefined on input lin
 e 53.
 
-<figures/ngc2808/notebookFigures/DensityMapDemo.png, id=1139, 899.7615pt x 601.
+<figures/ngc2808/notebookFigures/DensityMapDemo.png, id=1250, 899.7615pt x 601.
 2864pt>
 File: figures/ngc2808/notebookFigures/DensityMapDemo.png Graphic file (type png
 )
@@ -1117,11 +1487,11 @@ Package caption Warning: \label without proper reference on input line 81.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:densityBinsDemo' on page 27 undefined on input li
+LaTeX Warning: Reference `fig:densityBinsDemo' on page 25 undefined on input li
 ne 70.
 
-[27] [28 <./figures/ngc2808/notebookFigures/DensityMapDemo.png>]
-<figures/ngc2808/notebookFigures/DensityBinsDemo.png, id=1153, 633.8079pt x 446
+[25] [26 <./figures/ngc2808/notebookFigures/DensityMapDemo.png>]
+<figures/ngc2808/notebookFigures/DensityBinsDemo.png, id=1263, 633.8079pt x 446
 .6286pt>
 File: figures/ngc2808/notebookFigures/DensityBinsDemo.png Graphic file (type pn
 g)
@@ -1129,14 +1499,14 @@ g)
 Package pdftex.def Info: figures/ngc2808/notebookFigures/DensityBinsDemo.png  u
 sed on input line 80.
 (pdftex.def)             Requested size: 368.57965pt x 259.73308pt.
- [29 <./figures/ngc2808/notebookFigures/DensityBinsDemo.png>]
-<figures/ngc2808/BGMMMixingBin.pdf, id=1168, 851.58667pt x 385.81227pt>
+ [27 <./figures/ngc2808/notebookFigures/DensityBinsDemo.png>]
+<figures/ngc2808/BGMMMixingBin.pdf, id=1280, 851.58667pt x 385.81227pt>
 File: figures/ngc2808/BGMMMixingBin.pdf Graphic file (type pdf)
 <use figures/ngc2808/BGMMMixingBin.pdf>
 Package pdftex.def Info: figures/ngc2808/BGMMMixingBin.pdf  used on input line 
 103.
 (pdftex.def)             Requested size: 390.25536pt x 176.80467pt.
-<figures/ngc2808/vertFit.png, id=1170, 630.55576pt x 1155.95865pt>
+<figures/ngc2808/vertFit.png, id=1282, 630.55576pt x 1155.95865pt>
 File: figures/ngc2808/vertFit.png Graphic file (type png)
 <use figures/ngc2808/vertFit.png>
 Package pdftex.def Info: figures/ngc2808/vertFit.png  used on input line 127.
@@ -1145,18 +1515,18 @@ Package pdftex.def Info: figures/ngc2808/vertFit.png  used on input line 127.
 
 LaTeX Warning: Float too large for page by 64.08273pt on input line 131.
 
-[30 <./figures/ngc2808/BGMMMixingBin.pdf>]
+[28 <./figures/ngc2808/BGMMMixingBin.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
-[32 <./figures/ngc2808/VertFit.png>]
-<figures/ngc2808/ExtractedIsoFit.pdf, id=1207, 623.50385pt x 443.93193pt>
+ [29]
+[30 <./figures/ngc2808/VertFit.png>]
+<figures/ngc2808/ExtractedIsoFit.pdf, id=1319, 623.50385pt x 443.93193pt>
 File: figures/ngc2808/ExtractedIsoFit.pdf Graphic file (type pdf)
 <use figures/ngc2808/ExtractedIsoFit.pdf>
 Package pdftex.def Info: figures/ngc2808/ExtractedIsoFit.pdf  used on input lin
 e 193.
 (pdftex.def)             Requested size: 368.57965pt x 262.4256pt.
-<figures/ngc2808/DistributionOfErrors.pdf, id=1209, 617.28119pt x 603.58702pt>
+<figures/ngc2808/DistributionOfErrors.pdf, id=1321, 617.28119pt x 603.58702pt>
 File: figures/ngc2808/DistributionOfErrors.pdf Graphic file (type pdf)
 <use figures/ngc2808/DistributionOfErrors.pdf>
 Package pdftex.def Info: figures/ngc2808/DistributionOfErrors.pdf  used on inpu
@@ -1166,13 +1536,13 @@ t line 202.
 (./chapters/ngc2808/subsections/fitting.tex
 Underfull \vbox (badness 1783) has occurred while \output is active []
 
- [33]
+ [31]
 
 Package caption Warning: \label without proper reference on input line 14.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:BestFitResults' on page 34 undefined on input lin
+LaTeX Warning: Reference `fig:BestFitResults' on page 32 undefined on input lin
 e 13.
 
 
@@ -1180,19 +1550,19 @@ Package caption Warning: \label without proper reference on input line 30.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:BestFitResults' on page 34 undefined on input lin
+LaTeX Warning: Reference `tab:BestFitResults' on page 32 undefined on input lin
 e 14.
 
-[34 <./figures/ngc2808/ExtractedIsoFit.pdf>] [35 <./figures/ngc2808/Distributio
+[32 <./figures/ngc2808/ExtractedIsoFit.pdf>] [33 <./figures/ngc2808/Distributio
 nOfErrors.pdf>]
-<figures/ngc2808/BestFitResults.pdf, id=1247, 627.63138pt x 458.11752pt>
+<figures/ngc2808/BestFitResults.pdf, id=1359, 627.63138pt x 458.11752pt>
 File: figures/ngc2808/BestFitResults.pdf Graphic file (type pdf)
 <use figures/ngc2808/BestFitResults.pdf>
 Package pdftex.def Info: figures/ngc2808/BestFitResults.pdf  used on input line
  18.
 (pdftex.def)             Requested size: 390.25536pt x 284.85478pt.
- [36 <./figures/ngc2808/BestFitResults.pdf>]
-<figures/ngc2808/ClusterAnalysis.pdf, id=1267, 614.79007pt x 443.93193pt>
+ [34 <./figures/ngc2808/BestFitResults.pdf>]
+<figures/ngc2808/ClusterAnalysis.pdf, id=1378, 614.79007pt x 443.93193pt>
 File: figures/ngc2808/ClusterAnalysis.pdf Graphic file (type pdf)
 <use figures/ngc2808/ClusterAnalysis.pdf>
 Package pdftex.def Info: figures/ngc2808/ClusterAnalysis.pdf  used on input lin
@@ -1204,16 +1574,16 @@ Package caption Warning: \label without proper reference on input line 81.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:offset' on page 37 undefined on input line 68.
+LaTeX Warning: Reference `fig:offset' on page 35 undefined on input line 68.
 
-[37 <./figures/ngc2808/ClusterAnalysis.pdf>]
-<figures/ngc2808/photometricOffset.pdf, id=1285, 1183.59634pt x 458.11752pt>
+[35 <./figures/ngc2808/ClusterAnalysis.pdf>]
+<figures/ngc2808/photometricOffset.pdf, id=1397, 1183.59634pt x 458.11752pt>
 File: figures/ngc2808/photometricOffset.pdf Graphic file (type pdf)
 <use figures/ngc2808/photometricOffset.pdf>
 Package pdftex.def Info: figures/ngc2808/photometricOffset.pdf  used on input l
 ine 80.
 (pdftex.def)             Requested size: 390.25536pt x 151.05342pt.
-<figures/ngc2808/HeliumMeanOffset.pdf, id=1287, 633.3489pt x 437.70929pt>
+<figures/ngc2808/HeliumMeanOffset.pdf, id=1399, 633.3489pt x 437.70929pt>
 File: figures/ngc2808/HeliumMeanOffset.pdf Graphic file (type pdf)
 <use figures/ngc2808/HeliumMeanOffset.pdf>
 Package pdftex.def Info: figures/ngc2808/HeliumMeanOffset.pdf  used on input li
@@ -1226,10 +1596,10 @@ Package caption Warning: \label without proper reference on input line 14.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:BestFitResults' on page 38 undefined on input lin
+LaTeX Warning: Reference `fig:BestFitResults' on page 36 undefined on input lin
 e 6.
 
-[38 <./figures/ngc2808/photometricOffset.pdf>]
+[36 <./figures/ngc2808/photometricOffset.pdf>]
 File: figures/ngc2808/BestFitResults.pdf Graphic file (type pdf)
 <use figures/ngc2808/BestFitResults.pdf>
 Package pdftex.def Info: figures/ngc2808/BestFitResults.pdf  used on input line
@@ -1238,39 +1608,39 @@ Package pdftex.def Info: figures/ngc2808/BestFitResults.pdf  used on input line
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39 <./figures/ngc2808/HeliumMeanOffset.pdf>])
-(./chapters/ngc2808/subsections/conclusion.tex [40]))) [41] [42
+ [37 <./figures/ngc2808/HeliumMeanOffset.pdf>])
+(./chapters/ngc2808/subsections/conclusion.tex [38]))) [39] [40
 
 ]
-Chapter 5.
+Chapter 4.
 (./chapters/jaoOpacity/jaoOpacity.tex
-(./chapters/jaoOpacity/subsections/intro.tex [43]
+(./chapters/jaoOpacity/subsections/intro.tex [41]
 Underfull \vbox (badness 2205) has occurred while \output is active []
 
- [44])
-(./chapters/jaoOpacity/subsections/JaoGap.tex [45]
-<figures/jaoOpacity/JaoGapEDR3.png, id=1407, 627.0627pt x 621.2811pt>
+ [42])
+(./chapters/jaoOpacity/subsections/JaoGap.tex [43]
+<figures/jaoOpacity/JaoGapEDR3.png, id=1518, 627.0627pt x 621.2811pt>
 File: figures/jaoOpacity/JaoGapEDR3.png Graphic file (type png)
 <use figures/jaoOpacity/JaoGapEDR3.png>
 Package pdftex.def Info: figures/jaoOpacity/JaoGapEDR3.png  used on input line 
 30.
 (pdftex.def)             Requested size: 368.57965pt x 365.19704pt.
- [46 <./figures/jaoOpacity/JaoGapEDR3.png>]
-<figures/jaoOpacity/Kippenhan.pdf, id=1422, 1090.36191pt x 464.12189pt>
+ [44 <./figures/jaoOpacity/JaoGapEDR3.png>]
+<figures/jaoOpacity/Kippenhan.pdf, id=1533, 1090.36191pt x 464.12189pt>
 File: figures/jaoOpacity/Kippenhan.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/Kippenhan.pdf>
 Package pdftex.def Info: figures/jaoOpacity/Kippenhan.pdf  used on input line 5
 9.
 (pdftex.def)             Requested size: 411.93768pt x 175.34126pt.
- [47 <./figures/jaoOpacity/Kippenhan.pdf>])
+ [45 <./figures/jaoOpacity/Kippenhan.pdf>])
 (./chapters/jaoOpacity/subsections/opacity.tex
 Overfull \hbox (9.57262pt too wide) in paragraph at lines 10--18
 \OT1/cmr/m/n/12 Multiple groups have re-leased high-temperature opac-i-ties in-
 clud-ing, the Opac-ity Project
  []
 
-[48]
-<figures/jaoOpacity/OpacityComparision.pdf, id=1496, 683.11987pt x 651.09698pt>
+[46]
+<figures/jaoOpacity/OpacityComparision.pdf, id=1607, 683.11987pt x 651.09698pt>
 
 File: figures/jaoOpacity/OpacityComparision.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/OpacityComparision.pdf>
@@ -1279,15 +1649,15 @@ ut line 48.
 (pdftex.def)             Requested size: 368.57965pt x 351.30896pt.
 
 
-Package natbib Warning: Citation `Boudreaux22' on page 49 undefined on input li
+Package natbib Warning: Citation `Boudreaux22' on page 47 undefined on input li
 ne 75.
 
 
 Underfull \vbox (badness 3354) has occurred while \output is active []
 
- [49]
-[50 <./figures/jaoOpacity/OpacityComparision.pdf>]
-<figures/jaoOpacity/HRDiagramOPALvsOPLIB_SCCM.pdf, id=1534, 925.66647pt x 776.7
+ [47]
+[48 <./figures/jaoOpacity/OpacityComparision.pdf>]
+<figures/jaoOpacity/HRDiagramOPALvsOPLIB_SCCM.pdf, id=1646, 925.66647pt x 776.7
 4934pt>
 File: figures/jaoOpacity/HRDiagramOPALvsOPLIB_SCCM.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/HRDiagramOPALvsOPLIB_SCCM.pdf>
@@ -1301,8 +1671,8 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51]
-[52 <./figures/jaoOpacity/HRDiagramOPALvsOPLIB_SCCM.pdf>]
+ [49]
+[50 <./figures/jaoOpacity/HRDiagramOPALvsOPLIB_SCCM.pdf>]
 Overfull \hbox (41.85522pt too wide) in paragraph at lines 17--17
 []\OT1/cmtt/m/n/12 $ generateTOPStables comp.dat rescalings.dat -d ./TOPSCache 
 -o out.opac -j 20 
@@ -1325,9 +1695,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[53]
+[51]
 
-Package natbib Warning: Citation `2020SciPy-NMeth' on page 54 undefined on inpu
+Package natbib Warning: Citation `2020SciPy-NMeth' on page 52 undefined on inpu
 t line 29.
 
 
@@ -1337,22 +1707,22 @@ p2d \OT1/cmr/m/n/12 func-tion within \OT1/cmtt/m/n/12 scipy\OT1/cmr/m/n/12 's \
 OT1/cmtt/m/n/12 interpolate
  []
 
-<figures/jaoOpacity/FractionalDifference.pdf, id=1573, 533.75356pt x 457.65639p
+<figures/jaoOpacity/FractionalDifference.pdf, id=1685, 533.75356pt x 457.65639p
 t>
 File: figures/jaoOpacity/FractionalDifference.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/FractionalDifference.pdf>
 Package pdftex.def Info: figures/jaoOpacity/FractionalDifference.pdf  used on i
 nput line 54.
 (pdftex.def)             Requested size: 368.57965pt x 316.02766pt.
-) (./chapters/jaoOpacity/subsections/Modeling.tex [54] [55 <./figures/jaoOpacit
+) (./chapters/jaoOpacity/subsections/Modeling.tex [52] [53 <./figures/jaoOpacit
 y/FractionalDifference.pdf>]
-<figures/jaoOpacity/OPALPunchIn.pdf, id=1617, 668.9019pt x 611.02657pt>
+<figures/jaoOpacity/OPALPunchIn.pdf, id=1728, 668.9019pt x 611.02657pt>
 File: figures/jaoOpacity/OPALPunchIn.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/OPALPunchIn.pdf>
 Package pdftex.def Info: figures/jaoOpacity/OPALPunchIn.pdf  used on input line
  39.
 (pdftex.def)             Requested size: 368.57965pt x 336.69965pt.
-<figures/jaoOpacity/OPLIBPunchIn.pdf, id=1618, 658.30984pt x 611.02657pt>
+<figures/jaoOpacity/OPLIBPunchIn.pdf, id=1729, 658.30984pt x 611.02657pt>
 File: figures/jaoOpacity/OPLIBPunchIn.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/OPLIBPunchIn.pdf>
 Package pdftex.def Info: figures/jaoOpacity/OPLIBPunchIn.pdf  used on input lin
@@ -1362,19 +1732,19 @@ e 40.
 
 LaTeX Warning: Float too large for page by 82.5862pt on input line 46.
 
-[56] [57 <./figures/jaoOpacity/OPALPunchIn.pdf> <./figures/jaoOpacity/OPLIBPunc
+[54] [55 <./figures/jaoOpacity/OPALPunchIn.pdf> <./figures/jaoOpacity/OPLIBPunc
 hIn.pdf
 
 pdfTeX warning: pdflatex (file ./figures/jaoOpacity/OPLIBPunchIn.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
 >]
-<figures/jaoOpacity/pdist.pdf, id=1667, 722.7pt x 722.7pt>
+<figures/jaoOpacity/pdist.pdf, id=1778, 722.7pt x 722.7pt>
 File: figures/jaoOpacity/pdist.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/pdist.pdf>
 Package pdftex.def Info: figures/jaoOpacity/pdist.pdf  used on input line 73.
 (pdftex.def)             Requested size: 368.57965pt x 368.58315pt.
- [58] [59 <./figures/jaoOpacity/pdist.pdf>]
-<figures/jaoOpacity/OPALOPLIB_popsynth_compare.pdf, id=1705, 1251.48045pt x 476
+ [56] [57 <./figures/jaoOpacity/pdist.pdf>]
+<figures/jaoOpacity/OPALOPLIB_popsynth_compare.pdf, id=1817, 1251.48045pt x 476
 .70503pt>
 File: figures/jaoOpacity/OPALOPLIB_popsynth_compare.pdf Graphic file (type pdf)
 
@@ -1382,15 +1752,15 @@ File: figures/jaoOpacity/OPALOPLIB_popsynth_compare.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/jaoOpacity/OPALOPLIB_popsynth_compare.pdf  use
 d on input line 117.
 (pdftex.def)             Requested size: 368.57965pt x 140.394pt.
- [60 <./figures/jaoOpacity/OPALOPLIB_popsynth_compare.pdf>]
-<figures/jaoOpacity/./alphaMLComparisionCMD.pdf, id=1743, 648.7902pt x 450.1546
+ [58 <./figures/jaoOpacity/OPALOPLIB_popsynth_compare.pdf>]
+<figures/jaoOpacity/./alphaMLComparisionCMD.pdf, id=1854, 648.7902pt x 450.1546
 2pt>
 File: figures/jaoOpacity/./alphaMLComparisionCMD.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/./alphaMLComparisionCMD.pdf>
 Package pdftex.def Info: figures/jaoOpacity/./alphaMLComparisionCMD.pdf  used o
 n input line 154.
 (pdftex.def)             Requested size: 368.57965pt x 255.7322pt.
-<figures/jaoOpacity/./MixingLengthScaling.pdf, id=1744, 672.9843pt x 450.15462p
+<figures/jaoOpacity/./MixingLengthScaling.pdf, id=1855, 672.9843pt x 450.15462p
 t>
 File: figures/jaoOpacity/./MixingLengthScaling.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/./MixingLengthScaling.pdf>
@@ -1400,20 +1770,20 @@ input line 161.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61 <./figures/jaoOpacity/./alphaMLComparisionCMD.pdf>])
+ [59 <./figures/jaoOpacity/./alphaMLComparisionCMD.pdf>])
 (./chapters/jaoOpacity/subsections/Results.tex
 
-Package natbib Warning: Citation `2020SciPy-NMeth' on page 62 undefined on inpu
+Package natbib Warning: Citation `2020SciPy-NMeth' on page 60 undefined on inpu
 t line 8.
 
-[62 <./figures/jaoOpacity/./MixingLengthScaling.pdf>]
-<figures/jaoOpacity/OPAL_Jao_locator.pdf, id=1782, 681.01828pt x 657.52058pt>
+[60 <./figures/jaoOpacity/./MixingLengthScaling.pdf>]
+<figures/jaoOpacity/OPAL_Jao_locator.pdf, id=1894, 681.01828pt x 657.52058pt>
 File: figures/jaoOpacity/OPAL_Jao_locator.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/OPAL_Jao_locator.pdf>
 Package pdftex.def Info: figures/jaoOpacity/OPAL_Jao_locator.pdf  used on input
  line 13.
 (pdftex.def)             Requested size: 368.57965pt x 355.8685pt.
-<figures/jaoOpacity/OPLIB_Jao_locator.pdf, id=1783, 681.01828pt x 657.52058pt>
+<figures/jaoOpacity/OPLIB_Jao_locator.pdf, id=1895, 681.01828pt x 657.52058pt>
 File: figures/jaoOpacity/OPLIB_Jao_locator.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/OPLIB_Jao_locator.pdf>
 Package pdftex.def Info: figures/jaoOpacity/OPLIB_Jao_locator.pdf  used on inpu
@@ -1423,8 +1793,8 @@ t line 14.
 
 LaTeX Warning: Float too large for page by 129.90695pt on input line 21.
 
-[63]
-<figures/jaoOpacity/SameMassConvectiveZoneComp.pdf, id=1794, 650.56808pt x 618.
+[61]
+<figures/jaoOpacity/SameMassConvectiveZoneComp.pdf, id=1905, 650.56808pt x 618.
 57545pt>
 File: figures/jaoOpacity/SameMassConvectiveZoneComp.pdf Graphic file (type pdf)
 
@@ -1432,7 +1802,7 @@ File: figures/jaoOpacity/SameMassConvectiveZoneComp.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/jaoOpacity/SameMassConvectiveZoneComp.pdf  use
 d on input line 72.
 (pdftex.def)             Requested size: 368.57965pt x 350.44908pt.
-<figures/jaoOpacity/Core3HECompSameMass.pdf, id=1801, 662.95078pt x 624.75449pt
+<figures/jaoOpacity/Core3HECompSameMass.pdf, id=1912, 662.95078pt x 624.75449pt
 >
 File: figures/jaoOpacity/Core3HECompSameMass.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/Core3HECompSameMass.pdf>
@@ -1442,84 +1812,84 @@ put line 111.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64])
-[65] [66 <./figures/jaoOpacity/OPAL_Jao_locator.pdf> <./figures/jaoOpacity/OPLI
+ [62])
+[63] [64 <./figures/jaoOpacity/OPAL_Jao_locator.pdf> <./figures/jaoOpacity/OPLI
 B_Jao_locator.pdf
 
 pdfTeX warning: pdflatex (file ./figures/jaoOpacity/OPLIB_Jao_locator.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
->] [67 <./figures/jaoOpacity/SameMassConvectiveZoneComp.pdf>] [68 <./figures/ja
+>] [65 <./figures/jaoOpacity/SameMassConvectiveZoneComp.pdf>] [66 <./figures/ja
 oOpacity/Core3HECompSameMass.pdf>]
-Chapter 6.
+Chapter 5.
 (./chapters/jaoMagActivity/jaoMagActivity.tex
 (./chapters/jaoMagActivity/subsections/intro.tex
 
-Package natbib Warning: Citation `Lammer2012' on page 69 undefined on input lin
+Package natbib Warning: Citation `Lammer2012' on page 67 undefined on input lin
 e 5.
 
 
-Package natbib Warning: Citation `Gallet2017' on page 69 undefined on input lin
+Package natbib Warning: Citation `Gallet2017' on page 67 undefined on input lin
 e 5.
 
 
-Package natbib Warning: Citation `Kislyakova2017' on page 69 undefined on input
+Package natbib Warning: Citation `Kislyakova2017' on page 67 undefined on input
  line 5.
 
 
-Package natbib Warning: Citation `Saar1985' on page 69 undefined on input line 
+Package natbib Warning: Citation `Saar1985' on page 67 undefined on input line 
 6.
 
 
-Package natbib Warning: Citation `Astudillo-Defru2017' on page 69 undefined on 
+Package natbib Warning: Citation `Astudillo-Defru2017' on page 67 undefined on 
 input line 6.
 
 
-Package natbib Warning: Citation `Wright2018' on page 69 undefined on input lin
+Package natbib Warning: Citation `Wright2018' on page 67 undefined on input lin
 e 6.
 
 
-Package natbib Warning: Citation `Shulyak2015' on page 69 undefined on input li
+Package natbib Warning: Citation `Shulyak2015' on page 67 undefined on input li
 ne 9.
 
 
-Package natbib Warning: Citation `Chabrier2006' on page 69 undefined on input l
+Package natbib Warning: Citation `Chabrier2006' on page 67 undefined on input l
 ine 15.
 
 
-Package natbib Warning: Citation `Kochukhov2021' on page 69 undefined on input 
+Package natbib Warning: Citation `Kochukhov2021' on page 67 undefined on input 
 line 15.
 
 
-Package natbib Warning: Citation `Kleeorin2023' on page 69 undefined on input l
+Package natbib Warning: Citation `Kleeorin2023' on page 67 undefined on input l
 ine 15.
 
 
-Package natbib Warning: Citation `Spada2020' on page 69 undefined on input line
+Package natbib Warning: Citation `Spada2020' on page 67 undefined on input line
  30.
 
 
-Package natbib Warning: Citation `Curtis2020' on page 69 undefined on input lin
+Package natbib Warning: Citation `Curtis2020' on page 67 undefined on input lin
 e 30.
 
 
-Package natbib Warning: Citation `Dungee2022' on page 69 undefined on input lin
+Package natbib Warning: Citation `Dungee2022' on page 67 undefined on input lin
 e 30.
 
 
-Package natbib Warning: Citation `Kumar2023' on page 69 undefined on input line
+Package natbib Warning: Citation `Kumar2023' on page 67 undefined on input line
  38.
 
-[69
+[67
 
-]) (./chapters/jaoMagActivity/subsections/results.tex [70]
-<figures/jaoMagActivity/CombinedDeviation.pdf, id=1922, 639.99196pt x 819.65622
+]) (./chapters/jaoMagActivity/subsections/results.tex [68]
+<figures/jaoMagActivity/CombinedDeviation.pdf, id=2033, 639.99196pt x 819.65622
 pt>
 File: figures/jaoMagActivity/CombinedDeviation.pdf Graphic file (type pdf)
 <use figures/jaoMagActivity/CombinedDeviation.pdf>
 Package pdftex.def Info: figures/jaoMagActivity/CombinedDeviation.pdf  used on 
 input line 25.
 (pdftex.def)             Requested size: 368.57965pt x 472.06158pt.
-<figures/jaoMagActivity/fpDist.pdf, id=1935, 608.56743pt x 603.58702pt>
+<figures/jaoMagActivity/fpDist.pdf, id=2046, 608.56743pt x 603.58702pt>
 File: figures/jaoMagActivity/fpDist.pdf Graphic file (type pdf)
 <use figures/jaoMagActivity/fpDist.pdf>
 Package pdftex.def Info: figures/jaoMagActivity/fpDist.pdf  used on input line 
@@ -1528,10 +1898,10 @@ Package pdftex.def Info: figures/jaoMagActivity/fpDist.pdf  used on input line
 
 Underfull \vbox (badness 4303) has occurred while \output is active []
 
- [71]
-[72 <./figures/jaoMagActivity/CombinedDeviation.pdf>] [73 <./figures/jaoMagActi
+ [69]
+[70 <./figures/jaoMagActivity/CombinedDeviation.pdf>] [71 <./figures/jaoMagActi
 vity/fpDist.pdf>]
-<figures/jaoMagActivity/ReducedDeviation.pdf, id=1978, 622.44894pt x 437.70929p
+<figures/jaoMagActivity/ReducedDeviation.pdf, id=2089, 622.44894pt x 437.70929p
 t>
 File: figures/jaoMagActivity/ReducedDeviation.pdf Graphic file (type pdf)
 <use figures/jaoMagActivity/ReducedDeviation.pdf>
@@ -1540,16 +1910,16 @@ nput line 81.
 (pdftex.def)             Requested size: 368.57965pt x 259.18796pt.
 
 
-Package natbib Warning: Citation `Cretignier2024' on page 74 undefined on input
+Package natbib Warning: Citation `Cretignier2024' on page 72 undefined on input
  line 98.
 
-[74 <./figures/jaoMagActivity/ReducedDeviation.pdf>]
+[72 <./figures/jaoMagActivity/ReducedDeviation.pdf>]
 
-LaTeX Warning: Reference `fig:deviation' on page 75 undefined on input line 120
+LaTeX Warning: Reference `fig:deviation' on page 73 undefined on input line 120
 .
 
-[75]
-<figures/jaoMagActivity/GapLocationMC.pdf, id=2020, 622.44894pt x 437.70929pt>
+[73]
+<figures/jaoMagActivity/GapLocationMC.pdf, id=2131, 622.44894pt x 437.70929pt>
 File: figures/jaoMagActivity/GapLocationMC.pdf Graphic file (type pdf)
 <use figures/jaoMagActivity/GapLocationMC.pdf>
 Package pdftex.def Info: figures/jaoMagActivity/GapLocationMC.pdf  used on inpu
@@ -1557,40 +1927,40 @@ t line 135.
 (pdftex.def)             Requested size: 368.57965pt x 259.18796pt.
 
 
-Package natbib Warning: Citation `Vaughan1981' on page 76 undefined on input li
+Package natbib Warning: Citation `Vaughan1981' on page 74 undefined on input li
 ne 149.
 
 
-Package natbib Warning: Citation `Astudillo-Defru2017' on page 76 undefined on 
+Package natbib Warning: Citation `Astudillo-Defru2017' on page 74 undefined on 
 input line 149.
 
 
-Package natbib Warning: Citation `Houdebine2017' on page 76 undefined on input 
+Package natbib Warning: Citation `Houdebine2017' on page 74 undefined on input 
 line 149.
 
 
-Package natbib Warning: Citation `Boisse2011' on page 76 undefined on input lin
+Package natbib Warning: Citation `Boisse2011' on page 74 undefined on input lin
 e 155.
 
 
-Package natbib Warning: Citation `Robertson2020' on page 76 undefined on input 
+Package natbib Warning: Citation `Robertson2020' on page 74 undefined on input 
 line 155.
 
 
-Package natbib Warning: Citation `2019A&A...623A..24F' on page 76 undefined on 
+Package natbib Warning: Citation `2019A&A...623A..24F' on page 74 undefined on 
 input line 160.
 
 
-Package natbib Warning: Citation `2023MNRAS.518.3147K' on page 76 undefined on 
+Package natbib Warning: Citation `2023MNRAS.518.3147K' on page 74 undefined on 
 input line 160.
 
-[76 <./figures/jaoMagActivity/GapLocationMC.pdf>] [77]
+[74 <./figures/jaoMagActivity/GapLocationMC.pdf>] [75]
 
-Package natbib Warning: Citation `Angus2023' on page 78 undefined on input line
+Package natbib Warning: Citation `Angus2023' on page 76 undefined on input line
  198.
 
 
-Package natbib Warning: Citation `SalvatierProbabilistic2016' on page 78 undefi
+Package natbib Warning: Citation `SalvatierProbabilistic2016' on page 76 undefi
 ned on input line 206.
 
 (./tables/jaoMagActivity/rotationalTable.tex
@@ -1628,7 +1998,7 @@ Overfull \hbox (30.37547pt too wide) in alignment at lines 62--82
  [] [] [] [] [] [] [] [] [] 
  []
 
-[78]
+[76]
 Overfull \hbox (30.37547pt too wide) in alignment at lines 82--102
  [] [] [] [] [] [] [] [] [] 
  []
@@ -1638,7 +2008,7 @@ Overfull \hbox (30.37547pt too wide) in alignment at lines 102--122
  [] [] [] [] [] [] [] [] [] 
  []
 
-[79]
+[77]
 Overfull \hbox (30.37547pt too wide) in alignment at lines 122--142
  [] [] [] [] [] [] [] [] [] 
  []
@@ -1648,7 +2018,7 @@ Overfull \hbox (30.37547pt too wide) in alignment at lines 142--162
  [] [] [] [] [] [] [] [] [] 
  []
 
-[80]
+[78]
 Overfull \hbox (30.37547pt too wide) in alignment at lines 162--182
  [] [] [] [] [] [] [] [] [] 
  []
@@ -1658,38 +2028,38 @@ Overfull \hbox (30.37547pt too wide) in alignment at lines 182--202
  [] [] [] [] [] [] [] [] [] 
  []
 
-[81]
+[79]
 Overfull \hbox (30.37547pt too wide) in alignment at lines 202--210
  [] [] [] [] [] [] [] [] [] 
  []
 
 )
 
-Package natbib Warning: Citation `Wright2018' on page 82 undefined on input lin
+Package natbib Warning: Citation `Wright2018' on page 80 undefined on input lin
 e 222.
 
-[82]
-<figures/jaoMagActivity/RotationSignifigance.pdf, id=2108, 628.1811pt x 821.842
+[80]
+<figures/jaoMagActivity/RotationSignifigance.pdf, id=2218, 628.1811pt x 821.842
 42pt>
 File: figures/jaoMagActivity/RotationSignifigance.pdf Graphic file (type pdf)
 <use figures/jaoMagActivity/RotationSignifigance.pdf>
 Package pdftex.def Info: figures/jaoMagActivity/RotationSignifigance.pdf  used 
 on input line 242.
 (pdftex.def)             Requested size: 368.57965pt x 482.22429pt.
-<figures/jaoMagActivity/Rossby.pdf, id=2109, 628.67159pt x 443.93193pt>
+<figures/jaoMagActivity/Rossby.pdf, id=2219, 628.67159pt x 443.93193pt>
 File: figures/jaoMagActivity/Rossby.pdf Graphic file (type pdf)
 <use figures/jaoMagActivity/Rossby.pdf>
 Package pdftex.def Info: figures/jaoMagActivity/Rossby.pdf  used on input line 
 251.
 (pdftex.def)             Requested size: 368.57965pt x 260.27151pt.
-) (./chapters/jaoMagActivity/subsections/modeling.tex [83] [84 <./figures/jaoMa
-gActivity/RotationSignifigance.pdf>] [85 <./figures/jaoMagActivity/Rossby.pdf>]
- [86]
+) (./chapters/jaoMagActivity/subsections/modeling.tex [81] [82 <./figures/jaoMa
+gActivity/RotationSignifigance.pdf>] [83 <./figures/jaoMagActivity/Rossby.pdf>]
+ [84]
 
-Package natbib Warning: Citation `Boudreaux2023' on page 87 undefined on input 
+Package natbib Warning: Citation `Boudreaux2023' on page 85 undefined on input 
 line 36.
 
-<figures/jaoMagActivity/Kippenhan_clamped.pdf, id=2154, 1034.60086pt x 450.0260
+<figures/jaoMagActivity/Kippenhan_clamped.pdf, id=2266, 1034.60086pt x 450.0260
 5pt>
 File: figures/jaoMagActivity/Kippenhan_clamped.pdf Graphic file (type pdf)
 <use figures/jaoMagActivity/Kippenhan_clamped.pdf>
@@ -1699,15 +2069,15 @@ input line 48.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [87]
-<figures/jaoMagActivity/simpleBEvolution.pdf, id=2163, 628.67159pt x 446.88333p
+ [85]
+<figures/jaoMagActivity/simpleBEvolution.pdf, id=2274, 628.67159pt x 446.88333p
 t>
 File: figures/jaoMagActivity/simpleBEvolution.pdf Graphic file (type pdf)
 <use figures/jaoMagActivity/simpleBEvolution.pdf>
 Package pdftex.def Info: figures/jaoMagActivity/simpleBEvolution.pdf  used on i
 nput line 69.
 (pdftex.def)             Requested size: 368.57965pt x 262.00189pt.
-<figures/jaoMagActivity/SpreadModel.pdf, id=2167, 631.1627pt x 437.70929pt>
+<figures/jaoMagActivity/SpreadModel.pdf, id=2278, 631.1627pt x 437.70929pt>
 File: figures/jaoMagActivity/SpreadModel.pdf Graphic file (type pdf)
 <use figures/jaoMagActivity/SpreadModel.pdf>
 Package pdftex.def Info: figures/jaoMagActivity/SpreadModel.pdf  used on input 
@@ -1716,46 +2086,46 @@ line 94.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [88 <./figures/jaoMagActivity/Kippenhan_clamped.pdf>] [89 <./figures/jaoMagAct
+ [86 <./figures/jaoMagActivity/Kippenhan_clamped.pdf>] [87 <./figures/jaoMagAct
 ivity/simpleBEvolution.pdf> <./figures/jaoMagActivity/SpreadModel.pdf>])
-(./chapters/jaoMagActivity/subsections/conclusion.tex [90])) [91] [92
+(./chapters/jaoMagActivity/subsections/conclusion.tex [88])) [89] [90
 
-] [93]
-[94]
-Chapter 7.
+] [91]
+[92]
+Chapter 6.
 (./chapters/magActivity/magActivity.tex
 (./chapters/magActivity/subsections/Introduction.tex
 
-Package natbib Warning: Citation `Cha97' on page 95 undefined on input line 32.
+Package natbib Warning: Citation `Cha97' on page 93 undefined on input line 32.
 
 
-[95
+[93
 
-] [96]
+] [94]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [95])
+(./chapters/magActivity/subsections/Observations.tex [96]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [97])
-(./chapters/magActivity/subsections/Observations.tex [98]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [99])
 (./chapters/magActivity/subsections/Analysis.tex
 Overfull \hbox (11.85489pt too wide) in paragraph at lines 43--1
 []\OT1/cmr/m/n/12 Ultimately, two tar-gets (2MASS J16570570-0420559 and 2MASS J
 04102815-5336078)
  []
 
-<figures/magActivity/SIndexBandpass.pdf, id=2419, 912.13545pt x 446.35814pt>
+<figures/magActivity/SIndexBandpass.pdf, id=2530, 912.13545pt x 446.35814pt>
 File: figures/magActivity/SIndexBandpass.pdf Graphic file (type pdf)
 <use figures/magActivity/SIndexBandpass.pdf>
 Package pdftex.def Info: figures/magActivity/SIndexBandpass.pdf  used on input 
 line 25.
 (pdftex.def)             Requested size: 390.25536pt x 190.96992pt.
-[100] [101 <./figures/magActivity/SIndexBandpass.pdf>] [102])
+[98] [99 <./figures/magActivity/SIndexBandpass.pdf>] [100])
 (./chapters/magActivity/subsections/Results.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [103]
+ [101]
 (./tables/magActivity/finalDataProducts.tex
 Overfull \hbox (19.35321pt too wide) in paragraph at lines 1--62
  [][] 
@@ -1765,7 +2135,7 @@ Overfull \hbox (19.35321pt too wide) in paragraph at lines 1--62
 
 LaTeX Warning: Float too large for page by 12.16997pt on input line 49.
 
-<figures/magActivity/RpHKvsR0_MC_justThisPaper.pdf, id=2512, 1325.66655pt x 612
+<figures/magActivity/RpHKvsR0_MC_justThisPaper.pdf, id=2624, 1325.66655pt x 612
 .1776pt>
 File: figures/magActivity/RpHKvsR0_MC_justThisPaper.pdf Graphic file (type pdf)
 
@@ -1773,19 +2143,19 @@ File: figures/magActivity/RpHKvsR0_MC_justThisPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/magActivity/RpHKvsR0_MC_justThisPaper.pdf  use
 d on input line 52.
 (pdftex.def)             Requested size: 390.25536pt x 180.20784pt.
-<figures/magActivity/RpHKvsR0_MC.pdf, id=2513, 1315.57697pt x 612.1776pt>
+<figures/magActivity/RpHKvsR0_MC.pdf, id=2625, 1315.57697pt x 612.1776pt>
 File: figures/magActivity/RpHKvsR0_MC.pdf Graphic file (type pdf)
 <use figures/magActivity/RpHKvsR0_MC.pdf>
 Package pdftex.def Info: figures/magActivity/RpHKvsR0_MC.pdf  used on input lin
 e 59.
 (pdftex.def)             Requested size: 390.25536pt x 181.59032pt.
-<figures/magActivity/RpHKvsR0_MC_fits.pdf, id=2526, 1435.15862pt x 612.1776pt>
+<figures/magActivity/RpHKvsR0_MC_fits.pdf, id=2638, 1435.15862pt x 612.1776pt>
 File: figures/magActivity/RpHKvsR0_MC_fits.pdf Graphic file (type pdf)
 <use figures/magActivity/RpHKvsR0_MC_fits.pdf>
 Package pdftex.def Info: figures/magActivity/RpHKvsR0_MC_fits.pdf  used on inpu
 t line 69.
 (pdftex.def)             Requested size: 390.25536pt x 166.46713pt.
-[104] [105 <./figures/magActivity/RpHKvsR0_MC_justThisPaper.pdf> <./figures/mag
+[102] [103 <./figures/magActivity/RpHKvsR0_MC_justThisPaper.pdf> <./figures/mag
 Activity/RpHKvsR0_MC.pdf
 
 pdfTeX warning: pdflatex (file ./figures/magActivity/RpHKvsR0_MC.pdf): PDF incl
@@ -1796,14 +2166,14 @@ Overfull \hbox (2.02972pt too wide) in paragraph at lines 84--95
 ork to those from both [][]Astudillo-
  []
 
-[106 <./figures/magActivity/RpHKvsR0_MC_fits.pdf>]
+[104 <./figures/magActivity/RpHKvsR0_MC_fits.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [107]
+ [105]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [108]
-<figures/magActivity/B2020vsAD2016_Masses.pdf, id=2695, 782.41577pt x 448.4426p
+ [106]
+<figures/magActivity/B2020vsAD2016_Masses.pdf, id=2807, 782.41577pt x 448.4426p
 t>
 File: figures/magActivity/B2020vsAD2016_Masses.pdf Graphic file (type pdf)
 <use figures/magActivity/B2020vsAD2016_Masses.pdf>
@@ -1814,25 +2184,25 @@ input line 190.
 (./chapters/magActivity/subsections/Conclusions.tex))
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [109 <./figures/magActivity/B2020vsAD2016_Masses.pdf>] (./chapters/rgb_bump/rg
+ [107 <./figures/magActivity/B2020vsAD2016_Masses.pdf>] (./chapters/rgb_bump/rg
 bb.tex
-[110] [111] [112
+[108] [109] [110
 
 ]
-Chapter 8.
+Chapter 7.
 (./chapters/rgb_bump/subsections/rgbintro.tex
 Underfull \vbox (badness 6300) has occurred while \output is active []
 
- [113])
-(./chapters/rgb_bump/subsections/multiplePopulations.tex [114]
-<figures/rgbb/ComparisonOfRGBBump.pdf, id=2750, 628.67159pt x 451.52028pt>
+ [111])
+(./chapters/rgb_bump/subsections/multiplePopulations.tex [112]
+<figures/rgbb/ComparisonOfRGBBump.pdf, id=2862, 628.67159pt x 451.52028pt>
 File: figures/rgbb/ComparisonOfRGBBump.pdf Graphic file (type pdf)
 <use figures/rgbb/ComparisonOfRGBBump.pdf>
 Package pdftex.def Info: figures/rgbb/ComparisonOfRGBBump.pdf  used on input li
 ne 40.
 (pdftex.def)             Requested size: 368.57965pt x 264.72046pt.
- [115 <./figures/rgbb/ComparisonOfRGBBump.pdf>]
-<figures/rgbb/ConvectiveEnvelopeMass.pdf, id=2763, 624.63515pt x 445.29762pt>
+ [113 <./figures/rgbb/ComparisonOfRGBBump.pdf>]
+<figures/rgbb/ConvectiveEnvelopeMass.pdf, id=2875, 624.63515pt x 445.29762pt>
 File: figures/rgbb/ConvectiveEnvelopeMass.pdf Graphic file (type pdf)
 <use figures/rgbb/ConvectiveEnvelopeMass.pdf>
 Package pdftex.def Info: figures/rgbb/ConvectiveEnvelopeMass.pdf  used on input
@@ -1840,16 +2210,16 @@ Package pdftex.def Info: figures/rgbb/ConvectiveEnvelopeMass.pdf  used on input
 (pdftex.def)             Requested size: 368.57965pt x 262.7573pt.
 ) (./chapters/rgb_bump/subsections/OPLIB.tex
 
-Package natbib Warning: Citation `Joyce2015' on page 116 undefined on input lin
+Package natbib Warning: Citation `Joyce2015' on page 114 undefined on input lin
 e 9.
 
-[116 <./figures/rgbb/ConvectiveEnvelopeMass.pdf>]
+[114 <./figures/rgbb/ConvectiveEnvelopeMass.pdf>]
 Overfull \hbox (8.46173pt too wide) in paragraph at lines 16--23
 \OT1/cmr/m/n/12 fil-ters us-ing the bolo-met-ric cor-rec-tion ta-bles pro-vided
  by MESA [][CI-TA-TION HERE][]and
  []
 
-<figures/rgbb/OPALvsOPLIBComparison.pdf, id=2776, 639.87642pt x 439.8955pt>
+<figures/rgbb/OPALvsOPLIBComparison.pdf, id=2888, 639.87642pt x 439.8955pt>
 File: figures/rgbb/OPALvsOPLIBComparison.pdf Graphic file (type pdf)
 <use figures/rgbb/OPALvsOPLIBComparison.pdf>
 Package pdftex.def Info: figures/rgbb/OPALvsOPLIBComparison.pdf  used on input 
@@ -1858,40 +2228,48 @@ line 31.
 ) (./chapters/rgb_bump/subsections/implications.tex))
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [117 <./figures/rgbb/OPALvsOPLIBComparison.pdf>] [118] [119
+ [115 <./figures/rgbb/OPALvsOPLIBComparison.pdf>] [116] [117
 
-] [120]
+] [118]
 (./chapters/conclusion/conclusion.tex
-Chapter 9.
+Chapter 8.
 
 Underfull \vbox (badness 2253) has occurred while \output is active []
 
- [121
+ [119
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [122])
-(./Thesis.bbl [123] [124
+ [120])
+[121] [122
 
-]
-Underfull \hbox (badness 1270) in paragraph at lines 77--80
+] (./Thesis.bbl
+Underfull \hbox (badness 1270) in paragraph at lines 83--86
 []\OT1/cmr/m/n/12 Barentsen, G., Hedges, C., Vin^^S^^Pcius, Z., et al. 2020, Ke
 -p-lerGO/Lightkurve:
  []
 
-[125] [126] [127] [128] [129] [130] [131] [132] [133] [134])
+[123
+
+]
+Underfull \hbox (badness 2334) in paragraph at lines 147--149
+[]\OT1/cmr/m/n/12 Bonnet-Bidaud, J.-M., Praderie, F., & Whit-field, S. 2009, ar
+Xiv preprint
+ []
+
+[124] [125] [126] [127] [128] [129] [130] [131] [132] [133] [134])
 
 Package natbib Warning: There were undefined citations.
 
 [135]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
  (./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 48.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 4EC18F4E2AB84DB98F84CDF14D1BB99D;4894.
+(rerunfilecheck)             Checksum: BB1E0848D86588F7716896D6833E8FA6;4954.
 
 
 LaTeX Warning: There were undefined references.
@@ -1899,16 +2277,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 23208 strings out of 492641
- 452177 string characters out of 6131787
- 616525 words of memory out of 5000000
- 26045 multiletter control sequences out of 15000+600000
+ 24446 strings out of 492641
+ 471813 string characters out of 6131787
+ 627031 words of memory out of 5000000
+ 27228 multiletter control sequences out of 15000+600000
  17082 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,12n,85p,1747b,774s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 61i,12n,85p,1747b,846s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texliv
@@ -1933,10 +2311,10 @@ msfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 y9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Thesis.pdf (157 pages, 14109203 bytes).
+Output written on Thesis.pdf (157 pages, 14114544 bytes).
 PDF statistics:
- 3076 PDF objects out of 3580 (max. 8388607)
- 2736 compressed objects within 28 object streams
- 500 named destinations out of 1000 (max. 500000)
- 818 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3203 PDF objects out of 3580 (max. 8388607)
+ 2862 compressed objects within 29 object streams
+ 537 named destinations out of 1000 (max. 500000)
+ 826 words of extra memory for PDF output out of 10000 (max. 10000000)
 

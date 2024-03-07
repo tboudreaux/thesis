@@ -17,6 +17,9 @@ Angus, R. 2021, Zenodo, doi:10.5281/zenodo.4613887
 Angus, R., Morton, T., Aigrain, S., {Foreman-Mackey}, D., \& Rajpaul, V. 2018,
   Monthly Notices of the Royal Astronomical Society, 474, 2094
 
+\bibitem[{Arnold(1894)}]{Arnold1894}
+Arnold, E. 1894, The North American Review, 159, 404
+
 \bibitem[{{Astropy Collaboration} {et~al.}(2018){Astropy Collaboration},
   {Price-Whelan}, {Sip{\H{o}}cz}, {G{\"u}nther}, {Lim}, {Crawford}, {Conseil},
   {Shupe}, {Craig}, { Dencheva}, {Ginsburg}, {Vand erPlas}, { Bradley},
@@ -48,6 +51,9 @@ Angus, R., Morton, T., Aigrain, S., {Foreman-Mackey}, D., \& Rajpaul, V. 2018,
   {Bonfils}, { Forveille}, {Lovis}, \& {Rameau}}]{Def17}
 {Astudillo-Defru}, N., {Delfosse}, X., {Bonfils}, X., {et~al.} 2017, \aap, 600,
   A13
+
+\bibitem[{Baga(2020)}]{Baga2020}
+Baga, S. 2020
 
 \bibitem[{{Bahcall} {et~al.}(2001){Bahcall}, {Pinsonneault}, \&
   {Basu}}]{Bahcall2001}
@@ -111,6 +117,16 @@ Bastian, N., \& Lardo, C. 2018, Annual Review of Astronomy and Astrophysics,
 Bekki, K., \& Chiba, M. 2002, The Astrophysical Journal, 566, 245.
 \newblock \url{https://dx.doi.org/10.1086/337984}
 
+\bibitem[{Bendaoud(2023)}]{Bendaoud2023}
+Bendaoud, S. 2023, Emirati Journal of Space and Astronomy Sciences, 1, 14
+
+\bibitem[{Benfer~Jr \& Adkinsb(2009)}]{Benferfour2009}
+Benfer~Jr, R.~A., \& Adkinsb, L.~R. 2009
+
+\bibitem[{Bernardi \& Bernardi(2016)}]{Bernardi2016}
+Bernardi, G., \& Bernardi, G. 2016, The Unforgotten Sisters: Female Astronomers
+  and Scientists before Caroline Herschel, 155
+
 \bibitem[{{Bernstein} {et~al.}(2003){Bernstein}, {Shectman}, {Gunnels},
   {Mochnacki}, \& {Athey}}]{Ber03}
 {Bernstein}, R., {Shectman}, S.~A., {Gunnels}, S.~M., {Mochnacki}, S., \&
@@ -125,6 +141,11 @@ Bekki, K., \& Chiba, M. 2002, The Astrophysical Journal, 566, 245.
 
 \bibitem[{{Bjork} \& {Chaboyer}(2006)}]{Bjork2006}
 {Bjork}, S.~R., \& {Chaboyer}, B. 2006, \apj, 641, 1102
+
+\bibitem[{Bonnet-Bidaud {et~al.}(2009)Bonnet-Bidaud, Praderie, \&
+  Whitfield}]{Bonnet2009}
+Bonnet-Bidaud, J.-M., Praderie, F., \& Whitfield, S. 2009, arXiv preprint
+  arXiv:0906.3034
 
 \bibitem[{{Boudreaux} {et~al.}(2022){Boudreaux}, {Newton}, {Mondrik},
   {Charbonneau}, \& {Irwin}}]{Boudreaux2022}
@@ -208,6 +229,9 @@ Carretta, E., Bragaglia, A., Gratton, R.~G., {et~al.} 2010, Astronomy \&
 {Creevey}, O.~L., {Sordo}, R., {Pailler}, F., {et~al.} 2022, arXiv e-prints,
   arXiv:2206.05864
 
+\bibitem[{Cullen(2011)}]{Cullen2011}
+Cullen, C. 2011, Early Science and Medicine, 16, 218
+
 \bibitem[{{de Mink} {et~al.}(2009){de Mink}, {Pols}, {Langer}, \&
   {Izzard}}]{deMink2009}
 {de Mink}, S.~E., {Pols}, O.~R., {Langer}, N., \& {Izzard}, R.~G. 2009, \aap,
@@ -266,6 +290,16 @@ Earl, N., Tollerud, E., Jones, C., {et~al.} 2021, astropy/specutils: v1.3,
 
 \bibitem[{{Emden}(1907)}]{Emden1907}
 {Emden}, R. 1907, {Gaskugeln}
+
+\bibitem[{Evans(1998)}]{Evans1998}
+Evans, J. 1998, The history and practice of ancient astronomy (Oxford
+  University Press)
+
+\bibitem[{{Falcon} {et~al.}(2013){Falcon}, {Rochau}, {Bailey}, {Ellis},
+  {Carlson}, {Gomez}, {Montgomery}, {Winget}, {Chen}, {Gomez}, \&
+  {Nash}}]{Falcon2013}
+{Falcon}, R.~E., {Rochau}, G.~A., {Bailey}, J.~E., {et~al.} 2013, High Energy
+  Density Physics, 9, 82
 
 \bibitem[{{Feiden} {et~al.}(2021){Feiden}, {Skidmore}, \& {Jao}}]{Feiden2021}
 {Feiden}, G.~A., {Skidmore}, K., \& {Jao}, W.-C. 2021, \apj, 907, 53
@@ -333,10 +367,22 @@ Ferguson, T.~S. 1973, The annals of statistics, 209
 \bibitem[{{Grevesse} \& {Sauval}(1998)}]{Grevesse1998}
 {Grevesse}, N., \& {Sauval}, A.~J. 1998, \ssr, 85, 161
 
+\bibitem[{Gullberg(2016)}]{Gullberg2016}
+Gullberg, S. 2016, Mediterranean Archaeology \& Archaeometry, 16
+
 \bibitem[{{Gustafsson} {et~al.}(2008){Gustafsson}, {Edvardsson}, {Eriksson},
   {J{\o} rgensen}, {Nordlund}, \& {Plez}}]{Gustafsson2008}
 {Gustafsson}, B., {Edvardsson}, B., {Eriksson}, K., {et~al.} 2008, \aap, 486,
   951
+
+\bibitem[{Hafez(2010)}]{Hafez2010}
+Hafez, I. 2010, PhD thesis, James Cook University
+
+\bibitem[{Hafez {et~al.}(2015)Hafez, Stephenson, \& Orchiston}]{Hafez2015}
+Hafez, I., Stephenson, F.~R., \& Orchiston, W. 2015, in New Insights From
+  Recent Studies in Historical Astronomy: Following in the Footsteps of F.
+  Richard Stephenson: A Meeting to Honor F. Richard Stephenson on His 70th
+  Birthday, Springer, 143--168
 
 \bibitem[{{Hakel} {et~al.}(2006){Hakel}, {Sherrill}, {Mazevet}, {Abdallah},
   {Colgan}, {Kilcrease}, {Magee}, {Fontes}, \& {Zhang}}]{Hakel2006}
@@ -346,6 +392,13 @@ Ferguson, T.~S. 1973, The annals of statistics, 209
 Hall, J.~C., Lockwood, G.~W., \& Skiff, B.~A. 2007, The Astronomical Journal,
   133, 862.
 \newblock \url{https://doi.org/10.1086%2F510356}
+
+\bibitem[{Hannah(2015)}]{Hannah2015}
+Hannah, R. 2015
+
+\bibitem[{Hannah(2021)}]{Hannah2021}
+---. 2021, Advancing Cultural Astronomy: Studies In Honour of Clive Ruggles,
+  211
 
 \bibitem[{{Hawley} {et~al.}(1996){Hawley}, {Gizis}, \& {Reid}}]{Hawley96}
 {Hawley}, S.~L., {Gizis}, J.~E., \& {Reid}, I.~N. 1996, \aj, 112, 2799
@@ -406,6 +459,16 @@ Hall, J.~C., Lockwood, G.~W., \& Skiff, B.~A. 2007, The Astronomical Journal,
 \bibitem[{{Joyce} \& {Chaboyer}(2018)}]{Joyce2018}
 {Joyce}, M., \& {Chaboyer}, B. 2018, \apj, 864, 99
 
+\bibitem[{Kapoor(2018)}]{Kapoor2018}
+Kapoor, R. 2018, in IAU Commission 3 Science Meetings, 29--30
+
+\bibitem[{Kasak \& Veede(2001)}]{Kasak2001}
+Kasak, E., \& Veede, R. 2001, Folklore, 16, 7
+
+\bibitem[{Kelley \& Milone(2005)}]{Kelley2005}
+Kelley, D.~H., \& Milone, E.~F. 2005, Exploring Ancient Skies: An Encyclopedic
+  Survey of Archaeoastronomy, 473
+
 \bibitem[{{Kelson}(2003)}]{Kel03}
 {Kelson}, D.~D. 2003, \pasp, 115, 688
 
@@ -418,6 +481,11 @@ Hall, J.~C., Lockwood, G.~W., \& Skiff, B.~A. 2007, The Astronomical Journal,
   {Mace}}]{Kesseli2018}
 {Kesseli}, A.~Y., {Muirhead}, P.~S., {Mann}, A.~W., \& {Mace}, G. 2018, \aj,
   155, 225
+
+\bibitem[{Kolachana {et~al.}(2019)Kolachana, Mahesh, \&
+  Ramasubramanian}]{Kolachana2019}
+Kolachana, A., Mahesh, K., \& Ramasubramanian, K. 2019, Studies in Indian
+  Mathematics and Astronomy: Selected Articles of Kripa Shankar Shukla, 487
 
 \bibitem[{Kostogryz {et~al.}(2023)Kostogryz, Shapiro, Witzke, Grant, Wakeford,
   Stevenson, Solanki, \& Gizon}]{Kostogryz2023}
@@ -434,6 +502,9 @@ Kravtsov, A.~V., \& Gnedin, O.~Y. 2005, The Astrophysical Journal, 623, 650
 \bibitem[{Kurucz(1993)}]{Kurucz1993}
 Kurucz, R.-L. 1993, Kurucz CD-Rom, 13
 
+\bibitem[{Lambert(1987)}]{Lambert1987}
+Lambert, W.~G. 1987, Babylonian Astrological Omens and Their Stars,  JSTOR
+
 \bibitem[{{Latour} {et~al.}(2019){Latour}, {Husser}, {Giesers}, {Kamann},
   {G{\"o}ttgens}, {Dreizler}, {Brinchmann}, { Bastian}, {Wendt}, {Weilbacher},
   \& {Molinski}}]{Latour2019}
@@ -443,6 +514,9 @@ Kurucz, R.-L. 1993, Kurucz CD-Rom, 13
   {Spada}}]{Leh20}
 {Lehtinen}, J.~J., {K{\"a}pyl{\"a}}, M.~J., {Olspert}, N., \& {Spada}, F. 2020,
   arXiv e-prints, arXiv:2007.00040
+
+\bibitem[{Leicht(2011)}]{Leicht2011}
+Leicht, R. 2011, in Giving a Diamond (Brill), 15--38
 
 \bibitem[{{Lightkurve Collaboration} {et~al.}(2018){Lightkurve Collaboration},
   Cardoso, Hedges, {Gully-Santiago}, Saunders, Cody, Barclay, Hall, Sagear,
@@ -456,8 +530,16 @@ Kurucz, R.-L. 1993, Kurucz CD-Rom, 13
 Lovis, C., S{\'e}gransan, D., Mayor, M., {et~al.} 2011, Astronomy \&
   Astrophysics, 528, A112
 
+\bibitem[{Lull \& Belmonte(2009)}]{Lull2009}
+Lull, J., \& Belmonte, J.~A. 2009, Search of cosmic order: Selected essays on
+  Egyptian archaeoastronomy, 157
+
 \bibitem[{{MacDonald} \& {Gizis}(2018)}]{MacDonald2018}
 {MacDonald}, J., \& {Gizis}, J. 2018, \mnras, 480, 1711
+
+\bibitem[{MacPherson \& Thiemens(2011)}]{MacPherson2011}
+MacPherson, G.~J., \& Thiemens, M.~H. 2011, Proceedings of the National Academy
+  of Sciences, 108, 19130
 
 \bibitem[{{Magaudda} {et~al.}(2020){Magaudda}, {Stelzer}, {Covey}, {Raetz},
   {Matt}, \& {Scholz}}]{Magaudda2020}
@@ -472,6 +554,11 @@ Lovis, C., S{\'e}gransan, D., Mayor, M., {et~al.} 2011, Astronomy \&
 
 \bibitem[{{Mamajek} \& {Hillenbrand}(2008)}]{Mamajek2008}
 {Mamajek}, E.~E., \& {Hillenbrand}, L.~A. 2008, \apj, 687, 1264
+
+\bibitem[{{Manitius}(1995)}]{Manitius1995}
+{Manitius}, K. :~Ptolemy, C. 1995, {VizieR Online Data Catalog: Almagest
+  (Ptolemy's Star Catalog)}, VizieR On-line Data Catalog: V/61. Originally
+  published in: 1987BICDS..33..125J, ,
 
 \bibitem[{{Mann} {et~al.}(2016){Mann}, {Gaidos}, {Mace}, { Johnson}, {Bowler},
   {LaCourse}, {Jacobs}, {Vanderburg}, {Kraus}, {Kaplan}, \& {Jaffe}}]{Man16}
@@ -534,6 +621,10 @@ Marino, A.~F., Milone, A.~P., Karakas, A.~I., {et~al.} 2015, Monthly Notices of
 {Milone}, A.~P., {Marino}, A.~F., {Renzini}, A., {et~al.} 2018, \mnras, 481,
   5098
 
+\bibitem[{Mujani {et~al.}(2012)Mujani, Ibrahim, \& Safiai}]{Mujani2012}
+Mujani, W.~K., Ibrahim, I.~A., \& Safiai, M.~H. 2012, Advances in natural and
+  applied sciences, 6, 1370
+
 \bibitem[{Newton {et~al.}(2017)Newton, Irwin, Charbonneau, Berlind, Calkins, \&
   Mink}]{Newton2017}
 Newton, E.~R., Irwin, J., Charbonneau, D., {et~al.} 2017, The Astrophysical
@@ -548,6 +639,10 @@ Newton, E.~R., Irwin, J., Charbonneau, D., {et~al.} 2017, The Astrophysical
 {Newton}, E.~R., {Mondrik}, N., {Irwin}, J., {Winters}, J.~G., \&
   {Charbonneau}, D. 2018, \aj, 156, 217
 
+\bibitem[{Noegel \& Walker(2010)}]{Noegel2010}
+Noegel, S., \& Walker, J.~W. 2010, Prayer, magic, and the stars in the ancient
+  and late antique world (Penn State Press)
+
 \bibitem[{{Noyes} {et~al.}(1984){Noyes}, {Hartmann}, {Baliunas}, { Duncan}, \&
   {Vaughan}}]{Noy84}
 {Noyes}, R.~W., {Hartmann}, L.~W., {Baliunas}, S.~L., { Duncan}, D.~K., \&
@@ -561,6 +656,9 @@ Newton, E.~R., Irwin, J., Charbonneau, D., {et~al.} 2017, The Astrophysical
 
 \bibitem[{{Nutzman} \& {Charbonneau}(2008)}]{Nut08}
 {Nutzman}, P., \& {Charbonneau}, D. 2008, \pasp, 120, 317
+
+\bibitem[{Ouzounian(1984)}]{Ouzounian1984}
+Ouzounian, J.~G. 1984, Archaeoastronomy, 7, 105
 
 \bibitem[{{Owen} \& {Mohanty}(2016)}]{Owe16}
 {Owen}, J.~E., \& {Mohanty}, S. 2016, \mnras, 459, 4088
@@ -594,6 +692,9 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., {et~al.} 2011, Journal of Machine
 Peng, E.~W., Ferguson, H.~C., Goudfrooij, P., {et~al.} 2011, The Astrophysical
   Journal, 730, 23
 
+\bibitem[{Penprase(2017)}]{Penprase2017}
+Penprase, B.~E. 2017, The Power of Stars (Springer)
+
 \bibitem[{{Perdelwitz} {et~al.}(2021){Perdelwitz}, {Mittag}, {Tal-Or},
   {Schmitt}, {Caballero}, {Jeffers}, {Reiners}, {Schweitzer}, {Trifonov},
   {Ribas}, {Quirrenbach}, {Amado}, {Seifert}, {Cifuentes},
@@ -626,6 +727,17 @@ Peng, E.~W., Ferguson, H.~C., Goudfrooij, P., {et~al.} 2011, The Astrophysical
 \bibitem[{{Prantzos} {et~al.}(2007){Prantzos}, {Charbonnel}, \&
   {Iliadis}}]{Prantzos2007}
 {Prantzos}, N., {Charbonnel}, C., \& {Iliadis}, C. 2007, \aap, 470, 179
+
+\bibitem[{Ptolemy(150)}]{Ptolemy150}
+Ptolemy, C. 150, Hē Megálē Sýntaxis (Alexandria: N/A), translated as "The
+  Great Treatise" or "Almagest"
+
+\bibitem[{Qiu(2009)}]{Qiu2009}
+Qiu, J. 2009, Charting the heavens from China,  Nature Publishing Group UK
+  London
+
+\bibitem[{Quack(2019)}]{Quack2019}
+Quack, J.~F. 2019, in Oxford Research Encyclopedia of Planetary Science
 
 \bibitem[{{Rauscher} \& {Marcy}(2006)}]{Rauscher2006}
 {Rauscher}, E., \& {Marcy}, G.~W. 2006, \pasp, 118, 617
@@ -662,6 +774,12 @@ Rousseeuw, P.~J. 1987, Journal of Computational and Applied Mathematics, 20,
 \bibitem[{Salaris \& Cassisi(2005)}]{Salaris2005}
 Salaris, M., \& Cassisi, S. 2005, Evolution of stars and stellar populations
   (John Wiley \& Sons)
+
+\bibitem[{Saliba(1982)}]{Saliba1982}
+Saliba, G. 1982, Arab Studies Quarterly, 211
+
+\bibitem[{Saliba(2002)}]{Saliba2002}
+---. 2002, American scientist, 90, 360
 
 \bibitem[{Salvatier {et~al.}(2016)Salvatier, Wiecki, \&
   Fonnesbeck}]{Salvatier2016}
@@ -737,6 +855,10 @@ Sneden, C., Kraft, R.~P., Prosser, C.~F., \& Langer, G. 1992, The Astronomical
 Sollima, A. 2019, Monthly Notices of the Royal Astronomical Society, 489, 2377.
 \newblock \url{https://doi.org/10.1093/mnras/stz2093}
 
+\bibitem[{Steele(2016)}]{Steele2016}
+Steele, J. 2016, Stars in Babylonian Astronomy,  SAGE Publications Sage UK:
+  London, England
+
 \bibitem[{{Su{\'a}rez Mascare{\~n}o} {et~al.}(2016){Su{\'a}rez Mascare{\~n}o},
   {Rebolo}, \& {Gonz{\'a}lez Hern{\'a}ndez}}]{SuarezMascareno2016}
 {Su{\'a}rez Mascare{\~n}o}, A., {Rebolo}, R., \& {Gonz{\'a}lez Hern{\'a}ndez},
@@ -749,6 +871,9 @@ Sollima, A. 2019, Monthly Notices of the Royal Astronomical Society, 489, 2377.
 
 \bibitem[{{Suntzeff} \& {Kraft}(1996)}]{Suntzeff1996}
 {Suntzeff}, N.~B., \& {Kraft}, R.~P. 1996, \aj, 111, 1913
+
+\bibitem[{Tarnas(2009)}]{Tarnas2009}
+Tarnas, R. 2009, Archai: the journal of archetypal cosmology, 1, 36
 
 \bibitem[{{Thompson} {et~al.}(1996){Thompson}, {Toomre}, {Anderson}, {Antia},
   {Berthomieu}, {Burtonclay}, {Chitre}, {Christensen-Dalsgaard}, {Corbard}, {De
@@ -806,6 +931,10 @@ Vaughan, A.~H., \& Preston, G.~W. 1980, Publications of the Astronomical
 {Ventura}, P., {D'Antona}, F., {Mazzitelli}, I., \& {Gratton}, R. 2001, \apjl,
   550, L65
 
+\bibitem[{Vernet(1963)}]{Vernet1963}
+Vernet, J. 1963, The Observatory in Islam and Its Place in the General History
+  of the Observatory,  JSTOR
+
 \bibitem[{{Vilhu}(1984)}]{Vilhu1984}
 {Vilhu}, O. 1984, \aap, 133, 117
 
@@ -831,5 +960,8 @@ Wright, N.~J., Drake, J.~J., Mamajek, E.~E., \& Henry, G.~W. 2011, The
   {Yadav}}]{Wri18}
 {Wright}, N.~J., {Newton}, E.~R., {Williams}, P. K.~G., {Drake}, J.~J., \&
   {Yadav}, R.~K. 2018, \mnras, 479, 2351
+
+\bibitem[{Yena \& Yena(2021)}]{Yena2021}
+Yena, A.~V., \& Yena, A.~V. 2021
 
 \end{thebibliography}
