@@ -124,8 +124,7 @@ Bendaoud, S. 2023, Emirati Journal of Space and Astronomy Sciences, 1, 14
 Benfer~Jr, R.~A., \& Adkinsb, L.~R. 2009
 
 \bibitem[{Bernardi \& Bernardi(2016)}]{Bernardi2016}
-Bernardi, G., \& Bernardi, G. 2016, The Unforgotten Sisters: Female Astronomers
-  and Scientists before Caroline Herschel, 155
+Bernardi, G., \& Bernardi, G. 2016, 155
 
 \bibitem[{{Bernstein} {et~al.}(2003){Bernstein}, {Shectman}, {Gunnels},
   {Mochnacki}, \& {Athey}}]{Ber03}
@@ -231,6 +230,9 @@ Carretta, E., Bragaglia, A., Gratton, R.~G., {et~al.} 2010, Astronomy \&
 
 \bibitem[{Cullen(2011)}]{Cullen2011}
 Cullen, C. 2011, Early Science and Medicine, 16, 218
+
+\bibitem[{Cunha {et~al.}(2002)Cunha, Alcaniz, \& Lima}]{Cunha2002}
+Cunha, J., Alcaniz, J., \& Lima, J. 2002, Physical Review D, 66, 023520
 
 \bibitem[{{de Mink} {et~al.}(2009){de Mink}, {Pols}, {Langer}, \&
   {Izzard}}]{deMink2009}
@@ -459,6 +461,9 @@ Hannah, R. 2015
 \bibitem[{{Joyce} \& {Chaboyer}(2018)}]{Joyce2018}
 {Joyce}, M., \& {Chaboyer}, B. 2018, \apj, 864, 99
 
+\bibitem[{Kalita(2023)}]{Kalita2023}
+Kalita, S. 2023, Astronomy \& Geophysics, 64, 5
+
 \bibitem[{Kapoor(2018)}]{Kapoor2018}
 Kapoor, R. 2018, in IAU Commission 3 Science Meetings, 29--30
 
@@ -495,6 +500,9 @@ Kostogryz, N., Shapiro, A.~I., Witzke, V., {et~al.} 2023, Research Notes of the
 
 \bibitem[{{Kovetz} {et~al.}(2009){Kovetz}, {Yaron}, \& {Prialnik}}]{Kovetz2009}
 {Kovetz}, A., {Yaron}, O., \& {Prialnik}, D. 2009, \mnras, 395, 1857
+
+\bibitem[{Krauss \& Chaboyer(2003)}]{Krauss2003}
+Krauss, L.~M., \& Chaboyer, B. 2003, Science, 299, 65
 
 \bibitem[{Kravtsov \& Gnedin(2005)}]{Kra05}
 Kravtsov, A.~V., \& Gnedin, O.~Y. 2005, The Astrophysical Journal, 623, 650
@@ -677,6 +685,9 @@ Ouzounian, J.~G. 1984, Archaeoastronomy, 7, 105
   {Lesaffre}, \& {Timmes}}]{Paxton2011}
 {Paxton}, B., {Bildsten}, L., {Dotter}, A., {et~al.} 2011, The Astrophysical
   Journal Supplement Series, 192, 3
+
+\bibitem[{{Payne}(1925)}]{Payne1925}
+{Payne}, C.~H. 1925, PhD thesis, RADCLIFFE COLLEGE.
 
 \bibitem[{Pedregosa {et~al.}(2011)Pedregosa, Varoquaux, Gramfort, Michel,
   Thirion, Grisel, Blondel, Prettenhofer, Weiss, Dubourg, Vanderplas, Passos,
@@ -898,6 +909,15 @@ Tarnas, R. 2009, Archai: the journal of archetypal cosmology, 1, 36
 {Trampedach}, R., {Stein}, R.~F., {Christensen-Dalsgaard}, J., {Nordlund},
   {\r{A}}., \& {Asplund}, M. 2014, \mnras, 445, 4366
 
+\bibitem[{Trenti {et~al.}(2015)Trenti, Padoan, \& Jimenez}]{Trenti2015}
+Trenti, M., Padoan, P., \& Jimenez, R. 2015, The Astrophysical Journal Letters,
+  808, L35
+
+\bibitem[{Valcin {et~al.}(2021)Valcin, Jimenez, Verde, Bernal, \&
+  Wandelt}]{Valcin2021}
+Valcin, D., Jimenez, R., Verde, L., Bernal, J.~L., \& Wandelt, B.~D. 2021,
+  Journal of Cosmology and Astroparticle Physics, 2021, 017
+
 \bibitem[{{Valle} {et~al.}(2022){Valle}, {Dell'Omodarme}, \&
   {Tognelli}}]{Valle2022}
 {Valle}, G., {Dell'Omodarme}, M., \& {Tognelli}, E. 2022, \aap, 658, A141
@@ -908,6 +928,11 @@ van~den Bergh, S. 2010, The Astronomical Journal, 140, 1043.
 
 \bibitem[{{van Saders} \& {Pinsonneault}(2012)}]{van2012}
 {van Saders}, J.~L., \& {Pinsonneault}, M.~H. 2012, \apj, 751, 98
+
+\bibitem[{VandenBerg {et~al.}(1996)VandenBerg, Bolte, \&
+  Stetson}]{Vandenberg1996}
+VandenBerg, D.~A., Bolte, M., \& Stetson, P.~B. 1996, Annual Review of
+  Astronomy and Astrophysics, 34, 461
 
 \bibitem[{Vanderburg {et~al.}(2016)Vanderburg, Plavchan, Johnson, Ciardi,
   Swift, \& Kane}]{Van16}
@@ -963,5 +988,10 @@ Wright, N.~J., Drake, J.~J., Mamajek, E.~E., \& Henry, G.~W. 2011, The
 
 \bibitem[{Yena \& Yena(2021)}]{Yena2021}
 Yena, A.~V., \& Yena, A.~V. 2021
+
+\bibitem[{Ying {et~al.}(2023)Ying, Chaboyer, Boudreaux, Slaughter,
+  Boylan-Kolchin, \& Weisz}]{Ying2023}
+Ying, J.~M., Chaboyer, B., Boudreaux, E.~M., {et~al.} 2023, The Astronomical
+  Journal, 166, 18
 
 \end{thebibliography}

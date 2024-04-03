@@ -1,15 +1,16 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces List of published papers and their equivilent chapters in this thesis. Note that chapter 7 has not been submitted for publication and therefore does not appear in this table.\relax }}{15}{table.caption.15}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Relative Metal composition used where a(H) = 12. Where the relative composition is the the same for both populations A and E it is only listed in the population A colum for the sake of visual clarity.\relax }}{21}{table.caption.15}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Best fit parameters derived from fitting isochrones to the fiducual lines derived from the NCG 2808 photometry.\relax }}{34}{table.caption.24}
-\contentsline {table}{\numberline {3.3}{\ignorespaces Best fit parameters derived from fitting isochrones to the fiducual lines derived from the NCG 2808 photometry.\relax }}{37}{table.caption.29}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Relative Metal composition used where a(H) = 12. Where the relative composition is the the same for both populations A and E it is only listed in the population A colum for the sake of visual clarity.\relax }}{26}{table.caption.16}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Abundance Ratios for populations A and E in NGC 2808.\relax }}{27}{table.caption.17}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Best fit parameters derived from fitting isochrones to the fiducual lines derived from the NCG 2808 photometry. The one sigma uncertainty reported on population age were determined from the 16th and 84th percentiles of the distribution of best fit isochrones ages.\relax }}{39}{table.caption.25}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Optimized parameters for SCSMs evolved using OPAL and OPLIB high temperature opacity tables.\relax }}{50}{table.caption.34}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Locations identified as potential Gaps.\relax }}{61}{table.caption.42}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Optimized parameters for SCSMs evolved using OPAL and OPLIB high temperature opacity tables.\relax }}{52}{table.caption.33}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Locations identified as potential Gaps.\relax }}{63}{table.caption.41}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces All data used from P2021 and B2022.\relax }}{76}{table.5.1}
+\contentsline {table}{\numberline {5.1}{\ignorespaces All data used from P2021 and B2022.\relax }}{78}{table.5.1}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Calculated Rossby Numbers and $R'_{HK}$ values. All circular data points in Figures \ref {fig:RpHKvsRossbySelf} \& \ref {fig:RpHKvsRossbyDef} are present in this table. Masses are taken from the MEarth database. A machine readable version of this table is available. Rows where the activity metric is bolded were estimates derived from our model fit not empirical measurements.\relax }}{109}{table.caption.55}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Calculated Rossby Numbers and $R'_{HK}$ values. All circular data points in Figures \ref {fig:RpHKvsRossbySelf} \& \ref {fig:RpHKvsRossbyDef} are present in this table. Masses are taken from the MEarth database. A machine readable version of this table is available. Rows where the activity metric is bolded were estimates derived from our model fit not empirical measurements.\relax }}{111}{table.caption.54}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

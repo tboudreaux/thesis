@@ -1,6 +1,6 @@
 \section{Stellar Models}\label{sec:modeling}
 We use the Dartmouth Stellar Evolution Program \citep[DSEP, ][]{Dotter2008} to
-generate stellar models. DSEP is a well-tested, one-dimensional stellar
+generate stellar models. DSEP is a one-dimensional stellar
 evolution code which includes a mixing length model of convection,
 gravitational settling, and diffusion. Using the solar composition presented in
 \citep{Grevesse2007} (GAS07), MARCS model atmosphers, OPLIB high temperature
@@ -8,22 +8,24 @@ opacities, and AESOPUS 2.0 low temperautre opacities we find a solar calibrated
 mixing length parameter, $\alpha_{MLT}$, of $\alpha_{MLT} = 1.901$.
 
 We use DSEP to evolve stellar models ranging in mass from 0.3 to 2.0 solar
-masses from the zero-age main sequence (ZAMS) to the tip of the red giant
+masses from the fully convective pre-main sequence to the tip of the red giant
 branch. Below 0.7 $M_{\odot}$ we evolve a model every 0.03 $M_{\odot}$ and
-above 0.7 $M_{\odot}$ we evolve a model every 0.5 $M_{\odot}$. Additionally, we
-evolve models over a grid of mixing length parameters from $\alpha_{MLT} = 1.0$
-to $\alpha_{MLT} = 2.0$ in steps of 0.1. In addition to the mixing length grid
-the evolved grid of models also has dimensions population (A or E) (Table
-\ref{tab:comp}) and helium abundance ($Y=0.24, 0.27, 0.3, 0.33, 0.36, 0.39$).
-Each model is evolved in DSEP with typical numeric tolerences of one part in
-$10^{7}$. Each model is allowed a maximum time step of 50 Myr. 
+above 0.7 $M_{\odot}$ we evolve a model every 0.05 $M_{\odot}$. We evolve
+models over a grid of mixing length parameters from $\alpha_{MLT} = 1.0$ to
+$\alpha_{MLT} = 2.0$ in steps of 0.1. For each mixing length, a grid of models
+and isochrones were calculated, with chemical compositions consistent with
+Populations A and E (see Tables \ref{tab:comp} and \ref{tab:simpleComp}) and a range of helium abundances
+(Y=0.24, 0.27, 0.30, 0.33, 0.36, and 0.39). In total,144 sets of isochrones,
+each with a unique composition and mixing length were calculated. Each model is
+evolved in DSEP with typical numeric tolerences of one part in $10^{7}$. Each
+model is allowed a maximum time step of 50 Myr. 
 
 \begin{table}
-  \centering
-  \begin{tabular}{c|cc||c|cc}
+\centering
+\begin{tabular}{c|cc||c|cc}
   \hline
+  Element & Pop A & Pop E & Element & Pop A & Pop E \\
   \hline
-  Element & a(X)$_{A}$ & a(X)$_{E}$ & Element & a(X)$_{A}$ & a(X)$_{E}$ \\
   \hline
   Li & -0.08 & --- & In & -1.46 & --- \\
   Be & 0.25 & --- & Sn & -0.22 & --- \\
@@ -68,10 +70,25 @@ $10^{7}$. Each model is allowed a maximum time step of 50 Myr.
   Tc & -99.0 & --- & Ac & -99.0 & --- \\
   Ru & -0.51 & --- & Th & -2.2 & --- \\
   Rh & -1.35 & --- & Pa & -99.0 & --- \\
-  Pd & -0.69 & --- & U & -2.8 & ---
-  \end{tabular}
-  \caption{Relative Metal composition used where a(H) = 12. Where the relative composition is the the same for both populations A and E it is only listed in the population A colum for the sake of visual clarity.}
-  \label{tab:comp}
+  Pd & -0.69 & --- & U & -2.8 & --- \\
+\end{tabular}
+\caption{Relative Metal composition used where a(H) = 12. Where the relative composition is the the same for both populations A and E it is only listed in the population A colum for the sake of visual clarity.}
+\label{tab:comp}
+\end{table}
+
+\begin{table}
+  \small
+\centering
+\begin{tabular}{c|c c c c c c c c c c c}
+  \hline
+  Population & [Fe/H] & [$\alpha$/Fe] & [C/Fe] & [N/Fe] & [O/Fe] & [r/Fe] & [s/Fe] & C/O & X & Y & Z \\
+  \hline
+  \hline
+  A & -1.13 & 0.32 & -0.43 & -0.28 & 0.31 & -1.13 & -1.13 & 0.10 & 0.7285 & 0.2700 & 0.00154 \\
+  E & -1.13 & -0.11 & -1.39 & -0.02 & -0.66 & -1.13 & -1.13 & 0.10 & 0.7594 & 0.240 & 0.00063
+\end{tabular}
+\caption{Abundance Ratios for populations A and E in NGC 2808.}
+\label{tab:simpleComp}
 \end{table}
 
 For each combination of population, $Y$, and $\alpha_{MLT}$ we use the
@@ -79,7 +96,7 @@ isochrone generation code first presented in \citet{Dotter2016} to generate a
 grid of isochrones. The isochrone generation code identified equivalent
 evolutionary points (EEPs) over a series of masses and interpolates between
 them. The grid of isochrones generated for this work is avalible as a digital
-supplement to this paper. Given the complexity of the parameter space when
+supplement to this thesis (\href{https://zenodo.org/records/10631439}{10.5281/zenodo.10631439}). Given the complexity of the parameter space when
 fitting multiple populations along with the recent warnings in the liteerature
 regarding overfitting datasets \citep[e.g. ][]{Valle2022} we want to develop a
 more objective way of fitting isochrones to photometry than if we were to mark

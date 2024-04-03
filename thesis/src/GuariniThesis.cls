@@ -7,7 +7,7 @@
 \RequirePackage{graphicx} % Required for inserting images
 \RequirePackage{setspace}
 \RequirePackage[left=1.5in, right=1in, top=1in, bottom=1in]{geometry}
-\RequirePackage{xcolor}
+\RequirePackage[table]{xcolor}
 \RequirePackage{calc}
 \RequirePackage{titlesec}
 \RequirePackage{natbib}

@@ -9,7 +9,7 @@ ASSET_FILES = $(shell find ./src/ -regex '.*\(tex\|pdf\)$')
 
 default: all
 
-all: pdf
+all: clean pdf
 
 pdf: ./src/$(ASSET_FILE)
 	cd src && $(LTC) $(TFLAGS) $(SRC_DIR)/$(MAIN_SRC) --file-line-error

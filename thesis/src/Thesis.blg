@@ -1,8 +1,8 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Thesis.aux
 The style file: aasjournal.bst
-Reallocated field_info (elt_size=4) to 12018 items from 5000.
+Reallocated field_info (elt_size=4) to 12511 items from 5000.
 Database file #1: bib/ms.bib
 Repeated entry---line 603 of file bib/ms.bib
  : @misc{Boudreaux2022
@@ -16,7 +16,17 @@ Repeated entry---line 4852 of file bib/ms.bib
  : @book{Evans1998
  :                ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "Martocchia2019"
+Warning--I didn't find a database entry for "Cadelano2022"
+Warning--I didn't find a database entry for "Legnardi2022"
+Warning--I didn't find a database entry for "Lardo2022"
+Warning--I didn't find a database entry for "Carretta2004"
+Warning--I didn't find a database entry for "Carretta2006"
+Warning--I didn't find a database entry for "Gratton2011"
+Warning--I didn't find a database entry for "Carretta2015"
+Warning--I didn't find a database entry for "Hong2021"
+Warning--I didn't find a database entry for "Pasquato2019"
+Warning--I didn't find a database entry for "Boudreaux2023"
 Warning--I didn't find a database entry for "Boudreaux22"
 Warning--I didn't find a database entry for "2020SciPy-NMeth"
 Warning--I didn't find a database entry for "Lammer2012"
@@ -42,58 +52,59 @@ Warning--I didn't find a database entry for "2019A&A...623A..24F"
 Warning--I didn't find a database entry for "2023MNRAS.518.3147K"
 Warning--I didn't find a database entry for "Angus2023"
 Warning--I didn't find a database entry for "SalvatierProbabilistic2016"
-Warning--I didn't find a database entry for "Boudreaux2023"
 Warning--I didn't find a database entry for "Cha97"
 Warning--I didn't find a database entry for "Joyce2015"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty journal in Baga2020
 Warning--empty publisher in GeertBarentsenKeplerGO2020
 Warning--empty journal in Benferfour2009
+Warning--empty journal in Bernardi2016
 Warning--empty publisher in Emden1907
 Warning--empty journal in Hannah2015
 Warning--empty publisher in Manitius1995
 Warning--empty publisher in Quack2019
 Warning--empty pages in Quack2019
 Warning--empty journal in Yena2021
-You've used 213 entries,
+You've used 221 entries,
             3222 wiz_defined-function locations,
-            2293 strings with 61731 characters,
-and the built_in function-call counts, 99945 in all, are:
-= -- 7852
-> -- 7936
-< -- 98
-+ -- 2656
-- -- 2830
-* -- 8608
-:= -- 18395
-add.period$ -- 227
-call.type$ -- 213
-change.case$ -- 1206
-chr.to.int$ -- 211
-cite$ -- 222
-duplicate$ -- 3827
-empty$ -- 6191
-format.name$ -- 3098
-if$ -- 20088
+            2365 strings with 63354 characters,
+and the built_in function-call counts, 103316 in all, are:
+= -- 8141
+> -- 8166
+< -- 101
++ -- 2734
+- -- 2914
+* -- 8878
+:= -- 19010
+add.period$ -- 235
+call.type$ -- 221
+change.case$ -- 1254
+chr.to.int$ -- 219
+cite$ -- 231
+duplicate$ -- 3966
+empty$ -- 6410
+format.name$ -- 3190
+if$ -- 20769
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 196
-newline$ -- 658
-num.names$ -- 855
-pop$ -- 1731
+missing$ -- 203
+newline$ -- 682
+num.names$ -- 887
+pop$ -- 1797
 preamble$ -- 1
-purify$ -- 1205
+purify$ -- 1253
 quote$ -- 0
-skip$ -- 3051
+skip$ -- 3158
 stack$ -- 0
-substring$ -- 3642
+substring$ -- 3765
 swap$ -- 78
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1899
-warning$ -- 9
-while$ -- 807
+type$ -- 1971
+warning$ -- 10
+while$ -- 838
 width$ -- 0
-write$ -- 2147
+write$ -- 2226
 (There were 2 error messages)
