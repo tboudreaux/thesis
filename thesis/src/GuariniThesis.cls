@@ -20,6 +20,10 @@
 \RequirePackage{tcolorbox}
 \RequirePackage{caption}
 \RequirePackage{subcaption}
+\RequirePackage{enumitem}
+\RequirePackage{xparse}
+\RequirePackage{etoolbox}
+\RequirePackage{ifthen}
 
 \tcbuselibrary{skins, breakable}
 
@@ -292,6 +296,76 @@ Dean of the Guarini School of Graduate and Advanced Studies
     \listoffigures
 
     \contentStart
+}
+
+\newenvironment{softwarelist}{
+    \begin{description}[leftmargin=2em, style=nextline]
+}{%
+    \end{description}%
+}
+
+\newenvironment{dataproductlist}{
+    \begin{description}[leftmargin=2em, style=nextline]
+}{%
+    \end{description}%
+}
+
+\newcommand{\paperproductitem}[3]{%
+    \item[\textbf{#1}] \par
+    DOI: \href{https://doi.org/#2}{#2} \par
+    Equivalent Chapter: #3
+}
+
+\newenvironment{paperproductlist}{
+    \begin{description}[leftmargin=2em, style=nextline]
+}{
+    \end{description}
+}
+
+% Define a list to hold unique affiliations
+\newcounter{affiliationcounter}
+\newcommand{\listofaffiliations}{}
+\newcommand{\addaffiliation}[1]{%
+  \ifinlist{#1}{\listofaffiliations}{%
+    % Do nothing if affiliation already in list
+  }{%
+    \stepcounter{affiliationcounter}%
+    \listxadd{\listofaffiliations}{#1}%
+    \expandafter\xdef\csname affilnum#1\endcsname{\theaffiliationcounter}%
+  }%
+}
+
+\NewDocumentEnvironment{chaptermetadata}{m m m m}{
+  % Before environment code
+  % #1 = Author(s)
+  % #2 = Affiliation(s)
+  % #3 = Publication Location
+  % #4 = Publication Status
+  \clearpage
+  \noindent\textbf{Author(s):} 
+  \newcounter{authorcounter}
+  \setcounter{authorcounter}{0}
+  \renewcommand*{\do}[1]{%
+    \stepcounter{authorcounter}%
+    \ifthenelse{\value{authorcounter}=1}%
+      {##1\textsuperscript{\csname affilnum##1\endcsname}}%
+      {, ##1\textsuperscript{\csname affilnum##1\endcsname}}%
+  }%
+  \docsvlist{#1}%
+  
+  \par\noindent\textbf{Affiliation(s):} 
+  \setcounter{affiliationcounter}{0}
+  \renewcommand*{\do}[1]{%
+    \addaffiliation{##1}%
+    \textsuperscript{\csname affilnum##1\endcsname} ##1\par%
+  }%
+  \dolistloop{\listofaffiliations}%
+  
+  \noindent\textbf{Publication Location:} #3\par
+  \noindent\textbf{Publication Status:} #4\par
+  \clearpage
+}{%
+  % After environment code
 }
 
 \newcounter{sidebarcounter}

@@ -14,22 +14,22 @@ as a free parameter.
 
 The best fit isochrones are shown in Figure \ref{fig:BestFitResults} and
 optimized parameters for these are presented in Table \ref{tab:BestFitResults}.
-{\bf The initual guess for the age of these populations was locked to 12 Gyr
+The initual guess for the age of these populations was locked to 12 Gyr
 and the initial Extinction was locked to 0.5 mag. The initial guess for the
 distance modulus was determined at run time using a dynamic time warping
 algorithm to best align the morphologies of the fiducial line with the target
 isochrone. This algorithm is explained in more detail in the \fidanka
-documentation under the function called \texttt{guess\_mu}} We find helium mass
+documentation under the function called \texttt{guess\_mu}. We find helium mass
 fractions that are consistent with those identified in past literature
 \citep[e.g.][]{Milone2015}. Note that our helium mass fraction grid has a
 spacing of 0.03 between grid points and we are therefore unable to resolve
 between certain proposed helium mass fractions for the younger sequence (for
-example between 0.37 and 0.39). {\bf We also note that the best fit mixing
+example between 0.37 and 0.39). We also note that the best fit mixing
 length parameter which we derive for populations A and E do not agree within
 their uncertanties. This is not suprising as the much high mean molecular mass
 of population E --- when compared to population A, due to population E's larger
 helium mass fraction --- will result in a steaper adiabatic temperature
-gradient} 
+gradient.
 
 \begin{figure*}
   \centering
@@ -74,7 +74,7 @@ bins over the CMD using the standar python module \texttt{sklearn}. Figure
 populations fit the photometry most ideally. This is in line with what our BGMM
 model predicts for the majority of the the CMD.
 
-{\bf While we make use a purley CMD based approach in this work, other
+While we make use a purley CMD based approach in this work, other
 literature has made use of Chromosome Maps. These consist of implicitly
 verticalized pseudo colors. In the chromosome map for NGC 2808 there may be
 evidence for more than two populations; however, the process of transforming
@@ -82,14 +82,25 @@ magnitude measurements into chromosome space results in dramatically increased
 uncertanties for each star. We find a mean fractional uncertantie for
 chromosome parameters of $\approx1$ when starting with magnutude
 measurements having a mean best-case (i.e. uncertainty assumed to only be due
-to Poisson statistics) fractional uncertainty of $\approx 0.0005$. Because of
+to Poisson statistics) fractional uncertainty of $\approx 0.0005$ (Figure \ref{fig:chromMapUn}). Because of
 how \fidanka operates, i.e. resampling a probabilty distribution for each star
 in order to idenfify clusters, we are unable to make statisitcally meaningful
-statements from the chromosome map}
+statements from the chromosome map
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.45\textwidth]{figures/ngc2808/ClusterAnalysis.pdf}
+  \includegraphics[width=0.85\textwidth]{figures/ngc2808/ChromosomeMapFractionalErrorDist.pdf}
+  \caption{Fractional uncertainty distribution of the chromosome map parameter space for targets in NGC 2808. Note
+  that fractional uncertanties of the magnitudes which went into the production of this chromosome
+  map were on the order of 0.0005 (the blue vertical line in both plots marks this). Further, we assumed that there was no uncertainty on the placment
+  of the red and blue fiducial lines. If there were uncertainty on those placments then the mean of this 
+  distribution would be higher.}
+  \label{fig:chromMapUn}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.85\textwidth]{figures/ngc2808/ClusterAnalysis.pdf}
   \caption{Silhouette analysis for NGC 2808 F275W-F814W photometry. The Silhouette scores
   are an average of score for each magnitude bin. Positive scores incidate that the clustering
   algorithm produced well distinguised clusters while negative scores indicate clusters which are not
@@ -133,7 +144,7 @@ in the derived helium mass fraction when comparing between these two datasets.
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.45\textwidth]{figures/ngc2808/HeliumMeanOffset.pdf}
+  \includegraphics[width=0.85\textwidth]{figures/ngc2808/HeliumMeanOffset.pdf}
   \caption{Main sequence turn off magnitude offset from a guage helium mass fraction (Y=0.30 chosen). All main sequence turn off locations are measured at 12.3 Gyr}
   \label{fig:HeMO}
 \end{figure}

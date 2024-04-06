@@ -6,17 +6,17 @@ the Jao Gap magnitude and stellar magnetic activity. We are more statistically
 limited here than past authors have been due to the requirement for high
 resolution spectroscopic data when measuring Calcium emission.
 
-The merged dataset is presented in Figure \ref{fig:initData}. \textbf{The
+The merged dataset is presented in Figure \ref{fig:initData}. The
 sample overlap between \citet{Perdelwitz2021} and \citet{Boudreaux2022} is
 small (only consisting of five targets). For those five targets there is an
 approximately 1.5 percent average difference between measured $\log(R'_{HK})$
 values with measurements from \citeauthor{Boudreaux2022} biased to be slightly
-more negative than those from \citeauthor{Perdelwitz2021}}
+more negative than those from \citeauthor{Perdelwitz2021}
 
-There is a visual discontinuity in \textbf{the spread of stellar activity}
-below the Jao Gap magnitude. \textbf{Further discussion of why there may be
+There is a visual discontinuity in the spread of stellar activity
+below the Jao Gap magnitude. Further discussion of why there may be
 disagreement between the observed magnitude of the gap and the discontinuity
-which we identify may be found in Section \ref{sec:coincident}}. In order to
+which we identify may be found in Section \ref{sec:coincident}. In order to
 quantify the significance of this discontinuity we measure the false alarm
 probability of the change in standard deviation.
 
@@ -24,12 +24,12 @@ probability of the change in standard deviation.
   \centering
   \includegraphics[width=0.85\textwidth]{figures/jaoMagActivity/CombinedDeviation.pdf}
   \caption{Merged Dataset from \citet{Perdelwitz2021, Boudreaux2022}. Note the
-  increase in the spread of $R'_{HK}$ around the Jao Gap Magnitude \textbf{(top).
+  increase in the spread of $R'_{HK}$ around the Jao Gap Magnitude (top).
   Standard deviation of Calcium emission data within each bin. Note the
   discontinuity near the Jao Gap Magnitude (bottom). The location of the Gap
   as identified in literature is shown by the hatched region ($\sim$ 10-10.5 $M_{G}$). Potential
   explanations for the disagreement in magnitude are discussed in detail
-  in Section \ref{sec:coincident}.}}
+  in Section \ref{sec:coincident}.}
   \label{fig:initData}
 \end{figure}
 
@@ -80,12 +80,12 @@ drops to $1.4\pm0.04$ percent.
   \centering
   \includegraphics[width=0.85\textwidth]{figures/jaoMagActivity/ReducedDeviation.pdf}
   \caption{Spread in the magnetic activity metric for the merged sample with
-  any stars $\log(R'_{HK}) > -4.436$ filtered out.\textbf{The location of the Gap
-  as identified in literature is shown by the hatched region ($\sim$ 10-10.5 $M_{G}$).}}
+  any stars $\log(R'_{HK}) > -4.436$ filtered out.The location of the Gap
+  as identified in literature is shown by the hatched region ($\sim$ 10-10.5 $M_{G}$).}
   \label{fig:reduced}
 \end{figure}
 
-\textbf{Further, various authors have shown that the strength of Calcuium II
+Further, various authors have shown that the strength of Calcuium II
 H\&K emission may evolve over month to year timescales
 \citep[e.g.][]{Rauscher2006, Perdelwitz2021, Cretignier2024}. Targets from
 \citet{Boudreaux2022} were observed an average of only four times and over year
@@ -95,7 +95,7 @@ variabilty in the activity metric is signifigantly smaller than the
 star-to-star activity variability addressed here and therfore activity cycles
 are not expected to be of particular relevance. Specifically, the amplitude of
 variability is generally $\Delta \log(R'_{HK}) \lessapprox 0.2$ wherase in this
-work we address variability on the order of $\Delta \log(R'_{HK}) \lessapprox 2$.}
+work we address variability on the order of $\Delta \log(R'_{HK}) \lessapprox 2$.
 
 We observe a strong, likely statistically significant, discontinuity in the
 star-to-star variability of Ca II H\&K emission below the magnitude
@@ -117,7 +117,7 @@ redder or bluer. We conduct 10,000 trials where each trial involves sampling a
 random shift to the bin start location from a normal distribution with a
 standard deviation of 1 magnitude. For each trial we identify the discontinuity
 location as the maximum value of the gradient of the standard deviation (this
-is the derivative of the data in Figures \ref{fig:deviation} \&
+is the derivative of the data in Figures \ref{fig:initData} \&
 \ref{fig:reduced}). Some trials result in the maximal value lying at the 0th
 index of the magnitude array due to edge effects, these trials are rejected
 (and account for 11\% of the trials). The uncertainty in the identified
@@ -138,8 +138,8 @@ star-to-star activity variability is coincident with the Jao Gap magnitude.
   distribution while the shaded region runs from the 16th percentile to the
   84th percentile of the distribution. This distribution was built from 10,000
   independent samples where the discontinuity was identified as the highest
-  value in the gradient of the standard deviation.\textbf{The location of the Gap
-  as identified in literature is shown by the hatched region ($\sim$ 10-10.5 $M_{G}$).}}
+  value in the gradient of the standard deviation.The location of the Gap
+  as identified in literature is shown by the hatched region ($\sim$ 10-10.5 $M_{G}$).}
   \label{fig:GapLocationMC}
 \end{figure}
 
@@ -150,61 +150,15 @@ Houdebine2017, Boudreaux2022}; therefore, we investigate whether there is a
 similar correlation between Gap location and rotational period in our dataset.
 All targets from \citet{Boudreaux2022} already have published rotational
 periods; however, targets from \citet{Perdelwitz2021} do not necessarily have
-published periods. Therefore, we derive photometric rotational periods for
-these targets here. Given the inherent heterogeneity of M Dwarf stellar
-surfaces \citep{Boisse2011, Robertson2020} we are able to determine the
+published periods. Therefore, in previously published work collaborators of ours have derived photometric rotational periods for
+these targets \citep{Boudreaux2024}. Given the inherent heterogeneity of M Dwarf stellar
+surfaces \citep{Boisse2011, Robertson2020} one is able to determine the
 rotational period of a star through the analysis of active regions. Various
 methodologies can be employed for this purpose, including the examination of
 photometry and light curves \citep[e.g.,][]{Newton2016}, and the observation of
 temporal changes in the strength of chromospheric emission lines such as Ca II
 H \& K or H$\alpha$ \citep[e.g.,][]{2019A&A...623A..24F,2023MNRAS.518.3147K}.
-In this work, new rotational periods are derived from TESS 2-minute cadence
-data\footnote{Some M Dwarfs lacking a documented rotational period did not have
-sufficient TESS data to yield fiducial rotational periods}.
-
-Due to both the large frequency and amplitudes of M dwarf flaring rates the
-photometric period can prove difficult to measure --- as frequency directly
-correlates with periodicity. Thus, following the process described in
-\citet{2023AJ....165..192G}, we utilize two methods in this paper to reduce the
-effect of flares. One method uses \texttt{stella} a python package which
-implements a series of pre-trained convolutional neural networks (CNNs) to
-remove flare-shaped features in a light curve \citep{FeinsteinStella2020}. The
-second method separates a star's photometry into 10 minute bins to account for
-misshapen flares which \texttt{stella} is known to be biassed against detecting.
-
-\texttt{stella}  employs a diverse library of models trained with varying
-initial seeds \citep{FeinsteinFlare2020,FeinsteinStella2020}. The Convolutional
-Neural Networks in \texttt{stella} are trained on labeled TESS 2-min for both
-flares and non-flares. For the purposes of this paper, we use an ensemble of
-100 models in \texttt{stella}'s library to optimize model performance
-\citep[][for further detail]{FeinsteinFlare2020}. \texttt{stella} scores
-flairs with a probability of between 0 to 1 --- where higher values indicate a
-higher confidence that a feature is a flare. Here we adopt a score of 0.5 as
-the cutoff threshold, all features with a score of 0.5 or greater are classed
-as flares and removed \citep[e.g.][]{FeinsteinFlare2020}.
-
-Furthermore, we also bin the data from a 2-min to 10-min cadence using the
-python package \texttt{lightkurve}'s binning function
-\citep{LightkurveCollaborationLightkurve2018,GeertBarentsenKeplerGO2020}. This
-further reduces any flaring-contribution that might have been missed by
-\texttt{stella}\footnote{This is relevant for flares that are misshapen at the
-start or break in the dataset due to missing either the ingress or egress.}.
-Subsequently, we filter photometry, only retaining data whos residuals are
-less than 4 times the root-mean-square deviation.  
-
-Gaussian processes for modeling the periods are based on
-\citet{AngusInferring2018} for the subset of M Dwarfs with no fiducial periods.
-The \texttt{starspot} \ package is adapted for light curve analysis
-\citep{AngusRuthAngus2021, Angus2023}. Our Gaussian process kernel function
-incorporates two stochastically-driven simple harmonic oscillators,
-representing primary ($P_\textrm{rot}$) and secondary ($P_\textrm{rot}/2$)
-rotation modes. First, we implement the Lomb-Scargle periodogram within
-\texttt{starspot} to initially estimate the period. After which, we create a
-maximum a posteriori (MAP) fit using \texttt{starspot} to generate a model for
-stellar rotation. To obtain the posterior of the stellar rotation model, we use
-Markov Chain Monte Carlo (MCMC) sampling using the \texttt{pymc3} package
-\citep{SalvatierProbabilistic2016} within our adapted \texttt{starspot}
-version. All rotational periods are presented in Table \ref{tab:dataset}. Our
+Photometric periods for targets from \citet{Perdelwitz2021} were determined in \citet{Boudreaux2024} by \href{https://orcid.org/0000-0001-9828-3229}{Aylin Garcia Soto}. All rotational periods are presented in Table \ref{tab:dataset}. Our
 final sample contains 187 stars with measured rotational periods. We derive new
 rotational periods for 7 of these. 
 
@@ -241,8 +195,8 @@ percent probability that this dip is due purely to noise.
   \centering
   \includegraphics[width=0.85\textwidth]{figures/jaoMagActivity/RotationSignifigance.pdf}
   \caption{Rotational Periods against G magnitude for all stars with rotational
-  periods (top). Standard deviation of rotational period within magnitude bin (bottom).\textbf{The location of the Gap
-  as identified in literature is shown by the hatched region ($\sim$ 10-10.5 $M_{G}$).}}
+  periods (top). Standard deviation of rotational period within magnitude bin (bottom).The location of the Gap
+  as identified in literature is shown by the hatched region ($\sim$ 10-10.5 $M_{G}$).}
   \label{fig:rotationalSignifigance}
 \end{figure}
 
@@ -250,8 +204,8 @@ percent probability that this dip is due purely to noise.
   \centering
   \includegraphics[width=0.85\textwidth]{figures/jaoMagActivity/Rossby.pdf}
   \caption{Rossby number vs. G magnitude for all stars with rotational periods
-  and V-K colors on Simbad. Dashed lines represent the hypothesized region of decreased rotation.\textbf{The location of the Gap
-  as identified in literature is shown by the hatched region ($\sim$ 10-10.5 $M_{G}$).}}
+  and V-K colors on Simbad. Dashed lines represent the hypothesized region of decreased rotation.The location of the Gap
+  as identified in literature is shown by the hatched region ($\sim$ 10-10.5 $M_{G}$).}
   \label{fig:rossby}
 \end{figure}
 
