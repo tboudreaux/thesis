@@ -9,13 +9,13 @@ chemical abundances outside of the stellar evolution code.
 Nearly all prior efforts at modeling multiple stellar populations in
 globular clusters have adjusted the abundances used in the atmospheric interior
 models, and in the high temperature opacities, but have not self-consistently
-modified the corrosponding low-temperature opacities and surface bounary
+modified the corresponding low-temperature opacities and surface boundary
 conditions, as these are found from stellar atmosphere codes, and not the
 stellar interior codes which are used to create stellar models and isochrones.
 In this work, as in Dotter (2016), the stellar interior models are chemically
 self-consistent with the stellar atmosphere models. For evolution we The Dartmouth Stellar
 Evolution Program (DSEP) \citep{Dotter2008}, a well tested 1D stellar evolution
-code which has a particular focus on modelling low mass stars ($\le 2$
+code which has a particular focus on modeling low mass stars ($\le 2$
 M$_{\odot}$)
 
 \subsection{Atmospheric Boundary Conditions}\label{sec:atm}
@@ -45,11 +45,11 @@ temperature and pressures serves as boundary conditions for the structure code.
 In general, enhancing helium in the atmosphere has only a small impact on the atmospheric
 temperature profile, while leading to a drop in the pressure by $\sim 10 - 20 \%$.
 
-\subsection{Opacities}\label{sec:opac}
+\subsection{Opacities}\label{sec:2808opac}
 In addition to the atmospheric boundary conditions, both the high and low
 temperature opacities used by DSEP must be made chemically consistent. Here we
 use OPLIB high temperature opacity tables \citep{Colgan2016} retrieved using
-the TOPS web-interface. Retrival of High termperature opacities is done using
+the TOPS web-interface. Retrieval of high temperature opacities is done using
 \texttt{pyTOPSScrape}, first introduced in \citet{Boudreaux2023}. Low
 temperature opacity tables are retrieved from the Aesopus 2.0 web-interface
 \citep{Marigo2009, Marigo2022}. Ideally, these opacities would be the same used

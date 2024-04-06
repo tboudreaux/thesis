@@ -201,6 +201,15 @@ Cameron, R.~H., Dikpati, M., \& Brandenburg, A. 2017, Space Science Reviews,
 Carretta, E., Bragaglia, A., Gratton, R.~G., {et~al.} 2010, Astronomy \&
   Astrophysics, 516, A55
 
+\bibitem[{{Carrillo} {et~al.}(2020){Carrillo}, {Hawkins}, {Bowler}, {Cochran},
+  \& {Vanderburg}}]{Carrillo2020}
+{Carrillo}, A., {Hawkins}, K., {Bowler}, B.~P., {Cochran}, W., \& {Vanderburg},
+  A. 2020, \mnras, 491, 4365
+
+\bibitem[{Cassisi {et~al.}(2002)Cassisi, Salaris, \& Bono}]{Cassisi2002}
+Cassisi, S., Salaris, M., \& Bono, G. 2002, The Astrophysical Journal, 565,
+  1231
+
 \bibitem[{{Catalano} \& {Marilli}(1983)}]{Catalano1983}
 {Catalano}, S., \& {Marilli}, E. 1983, \aap, 121, 190
 
@@ -218,6 +227,9 @@ Carretta, E., Bragaglia, A., Gratton, R.~G., {et~al.} 2010, Astronomy \&
 \bibitem[{{Chabrier} \& {K{\"u}ker}(2006)}]{Chabrier2006}
 {Chabrier}, G., \& {K{\"u}ker}, M. 2006, \aap, 446, 1027
 
+\bibitem[{{Chandrasekhar} \& {Henrich}(1942)}]{Chandrasekhar1942}
+{Chandrasekhar}, S., \& {Henrich}, L.~R. 1942, \apj, 95, 288
+
 \bibitem[{{Charbonneau}(2014)}]{Cha14}
 {Charbonneau}, P. 2014, \araa, 52, 251
 
@@ -231,8 +243,14 @@ Carretta, E., Bragaglia, A., Gratton, R.~G., {et~al.} 2010, Astronomy \&
   Abstracts, Vol. 2016, APS Division of Atomic, Molecular and Optical Physics
   Meeting Abstracts, D1.008
 
+\bibitem[{Conroy \& Van~Dokkum(2012)}]{Conroy2012}
+Conroy, C., \& Van~Dokkum, P. 2012, The Astrophysical Journal, 747, 69
+
+\bibitem[{{Cowling}(1935)}]{Cowling1935}
+{Cowling}, T.~G. 1935, \mnras, 96, 42
+
 \bibitem[{{Cowling}(1966)}]{Cowling1966}
-{Cowling}, T.~G. 1966, \qjras, 7, 121
+---. 1966, \qjras, 7, 121
 
 \bibitem[{{Creevey} {et~al.}(2022){Creevey}, {Sordo}, {Pailler}, {Fr{\'e}mat},
   {Heiter}, {Th{\'e}venin}, {Andrae}, {Fouesneau}, {Lobel}, {Bailer-Jones},
@@ -331,6 +349,12 @@ Earl, N., Tollerud, E., Jones, C., {et~al.} 2021, astropy/specutils: v1.3,
   vv1.3,  Zenodo, doi:10.5281/zenodo.4987675.
 \newblock \url{https://doi.org/10.5281/zenodo.4987675}
 
+\bibitem[{{Eddington}(1920)}]{Eddington1920}
+{Eddington}, A.~S. 1920, The Observatory, 43, 341
+
+\bibitem[{{Eddington}(1926)}]{Eddington1926}
+---. 1926, {The Internal Constitution of the Stars}
+
 \bibitem[{{Emden}(1907)}]{Emden1907}
 {Emden}, R. 1907, {Gaskugeln}
 
@@ -354,6 +378,31 @@ Evans, J. 1998, The history and practice of ancient astronomy (Oxford
 
 \bibitem[{Ferguson(1973)}]{Ferguson1973}
 Ferguson, T.~S. 1973, The annals of statistics, 209
+
+\bibitem[{{Fermi-LAT Collaboration} {et~al.}(2018){Fermi-LAT Collaboration},
+  {Abdollahi}, {Ackermann}, {Ajello}, {Atwood}, {Baldini}, {Ballet},
+  {Barbiellini}, {Bastieri}, {Becerra Gonzalez}, {Bellazzini}, {Bissaldi},
+  {Blandford}, {Bloom}, {Bonino}, {Bottacini}, {Buson}, {Bregeon}, {Bruel},
+  {Buehler}, {Cameron}, {Caputo}, {Caraveo}, {Cavazzuti}, {Charles}, {Chen},
+  {Cheung}, {Chiaro}, {Ciprini}, {Cohen-Tanugi}, {Cominsky}, {Conrad},
+  {Costantin}, {Cutini}, {D'Ammando}, {de Palma}, {Desai}, {Digel}, {Di Lalla},
+  {Di Mauro}, {Di Venere}, {Dom{\'\i}nguez}, {Favuzzi}, {Fegan}, {Finke},
+  {Franckowiak}, {Fukazawa}, {Funk}, {Fusco}, {Gallardo Romero}, {Gargano},
+  {Gasparrini}, {Giglietto}, {Giordano}, {Giroletti}, {Green}, {Grenier},
+  {Guillemot}, {Guiriec}, {Hartmann}, {Hays}, {Helgason}, {Horan},
+  {J{\'o}hannesson}, {Kocevski}, {Kuss}, {Larsson}, {Latronico}, {Li}, {Longo},
+  {Loparco}, {Lott}, {Lovellette}, {Lubrano}, {Madejski}, {Magill}, {Maldera},
+  {Manfreda}, {Marcotulli}, {Mazziotta}, {McEnery}, {Meyer}, {Michelson},
+  {Mizuno}, {Monzani}, {Morselli}, {Moskalenko}, {Negro}, {Nuss}, {Ojha},
+  {Omodei}, {Orienti}, {Orlando}, {Ormes}, {Palatiello}, {Paliya}, {Paneque},
+  {Perkins}, {Persic}, {Pesce-Rollins}, {Petrosian}, {Piron}, {Porter},
+  {Primack}, {Principe}, {Rain{\`o}}, {Rando}, {Razzano}, {Razzaque}, {Reimer},
+  {Reimer}, {Saz Parkinson}, {Sgr{\`o}}, {Siskind}, {Spandre}, {Spinelli},
+  {Suson}, {Tajima}, {Takahashi}, {Thayer}, {Tibaldo}, {Torres}, {Torresi},
+  {Tosti}, {Tramacere}, {Troja}, {Valverde}, {Vianello}, {Vogel}, {Wood}, \&
+  {Zaharijas}}]{Fermi-LATCollaboration2018}
+{Fermi-LAT Collaboration}, {Abdollahi}, S., {Ackermann}, M., {et~al.} 2018,
+  Science, 362, 1031
 
 \bibitem[{{Fontes} {et~al.}(2015){Fontes}, {Zhang}, {Abdallah}, { Clark},
   {Kilcrease}, {Colgan}, { Cunningham}, {Hakel}, {Magee}, \&
@@ -392,6 +441,9 @@ Ferguson, T.~S. 1973, The annals of statistics, 209
 {Giacobbe}, P., {Benedetto}, M., {Damasso}, M., {et~al.} 2020, \mnras, 491,
   5216
 
+\bibitem[{{Giles}(2019)}]{Giles2019}
+{Giles}, H.~A.~C. 2019, PhD thesis, University of Geneva, Switzerland
+
 \bibitem[{{Gratton} {et~al.}(2004){Gratton}, {Sneden}, \&
   {Carretta}}]{Gratton2004}
 {Gratton}, R., {Sneden}, C., \& {Carretta}, E. 2004, \araa, 42, 385
@@ -405,6 +457,11 @@ Ferguson, T.~S. 1973, The annals of statistics, 209
   {Bragaglia}, {D'Orazi}, \& {Momany}}]{Gratton2011}
 {Gratton}, R.~G., {Lucatello}, S., {Carretta}, E., {et~al.} 2011, \aap, 534,
   A123
+
+\bibitem[{{Greif} {et~al.}(2020){Greif}, {Hebeler}, {Lattimer}, {Pethick}, \&
+  {Schwenk}}]{Greif2020}
+{Greif}, S.~K., {Hebeler}, K., {Lattimer}, J.~M., {Pethick}, C.~J., \&
+  {Schwenk}, A. 2020, \apj, 901, 155
 
 \bibitem[{{Grevesse} {et~al.}(2007){Grevesse}, {Asplund}, \&
   {Sauval}}]{Grevesse2007}
@@ -472,6 +529,10 @@ Hannah, R. 2015
 {Hudson}, M.~J., \& {Robison}, B. 2018, Monthly Notices of the Royal
   Astronomical Society, 477, 3869
 
+\bibitem[{Hunt(1900)}]{HUNT1900}
+Hunt, A.~R. 1900, Nature, 61, 391–391.
+\newblock \url{http://dx.doi.org/10.1038/061391a0}
+
 \bibitem[{{Husser} {et~al.}(2013){Husser}, {Wende-von Berg}, {Dreizler}, {
   Homeier}, {Reiners}, {Barman}, \& {Hauschildt}}]{Husser2013}
 {Husser}, T.~O., {Wende-von Berg}, S., {Dreizler}, S., {et~al.} 2013, \aap,
@@ -505,6 +566,11 @@ Hannah, R. 2015
 {Jermyn}, A.~S., {Bauer}, E.~B., {Schwab}, J., {et~al.} 2022, arXiv e-prints,
   arXiv:2208.03651
 
+\bibitem[{Jofr{\'e} {et~al.}(2015)Jofr{\'e}, M{\"a}dler, Gilmore, Casey,
+  Soubiran, \& Worley}]{Jofre2015}
+Jofr{\'e}, P., M{\"a}dler, T., Gilmore, G., {et~al.} 2015, Monthly Notices of
+  the Royal Astronomical Society, 453, 1428
+
 \bibitem[{{Jord{\'a}n} {et~al.}(2002){Jord{\'a}n}, {C{\^o}t{\'e}}, {West}, \&
   {Marzke}}]{Jordan2002}
 {Jord{\'a}n}, A., {C{\^o}t{\'e}}, P., {West}, M.~J., \& {Marzke}, R.~O. 2002,
@@ -520,6 +586,11 @@ Hannah, R. 2015
 
 \bibitem[{Kalita(2023)}]{Kalita2023}
 Kalita, S. 2023, Astronomy \& Geophysics, 64, 5
+
+\bibitem[{Kaltenegger {et~al.}(2010)Kaltenegger, Eiroa, Ribas, Paresce,
+  Leitzinger, Odert, Hanslmeier, Fridlund, Lammer, Beichman,
+  {et~al.}}]{Kaltenegger2010}
+Kaltenegger, L., Eiroa, C., Ribas, I., {et~al.} 2010, Astrobiology, 10, 103
 
 \bibitem[{Kapoor(2018)}]{Kapoor2018}
 Kapoor, R. 2018, in IAU Commission 3 Science Meetings, 29--30
@@ -611,6 +682,13 @@ Lambert, W.~G. 1987, Babylonian Astrological Omens and Their Stars,  JSTOR
   \& {Molinski}}]{Latour2019}
 {Latour}, M., {Husser}, T.~O., {Giesers}, B., {et~al.} 2019, \aap, 631, A14
 
+\bibitem[{Lattimer \& Prakash(2007)}]{Lattimer2007}
+Lattimer, J.~M., \& Prakash, M. 2007, Physics reports, 442, 109
+
+\bibitem[{{Laughlin} {et~al.}(1997){Laughlin}, {Bodenheimer}, \&
+  {Adams}}]{Laughlin1997}
+{Laughlin}, G., {Bodenheimer}, P., \& {Adams}, F.~C. 1997, \apj, 482, 420
+
 \bibitem[{{Legnardi} {et~al.}(2022){Legnardi}, {Milone}, {Armillotta},
   {Marino}, {Cordoni}, {Renzini}, {Vesperini}, {D'Antona}, {McKenzie}, {Yong},
   {Dondoglio}, {Lagioia}, {Carlos}, {Tailo}, {Jang}, \&
@@ -695,6 +773,9 @@ Martocchia, S., Dalessandro, E., Lardo, C., {et~al.} 2019, Monthly Notices of
   {Charbonneau}}]{Med20}
 {Medina}, A.~A., {Winters}, J.~G., {Irwin}, J.~M., \& {Charbonneau}, D. 2020,
   \apj, 905, 107
+
+\bibitem[{{Mestel}(2004)}]{Mestel2004}
+{Mestel}, L. 2004, Journal of Astronomical History and Heritage, 7, 65
 
 \bibitem[{{Middelkoop}(1982)}]{Middelkoop1982}
 {Middelkoop}, F. 1982, \aap, 107, 31
@@ -781,6 +862,9 @@ Ouzounian, J.~G. 1984, Archaeoastronomy, 7, 105
 
 \bibitem[{{Parker}(1975)}]{Par75}
 ---. 1975, \apj, 198, 205
+
+\bibitem[{Pasachoff \& Mativi(2020)}]{Pasachoff2020}
+Pasachoff, J.~M., \& Mativi, J.~W. 2020, The Physics Teacher, 58, 6
 
 \bibitem[{{Pasquato} \& {Milone}(2019)}]{Pasquato2019}
 {Pasquato}, M., \& {Milone}, A. 2019, arXiv e-prints, arXiv:1906.04983
@@ -870,6 +954,11 @@ Renzini, A. 2008, Monthly Notices of the Royal Astronomical Society, 391, 354.
 {Richer}, H.~B., {Fahlman}, G.~G., {Buonanno}, R., {et~al.} 1991, \apj, 381,
   147
 
+\bibitem[{Riello {et~al.}(2003)Riello, Cassisi, Piotto, Recio-Blanco,
+  De~Angeli, Salaris, Pietrinferni, Bono, \& Zoccali}]{Riello2003}
+Riello, M., Cassisi, S., Piotto, G., {et~al.} 2003, Astronomy \& Astrophysics,
+  410, 553
+
 \bibitem[{Robertson {et~al.}(2014)Robertson, Mahadevan, Endl, \& Roy}]{Rob14}
 Robertson, P., Mahadevan, S., Endl, M., \& Roy, A. 2014, Science, 345, 440
 
@@ -940,6 +1029,9 @@ Sbordone, L., Salaris, M., Weiss, A., \& Cassisi, S. 2011, Astronomy \&
   {Pradhan}}]{Seaton1994}
 {Seaton}, M.~J., {Yan}, Y., {Mihalas}, D., \& {Pradhan}, A.~K. 1994, \mnras,
   266, 805
+
+\bibitem[{Shields {et~al.}(2016)Shields, Ballard, \& Johnson}]{Shields2016}
+Shields, A.~L., Ballard, S., \& Johnson, J.~A. 2016, Physics Reports, 663, 1
 
 \bibitem[{{Shields} {et~al.}(2016){Shields}, {Ballard}, \& {Johnson}}]{Shi16}
 {Shields}, A.~L., {Ballard}, S., \& {Johnson}, J.~A. 2016, \physrep, 663, 1
@@ -1098,6 +1190,10 @@ Vernet, J. 1963, The Observatory in Islam and Its Place in the General History
   Contributors}}]{2020SciPy-NMeth}
 Virtanen, P., Gommers, R., Oliphant, T.~E., {et~al.} 2020, Nature Methods, 17,
   261
+
+\bibitem[{Webb(1999)}]{Webb1999}
+Webb, S. 1999, Measuring the universe: the cosmological distance ladder
+  (Springer Science \& Business Media)
 
 \bibitem[{{West} \& {Basri}(2009)}]{West2009}
 {West}, A.~A., \& {Basri}, G. 2009, \apj, 693, 1283

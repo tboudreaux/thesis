@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Thesis.aux
 The style file: aasjournal.bst
-Reallocated field_info (elt_size=4) to 12279 items from 5000.
+Reallocated field_info (elt_size=4) to 12859 items from 5000.
 Database file #1: bib/ms.bib
 Repeated entry---line 603 of file bib/ms.bib
  : @misc{Boudreaux2022
@@ -27,51 +27,52 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty journal in Baga2020
 Warning--empty journal in Benferfour2009
 Warning--empty journal in Bernardi2016
+Warning--empty publisher in Eddington1926
 Warning--empty publisher in Emden1907
 Warning--empty journal in Hannah2015
 Warning--empty publisher in Manitius1995
 Warning--empty publisher in Quack2019
 Warning--empty pages in Quack2019
 Warning--empty journal in Yena2021
-You've used 251 entries,
+You've used 271 entries,
             3222 wiz_defined-function locations,
-            2499 strings with 70947 characters,
-and the built_in function-call counts, 118496 in all, are:
-= -- 9335
-> -- 9422
-< -- 113
-+ -- 3160
-- -- 3371
-* -- 10243
-:= -- 21781
-add.period$ -- 267
-call.type$ -- 251
-change.case$ -- 1438
-chr.to.int$ -- 245
-cite$ -- 260
-duplicate$ -- 4515
-empty$ -- 7287
-format.name$ -- 3688
-if$ -- 23817
+            2634 strings with 76940 characters,
+and the built_in function-call counts, 128291 in all, are:
+= -- 10016
+> -- 10328
+< -- 124
++ -- 3461
+- -- 3682
+* -- 11133
+:= -- 23646
+add.period$ -- 288
+call.type$ -- 271
+change.case$ -- 1541
+chr.to.int$ -- 265
+cite$ -- 281
+duplicate$ -- 4860
+empty$ -- 7863
+format.name$ -- 4026
+if$ -- 25743
 int.to.chr$ -- 7
 int.to.str$ -- 0
-missing$ -- 232
-newline$ -- 774
-num.names$ -- 1007
-pop$ -- 2054
+missing$ -- 251
+newline$ -- 835
+num.names$ -- 1087
+pop$ -- 2202
 preamble$ -- 1
-purify$ -- 1437
+purify$ -- 1540
 quote$ -- 0
-skip$ -- 3603
+skip$ -- 3883
 stack$ -- 0
-substring$ -- 4350
+substring$ -- 4669
 swap$ -- 100
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2241
-warning$ -- 9
-while$ -- 953
+type$ -- 2415
+warning$ -- 10
+while$ -- 1027
 width$ -- 0
-write$ -- 2529
+write$ -- 2730
 (There were 3 error messages)

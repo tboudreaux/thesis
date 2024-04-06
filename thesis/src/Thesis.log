@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.30)  6 APR 2024 18:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.30)  6 APR 2024 20:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1121,25 +1121,10 @@ Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/
 )
 (./Thesis.aux
 
-LaTeX Warning: Label `fig:starsInHistory' multiply defined.
-
-
-LaTeX Warning: Label `sec:opac' multiply defined.
-
-
-LaTeX Warning: Label `sec:modeling' multiply defined.
-
-
-LaTeX Warning: Label `sec:intro' multiply defined.
-
-
 LaTeX Warning: Label `sec:results' multiply defined.
 
 
 LaTeX Warning: Label `sec:modeling' multiply defined.
-
-
-LaTeX Warning: Label `sec:conclusion' multiply defined.
 
 
 LaTeX Warning: Label `sec:results' multiply defined.
@@ -1370,49 +1355,54 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 
+l.38 
       [3
 
 ]
-<figures/introduction/Ptolomey.pdf, id=818, 1105.73097pt x 1105.73097pt>
+<figures/introduction/Ptolomey.pdf, id=825, 1105.73097pt x 1105.73097pt>
 File: figures/introduction/Ptolomey.pdf Graphic file (type pdf)
 <use figures/introduction/Ptolomey.pdf>
 Package pdftex.def Info: figures/introduction/Ptolomey.pdf  used on input line 
-50.
+52.
 (pdftex.def)             Requested size: 130.08733pt x 130.08368pt.
-<figures/introduction/ModernStarsGaiaL7.png, id=819, 1105.12875pt x 1105.12875p
+
+Underfull \hbox (badness 1939) in paragraph at lines 54--54
+[]\OT1/cmr/m/n/9 (a) |The stars from Claudius
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 54--54
+\OT1/cmr/m/n/9 Ptolemy's Al-magest pro-jected
+ []
+
+<figures/introduction/ModernStarsGaiaL7.png, id=826, 1105.12875pt x 1105.12875p
 t>
 File: figures/introduction/ModernStarsGaiaL7.png Graphic file (type png)
 <use figures/introduction/ModernStarsGaiaL7.png>
 Package pdftex.def Info: figures/introduction/ModernStarsGaiaL7.png  used on in
-put line 57.
+put line 59.
 (pdftex.def)             Requested size: 130.08733pt x 130.08029pt.
 
-Underfull \hbox (badness 1448) in paragraph at lines 60--60
-\OT1/cmr/m/n/9 DR3 archive with a mean g
- []
-
-
-Underfull \hbox (badness 1484) in paragraph at lines 60--60
+Underfull \hbox (badness 1484) in paragraph at lines 62--62
 \OT1/cmr/m/n/9 may have been all the stars
  []
 
-<figures/introduction/ModernStarsGaiaL10.png, id=821, 1105.731pt x 1105.731pt>
+<figures/introduction/ModernStarsGaiaL10.png, id=828, 1105.731pt x 1105.731pt>
 File: figures/introduction/ModernStarsGaiaL10.png Graphic file (type png)
 <use figures/introduction/ModernStarsGaiaL10.png>
 Package pdftex.def Info: figures/introduction/ModernStarsGaiaL10.png  used on i
-nput line 65.
+nput line 67.
 (pdftex.def)             Requested size: 130.08733pt x 130.0837pt.
 [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5 <./figures/introduction/Ptolomey.pdf> <./figures/introduction/ModernStarsGa
 iaL7.png> <./figures/introduction/ModernStarsGaiaL10.png>]
-<figures/introduction/EarlyObservatory.png, id=902, 442.65375pt x 312.66812pt>
+<figures/introduction/EarlyObservatory.png, id=909, 442.65375pt x 312.66812pt>
 File: figures/introduction/EarlyObservatory.png Graphic file (type png)
 <use figures/introduction/EarlyObservatory.png>
 Package pdftex.def Info: figures/introduction/EarlyObservatory.png  used on inp
-ut line 123.
+ut line 126.
 (pdftex.def)             Requested size: 368.57965pt x 260.35893pt.
 )
 (./chapters/introduction/subsections/stellarStructure.tex [6 <./figures/introdu
@@ -1421,32 +1411,32 @@ ction/EarlyObservatory.png>] [7] [8
 ]
 Chapter 2.
 
-Overfull \hbox (1.80682pt too wide) in paragraph at lines 22--31
+Overfull \hbox (1.80682pt too wide) in paragraph at lines 23--32
 \OT1/cmr/m/n/12 tury as-tronomers were close
  []
 
 
-Underfull \hbox (badness 7256) in paragraph at lines 22--31
+Underfull \hbox (badness 7256) in paragraph at lines 23--32
 \OT1/cmr/m/n/12 promi-nent the-ory be-ing
  []
 
 
-Underfull \hbox (badness 3138) in paragraph at lines 22--31
+Underfull \hbox (badness 3138) in paragraph at lines 23--32
 \OT1/cmr/m/n/12 i-ta-tional col-lapse (which
  []
 
 
-Underfull \hbox (badness 5637) in paragraph at lines 22--31
+Underfull \hbox (badness 5637) in paragraph at lines 23--32
 \OT1/cmr/m/n/12 had ini-tially been pro-
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 22--31
+Underfull \hbox (badness 1275) in paragraph at lines 23--32
 \OT1/cmr/m/n/12 lar sys-tem, but not en-
  []
 
 
-Underfull \hbox (badness 3396) in paragraph at lines 22--31
+Underfull \hbox (badness 3396) in paragraph at lines 23--32
 \OT1/cmr/m/n/12 von Helmholtz pro-posed
  []
 
@@ -1455,18 +1445,18 @@ Underfull \vbox (badness 6300) has occurred while \output is active []
 
  [9]
 [10]
-<figures/introduction/runofp.pdf, id=949, 628.67159pt x 443.93193pt>
+<figures/introduction/runofp.pdf, id=972, 628.67159pt x 443.93193pt>
 File: figures/introduction/runofp.pdf Graphic file (type pdf)
 <use figures/introduction/runofp.pdf>
-Package pdftex.def Info: figures/introduction/runofp.pdf  used on input line 70
+Package pdftex.def Info: figures/introduction/runofp.pdf  used on input line 73
 .
 (pdftex.def)             Requested size: 195.12767pt x 137.78682pt.
-<figures/introduction/PolytropeTempProfile15.pdf, id=950, 617.74147pt x 463.248
+<figures/introduction/PolytropeTempProfile15.pdf, id=973, 617.74147pt x 463.248
 28pt>
 File: figures/introduction/PolytropeTempProfile15.pdf Graphic file (type pdf)
 <use figures/introduction/PolytropeTempProfile15.pdf>
 Package pdftex.def Info: figures/introduction/PolytropeTempProfile15.pdf  used 
-on input line 78.
+on input line 81.
 (pdftex.def)             Requested size: 195.12767pt x 146.32689pt.
  [11 <./figures/introduction/runofp.pdf> <./figures/introduction/PolytropeTempP
 rofile15.pdf
@@ -1474,7 +1464,7 @@ rofile15.pdf
 pdfTeX warning: pdflatex (file ./figures/introduction/PolytropeTempProfile15.pd
 f): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (5.51389pt too wide) in paragraph at lines 125--131
+Overfull \hbox (5.51389pt too wide) in paragraph at lines 130--136
 [][]\OT1/cmr/m/n/12 There are cur-rently many
  []
 
@@ -1482,14 +1472,17 @@ Overfull \hbox (5.51389pt too wide) in paragraph at lines 125--131
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12])
-(./chapters/introduction/subsections/thisThesis.tex [13]
+(./chapters/introduction/subsections/thisThesis.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
 Underfull \hbox (badness 10000) in paragraph at lines 46--46
 []|\OT1/cmr/m/n/7 Chemically Self-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 46--46
-\OT1/cmr/m/n/7 Consitent Mod-el-ing
+\OT1/cmr/m/n/7 Consistent Mod-el-ing
  []
 
 
@@ -1528,38 +1521,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--46
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 []|\OT1/cmr/m/n/7 Updated High-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \OT1/cmr/m/n/7 temperature Opac-i-ties
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 47--47
+Underfull \hbox (badness 1681) in paragraph at lines 48--48
 \OT1/cmr/m/n/7 lar Evo-lu-tion Pro-gram
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-[]|\OT1/cmr/m/n/7 Boudreaux,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-\OT1/cmr/m/n/7 Emily M.,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-\OT1/cmr/m/n/7 Chaboyer,
- []
-
-
-Underfull \hbox (badness 1292) in paragraph at lines 48--48
-\OT1/cmr/m/n/7 II H&K Emis-sion and
  []
 
 
@@ -1568,13 +1541,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--48
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-[]|\OT1/cmr/m/n/7 The Ca II H&K
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+\OT1/cmr/m/n/7 Emily M.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-\OT1/cmr/m/n/7 Rotation-Activity Re-
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+\OT1/cmr/m/n/7 Chaboyer,
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 49--49
+\OT1/cmr/m/n/7 II H&K Emis-sion and
  []
 
 
@@ -1583,32 +1561,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--49
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[]|\OT1/cmr/m/n/7 The Ca II H&K
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+\OT1/cmr/m/n/7 Rotation-Activity Re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[]|\OT1/cmr/m/n/7 Boudreaux,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 \OT1/cmr/m/n/7 ton, Elis-a-beth
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 \OT1/cmr/m/n/7 E., Mon-drik,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 \OT1/cmr/m/n/7 Nicholas.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 \OT1/cmr/m/n/7 Char-bon-neau,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 \OT1/cmr/m/n/7 David., Ir-win,
  []
 
 
-Overfull \hbox (6.92703pt too wide) in paragraph at lines 40--51
+Overfull \hbox (6.92703pt too wide) in paragraph at lines 40--53
  [][] 
  []
 
@@ -1631,16 +1624,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./chapters/ngc2808/ngc2808.tex (./chapters/ngc2808/subsections/intro.tex)
 (./chapters/ngc2808/subsections/modeling.tex [22]
 
-LaTeX Warning: Float too large for page by 53.96898pt on input line 77.
+LaTeX Warning: Float too large for page by 53.96898pt on input line 79.
 
 
-Overfull \hbox (30.0162pt too wide) in paragraph at lines 82--90
+Overfull \hbox (30.0162pt too wide) in paragraph at lines 84--92
  [][] 
  []
 
 ) (./chapters/ngc2808/subsections/AtmopshericModels.tex [23] [24] [25])
 (./chapters/ngc2808/subsections/fidanka.tex [26] [27]
-<figures/ngc2808/notebookFigures/DensityMapDemo.png, id=1360, 899.7615pt x 601.
+<figures/ngc2808/notebookFigures/DensityMapDemo.png, id=1416, 899.7615pt x 601.
 2864pt>
 File: figures/ngc2808/notebookFigures/DensityMapDemo.png Graphic file (type png
 )
@@ -1649,7 +1642,7 @@ Package pdftex.def Info: figures/ngc2808/notebookFigures/DensityMapDemo.png  us
 ed on input line 60.
 (pdftex.def)             Requested size: 390.25536pt x 260.79596pt.
  [28 <./figures/ngc2808/notebookFigures/DensityMapDemo.png>]
-<figures/ngc2808/notebookFigures/DensityBinsDemo.png, id=1367, 633.8079pt x 446
+<figures/ngc2808/notebookFigures/DensityBinsDemo.png, id=1424, 633.8079pt x 446
 .6286pt>
 File: figures/ngc2808/notebookFigures/DensityBinsDemo.png Graphic file (type pn
 g)
@@ -1658,26 +1651,26 @@ Package pdftex.def Info: figures/ngc2808/notebookFigures/DensityBinsDemo.png  u
 sed on input line 84.
 (pdftex.def)             Requested size: 368.57965pt x 259.73308pt.
  [29 <./figures/ngc2808/notebookFigures/DensityBinsDemo.png>]
-<figures/ngc2808/BGMMMixingBin.pdf, id=1383, 851.58667pt x 385.81227pt>
+<figures/ngc2808/BGMMMixingBin.pdf, id=1440, 851.58667pt x 385.81227pt>
 File: figures/ngc2808/BGMMMixingBin.pdf Graphic file (type pdf)
 <use figures/ngc2808/BGMMMixingBin.pdf>
 Package pdftex.def Info: figures/ngc2808/BGMMMixingBin.pdf  used on input line 
 109.
 (pdftex.def)             Requested size: 390.25536pt x 176.80467pt.
-<figures/ngc2808/vertFit.png, id=1385, 630.55576pt x 1155.95865pt>
+<figures/ngc2808/vertFit.png, id=1442, 630.55576pt x 1155.95865pt>
 File: figures/ngc2808/vertFit.png Graphic file (type png)
 <use figures/ngc2808/vertFit.png>
 Package pdftex.def Info: figures/ngc2808/vertFit.png  used on input line 135.
 (pdftex.def)             Requested size: 281.85036pt x 516.70181pt.
  [30 <./figures/ngc2808/BGMMMixingBin.pdf>] [31 <./figures/ngc2808/VertFit.png>
 ] [32]
-<figures/ngc2808/ExtractedIsoFit.pdf, id=1422, 623.50385pt x 443.93193pt>
+<figures/ngc2808/ExtractedIsoFit.pdf, id=1478, 623.50385pt x 443.93193pt>
 File: figures/ngc2808/ExtractedIsoFit.pdf Graphic file (type pdf)
 <use figures/ngc2808/ExtractedIsoFit.pdf>
 Package pdftex.def Info: figures/ngc2808/ExtractedIsoFit.pdf  used on input lin
 e 205.
 (pdftex.def)             Requested size: 368.57965pt x 262.4256pt.
-<figures/ngc2808/DistributionOfErrors.pdf, id=1424, 617.28119pt x 603.58702pt>
+<figures/ngc2808/DistributionOfErrors.pdf, id=1480, 617.28119pt x 603.58702pt>
 File: figures/ngc2808/DistributionOfErrors.pdf Graphic file (type pdf)
 <use figures/ngc2808/DistributionOfErrors.pdf>
 Package pdftex.def Info: figures/ngc2808/DistributionOfErrors.pdf  used on inpu
@@ -1686,7 +1679,7 @@ t line 226.
 ) (./chapters/ngc2808/subsections/fitting.tex [33]
 [34 <./figures/ngc2808/ExtractedIsoFit.pdf>] [35 <./figures/ngc2808/Distributio
 nOfErrors.pdf>]
-<figures/ngc2808/BestFitResults.pdf, id=1462, 627.63138pt x 458.11752pt>
+<figures/ngc2808/BestFitResults.pdf, id=1518, 627.63138pt x 458.11752pt>
 File: figures/ngc2808/BestFitResults.pdf Graphic file (type pdf)
 <use figures/ngc2808/BestFitResults.pdf>
 Package pdftex.def Info: figures/ngc2808/BestFitResults.pdf  used on input line
@@ -1696,38 +1689,38 @@ Package pdftex.def Info: figures/ngc2808/BestFitResults.pdf  used on input line
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36 <./figures/ngc2808/BestFitResults.pdf>]
-<figures/ngc2808/ChromosomeMapFractionalErrorDist.pdf, id=1482, 626.57648pt x 8
+<figures/ngc2808/ClusterAnalysis.pdf, id=1537, 614.79007pt x 443.93193pt>
+File: figures/ngc2808/ClusterAnalysis.pdf Graphic file (type pdf)
+<use figures/ngc2808/ClusterAnalysis.pdf>
+Package pdftex.def Info: figures/ngc2808/ClusterAnalysis.pdf  used on input lin
+e 82.
+(pdftex.def)             Requested size: 368.57965pt x 266.14444pt.
+<figures/ngc2808/ChromosomeMapFractionalErrorDist.pdf, id=1539, 626.57648pt x 8
 21.48827pt>
 File: figures/ngc2808/ChromosomeMapFractionalErrorDist.pdf Graphic file (type p
 df)
 <use figures/ngc2808/ChromosomeMapFractionalErrorDist.pdf>
 Package pdftex.def Info: figures/ngc2808/ChromosomeMapFractionalErrorDist.pdf  
-used on input line 92.
+used on input line 107.
 (pdftex.def)             Requested size: 368.57965pt x 483.23238pt.
-<figures/ngc2808/ClusterAnalysis.pdf, id=1483, 614.79007pt x 443.93193pt>
-File: figures/ngc2808/ClusterAnalysis.pdf Graphic file (type pdf)
-<use figures/ngc2808/ClusterAnalysis.pdf>
-Package pdftex.def Info: figures/ngc2808/ClusterAnalysis.pdf  used on input lin
-e 103.
-(pdftex.def)             Requested size: 368.57965pt x 266.14444pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [37]
-[38 <./figures/ngc2808/ChromosomeMapFractionalErrorDist.pdf>] [39 <./figures/ng
-c2808/ClusterAnalysis.pdf>]
-<figures/ngc2808/photometricOffset.pdf, id=1520, 1183.59634pt x 458.11752pt>
+[38 <./figures/ngc2808/ClusterAnalysis.pdf>] [39 <./figures/ngc2808/ChromosomeM
+apFractionalErrorDist.pdf>]
+<figures/ngc2808/photometricOffset.pdf, id=1577, 1183.59634pt x 458.11752pt>
 File: figures/ngc2808/photometricOffset.pdf Graphic file (type pdf)
 <use figures/ngc2808/photometricOffset.pdf>
 Package pdftex.def Info: figures/ngc2808/photometricOffset.pdf  used on input l
-ine 128.
+ine 134.
 (pdftex.def)             Requested size: 390.25536pt x 151.05342pt.
  [40 <./figures/ngc2808/photometricOffset.pdf>]
-<figures/ngc2808/HeliumMeanOffset.pdf, id=1536, 633.3489pt x 437.70929pt>
+<figures/ngc2808/HeliumMeanOffset.pdf, id=1592, 633.3489pt x 437.70929pt>
 File: figures/ngc2808/HeliumMeanOffset.pdf Graphic file (type pdf)
 <use figures/ngc2808/HeliumMeanOffset.pdf>
 Package pdftex.def Info: figures/ngc2808/HeliumMeanOffset.pdf  used on input li
-ne 147.
+ne 157.
 (pdftex.def)             Requested size: 368.57965pt x 254.72646pt.
 )
 (./chapters/ngc2808/subsections/conclusion.tex))) [41 <./figures/ngc2808/Helium
@@ -1741,14 +1734,14 @@ Underfull \vbox (badness 2205) has occurred while \output is active []
 
  [44])
 (./chapters/jaoOpacity/subsections/JaoGap.tex [45]
-<figures/jaoOpacity/JaoGapEDR3.png, id=1631, 627.0627pt x 621.2811pt>
+<figures/jaoOpacity/JaoGapEDR3.png, id=1688, 627.0627pt x 621.2811pt>
 File: figures/jaoOpacity/JaoGapEDR3.png Graphic file (type png)
 <use figures/jaoOpacity/JaoGapEDR3.png>
 Package pdftex.def Info: figures/jaoOpacity/JaoGapEDR3.png  used on input line 
 30.
 (pdftex.def)             Requested size: 368.57965pt x 365.19704pt.
  [46 <./figures/jaoOpacity/JaoGapEDR3.png>]
-<figures/jaoOpacity/Kippenhan.pdf, id=1647, 1090.36191pt x 464.12189pt>
+<figures/jaoOpacity/Kippenhan.pdf, id=1703, 1090.36191pt x 464.12189pt>
 File: figures/jaoOpacity/Kippenhan.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/Kippenhan.pdf>
 Package pdftex.def Info: figures/jaoOpacity/Kippenhan.pdf  used on input line 5
@@ -1762,7 +1755,7 @@ clud-ing, the Opac-ity Project
  []
 
 [48]
-<figures/jaoOpacity/OpacityComparision.pdf, id=1720, 683.11987pt x 651.09698pt>
+<figures/jaoOpacity/OpacityComparision.pdf, id=1776, 683.11987pt x 651.09698pt>
 
 File: figures/jaoOpacity/OpacityComparision.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/OpacityComparision.pdf>
@@ -1774,7 +1767,7 @@ Underfull \vbox (badness 3354) has occurred while \output is active []
 
  [49]
 [50 <./figures/jaoOpacity/OpacityComparision.pdf>]
-<figures/jaoOpacity/HRDiagramOPALvsOPLIB_SCCM.pdf, id=1760, 925.66647pt x 776.7
+<figures/jaoOpacity/HRDiagramOPALvsOPLIB_SCCM.pdf, id=1817, 925.66647pt x 776.7
 4934pt>
 File: figures/jaoOpacity/HRDiagramOPALvsOPLIB_SCCM.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/HRDiagramOPALvsOPLIB_SCCM.pdf>
@@ -1789,13 +1782,8 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
 Underfull \vbox (badness 1715) has occurred while \output is active []
 
  [51]
-[52 <./figures/jaoOpacity/HRDiagramOPALvsOPLIB_SCCM.pdf>]
-Overfull \hbox (41.85522pt too wide) in paragraph at lines 17--17
-[]\OT1/cmtt/m/n/12 $ generateTOPStables comp.dat rescalings.dat -d ./TOPSCache 
--o out.opac -j 20 
- []
-
-) (./chapters/jaoOpacity/subsections/interp.tex
+[52 <./figures/jaoOpacity/HRDiagramOPALvsOPLIB_SCCM.pdf>])
+(./chapters/jaoOpacity/subsections/interp.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
@@ -1819,7 +1807,7 @@ p2d \OT1/cmr/m/n/12 func-tion within \OT1/cmtt/m/n/12 scipy\OT1/cmr/m/n/12 's \
 OT1/cmtt/m/n/12 interpolate
  []
 
-<figures/jaoOpacity/FractionalDifference.pdf, id=1803, 533.75356pt x 457.65639p
+<figures/jaoOpacity/FractionalDifference.pdf, id=1860, 533.75356pt x 457.65639p
 t>
 File: figures/jaoOpacity/FractionalDifference.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/FractionalDifference.pdf>
@@ -1828,13 +1816,13 @@ nput line 54.
 (pdftex.def)             Requested size: 368.57965pt x 316.02766pt.
 ) (./chapters/jaoOpacity/subsections/Modeling.tex [54] [55 <./figures/jaoOpacit
 y/FractionalDifference.pdf>]
-<figures/jaoOpacity/OPALPunchIn.pdf, id=1847, 668.9019pt x 611.02657pt>
+<figures/jaoOpacity/OPALPunchIn.pdf, id=1904, 668.9019pt x 611.02657pt>
 File: figures/jaoOpacity/OPALPunchIn.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/OPALPunchIn.pdf>
 Package pdftex.def Info: figures/jaoOpacity/OPALPunchIn.pdf  used on input line
  39.
 (pdftex.def)             Requested size: 325.215pt x 297.08408pt.
-<figures/jaoOpacity/OPLIBPunchIn.pdf, id=1848, 658.30984pt x 611.02657pt>
+<figures/jaoOpacity/OPLIBPunchIn.pdf, id=1905, 658.30984pt x 611.02657pt>
 File: figures/jaoOpacity/OPLIBPunchIn.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/OPLIBPunchIn.pdf>
 Package pdftex.def Info: figures/jaoOpacity/OPLIBPunchIn.pdf  used on input lin
@@ -1850,13 +1838,13 @@ hIn.pdf
 pdfTeX warning: pdflatex (file ./figures/jaoOpacity/OPLIBPunchIn.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
 >]
-<figures/jaoOpacity/pdist.pdf, id=1898, 722.7pt x 722.7pt>
+<figures/jaoOpacity/pdist.pdf, id=1955, 722.7pt x 722.7pt>
 File: figures/jaoOpacity/pdist.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/pdist.pdf>
 Package pdftex.def Info: figures/jaoOpacity/pdist.pdf  used on input line 73.
 (pdftex.def)             Requested size: 368.57965pt x 368.58315pt.
  [58] [59 <./figures/jaoOpacity/pdist.pdf>]
-<figures/jaoOpacity/OPALOPLIB_popsynth_compare.pdf, id=1936, 1251.48045pt x 476
+<figures/jaoOpacity/OPALOPLIB_popsynth_compare.pdf, id=1993, 1251.48045pt x 476
 .70503pt>
 File: figures/jaoOpacity/OPALOPLIB_popsynth_compare.pdf Graphic file (type pdf)
 
@@ -1865,14 +1853,14 @@ Package pdftex.def Info: figures/jaoOpacity/OPALOPLIB_popsynth_compare.pdf  use
 d on input line 117.
 (pdftex.def)             Requested size: 368.57965pt x 140.394pt.
  [60 <./figures/jaoOpacity/OPALOPLIB_popsynth_compare.pdf>]
-<figures/jaoOpacity/./alphaMLComparisionCMD.pdf, id=1973, 648.7902pt x 450.1546
+<figures/jaoOpacity/./alphaMLComparisionCMD.pdf, id=2031, 648.7902pt x 450.1546
 2pt>
 File: figures/jaoOpacity/./alphaMLComparisionCMD.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/./alphaMLComparisionCMD.pdf>
 Package pdftex.def Info: figures/jaoOpacity/./alphaMLComparisionCMD.pdf  used o
 n input line 154.
 (pdftex.def)             Requested size: 368.57965pt x 255.7322pt.
-<figures/jaoOpacity/./MixingLengthScaling.pdf, id=1974, 672.9843pt x 450.15462p
+<figures/jaoOpacity/./MixingLengthScaling.pdf, id=2032, 672.9843pt x 450.15462p
 t>
 File: figures/jaoOpacity/./MixingLengthScaling.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/./MixingLengthScaling.pdf>
@@ -1885,13 +1873,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [61 <./figures/jaoOpacity/./alphaMLComparisionCMD.pdf>])
 (./chapters/jaoOpacity/subsections/Results.tex [62 <./figures/jaoOpacity/./Mixi
 ngLengthScaling.pdf>]
-<figures/jaoOpacity/OPAL_Jao_locator.pdf, id=2015, 681.01828pt x 657.52058pt>
+<figures/jaoOpacity/OPAL_Jao_locator.pdf, id=2072, 681.01828pt x 657.52058pt>
 File: figures/jaoOpacity/OPAL_Jao_locator.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/OPAL_Jao_locator.pdf>
 Package pdftex.def Info: figures/jaoOpacity/OPAL_Jao_locator.pdf  used on input
  line 13.
 (pdftex.def)             Requested size: 281.85036pt x 272.12352pt.
-<figures/jaoOpacity/OPLIB_Jao_locator.pdf, id=2016, 681.01828pt x 657.52058pt>
+<figures/jaoOpacity/OPLIB_Jao_locator.pdf, id=2073, 681.01828pt x 657.52058pt>
 File: figures/jaoOpacity/OPLIB_Jao_locator.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/OPLIB_Jao_locator.pdf>
 Package pdftex.def Info: figures/jaoOpacity/OPLIB_Jao_locator.pdf  used on inpu
@@ -1910,7 +1898,7 @@ o_locator.pdf
 pdfTeX warning: pdflatex (file ./figures/jaoOpacity/OPLIB_Jao_locator.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
 >]
-<figures/jaoOpacity/SameMassConvectiveZoneComp.pdf, id=2070, 650.56808pt x 618.
+<figures/jaoOpacity/SameMassConvectiveZoneComp.pdf, id=2127, 650.56808pt x 618.
 57545pt>
 File: figures/jaoOpacity/SameMassConvectiveZoneComp.pdf Graphic file (type pdf)
 
@@ -1922,7 +1910,7 @@ d on input line 72.
 Underfull \vbox (badness 1881) has occurred while \output is active []
 
  [65 <./figures/jaoOpacity/SameMassConvectiveZoneComp.pdf>]
-<figures/jaoOpacity/Core3HECompSameMass.pdf, id=2089, 662.95078pt x 624.75449pt
+<figures/jaoOpacity/Core3HECompSameMass.pdf, id=2147, 662.95078pt x 624.75449pt
 >
 File: figures/jaoOpacity/Core3HECompSameMass.pdf Graphic file (type pdf)
 <use figures/jaoOpacity/Core3HECompSameMass.pdf>
@@ -1936,14 +1924,14 @@ Chapter 5.
 (./chapters/jaoMagActivity/jaoMagActivity.tex
 (./chapters/jaoMagActivity/subsections/intro.tex [69])
 (./chapters/jaoMagActivity/subsections/results.tex [70]
-<figures/jaoMagActivity/CombinedDeviation.pdf, id=2198, 639.99196pt x 819.65622
+<figures/jaoMagActivity/CombinedDeviation.pdf, id=2255, 639.99196pt x 819.65622
 pt>
 File: figures/jaoMagActivity/CombinedDeviation.pdf Graphic file (type pdf)
 <use figures/jaoMagActivity/CombinedDeviation.pdf>
 Package pdftex.def Info: figures/jaoMagActivity/CombinedDeviation.pdf  used on 
 input line 25.
 (pdftex.def)             Requested size: 368.57965pt x 472.06158pt.
-<figures/jaoMagActivity/fpDist.pdf, id=2211, 608.56743pt x 603.58702pt>
+<figures/jaoMagActivity/fpDist.pdf, id=2268, 608.56743pt x 603.58702pt>
 File: figures/jaoMagActivity/fpDist.pdf Graphic file (type pdf)
 <use figures/jaoMagActivity/fpDist.pdf>
 Package pdftex.def Info: figures/jaoMagActivity/fpDist.pdf  used on input line 
@@ -1955,7 +1943,7 @@ Underfull \vbox (badness 2205) has occurred while \output is active []
  [71]
 [72 <./figures/jaoMagActivity/CombinedDeviation.pdf>] [73 <./figures/jaoMagActi
 vity/fpDist.pdf>]
-<figures/jaoMagActivity/ReducedDeviation.pdf, id=2255, 622.44894pt x 437.70929p
+<figures/jaoMagActivity/ReducedDeviation.pdf, id=2312, 622.44894pt x 437.70929p
 t>
 File: figures/jaoMagActivity/ReducedDeviation.pdf Graphic file (type pdf)
 <use figures/jaoMagActivity/ReducedDeviation.pdf>
@@ -1963,7 +1951,7 @@ Package pdftex.def Info: figures/jaoMagActivity/ReducedDeviation.pdf  used on i
 nput line 81.
 (pdftex.def)             Requested size: 368.57965pt x 259.18796pt.
  [74 <./figures/jaoMagActivity/ReducedDeviation.pdf>] [75]
-<figures/jaoMagActivity/GapLocationMC.pdf, id=2301, 622.44894pt x 437.70929pt>
+<figures/jaoMagActivity/GapLocationMC.pdf, id=2358, 622.44894pt x 437.70929pt>
 File: figures/jaoMagActivity/GapLocationMC.pdf Graphic file (type pdf)
 <use figures/jaoMagActivity/GapLocationMC.pdf>
 Package pdftex.def Info: figures/jaoMagActivity/GapLocationMC.pdf  used on inpu
@@ -1997,23 +1985,23 @@ Overfull \hbox (19.93227pt too wide) in alignment at lines 21--210
  []
 
 [77] [78] [79] [80]) [81]
-<figures/jaoMagActivity/RotationSignifigance.pdf, id=2384, 628.1811pt x 821.842
+<figures/jaoMagActivity/RotationSignifigance.pdf, id=2441, 628.1811pt x 821.842
 42pt>
 File: figures/jaoMagActivity/RotationSignifigance.pdf Graphic file (type pdf)
 <use figures/jaoMagActivity/RotationSignifigance.pdf>
 Package pdftex.def Info: figures/jaoMagActivity/RotationSignifigance.pdf  used 
-on input line 196.
+on input line 199.
 (pdftex.def)             Requested size: 368.57965pt x 482.22429pt.
-<figures/jaoMagActivity/Rossby.pdf, id=2385, 628.67159pt x 443.93193pt>
+<figures/jaoMagActivity/Rossby.pdf, id=2442, 628.67159pt x 443.93193pt>
 File: figures/jaoMagActivity/Rossby.pdf Graphic file (type pdf)
 <use figures/jaoMagActivity/Rossby.pdf>
 Package pdftex.def Info: figures/jaoMagActivity/Rossby.pdf  used on input line 
-205.
+208.
 (pdftex.def)             Requested size: 368.57965pt x 260.27151pt.
 ) (./chapters/jaoMagActivity/subsections/modeling.tex
 [82] [83 <./figures/jaoMagActivity/RotationSignifigance.pdf>] [84 <./figures/ja
 oMagActivity/Rossby.pdf>] [85]
-<figures/jaoMagActivity/Kippenhan_clamped.pdf, id=2432, 1034.60086pt x 450.0260
+<figures/jaoMagActivity/Kippenhan_clamped.pdf, id=2489, 1034.60086pt x 450.0260
 5pt>
 File: figures/jaoMagActivity/Kippenhan_clamped.pdf Graphic file (type pdf)
 <use figures/jaoMagActivity/Kippenhan_clamped.pdf>
@@ -2024,14 +2012,14 @@ input line 48.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [86]
-<figures/jaoMagActivity/simpleBEvolution.pdf, id=2440, 628.67159pt x 446.88333p
+<figures/jaoMagActivity/simpleBEvolution.pdf, id=2498, 628.67159pt x 446.88333p
 t>
 File: figures/jaoMagActivity/simpleBEvolution.pdf Graphic file (type pdf)
 <use figures/jaoMagActivity/simpleBEvolution.pdf>
 Package pdftex.def Info: figures/jaoMagActivity/simpleBEvolution.pdf  used on i
 nput line 69.
 (pdftex.def)             Requested size: 368.57965pt x 262.00189pt.
-<figures/jaoMagActivity/SpreadModel.pdf, id=2444, 631.1627pt x 437.70929pt>
+<figures/jaoMagActivity/SpreadModel.pdf, id=2502, 631.1627pt x 437.70929pt>
 File: figures/jaoMagActivity/SpreadModel.pdf Graphic file (type pdf)
 <use figures/jaoMagActivity/SpreadModel.pdf>
 Package pdftex.def Info: figures/jaoMagActivity/SpreadModel.pdf  used on input 
@@ -2063,7 +2051,7 @@ Overfull \hbox (11.85489pt too wide) in paragraph at lines 43--1
 04102815-5336078)
  []
 
-<figures/magActivity/SIndexBandpass.pdf, id=2695, 912.13545pt x 446.35814pt>
+<figures/magActivity/SIndexBandpass.pdf, id=2752, 912.13545pt x 446.35814pt>
 File: figures/magActivity/SIndexBandpass.pdf Graphic file (type pdf)
 <use figures/magActivity/SIndexBandpass.pdf>
 Package pdftex.def Info: figures/magActivity/SIndexBandpass.pdf  used on input 
@@ -2083,7 +2071,7 @@ Overfull \hbox (19.3532pt too wide) in paragraph at lines 1--62
 
 LaTeX Warning: Float too large for page by 12.16997pt on input line 49.
 
-<figures/magActivity/RpHKvsR0_MC_justThisPaper.pdf, id=2790, 1325.66655pt x 612
+<figures/magActivity/RpHKvsR0_MC_justThisPaper.pdf, id=2847, 1325.66655pt x 612
 .1776pt>
 File: figures/magActivity/RpHKvsR0_MC_justThisPaper.pdf Graphic file (type pdf)
 
@@ -2091,13 +2079,13 @@ File: figures/magActivity/RpHKvsR0_MC_justThisPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/magActivity/RpHKvsR0_MC_justThisPaper.pdf  use
 d on input line 52.
 (pdftex.def)             Requested size: 390.25536pt x 180.20784pt.
-<figures/magActivity/RpHKvsR0_MC.pdf, id=2791, 1315.57697pt x 612.1776pt>
+<figures/magActivity/RpHKvsR0_MC.pdf, id=2848, 1315.57697pt x 612.1776pt>
 File: figures/magActivity/RpHKvsR0_MC.pdf Graphic file (type pdf)
 <use figures/magActivity/RpHKvsR0_MC.pdf>
 Package pdftex.def Info: figures/magActivity/RpHKvsR0_MC.pdf  used on input lin
 e 59.
 (pdftex.def)             Requested size: 390.25536pt x 181.59032pt.
-<figures/magActivity/RpHKvsR0_MC_fits.pdf, id=2804, 1435.15862pt x 612.1776pt>
+<figures/magActivity/RpHKvsR0_MC_fits.pdf, id=2861, 1435.15862pt x 612.1776pt>
 File: figures/magActivity/RpHKvsR0_MC_fits.pdf Graphic file (type pdf)
 <use figures/magActivity/RpHKvsR0_MC_fits.pdf>
 Package pdftex.def Info: figures/magActivity/RpHKvsR0_MC_fits.pdf  used on inpu
@@ -2121,7 +2109,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [106]
-<figures/magActivity/B2020vsAD2016_Masses.pdf, id=2972, 782.41577pt x 448.4426p
+<figures/magActivity/B2020vsAD2016_Masses.pdf, id=3030, 782.41577pt x 448.4426p
 t>
 File: figures/magActivity/B2020vsAD2016_Masses.pdf Graphic file (type pdf)
 <use figures/magActivity/B2020vsAD2016_Masses.pdf>
@@ -2143,7 +2131,7 @@ Underfull \vbox (badness 6300) has occurred while \output is active []
 
  [111])
 (./chapters/rgb_bump/subsections/multiplePopulations.tex [112]
-<figures/rgbb/ComparisonOfRGBBump.pdf, id=3036, 628.67159pt x 451.52028pt>
+<figures/rgbb/ComparisonOfRGBBump.pdf, id=3096, 628.67159pt x 451.52028pt>
 File: figures/rgbb/ComparisonOfRGBBump.pdf Graphic file (type pdf)
 <use figures/rgbb/ComparisonOfRGBBump.pdf>
 Package pdftex.def Info: figures/rgbb/ComparisonOfRGBBump.pdf  used on input li
@@ -2153,48 +2141,45 @@ ne 44.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [113 <./figures/rgbb/ComparisonOfRGBBump.pdf>]
-<figures/rgbb/ConvectiveEnvelopeMass.pdf, id=3050, 624.63515pt x 447.48384pt>
+<figures/rgbb/ConvectiveEnvelopeMass.pdf, id=3116, 624.63515pt x 447.48384pt>
 File: figures/rgbb/ConvectiveEnvelopeMass.pdf Graphic file (type pdf)
 <use figures/rgbb/ConvectiveEnvelopeMass.pdf>
 Package pdftex.def Info: figures/rgbb/ConvectiveEnvelopeMass.pdf  used on input
- line 69.
+ line 77.
 (pdftex.def)             Requested size: 368.57965pt x 264.04732pt.
-<figures/rgbb/EvolutionAE.pdf, id=3051, 1217.46101pt x 444.32533pt>
+<figures/rgbb/EvolutionAE.pdf, id=3117, 1217.46101pt x 444.32533pt>
 File: figures/rgbb/EvolutionAE.pdf Graphic file (type pdf)
 <use figures/rgbb/EvolutionAE.pdf>
-Package pdftex.def Info: figures/rgbb/EvolutionAE.pdf  used on input line 79.
+Package pdftex.def Info: figures/rgbb/EvolutionAE.pdf  used on input line 87.
 (pdftex.def)             Requested size: 433.62001pt x 158.25525pt.
 )
-(./chapters/rgb_bump/subsections/OPLIB.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [114 <./figures/rgbb/ConvectiveEnvelopeMass.pdf>] [115 <./figures/rgbb/Evoluti
-onAE.pdf>]
-<figures/rgbb/OPALvsOPLIBComparison.pdf, id=3080, 639.87642pt x 439.8955pt>
+(./chapters/rgb_bump/subsections/OPLIB.tex [114] [115 <./figures/rgbb/Convectiv
+eEnvelopeMass.pdf> <./figures/rgbb/EvolutionAE.pdf>]
+<figures/rgbb/OPALvsOPLIBComparison.pdf, id=3149, 639.87642pt x 439.8955pt>
 File: figures/rgbb/OPALvsOPLIBComparison.pdf Graphic file (type pdf)
 <use figures/rgbb/OPALvsOPLIBComparison.pdf>
 Package pdftex.def Info: figures/rgbb/OPALvsOPLIBComparison.pdf  used on input 
-line 31.
+line 34.
 (pdftex.def)             Requested size: 368.57965pt x 253.39436pt.
-)) [116 <./figures/rgbb/OPALvsOPLIBComparison.pdf>] [117
+)) [116] [117 <./figures/rgbb/OPALvsOPLIBComparison.pdf>] [118
 
-] [118]
+] [119] [120]
 (./chapters/conclusion/conclusion.tex
 Chapter 8.
 
 Underfull \vbox (badness 2253) has occurred while \output is active []
 
- [119
+ [121
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [120])
-(./appendices/app.tex [121] [122
+ [122])
+(./appendices/app.tex [123] [124
 
-] [123] [124]
+] [125] [126]
 Appendix A.
-(./appendices/papers.tex) (./appendices/software.tex [125
+(./appendices/papers.tex) (./appendices/software.tex [127
 
 ]
 Overfull \hbox (37.14503pt too wide) in paragraph at lines 4--5
@@ -2202,7 +2187,7 @@ Overfull \hbox (37.14503pt too wide) in paragraph at lines 4--5
 /m/n/12 https : / / github . com / tboudreaux /
  []
 
-) (./appendices/data.tex)) [126] (./Thesis.bbl [127
+) (./appendices/data.tex)) [128] (./Thesis.bbl [129
 
 
 ]
@@ -2211,22 +2196,22 @@ Underfull \hbox (badness 2334) in paragraph at lines 138--140
 Xiv preprint
  []
 
-[128] [129] [130] [131] [132] [133] [134] [135] [136] [137] [138] [139]
-[140]) [141] (./Thesis.aux)
+[130] [131] [132] [133] [134] [135] [136] [137] [138] [139] [140] [141]
+[142] [143]) [144] (./Thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A91A51D4107D9CE3633A5386B2DB52DB;12298.
+(rerunfilecheck)             Checksum: F1337BC76BB99D02FF6854BF0FA56345;12303.
  ) 
 Here is how much of TeX's memory you used:
- 30243 strings out of 478287
- 590278 string characters out of 5849289
- 1200740 words of memory out of 5000000
- 47191 multiletter control sequences out of 15000+600000
- 483387 words of font info for 82 fonts, out of 8000000 for 9000
+ 30333 strings out of 478287
+ 591947 string characters out of 5849289
+ 1077118 words of memory out of 5000000
+ 47257 multiletter control sequences out of 15000+600000
+ 483554 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,13n,94p,1747b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 98i,13n,94p,1747b,969s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist
@@ -2253,12 +2238,13 @@ exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-
-super/sfrm1200.pfb>
-Output written on Thesis.pdf (163 pages, 14225232 bytes).
+pe1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
+frm1200.pfb>
+Output written on Thesis.pdf (166 pages, 14219752 bytes).
 PDF statistics:
- 3471 PDF objects out of 3580 (max. 8388607)
- 3093 compressed objects within 31 object streams
- 582 named destinations out of 1000 (max. 500000)
+ 3561 PDF objects out of 3580 (max. 8388607)
+ 3177 compressed objects within 32 object streams
+ 605 named destinations out of 1000 (max. 500000)
  847 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2,11 +2,11 @@
 In addition to models of multiple populations in NGC 2808, we also have access
 to GS98 solar composition models using OPAL and Ferguson opacities as well as
 models using OPLIB and Aesopus opacities (high and low temperature
-respectivley). Given the RGB bumps sensititvity to convective zone depth, as
+respectively). Given the RGB bumps sensititvity to convective zone depth, as
 demonstrated in the previous section, it is reasonable to assume that
 variations in the opacity may have an effect on its location. 
 
-Following the procedue outlined in \citep{Joyce2016} we identify the RGB Bump
+Following the procedure outlined in \citep{Joyce2016} we identify the RGB Bump
 in models evolved over an [Fe/H] grid of -2.0, -1.8, -1.6, -1.4, -1.2, -1.0,
 and -0.8. All models use a GS98 solar composition, high temperature opacities
 from OPLIB and low temperature opacities from Aesopus. Models are evolved with
@@ -17,14 +17,17 @@ The evolutionary tracks for each model are bolometrically corrected into
 UBV(RI)c filters using the bolometric correction tables provided by MESA
 \citep{Choi2016} and \fidanka. These bolometric corrections additionally assume $\mu =
 0$ and $A_{v} = 0$. The magnitude of the bump is then defined as the magnitude
-at the age where the magnitude-age derivitive is maximized. We visually inspect
+at the age where the magnitude-age derivative is maximized. We visually inspect
 all models to confirm that the identified magnitude aligns with the location of
 the bump.
 
 Comparing bump locations between OPAL+Ferguson opacities (Figure
 \ref{fig:OPALvsOPLIBRGBB}) to OPLIB+Aesopus opacities we find that indeed the
 updated opacities to effect the location of the bump; however, this is a very
-small effect, on the order of a few parts in 100.
+small effect, on the order of a few parts in 100. Given that the updated
+opacities have such a small effect on the RGBB location, and do not resolve the
+discrepancies seen in \citet{Joyce2016} we do not believe that a more detailed
+investigation of the effects opacity have on RGBB location in warranted.
 
 \begin{figure}
   \centering
@@ -35,3 +38,4 @@ small effect, on the order of a few parts in 100.
   magnitudes; however, this is a very weak effect.}
   \label{fig:OPALvsOPLIBRGBB}
 \end{figure}
+

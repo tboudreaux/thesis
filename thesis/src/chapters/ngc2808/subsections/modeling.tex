@@ -1,10 +1,10 @@
-\section{Stellar Models}\label{sec:modeling}
+\section{Stellar Models}\label{sec:2808modeling}
 We use the Dartmouth Stellar Evolution Program \citep[DSEP, ][]{Dotter2008} to
 generate stellar models. DSEP is a one-dimensional stellar
 evolution code which includes a mixing length model of convection,
 gravitational settling, and diffusion. Using the solar composition presented in
-\citep{Grevesse2007} (GAS07), MARCS model atmosphers, OPLIB high temperature
-opacities, and AESOPUS 2.0 low temperautre opacities we find a solar calibrated
+\citep{Grevesse2007} (GAS07), MARCS model atmosphere, OPLIB high temperature
+opacities, and AESOPUS 2.0 low temperature opacities we find a solar calibrated
 mixing length parameter, $\alpha_{MLT}$, of $\alpha_{MLT} = 1.901$.
 
 We use DSEP to evolve stellar models ranging in mass from 0.3 to 2.0 solar
@@ -14,11 +14,11 @@ above 0.7 $M_{\odot}$ we evolve a model every 0.05 $M_{\odot}$. We evolve
 models over a grid of mixing length parameters from $\alpha_{MLT} = 1.0$ to
 $\alpha_{MLT} = 2.0$ in steps of 0.1. For each mixing length, a grid of models
 and isochrones were calculated, with chemical compositions consistent with
-Populations A and E (see Tables \ref{tab:comp} and \ref{tab:simpleComp}) and a range of helium abundances
-(Y=0.24, 0.27, 0.30, 0.33, 0.36, and 0.39). In total,144 sets of isochrones,
-each with a unique composition and mixing length were calculated. Each model is
-evolved in DSEP with typical numeric tolerences of one part in $10^{7}$. Each
-model is allowed a maximum time step of 50 Myr. 
+Populations A and E (see Tables \ref{tab:comp} and \ref{tab:simpleComp}) and a
+range of helium abundances (Y=0.24, 0.27, 0.30, 0.33, 0.36, and 0.39). In
+total,144 sets of isochrones, each with a unique composition and mixing length
+were calculated. Each model is evolved in DSEP with typical numeric tolerances
+of one part in $10^{7}$. Each model is allowed a maximum time step of 50 Myr. 
 
 \begin{table}
 \centering
@@ -72,7 +72,9 @@ model is allowed a maximum time step of 50 Myr.
   Rh & -1.35 & --- & Pa & -99.0 & --- \\
   Pd & -0.69 & --- & U & -2.8 & --- \\
 \end{tabular}
-\caption{Relative Metal composition used where a(H) = 12. Where the relative composition is the the same for both populations A and E it is only listed in the population A colum for the sake of visual clarity.}
+\caption{Relative Metal composition used where a(H) = 12. Where the relative
+  composition is the same for both populations A and E it is only listed in
+  the population A column for the sake of visual clarity.}
 \label{tab:comp}
 \end{table}
 
@@ -95,10 +97,12 @@ For each combination of population, $Y$, and $\alpha_{MLT}$ we use the
 isochrone generation code first presented in \citet{Dotter2016} to generate a
 grid of isochrones. The isochrone generation code identified equivalent
 evolutionary points (EEPs) over a series of masses and interpolates between
-them. The grid of isochrones generated for this work is avalible as a digital
-supplement to this thesis (\href{https://zenodo.org/records/10631439}{10.5281/zenodo.10631439}). Given the complexity of the parameter space when
-fitting multiple populations along with the recent warnings in the liteerature
-regarding overfitting datasets \citep[e.g. ][]{Valle2022} we want to develop a
-more objective way of fitting isochrones to photometry than if we were to mark
-median ridge line positions by hand.
+them. The grid of isochrones generated for this work is available as a digital
+supplement to this thesis
+(\href{https://zenodo.org/records/10631439}{10.5281/zenodo.10631439}). Given
+the complexity of the parameter space when fitting multiple populations along
+with the recent warnings in the literature regarding over fitting data sets
+\citep[e.g. ][]{Valle2022} we want to develop a more objective way of fitting
+isochrones to photometry than if we were to mark median ridge line positions by
+hand.
 

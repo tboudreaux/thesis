@@ -12,8 +12,8 @@
 \contentsline {subsection}{\numberline {1.2.2}Astronomy Becomes a Science}{4}{subsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.2.3}The Birth of Modern Astronomy}{6}{subsection.1.2.3}%
 \contentsline {chapter}{\numberline {2}Stellar Structure and Evolution}{9}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Equations of Stellar Stucture}{11}{section.2.1}%
-\contentsline {section}{\numberline {2.2}This Thesis}{13}{section.2.2}%
+\contentsline {section}{\numberline {2.1}Equations of Stellar Structure}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}This Thesis}{14}{section.2.2}%
 \contentsline {part}{II\hspace {1em}Stellar Populations}{17}{part.2}%
 \contentsline {chapter}{\numberline {3}Multiple Populations in NGC 2808}{19}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Stellar Models}{22}{section.3.1}%
@@ -45,7 +45,7 @@
 \contentsline {chapter}{\numberline {5}Jao Gap connection to Magnatism}{69}{chapter.5}%
 \contentsline {section}{\numberline {5.1}The Jao Gap and Magnatism}{69}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Correlation}{70}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Conicidence with the Jao Gap Magnitude}{75}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.1}Coincidence with the Jao Gap Magnitude}{75}{subsection.5.2.1}%
 \contentsline {subsection}{\numberline {5.2.2}Rotation}{76}{subsection.5.2.2}%
 \contentsline {subsection}{\numberline {5.2.3}Limitations}{82}{subsection.5.2.3}%
 \contentsline {section}{\numberline {5.3}Modeling}{85}{section.5.3}%
@@ -62,12 +62,12 @@
 \contentsline {chapter}{\numberline {7}The Red Giant Branch Bump}{111}{chapter.7}%
 \contentsline {section}{\numberline {7.1}The Red Giant Branch Bunch in NGC 2808}{112}{section.7.1}%
 \contentsline {subsection}{\numberline {7.1.1}Population E and the Case of the Missing Bump}{114}{subsection.7.1.1}%
-\contentsline {section}{\numberline {7.2}Effects of Opacities on the Red Giant Branch Bump}{115}{section.7.2}%
-\contentsline {part}{IV\hspace {1em}Conclusions}{117}{part.4}%
-\contentsline {chapter}{\numberline {8}So Long and Thanks for all the Fish}{119}{chapter.8}%
-\contentsline {part}{V\hspace {1em}Appendices}{123}{part.5}%
-\contentsline {chapter}{\numberline {A}Products}{125}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Publications}{125}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Software}{126}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Datasets}{126}{section.A.3}%
-\contentsline {part}{Bibliography}{127}{section*.64}%
+\contentsline {section}{\numberline {7.2}Effects of Opacities on the Red Giant Branch Bump}{114}{section.7.2}%
+\contentsline {part}{IV\hspace {1em}Conclusions}{119}{part.4}%
+\contentsline {chapter}{\numberline {8}So Long and Thanks for all the Fish}{121}{chapter.8}%
+\contentsline {part}{V\hspace {1em}Appendices}{125}{part.5}%
+\contentsline {chapter}{\numberline {A}Products}{127}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Publications}{127}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Software}{128}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Datasets}{128}{section.A.3}%
+\contentsline {part}{Bibliography}{129}{section*.64}%

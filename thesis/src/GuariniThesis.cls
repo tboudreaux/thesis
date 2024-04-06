@@ -166,27 +166,27 @@
                 
            \vspace{1.5cm}
     
-           Guarini School of Graduate and Advances Studies \\
+           Guarini School of Graduate and Advanced Studies \\
            Dartmouth College \\
            Hanover, New Hampshire
     
            \vspace{0.5cm}
            \@defenseDate
     
-           \vspace{3cm}
+           \vspace{1cm}
 
 \begin{flushright}
 % \singlespacing
 
 
 \begin{tabular}{r@{}}
-\makebox[2.5in][c]{Examining Committee:} \\[1em]
+\makebox[2.5in][c]{Examining Committee:} \\[3em]
 \hline
-\makebox[2.5in][l]{(chair) \textit{\textbf{\@committeeChair}}} \\[1em]
+\makebox[2.5in][l]{(chair) \textit{\textbf{\@committeeChair}}} \\[2em]
 \hline
-\makebox[2.5in][l]{\textit{\textbf{\@committeeMemberOne}}} \\[1em]
+\makebox[2.5in][l]{\textit{\textbf{\@committeeMemberOne}}} \\[2em]
 \hline
-\makebox[2.5in][l]{\textit{\textbf{\@committeeMemberTwo}}} \\[1em]
+\makebox[2.5in][l]{\textit{\textbf{\@committeeMemberTwo}}} \\[2em]
 \hline
 \makebox[2.5in][l]{\textit{\textbf{\@externalMember}}} \\
 \end{tabular}

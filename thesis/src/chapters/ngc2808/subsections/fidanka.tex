@@ -30,7 +30,7 @@ sparsely populated regions of the CMD, such as the RGB). A unimodal Gaussian
 distribution is then fit to the color distribution of each bin, and the
 resulting mean color is used as the initial fiducial line guess. This rough
 fiducial line will approximately trace the area of highest density. The initial
-guess will be used to verticalze the CMD so that further algorithms can work in
+guess will be used to verticalize the CMD so that further algorithms can work in
 1-D magnitude bins without worrying about weighting issues caused by varying
 projections of the evolutionary sequence onto the magnitude axis.
 Verticalization is preformed taking the difference between the guess fiducial
@@ -76,7 +76,7 @@ the Bayesian Gaussian Mixture Modeling (BGMM) method. BGMM is a clustering
 algorithm which, for some fixed number of n-dimensional Gaussian distributions,
 $K$, determines the mean, covariance, and mixing probability (somewhat
 analogous to amplitude) of each $k^{th}$ distribution, such that the local
-lower bound of the likelyhood of each star belonging strongly to a single
+lower bound of the likelihood of each star belonging strongly to a single
 distribution is maximized. 
 
 \begin{figure}
@@ -211,12 +211,12 @@ shown in Figure \ref{fig:ValidationBestFit}.
 \end{figure}
 
 For each trial we use \fidanka to measure the fiducial line and then optimize
-that fiducial line against the originating isochrone to esimate distance
+that fiducial line against the originating isochrone to estimate distance
 modulus, age, and color B-V excess. Figure \ref{fig:validationDist} is built
 from 1000 Monte-Carlo trials and shows the mean and width of the percent
 error distributions for $\mu$, $A_{v}$, and age. In general \fidanka is able to
-recover distance modulii effectively with age and E(B-V) reovery falling in
-line with other literature that does not cosider the CMD outside of the main
+recover the distance modulus effectively with age and E(B-V) recovery falling in
+line with other literature that does not consider the CMD outside of the main
 sequence, main sequence turn off, sub giant, and red giant branches;
 specifically, it should be noted that \fidanka is not setup to model the
 horizontal branch.
@@ -224,9 +224,9 @@ horizontal branch.
 \begin{figure}
   \centering
   \includegraphics[width=0.85\textwidth]{figures/ngc2808/DistributionOfErrors.pdf}
-  \caption{Percent Error distribution for each of the three deriver parameters.
+  \caption{Percent Error distribution for each of the three derived parameters.
   Note that these values will be sensitive to the magnitude uncertainties of
   the photometry. Here we made use of the ACS artificial star tests to estimate
-  the uncertanties.}
+  the uncertainties.}
   \label{fig:validationDist}
 \end{figure}

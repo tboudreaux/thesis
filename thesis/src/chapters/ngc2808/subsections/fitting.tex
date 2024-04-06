@@ -1,20 +1,20 @@
 \section{Isochrone Fitting}\label{sec:isoFit}
 We fit pairs of isochrones to the HUGS data for NGC 2808 using \fidanka, as
-descrbed in \S \ref{sec:fidanka}. Two isochrones, one for Population A and one
+described in \S \ref{sec:fidanka}. Two isochrones, one for Population A and one
 for Population E are fit simultaneously. These isochrones are constrained to
 have distance modulus, $\mu$, and color excess, E(B-V) which agree to within
-0.5\% and an ages which agree to within 1\%. Moreover, we constrain the mixing length, $\alpha_{ML}$, for any two
-isochrones in a set to be within 0.5 of one and other. For every isochrone in
-the set of combination of which fulfilling these constraints $\mu$, $E(B-V)$,
-Age$_{A}$, and $Age_{B}$ are optimized to reduce the $\chi^{2}$ distance
-($\chi^{2} = \sum\sqrt{\Delta \text{color}^{2} + \Delta \text{mag} ^{2}}$)
-between the fiducial lines and the isochrones. Because we fit fiducial lines
-directly, we do not need to consider the binary population fraction, $f_{bin}$,
-as a free parameter.
+0.5\% and an ages which agree to within 1\%. Moreover, we constrain the mixing
+length, $\alpha_{ML}$, for any two isochrones in a set to be within 0.5 of one
+and other. For every isochrone in the set of combination of which fulfilling
+these constraints $\mu$, $E(B-V)$, Age$_{A}$, and $Age_{B}$ are optimized to
+reduce the $\chi^{2}$ distance ($\chi^{2} = \sum\sqrt{\Delta \text{color}^{2} +
+\Delta \text{mag} ^{2}}$) between the fiducial lines and the isochrones.
+Because we fit fiducial lines directly, we do not need to consider the binary
+population fraction, $f_{bin}$, as a free parameter.
 
 The best fit isochrones are shown in Figure \ref{fig:BestFitResults} and
 optimized parameters for these are presented in Table \ref{tab:BestFitResults}.
-The initual guess for the age of these populations was locked to 12 Gyr
+The initial guess for the age of these populations was locked to 12 Gyr
 and the initial Extinction was locked to 0.5 mag. The initial guess for the
 distance modulus was determined at run time using a dynamic time warping
 algorithm to best align the morphologies of the fiducial line with the target
@@ -26,9 +26,9 @@ spacing of 0.03 between grid points and we are therefore unable to resolve
 between certain proposed helium mass fractions for the younger sequence (for
 example between 0.37 and 0.39). We also note that the best fit mixing
 length parameter which we derive for populations A and E do not agree within
-their uncertanties. This is not suprising as the much high mean molecular mass
+their uncertainties. This is not surprising as the much high mean molecular mass
 of population E --- when compared to population A, due to population E's larger
-helium mass fraction --- will result in a steaper adiabatic temperature
+helium mass fraction --- will result in a steeper adiabatic temperature
 gradient.
 
 \begin{figure*}
@@ -36,7 +36,7 @@ gradient.
   \includegraphics[width=0.9\textwidth]{figures/ngc2808/BestFitResults.pdf}
   \caption{Best fit isochrone results for NGC 2808. The best fit population A
   and E models are shown as black lines. The following 50 best fit models are
-  presented as grey lines. The solid black line is fit to population A, while
+  presented as gray lines. The solid black line is fit to population A, while
   the dashed black line is fit to population E.}
   \label{fig:BestFitResults}
 \end{figure*}
@@ -53,61 +53,67 @@ gradient.
     E & 13.061$^{+0.86}_{-0.69}$ & 15.007 & 0.537 & 0.39 & 1.600 & 0.033 \\
     \hline
   \end{tabular}
-  \caption{Best fit parameters derived from fitting isochrones to the fiducual lines derived from the NCG 2808 photometry. The one sigma uncertainty reported on population age were determined from the 16th and 84th percentiles of the distribution of best fit isochrones ages.}
+  \caption{Best fit parameters derived from fitting isochrones to the fiducual
+  lines derived from the NCG 2808 photometry. The one sigma uncertainty
+  reported on population age were determined from the 16th and 84th percentiles
+  of the distribution of best fit isochrones ages.}
   \label{tab:BestFitResults}
 \end{table*}
 
 
 Past literature \citep[e.g. ][]{Milone2015, Milone2018} have found helium mass
-fraction variation from the low redmost to bluemost populations of $\sim 0.12$.
+fraction variation from the low red-most to blue-most populations of $\sim 0.12$.
 Here we find a helium mass fraction variation of 0.15 which, given the spacing
 of the helium grid we use {\em is consistent with these past results}.
 
 \subsection{The Number of Populartions in NGC 2808}
 In order to estimate the number of populations which ideally fit the NGC 2808
-F275W-F814W photometry without overfitting the data we make use of silhouette
+F275W-F814W photometry without over-fitting the data we make use of silhouette
 analysis \citep[][and in a similar manner to how \citet{Valle2022} preform
 their analysis of spectroscopic data]{ROUSSEEUW198753}. We find the average
 silhouette score for all tagged clusters identified using BGMM in all magnitude
-bins over the CMD using the standar python module \texttt{sklearn}. Figure
+bins over the CMD using the standard python module \texttt{sklearn}. Figure
 \ref{fig:clusterAn} shows the silhouette analysis results and that two
 populations fit the photometry most ideally. This is in line with what our BGMM
-model predicts for the majority of the the CMD.
-
-While we make use a purley CMD based approach in this work, other
-literature has made use of Chromosome Maps. These consist of implicitly
-verticalized pseudo colors. In the chromosome map for NGC 2808 there may be
-evidence for more than two populations; however, the process of transforming
-magnitude measurements into chromosome space results in dramatically increased
-uncertanties for each star. We find a mean fractional uncertantie for
-chromosome parameters of $\approx1$ when starting with magnutude
-measurements having a mean best-case (i.e. uncertainty assumed to only be due
-to Poisson statistics) fractional uncertainty of $\approx 0.0005$ (Figure \ref{fig:chromMapUn}). Because of
-how \fidanka operates, i.e. resampling a probabilty distribution for each star
-in order to idenfify clusters, we are unable to make statisitcally meaningful
-statements from the chromosome map
-
-\begin{figure}
-  \centering
-  \includegraphics[width=0.85\textwidth]{figures/ngc2808/ChromosomeMapFractionalErrorDist.pdf}
-  \caption{Fractional uncertainty distribution of the chromosome map parameter space for targets in NGC 2808. Note
-  that fractional uncertanties of the magnitudes which went into the production of this chromosome
-  map were on the order of 0.0005 (the blue vertical line in both plots marks this). Further, we assumed that there was no uncertainty on the placment
-  of the red and blue fiducial lines. If there were uncertainty on those placments then the mean of this 
-  distribution would be higher.}
-  \label{fig:chromMapUn}
-\end{figure}
+model predicts for the majority of the CMD.
 
 \begin{figure}
   \centering
   \includegraphics[width=0.85\textwidth]{figures/ngc2808/ClusterAnalysis.pdf}
-  \caption{Silhouette analysis for NGC 2808 F275W-F814W photometry. The Silhouette scores
-  are an average of score for each magnitude bin. Positive scores incidate that the clustering
-  algorithm produced well distinguised clusters while negative scores indicate clusters which are not
-  well distinguised.}
+  \caption{Silhouette analysis for NGC 2808 F275W-F814W photometry. The
+  Silhouette scores are an average of score for each magnitude bin. Positive
+  scores indicate that the clustering algorithm produced well distinguished
+  clusters while negative scores indicate clusters which are not well
+  distinguished.}
   \label{fig:clusterAn}
 \end{figure}
 
+While we make use a purely CMD based approach in this work, other literature
+has made use of Chromosome Maps. These consist of implicitly verticalized
+pseudo colors. In the chromosome map for NGC 2808 there may be evidence for
+more than two populations; however, the process of transforming magnitude
+measurements into chromosome space results in dramatically increased
+uncertainties for each star. We find a mean fractional uncertainty for
+chromosome parameters of $\approx1$ when starting with magnitude measurements
+having a mean best-case (i.e. uncertainty assumed to only be due to Poisson
+statistics) fractional uncertainty of $\approx 0.0005$ (Figure
+\ref{fig:chromMapUn}). Because of how \fidanka operates, i.e. resampling a
+probability distribution for each star in order to identify clusters, we are
+unable to make statistically meaningful statements from the chromosome map
+
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.85\textwidth]{figures/ngc2808/ChromosomeMapFractionalErrorDist.pdf}
+  \caption{Fractional uncertainty distribution of the chromosome map parameter
+  space for targets in NGC 2808. Note that fractional uncertainties of the
+  magnitudes which went into the production of this chromosome map were on the
+  order of 0.0005 (the blue vertical line in both plots marks this). Further,
+  we assumed that there was no uncertainty on the placement of the red and blue
+  fiducial lines. If there were uncertainty on those placements then the mean
+  of this distribution would be higher.}
+  \label{fig:chromMapUn}
+\end{figure}
 
 \subsection{ACS-HUGS Photometric Zero Point Offset}
 The Hubble legacy archive photometry used in this work is calibrated to the
@@ -126,25 +132,31 @@ paper.
 \begin{figure*}
   \centering
   \includegraphics[width=0.90\textwidth]{figures/ngc2808/photometricOffset.pdf}
-  \caption{(left) CMD showing the photometric offset between the ACS and HUGS data for NGC 2808. CMDs have been randomly subsampled and colored by point density for clarity. (right) Mean difference between the color of the HUGS and ACS fiducual lines at the same magnitude. Note that the ACS data is systematically bluer than the HUGS data.}
+  \caption{(left) CMD showing the photometric offset between the ACS and HUGS
+  data for NGC 2808. CMDs have been randomly subsampled and colored by point
+  density for clarity. (right) Mean difference between the color of the HUGS
+  and ACS fiducual lines at the same magnitude. Note that the ACS data is
+  systematically bluer than the HUGS data.}
   \label{fig:offset}
 \end{figure*}
 
 The oberved photometric offset between ACS and HUGS reductions introduces a
-systematic uncertainity when comparing parameters derived from isochrone fits
+systematic uncertainty when comparing parameters derived from isochrone fits
 to ACS data vs those fit to HUGS data. Specifically, this offset introduces a
-$\sim 2 Gyr$ uncertainity when comparing ages between ACS and HUGS. Moreover,
-for two isochrone of the same age, only seperated by helium mass fraction, a
+$\sim 2 Gyr$ uncertainty when comparing ages between ACS and HUGS. Moreover,
+for two isochrone of the same age, only separated by helium mass fraction, a
 shift of the main sequence turn off of is also expected. Figure \ref{fig:HeMO}
 shows this shift. Note a change in the helium mass fraction of a model by 0.03
 results in an approximate 0.08 magnitude shift to the main sequence turn off
 location. This means that the mean 0.026 magnitude offset we find in between
-ACS and HUGS data corresponds to an additional approaximate 0.01 uncertainity
-in the derived helium mass fraction when comparing between these two datasets. 
+ACS and HUGS data corresponds to an additional approximate 0.01 uncertainty
+in the derived helium mass fraction when comparing between these two data sets. 
 
 \begin{figure}
   \centering
   \includegraphics[width=0.85\textwidth]{figures/ngc2808/HeliumMeanOffset.pdf}
-  \caption{Main sequence turn off magnitude offset from a guage helium mass fraction (Y=0.30 chosen). All main sequence turn off locations are measured at 12.3 Gyr}
+  \caption{Main sequence turn off magnitude offset from a gauge helium mass
+  fraction (Y=0.30 chosen). All main sequence turn off locations are measured
+  at 12.3 Gyr}
   \label{fig:HeMO}
 \end{figure}
