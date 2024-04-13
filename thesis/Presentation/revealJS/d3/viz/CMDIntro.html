@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html style="width: 100%; height=100%;">
+<head>
+    <title>Scatter Plot from CSV</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .dot {
+            stroke: none;
+        }
+        .axis-label {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body style="overflow: hidden;">
+    <script>
+    // Define the viewbox dimensions and margins
+      var vWidth = "100vw";
+      var vHeight = "33vh";
+
+      // Append SVG and group to transform by the margins
+      var svg = d3.select("body").append("svg")
+        .attr("width", vWidth)
+        .attr("height", vHeight);
+
+
+        // Define the scales
+        var x = d3.scaleLinear()
+            .range([0, vWidth]);
+
+        var y = d3.scaleLinear()
+            .range([0, vHeight]);
+
+        // Load the data from the CSV file
+        d3.csv("https://algebrist.ddns.net/~tboudreaux/presentations/thesisDefense/d3/data/basicCMD.csv").then(function(data) {
+            // Convert data to numerical
+            data.forEach(function(d) {
+                d.Color = +d.Color;
+                d.Mag = +d.Mag;
+            });
+
+            // Set domains for the scales
+            x.domain(d3.extent(data, function(d) { return d.Color; })).nice();
+            y.domain(d3.extent(data, function(d) { return d.Mag; })).nice();
+
+            // Add dots
+
+            svg.selectAll(".dot")
+                .data(data)
+              .enter().append("circle")
+                .attr("class", "dot")
+                .attr("r", 1)
+                .attr("cx", function(d) { return x(d.Color); }) // Set the initial horizontal position
+                .attr("cy", vHeight) // Start from the bottom of the SVG
+                .style("fill", "#053010") // Color based on the 'color' column
+                .style("opacity", 0)
+              .transition() // Begin a transition for each circle
+                .duration(500) // Set the duration of the transition (e.g., 2000 milliseconds = 2 seconds)
+                .delay(function(d, i) { return Math.random() * 500 + Math.random() * 50 * d.Mag  }) // Delay each dot's start time to make the effect more "organic"
+                .ease(d3.easeBackOut) // Set an easing function for a more natural movement
+                .style("opacity", 1)
+                .attr("cy", function(d) { return y(d.Mag); }) // Animate to the final vertical position
+                .attr("cx", function(d) { return x(d.Color) }); // Set the initial horizontal position
+        });
+  var _transitions = [
+  {
+    transitionForward: () => {
+      // Your code to draw the circle as the first fragment
+      var centerX = x(0.67); // Example value, replace with actual logic if needed
+      var centerY = y(19.5); // Example value, replace with actual logic if needed
+
+            svg.append("circle")
+              .attr("cx", centerX)
+              .attr("cy", centerY)
+              .attr("r", 0)
+              .attr('id', 'MSTOC')
+              .style("fill", "none")
+              .style("stroke", "#e32d1c")
+              .style("stroke-width", 2)
+              .transition()
+              .duration(1000)
+              .attr("r", 30); // Example radius
+
+              textX = x(0.79)
+              svg.append("text")
+              .attr('x', textX)
+              .attr('y', centerY)
+              .attr('fill', 'black')
+              .style('font-size', '0px')
+              .style('font-family', "times")
+              .text("Main Sequence\nTurn Off")
+              .attr("id", "MSTOT")
+              .transition()
+              .duration(1000)
+              .style('font-size', '24px');
+    },
+        transitionBackward: () => {
+          svg.select("#MSTOT").remove();
+          svg.select("#MSTOC").remove();
+        }
+  },
+  {
+    transitionForward: () => {
+      // Your code to draw the circle as the first fragment
+      var centerX = x(1); // Example value, replace with actual logic if needed
+      var centerY = y(22.5); // Example value, replace with actual logic if needed
+
+            svg.append("circle")
+              .attr("cx", centerX)
+              .attr("cy", centerY)
+              .attr("r", 0)
+              .style("fill", "none")
+              .style("stroke", "#e32d1c")
+              .style("stroke-width", 2)
+              .attr('id', 'LMC')
+              .transition()
+              .duration(1000)
+              .attr("r", 30); // Example radius
+
+              textX = x(1.15)
+              svg.append("text")
+              .attr('x', textX)
+              .attr('y', centerY)
+              .attr('fill', 'black')
+              .style('font-size', '0px')
+              .style('font-family', "times")
+              .text("Low Mass Stars")
+              .attr("id", "LMT")
+              .transition()
+              .duration(1000)
+              .style('font-size', '24px');
+    },
+        transitionBackward: () => {
+          svg.select("#LMT").remove();
+          svg.select("#LMC").remove();
+        }
+  },
+  {
+    transitionForward: () => {
+      // Your code to draw the circle as the first fragment
+      var centerX = x(0.84); // Example value, replace with actual logic if needed
+      var centerY = y(18); // Example value, replace with actual logic if needed
+
+            svg.append("circle")
+              .attr("cx", centerX)
+              .attr("cy", centerY)
+              .attr("r", 0)
+              .style("fill", "none")
+              .style("stroke", "#e32d1c")
+              .style("stroke-width", 2)
+              .attr('id', 'RGBC')
+              .transition()
+              .duration(1000)
+              .attr("r", 20); // Example radius
+
+              textX = x(0.9)
+              svg.append("text")
+              .attr('x', textX)
+              .attr('y', centerY)
+              .attr('fill', 'black')
+              .style('font-size', '0px')
+              .style('font-family', "times")
+              .text("Red Giant Branch Bump")
+              .attr('id', "RGBT")
+              .transition()
+              .duration(1000)
+              .style('font-size', '24px');
+    },
+        transitionBackward: () => {
+          svg.select("#RGBT").remove();
+          svg.select("#RGBC").remove();
+        }
+  },
+      {
+        transitionForward: () => {
+          svg.select("#RGBT")
+          .transition()
+            .duration(700)
+            .style('opacity', 0.25);
+          svg.select("#LMT")
+          .transition()
+            .duration(700)
+            .style('opacity', 0.25);
+          svg.select("#LMC")
+          .transition()
+            .duration(700)
+            .style('opacity', 0.25);
+          svg.select("#RGBC")
+          .transition()
+            .duration(700)
+            .style('opacity', 0.25);
+        },
+        transitionBackward: () => {
+          svg.select("#RGBT")
+          .transition()
+            .duration(700)
+            .style('opacity', 1);
+          svg.select("#LMT")
+          .transition()
+            .duration(700)
+            .style('opacity', 1);
+          svg.select("#LMC")
+          .transition()
+            .duration(700)
+            .style('opacity', 1);
+          svg.select("#RGBC")
+          .transition()
+            .duration(700)
+            .style('opacity', 1);
+
+        }
+      }
+        ];
+    </script>
+</body>
+</html>
+

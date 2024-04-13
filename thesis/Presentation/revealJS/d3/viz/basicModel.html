@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<body style="overflow: hidden;">
+    <script>
+
+      let column = document.body;
+      let pxHeight = 400;
+      let pxWidth = 400;
+      console.log(pxHeight, pxWidth);
+
+      // Append SVG and group to transform by the margins
+      var svg = d3.select("body").append("svg")
+        .attr("width", pxWidth)
+        .attr("height", pxHeight)
+        .attr('id', 'exampleViz');
+      // Define the scales
+      var xscale = d3.scaleLinear()
+          .range([0, pxWidth])
+          .domain([-1, 1]);
+
+      var yscale = d3.scaleLinear()
+          .range([0, pxHeight/1.2])
+          .domain([-1, 1]);
+
+      svg.append("circle")
+        .attr('cx', xscale(0))
+        .attr('cy', yscale(0))
+        .style("fill", "blue")
+        .style('opacity', 0)
+        .attr('r', 130)
+        .attr('id', 'stellarLayer')
+      .transition()
+        .duration(500)
+        .style('opacity', 1);
+
+      svg.append("circle")
+        .attr('cx', xscale(0))
+        .attr('cy', yscale(0))
+        .style("fill", "none")
+        .style('stroke', 'red')
+        .style('stroke-width', '15px')
+        .attr('r', 100)
+        .attr('id', 'innerLayer')
+        .style('opacity', 0)
+      .transition()
+        .duration(300)
+        .delay(100)
+        .style('opacity', 1);
+
+      function pulseOut(r1, r2, p) {
+        svg.select("#stellarLayer")
+        .transition()
+          .duration(p)
+          .attr('r', r1)
+          .ease(d3.easeSinInOut)
+          .on('end', function() { pulseIn(r2, r1, p); });
+      }
+      function pulseIn(r1, r2, p) {
+        svg.select("#stellarLayer")
+        .transition()
+          .duration(p)
+          .attr('r', r1)
+          .ease(d3.easeSinInOut)
+          .on('end', function() { pulseOut(r2, r1, p); });
+      }
+      function endPulse(r) {
+        svg.select("#stellarLayer")
+        .transition()
+          .duration(700)
+          .attr('r', r);
+    }
+
+  var _transitions = [
+      {
+        transitionForward: () => {
+          svg.select("#innerLayer")
+          .transition()
+            .duration(1000)
+            .style('stroke-width', '40px');
+        },
+        transitionBackward: () => {
+          svg.select("#innerLayer")
+          .transition()
+            .duration(1000)
+            .style('stroke-width', '15px')
+        },
+        index: 1
+      },
+      {
+        transitionForward: () => {
+          pulseOut(150, 130, 700);
+        },
+        transitionBackward: () => {
+          endPulse(130);
+        },
+        index: 2
+      },
+      {
+        transitionForward: () => {
+          shiftUp = -80
+          svg.select('#innerLayer')
+          .transition()
+            .duration(1000)
+            .attr('transform', 'translate(0, ' + shiftUp + ')')
+            .style('stroke-width', '20px')
+            .attr('r', 50);
+          svg.select('#stellarLayer')
+          .transition()
+            .duration(1000)
+            .attr('transform', 'translate(0, ' + shiftUp + ')')
+            .attr('r', 70)
+            .on('end', function() { pulseOut(80.5, 70, 700); });
+          var period = 700
+          var sine1 = d3.range(0, period*10, 1).map(function(k){
+            var value = [k, Math.sin((2*Math.PI/period) * k)];
+            return value
+          });
+          let pxHeight = document.getElementById("exampleViz").clientHeight;
+          let pxWidth = document.getElementById("exampleViz").clientWidth;
+          var xScaleG = d3.scaleLinear()
+            .range([0, pxWidth])
+            .domain(d3.extent(sine1, function(d) { return d[0]; }));
+          var yScaleG = d3.scaleLinear()
+            .range([pxHeight, pxHeight/1.3])
+            .domain([-1, 1]);
+
+          var line = d3.line()
+            .x(function(d) { return xScaleG(d[0]); })
+            .y(function(d) { return yScaleG(d[1]); });
+
+
+          var path = svg.append('path')
+            .attr('d', line(sine1))
+            .style('stroke', 'black')
+            .style('stroke-width', 2)
+            .attr('id', "fastCurve")
+            .style('fill', 'none');
+
+          var totalLength = path.node().getTotalLength();
+          path
+            .attr('stroke-dasharray', totalLength + " " + totalLength)
+            .attr('stroke-dashoffset', totalLength)
+          .transition()
+            .duration(period/2*10)
+            .ease(d3.easeLinear)
+            .attr("stroke-dashoffset", 0);
+        },
+        transitionBackward: () => {
+          shiftUp = 40
+          svg.select('#innerLayer')
+          .transition()
+            .duration(1000)
+            .attr('transform', 'translate(0, ' + shiftUp + ')')
+            .attr('r', 100)
+            .style('stroke-width', '40px');
+          svg.select('#stellarLayer')
+          .transition()
+            .duration(1000)
+            .attr('transform', 'translate(0, ' + shiftUp + ')')
+            .on('end', function() { pulseOut(150, 130, 700) });
+          svg.select("#fastCurve").remove();
+        },
+        index: 3
+      },
+      {
+        transitionForward: () => {
+          svg.select("#innerLayer")
+            .transition()
+              .duration(500)
+              .style('stroke-width', '10px');
+          pulseOut(80.5, 70, 1500);
+
+
+          var period = 1500
+          var sine2 = d3.range(0, 1000*10, 1).map(function(k){
+            var value = [k, Math.sin((2*Math.PI/period) * k)];
+            return value
+          });
+          let pxHeight = document.getElementById("exampleViz").clientHeight;
+          let pxWidth = document.getElementById("exampleViz").clientWidth;
+          var xScaleG = d3.scaleLinear()
+            .range([0, pxWidth])
+            .domain(d3.extent(sine2, function(d) { return d[0]; }));
+          var yScaleG = d3.scaleLinear()
+            .range([pxHeight/1.4, pxHeight/1.7])
+            .domain([-1, 1]);
+
+          var line = d3.line()
+            .x(function(d) { return xScaleG(d[0]); })
+            .y(function(d) { return yScaleG(d[1]); });
+
+
+          var path = svg.append('path')
+            .attr('d', line(sine2))
+            .style('stroke', 'black')
+            .style('stroke-width', 2)
+            .style('fill', 'none')
+            .attr('id', "slowCurve");
+
+          var totalLength = path.node().getTotalLength();
+          path
+            .attr('stroke-dasharray', totalLength + " " + totalLength)
+            .attr('stroke-dashoffset', totalLength)
+          .transition()
+            .duration(period/2*7)
+            .ease(d3.easeLinear)
+            .attr("stroke-dashoffset", 0);
+        },
+        transitionBackward: () => {
+          svg.select("#slowCurve").remove();
+          svg.select("#innerLayer")
+            .transition()
+              .duration(500)
+              .style('stroke-width', '20px');
+          pulseOut(80.5, 70, 700);
+        },
+        index: 4
+      },
+      {
+        transitionForward: () => {
+          svg.select('#slowCurve')
+          .transition()
+            .duration(700)
+            .style('stroke', '#00693E');
+          svg.select("#fastCurve")
+          .transition()
+            .duration(300)
+            .style('opacity', 0.15)
+        },
+        transitionBackward: () => {
+          svg.select("#slowCurve")
+          .transition()
+            .duration(300)
+            .style('stroke', 'black');
+          svg.select("#fastCurve")
+          .transition()
+            .duration(300)
+            .style('opacity', 1)
+        },
+        index: 5
+      }
+    ];
+    </script>
+</body>
+

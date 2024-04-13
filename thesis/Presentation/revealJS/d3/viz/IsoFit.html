@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html style="width: 100%; height=100%;">
+<head>
+    <title>Scatter Plot from CSV</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .dot {
+            stroke: none;
+        }
+        .axis-label {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body style="overflow: hidden;">
+    <script>
+    // Define the viewbox dimensions and margins
+      var vWidth = "100vw";
+      var vHeight = "33vh";
+
+      // Append SVG and group to transform by the margins
+      var svg = d3.select("body").append("svg")
+        .attr("width", vWidth)
+        .attr("height", vHeight);
+
+
+        // Define the scales
+        var xscale = d3.scaleLinear()
+            .range([0, vWidth]);
+
+        var yscale = d3.scaleLinear()
+            .range([0, vHeight]);
+
+        // Load the data from the CSV file
+        d3.csv("https://algebrist.ddns.net/~tboudreaux/presentations/thesisDefense/d3/data/basicCMD.csv").then(function(data) {
+            // Convert data to numerical
+            data.forEach(function(d) {
+                d.Color = +d.Color;
+                d.Mag = +d.Mag;
+            });
+
+            // Set domains for the scales
+            xscale.domain(d3.extent(data, function(d) { return d.Color; })).nice();
+            yscale.domain(d3.extent(data, function(d) { return d.Mag; })).nice();
+
+            // Add dots
+
+            svg.selectAll(".dot")
+                .data(data)
+              .enter().append("circle")
+                .attr("class", "dot")
+                .attr("r", 1)
+                .attr("cx", function(d) { return xscale(d.Color) + xscale(((Math.random()-0.5)*2) * 10); }) // Set the initial horizontal position
+                .attr("cy", vHeight) // Start from the bottom of the SVG
+                .style("fill", "#053010") // Color based on the 'color' column
+                .style("opacity", 0)
+              .transition() // Begin a transition for each circle
+                .duration(500) // Set the duration of the transition (e.g., 2000 milliseconds = 2 seconds)
+                .delay(function(d, i) { return Math.random() * 1000 + Math.sin(i)*500 }) // Delay each dot's start time to make the effect more "organic"
+                .ease(d3.easeCubicOut) // Set an easing function for a more natural movement
+                .style("opacity", 1)
+                .attr("cy", function(d) { return yscale(d.Mag); }) // Animate to the final vertical position
+                .attr("cx", function(d) { return xscale(d.Color) }); // Set the initial horizontal position
+        });
+  var _transitions = [
+      {
+        transitionForward: () => {
+          d3.csv("https://algebrist.ddns.net/~tboudreaux/presentations/thesisDefense/d3/data/iso.csv").then(function(data) {
+            data.forEach(function(d) {
+              d.color = +d.color11;
+              d.mag = +d.mag11;
+            });
+
+            for (let i = 0; i < data.length - 1; i++) {
+              start = data[i]
+              end = data[i+1]
+
+              startX = xscale(start.color11);
+              startY = yscale(start.mag11);
+              endX = xscale(end.color11);
+              endY = yscale(end.mag11);
+
+              const dur = 500
+
+              svg.append('line')
+                .attr('x1', startX)
+                .attr('x2', startX)
+                .attr('y1', startY)
+                .attr('y2', startY)
+                .attr('stroke-width', 2)
+                .attr('stroke', 'red')
+                .attr('stroke-linejoin', 'round')
+                .attr('class', 'isoPoint')
+                .attr('stroke-linecap', 'round')
+                .style('opacity', 0)
+                .attr('transform', 'translate(' + -25 + ', ' + -30 + ')')
+              .transition()
+                .duration(dur) // Set the duration of the transition (e.g., 2000 milliseconds = 2 seconds)
+                .delay(dur*Math.exp(-Math.pow(i, 2)/3) + dur * Math.exp(-Math.pow(i-200, 2)/200))
+                .ease(d3.easeCubicOut) // Set an easing function for a more natural movement
+                .style("opacity", 1)
+                .attr('x1', startX)
+                .attr('x2', endX)
+                .attr('y1', startY)
+                .attr('y2', endY);
+            }
+          });
+          svg.append("text")
+            .attr('x', xscale(1))
+            .attr('y', yscale(20))
+            .attr('fill', 'black')
+            .style('font-size', '24px')
+            .style('font-family', "times")
+            .style('opacity', 0)
+            .attr("id", "SLT1")
+            .text("Distance and Reddening Wrong")
+            .transition()
+            .duration(1000)
+            .style('opacity', 1);
+        },
+        transitionBackward: () => {
+          svg.selectAll('.isoPoint').remove();
+          svg.select("#SLT1").remove();
+        },
+        index: 0
+      },
+      {
+        transitionForward: () => {
+          d3.selectAll('.isoPoint')
+          .transition()
+            .duration(1000)
+            .attr('transform', 'translate(50, 30)');
+
+        svg.select("#SLT1")
+        .transition()
+          .duration(1000)
+          .style('opacity', 0);
+
+        svg.append("text")
+          .attr('x', xscale(1))
+          .attr('y', yscale(20))
+          .attr('fill', 'black')
+          .style('font-size', '24px')
+          .style('font-family', "times")
+          .style('opacity', 0)
+          .attr("id", "SLT2")
+          .text("Reddening Wrong")
+        .transition()
+          .duration(1000)
+          .style('opacity', 1);
+
+        },
+        transitionBackward: () => {
+          d3.selectAll(".isoPoint")
+          .transition()
+            .duration(300)
+            .attr('transform', 'translate(-50, -30)');
+
+          svg.select("#SLT2").remove();
+
+          svg.select("#SLT1")
+          .transition()
+            .duration(300)
+            .style('opacity', 1);
+
+        },
+        index: 1
+      },
+      {
+        transitionForward: () => {
+          d3.selectAll('.isoPoint')
+          .transition()
+            .duration(1000)
+            .attr('transform', 'translate(0, -10)');
+
+        svg.select("#SLT2")
+        .transition()
+          .duration(1000)
+          .style('opacity', 0);
+
+        svg.append("text")
+          .attr('x', xscale(1))
+          .attr('y', yscale(20))
+          .attr('fill', 'black')
+          .style('font-size', '24px')
+          .style('font-family', "times")
+          .style('opacity', 0)
+          .attr("id", "SLT3")
+          .text("Nearly Correct")
+        .transition()
+          .duration(1000)
+          .style('opacity', 1);
+        },
+        transitionBackward: () => {
+          svg.select("#SLT2")
+          .transition()
+            .duration(300)
+            .style('opacity', 1);
+
+          svg.select("#SLT3").remove();
+
+          d3.selectAll('.isoPoint')
+          .transition()
+            .duration(300)
+            .attr('transform', 'translate(0, 10)');
+        },
+        index: 2
+      },
+      {
+        transitionForward: () => {
+          d3.selectAll('.isoPoint')
+          .transition()
+            .duration(1000)
+            .attr('transform', 'translate(20, -7)');
+
+          svg.select("#SLT3")
+          .transition()
+            .style('opacity', 0);
+
+          svg.append("text")
+            .attr('x', xscale(1))
+            .attr('y', yscale(20))
+            .attr('fill', 'black')
+            .style('font-size', '24px')
+            .style('font-family', "times")
+            .style('opacity', 0)
+            .attr("id", "SLT4")
+            .text("Model Fit")
+          .transition()
+            .duration(1000)
+            .style('opacity', 1);
+        },
+        transitionBackward: () => {
+          svg.select("#SLT4").remove();
+
+          d3.selectAll('.isoPoint')
+          .transition()
+            .duration(300)
+            .attr('transform', 'translate(-20, 7)');
+
+          svg.select("#SLT3")
+          .transition()
+            .style('opacity', 1);
+        },
+        index: 3
+      }
+    ];
+    </script>
+</body>
+</html>
+

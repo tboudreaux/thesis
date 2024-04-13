@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/nicolaspanel/numjs@0.15.1/dist/numjs.min.js"></script>
+<body style="overflow: hidden;">
+    <script>
+
+      let column = document.body;
+      let pxHeight = 500;
+      let pxWidth = 900;
+
+      // Append SVG and group to transform by the margins
+      var svg = d3.select("body").append("svg")
+        .attr("width", pxWidth)
+        .attr("height", pxHeight)
+        .attr('id', 'exampleViz');
+      // Define the scales
+      var xscale = d3.scaleLinear()
+          .range([0, pxWidth])
+          .domain([-1, 1]);
+
+      var yscale = d3.scaleLinear()
+          .range([0, pxHeight/1.2])
+          .domain([-1, 1]);
+
+
+
+      randomParticles = Math.random()
+
+      function growStar(p){
+        var envelope = document.querySelector("#envelope");
+        var currentRadius = parseFloat(envelope.getAttribute("r"));
+        var dr = currentRadius == 0 ? 5 : currentRadius/15
+        svg.select("#envelope")
+        .transition()
+          .duration(1)
+          .attr('r', currentRadius + dr);
+      }
+
+  var _transitions = [
+        {
+          transitionForward: () => {
+            var pos = nj.random([50, 2]).subtract(0.5).multiply(2);
+            pos = pos.tolist();
+            svg.selectAll("dot")
+            .data(pos)
+            .enter().append("circle")
+              .attr('cx', function(d) { return xscale(d[0]); })
+              .attr('cy', function(d) { return yscale(d[1]); })
+              .attr('r', 1)
+              .style('fill', 'black')
+              .attr('class', 'initMassPoint')
+              .style('opacity', 0)
+            .transition()
+              .duration(1000)
+              .style('opacity', 1);
+          },
+          index: 0
+        },
+        {
+          transitionForward: () => {
+            svg.append("circle")
+              .attr('cx', xscale(0))
+              .attr('cy', yscale(0))
+              .style("fill", "red")
+              .attr('r', 0)
+              .attr('id', 'envelope')
+              .style('opacity', 1)
+            svg.append("circle")
+              .attr('cx', xscale(0))
+              .attr('cy', yscale(0))
+              .style("fill", "blue")
+              .style('opacity', 0)
+              .attr('r', 40)
+              .attr('id', 'core')
+            d3.selectAll(".initMassPoint")
+            .transition()
+              .duration(function() { return Math.random() * 10000 + 5000 })
+              .delay(function() { return Math.random() * 500 + 300})
+              .attr('cx', xscale(0))
+              .attr('cy', yscale(0))
+            svg.select('#envelope')
+            .transition()
+              .duration(10000)
+              .delay(5000)
+              .attr('r', 130)
+          },
+          index: 1
+        },
+        {
+          transitionForward: () => {
+            svg.selectAll(".initMassPoint").remove();
+            var envelope = document.querySelector("#envelope");
+            var currentRadius = parseFloat(envelope.getAttribute("r"));
+            svg.select("#envelope")
+            .transition()
+              .duration(5000)
+              .attr('r', currentRadius/1.25);
+            svg.select("#core")
+            .transition()
+              .duration(3000)
+              .delay(2000)
+              .style('opacity', 1)
+          }
+        }
+      ];
+    </script>
+</body>
+

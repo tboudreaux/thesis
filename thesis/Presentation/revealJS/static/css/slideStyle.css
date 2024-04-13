@@ -1,0 +1,235 @@
+.left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:50%;
+  z-index:-10;
+}
+
+.slides section .fragment { 
+opacity: 0; 
+visibility: hidden; 
+transition: all 1.5s ease; }
+
+.slides section .fragment.visible {
+
+opacity: 1;
+
+visibility: inherit; }
+
+.right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:50%;
+}
+
+.multiCol {
+    display: table;
+    table-layout: fixed;
+	width: 100%;
+    text-align: left;
+}
+.col {
+        display: table-cell;
+        vertical-align: top;
+        width: 50%;
+        padding: 2% 0 2% 3%;
+        /* &:first-of-type { padding-left: 0; } */
+}
+
+.spanEmph {
+	color: #27799c;
+}
+
+.blockEmph{
+	 border-radius: 10px;
+	 text-align: center;
+	 font-style: italic;
+	 background-color: #dde0d2;
+}
+
+.listParRight{
+	display: list-item;
+	direction: rtl;
+	text-align:right;
+}
+
+.listParLeft{
+	display: list-item;
+}
+
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: right;
+	font-size: 0.25em;
+}
+
+.footer2{
+  display: flex;
+  justify-content: center; /* this will center children horizontally */
+  align-items: center; /* this will center children vertically */
+  text-align: center; /* this will center text if it wraps to more than one line */
+}
+
+.credit{
+	font-size: 20px;
+	color: grey;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.video-size{
+	width:75%;
+	height: 75%;
+	object-fit: cover;
+	z-index: -100;
+}
+
+@font-face {
+    font-family: 'Sketch Block';
+    src: url('http://tangledindesign.com/codepen/fonts/sketch_block-webfont.eot');
+    src: url('http://tangledindesign.com/codepen/fonts/sketch_block-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://tangledindesign.com/codepen/fonts/sketch_block-webfont.woff') format('woff'),
+         url('http://tangledindesign.com/codepen/fonts/sketch_block-webfont.ttf') format('truetype'),
+         url('http://tangledindesign.com/codepen/fonts/sketch_block-webfont.svg#SketchBlockBold') format('svg');
+}
+
+@font-face {
+    font-family: 'Museo 700';
+    src: url('http://tangledindesign.com/codepen/fonts/Museo700-Regular-webfont.eot');
+    src: url('http://tangledindesign.com/codepen/fonts/Museo700-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://tangledindesign.com/codepen/fonts/Museo700-Regular-webfont.woff') format('woff'),
+         url('http://tangledindesign.com/codepen/fonts/Museo700-Regular-webfont.ttf') format('truetype'),
+         url('http://tangledindesign.com/codepen/fonts/Museo700-Regular-webfont.svg#SketchBlockBold') format('svg');
+}
+
+@font-face {
+    font-family: 'CallunaRegular';
+    src: url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.eot');
+    src: url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.woff') format('woff'),
+         url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.ttf') format('truetype'),
+         url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.svg#CallunaRegular') format('svg');
+}
+
+.container {
+	width: 590px;
+	margin: 140px auto;
+	position: relative;
+}
+
+blockquote {
+	width: 565px;
+	font: 2.65em CallunaRegular;
+	letter-spacing: .075em;
+	float: left;
+	padding: 45px 0 30px 25px;
+	margin: 0;
+	border-top: 2px dotted #858585;
+	border-bottom: 2px dotted #858585;
+	-webkit-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+}
+
+.container:before {
+	content: "“";
+	font-size: 13em;
+	position: absolute;
+	left: -100px;
+	color: #666;
+}
+
+.container:after {
+	content: "”";
+	font-size: 13em;
+	position: absolute;
+	right: -100px;
+	top: 150px;
+	color: #666;
+}
+
+blockquote:first-line {
+	font: 1.85em "Sketch Block";
+	color: #fff79e;
+}
+
+blockquote:first-letter {
+	font-size: 2.9em;
+	text-transform: lowercase;
+	float: left;
+	line-height: .52em;
+	margin-right: -18px;
+	position: relative;
+	z-index: 1;
+}
+
+blockquote strong:first-child {
+	margin-left: 8px;
+	letter-spacing: 0;
+}
+
+blockquote strong:last-child {
+	font: 2em "Museo 700";
+	text-transform: uppercase;
+	letter-spacing: 0;
+}
+
+blockquote em {
+	border-bottom: 2px dotted #858585;
+  padding-left: 5px;
+}
+
+blockquote + b {
+	float: right;
+	margin-top: 10px;
+	font: 1.6em CallunaRegular;
+	letter-spacing: .15em;
+}
+
+blockquote + b:first-letter {
+	color: #fff79e;
+	font-size: 1.3em;
+	font-style: italic;
+	letter-spacing: .25em;
+}
+
+@-moz-document url-prefix() { 
+
+	blockquote:first-letter {
+		margin-top: -29px;
+	}
+}
+
+/* table, td{ */
+/*         padding: 10px; */
+/*         border: 2px solid #1c87c9; */
+/*         border-radius: 5px; */
+/*         text-align: left; */
+/*       } */
+  .fragment.blur.visible {
+    filter: blur(5px);
+  }
+  .fragment.blur {
+    filter: none;
+  }
+
+.svg-responsive {
+  overflow: hidden;
+  /* You can adjust max-width or max-height as needed */
+}
+
+.shl {
+  color: #00693E;
+}

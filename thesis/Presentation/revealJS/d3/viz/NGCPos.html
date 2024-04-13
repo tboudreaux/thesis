@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html style="width: 100%; height=100%;">
+<head>
+    <title>Scatter Plot from CSV</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .dot {
+            stroke: none;
+        }
+        .axis-label {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body style="overflow: hidden;">
+    <script>
+    // Define the viewbox dimensions and margins
+      var vWidth = 960;
+      var vHeight = 500;
+
+      // Append SVG and group to transform by the margins
+      var svg = d3.select("body").append("svg")
+        .attr("width", vWidth)
+        .attr("height", vHeight);
+
+
+        // Define the scales
+        var xscale = d3.scaleLinear()
+            .range([0, vWidth])
+            .domain([-10, 10]);
+
+        var yscale = d3.scaleLinear()
+            .range([0, vHeight])
+            .domain([-10, 10]);
+        d3.csv("https://algebrist.ddns.net/~tboudreaux/presentations/thesisDefense/d3/data/Globular.csv").then(function(data) {
+          var i = 0
+          data.forEach(function(d) {
+            d.X = +d.X;
+            d.Y = +d.Y;
+            svg.append('circle')
+              .data(data)
+              .attr("r", 3)
+              .attr('cx', xscale(d.X))
+              .attr('cy', yscale(d.Y))
+              .style("opacity", 0)
+              .attr('id', 'GC'+i)
+              .attr('class', 'GCPoint')
+              .attr('dx', d.X)
+              .attr('dy', d.Y)
+              .style("fill", "#9d162e")
+            i += 1;
+          });
+        });
+
+        // Load the data from the CSV file
+        d3.csv("https://algebrist.ddns.net/~tboudreaux/presentations/thesisDefense/d3/data/NGC2808Pos.csv").then(function(data) {
+            // Convert data to numerical
+            data.forEach(function(d) {
+                d.X = +d.X;
+                d.Y = +d.Y;
+            });
+
+
+            // Add dots
+
+            svg.selectAll(".dot")
+                .data(data)
+              .enter().append("circle")
+                .attr("class", "dot galaxy")
+                .attr("r", 1)
+                .attr("cx", function(d) { return xscale(((Math.random() - 0.5) * 2) ); }) // Set the initial horizontal position
+                .attr("cy", function(d) { return yscale(((Math.random() - 0.5) * 2) ); }) // Set the initial horizontal position
+                .style("fill", "#053010") // Color based on the 'color' column
+                .style("opacity", 0)
+              .transition() // Begin a transition for each circle
+                .duration(500) // Set the duration of the transition (e.g., 2000 milliseconds = 2 seconds)
+                .delay(function(d, i) { return Math.random() * 500 + Math.sin(i)*500 }) // Delay each dot's start time to make the effect more "organic"
+                .ease(d3.easeCubicOut) // Set an easing function for a more natural movement
+                .style("opacity", 1)
+                .attr("cy", function(d) { return yscale(d.Y); }) // Animate to the final vertical position
+                .attr("cx", function(d) { return xscale(d.X) }); // Set the initial horizontal position
+
+            svg.append("rect")
+              .attr('x', xscale(5.8))
+              .attr('y', yscale(3.2))
+              .attr('width', xscale(7)-xscale(3))
+              .attr('rx', 5)
+              .attr('ry', 5)
+              .attr('height', 50)
+              .style('fill', '#cccccc')
+              .style('opacity', 0)
+              .attr('id', 'textBox');
+
+            svg.append("text")
+              .attr('x', xscale(1))
+              .attr('y', yscale(-1.75))
+              .attr('fill', 'black')
+              .style('font-size', '0px')
+              .style('font-family', "times")
+              .text("Galaxy")
+              .attr("id", "GalaxyLabel")
+            .transition()
+              .duration(500)
+              .style('font-size', '24px');
+
+            svg.append("text")
+              .attr('x', xscale(6))
+              .attr('y', yscale(5))
+              .attr('fill', '#9d162e')
+              .style('font-size', '0px')
+              .style('font-family', "times")
+              .text("Globular Clusters")
+              .attr("id", "GlobularLabel")
+        });
+    function orbit(pix, piy, p, id, rdepthLevel) {
+      svg.select('#' + id)
+      .transition()
+        .duration(p)
+        .delay(rdepthLevel == 0 ? Math.random() * 2000 : 0)
+        .attr('cx', xscale(-pix))
+        .attr('cy', yscale(-piy))
+        .ease(d3.easeSinInOut)
+        .on('end', function(d) { orbit(-pix, -piy, p, id, rdepthLevel+1); });
+    }
+  var _transitions = [
+      {
+        transitionForward: () => {
+          d3.selectAll(".GCPoint")
+          .transition()
+            .duration(1000)
+            .style('opacity', 1);
+          svg.select("#GalaxyLabel")
+          .transition()
+            .duration(1000)
+            .attr('x', xscale(6))
+            .attr('y', yscale(4))
+            .style('fill',  "#053010");
+          svg.select("#GlobularLabel")
+          .transition()
+            .duration(1000)
+            .style('font-size', '24px');
+          svg.select('#textBox')
+          .transition()
+            .duration(1000)
+            .style('opacity', 0.5);
+        },
+        transitionBackward: () => {
+          d3.selectAll(".GCPoint")
+          .transition()
+            .duration(200)
+            .style('opacity', 0);
+          svg.select("#GalaxyLabel")
+          .transition()
+            .duration(200)
+            .attr('x', xscale(1))
+            .attr('y', yscale(-1.75))
+            .style('fill',  "black");
+          svg.select("#GlobularLabel")
+          .transition()
+            .duration(200)
+            .style('font-size', '0px');
+          svg.select('#textBox')
+          .transition()
+            .duration(200)
+            .style('opacity', 0);
+        }
+      },
+      {
+        transitionForward: () => {
+          document.querySelectorAll('.GCPoint').forEach(function(p) {
+            orbit(parseFloat(p.getAttribute('dx')), parseFloat(p.getAttribute('dy')), (Math.random() * 5000) + 2000, p.id, 0)
+          });
+        },
+        transitionBackward: () => {
+          d3.selectAll(".GCPoint")
+          .transition()
+            .duration(200)
+            .attr('cx', function(d) { return xscale(d.X); }) 
+            .attr('cy', function(d) { return yscale(d.Y); }); 
+        }
+      },
+      {
+        transitionForward: () => {
+          d3.selectAll('.GCPoint')
+          .transition()
+            .duration(500)
+            .style('opacity', 0)
+            .on('end', function() {d3.selectAll(".GCPoint").remove();});
+          d3.selectAll('.galaxy')
+          .transition()
+            .duration(1000)
+            .style('fill', '#9d162e')
+            .attr('cx', function(d) { return xscale(d.Xg); })
+            .attr('cy', function(d) { return yscale(d.Yg); });
+          svg.select("#textBox")
+          .transition()
+            .duration(500)
+            .style('opacity', 0);
+          svg.select("#GalaxyLabel")
+          .transition()
+            .duration(500)
+            .style('opacity', 0);
+          svg.select("#GlobularLabel")
+          .transition()
+            .duration(500)
+            .style('opacity', 0);
+          svg.append("line")
+            .attr('x1', xscale(-3))
+            .attr('x2', xscale(-3))
+            .attr('y1', yscale(4))
+            .attr('y2', yscale(4))
+            .style('stroke', 'black')
+            .style('stroke-width', '2px')
+            .attr('id', 'GCR')
+          .transition()
+            .duration(500)
+            .attr('x2', xscale(3))
+          svg.append("line")
+            .attr('x1', xscale(-3))
+            .attr('x2', xscale(-3))
+            .attr('y1', yscale(4))
+            .attr('y2', yscale(4))
+            .style('stroke', 'black')
+            .style('stroke-width', '2px')
+            .attr('id', 'GCRb1')
+          .transition()
+            .duration(500)
+            .attr('y1', yscale(4.2))
+            .attr('y2', yscale(3.8))
+          svg.append("line")
+            .attr('x1', xscale(3))
+            .attr('x2', xscale(3))
+            .attr('y1', yscale(4))
+            .attr('y2', yscale(4))
+            .style('stroke', 'black')
+            .style('stroke-width', '2px')
+            .attr('id', 'GCRb2')
+          .transition()
+            .duration(500)
+            .attr('y1', yscale(4.2))
+            .attr('y2', yscale(3.8))
+          svg.append("text")
+            .attr('x', xscale(-2.5))
+            .attr('y', yscale(5))
+            .text("Radius of Globular Cluster, ")
+            .style("fill", "black")
+            .style("font-family", "times")
+            .style("font-size", "20px")
+            .style("opacity", 0)
+            .attr('id', 'GCRT')
+          .transition()
+            .duration(500)
+            .style("opacity", 1);
+          svg.append("text")
+            .attr('x', xscale(2.2))
+            .attr('y', yscale(5))
+            .text("R")
+            .style("fill", "black")
+            .style("font-family", "times")
+            .style("font-size", "20px")
+            .style("opacity", 0)
+            .attr('id', 'GCRTS')
+          .transition()
+            .duration(500)
+            .style("opacity", 1);
+        }
+      },
+      {
+        transitionForward: () => {
+          var earthPath = "static/imgs/earth-svgrepo-com.svg" 
+          svg.append("image")
+            .attr("xlink:href", earthPath)
+            .attr('width', 100)
+            .attr('height', 100)
+            .attr('y', vHeight/2.5)
+            .attr('id', "earth")
+            .style('opacity', 0)
+          .transition()
+            .duration(500)
+            .style('opacity', 1)
+
+          d3.selectAll(".galaxy")
+          .transition()
+            .duration(500)
+            .attr('cx', function(d) { return xscale(d.Xg/20) + vWidth/3})
+            .attr('cy', function(d) { return yscale(d.Yg/20)})
+
+          svg.select("#GCR")
+          .transition()
+            .duration(500)
+            .attr('x1', xscale(-3/20) + vWidth/3)
+            .attr('x2', xscale(3/20) + vWidth/3)
+            .attr('y1', yscale(4-3))
+            .attr('y2', yscale(4-3))
+          svg.select("#GCRb1")
+          .transition()
+            .duration(500)
+            .attr('x1', xscale(-3/20) + vWidth/3)
+            .attr('x2', xscale(-3/20) + vWidth/3)
+            .attr('y1', yscale(4.1-3))
+            .attr('y2', yscale(3.9-3))
+          svg.select("#GCRb2")
+          .transition()
+            .duration(500)
+            .attr('x1', xscale(3/20) + vWidth/3)
+            .attr('x2', xscale(3/20) + vWidth/3)
+            .attr('y1', yscale(4.1-3))
+            .attr('y2', yscale(3.9-3))
+          svg.select("#GCRT")
+          .transition()
+            .duration(500)
+            .style("opacity", 0)
+          svg.select("#GCRTS")
+          .transition()
+            .duration(500)
+            .attr('x', xscale(6.55))
+            .attr('y', yscale(4.8-3))
+        }
+
+      },
+      {
+        transitionForward: () => {
+
+          svg.append("line")
+            .attr('x1', xscale(-1))
+            .attr('x2', xscale(-1))
+            .attr('y1', yscale(-1))
+            .attr('y2', yscale(-1))
+            .style('stroke', 'black')
+            .style('stroke-width', '2px')
+          .transition()
+            .duration(500)
+            .attr('x1', xscale(6.5))
+            .attr('x2', xscale(-7.5));
+
+          svg.append("line")
+            .attr('x1', xscale(6.5))
+            .attr('x2', xscale(6.5))
+            .attr('y1', yscale(-1))
+            .attr('y2', yscale(-1))
+            .style('stroke', 'black')
+            .style('stroke-width', '2px')
+          .transition()
+            .duration(500)
+            .attr('y1', yscale(-0.8))
+            .attr('y2', yscale(-1.2))
+
+          svg.append("line")
+            .attr('x1', xscale(-7.5))
+            .attr('x2', xscale(-7.5))
+            .attr('y1', yscale(-1))
+            .attr('y2', yscale(-1))
+            .style('stroke', 'black')
+            .style('stroke-width', '2px')
+          .transition()
+            .duration(500)
+            .attr('y1', yscale(-0.8))
+            .attr('y2', yscale(-1.2))
+
+          svg.append("text")
+            .attr('x', xscale(-4))
+            .attr('y', yscale(-1.2))
+            .text("Distance from Earth to Globular Cluster, ")
+            .style("fill", "black")
+            .style("font-family", "times")
+            .style("font-size", "24px")
+            .attr('id', "ET")
+            .style("opacity", 0)
+          .transition()
+            .duration(500)
+            .style("opacity", 1);
+          svg.append("text")
+            .attr('x', xscale(4.25))
+            .attr('y', yscale(-1.2))
+            .text("D")
+            .style("fill", "black")
+            .style("font-family", "times")
+            .style("font-size", "20px")
+            .style("opacity", 0)
+            .attr('id', 'ETS')
+          .transition()
+            .duration(500)
+            .style("opacity", 1);
+        }
+      },
+      {
+        transitionForward: () => {
+          svg.select("#ET")
+          .transition()
+            .duration(500)
+            .style('opacity', 0)
+          svg.select("#ETS")
+          .transition()
+            .duration(500)
+            .attr('x', xscale(-1))
+            .attr('y', yscale(1))
+            .style('font-size', '50px')
+          svg.select("#GCRTS")
+          .transition()
+            .duration(500)
+            .attr('x', xscale(1))
+            .attr('y', yscale(1))
+            .style('font-size', '50px')
+          svg.append("text")
+            .attr('x', xscale(-0.2))
+            .attr('y', yscale(1))
+            .text(">>")
+            .style("fill", "black")
+            .style("font-family", "times")
+            .style("font-size", "50px")
+            .style("opacity", 0)
+            .attr('id', 'GG')
+          .transition()
+            .duration(500)
+            .style("opacity", 1);
+        }
+      }
+    ];
+    </script>
+</body>
+</html>
+
