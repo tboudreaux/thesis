@@ -41,7 +41,7 @@
 \contentsline {section}{\numberline {4.6}Modeling}{54}{section.4.6}%
 \contentsline {subsection}{\numberline {4.6.1}Population Synthesis}{56}{subsection.4.6.1}%
 \contentsline {subsection}{\numberline {4.6.2}Mixing Length Dependence}{60}{subsection.4.6.2}%
-\contentsline {section}{\numberline {4.7}Results}{62}{section.4.7}%
+\contentsline {section}{\numberline {4.7}Results}{63}{section.4.7}%
 \contentsline {chapter}{\numberline {5}Jao Gap connection to Magnatism}{69}{chapter.5}%
 \contentsline {section}{\numberline {5.1}The Jao Gap and Magnatism}{69}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Correlation}{70}{section.5.2}%
@@ -60,7 +60,7 @@
 \contentsline {section}{\numberline {6.4}Rotation--Activity Relation}{102}{section.6.4}%
 \contentsline {section}{\numberline {6.5}Magnetic Activities in M dwarfs Closing Thoughts}{108}{section.6.5}%
 \contentsline {chapter}{\numberline {7}The Red Giant Branch Bump}{111}{chapter.7}%
-\contentsline {section}{\numberline {7.1}The Red Giant Branch Bunch in NGC 2808}{112}{section.7.1}%
+\contentsline {section}{\numberline {7.1}The Red Giant Branch Bump in NGC 2808}{112}{section.7.1}%
 \contentsline {subsection}{\numberline {7.1.1}Population E and the Case of the Missing Bump}{114}{subsection.7.1.1}%
 \contentsline {section}{\numberline {7.2}Effects of Opacities on the Red Giant Branch Bump}{114}{section.7.2}%
 \contentsline {part}{IV\hspace {1em}Conclusions}{119}{part.4}%

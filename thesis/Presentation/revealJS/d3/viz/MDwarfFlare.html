@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<body style="overflow: hidden;">
+    <script>
+
+      let height = 400;
+      let width = 900;
+
+      // Append SVG and group to transform by the margins
+      var svg = d3.select("body").append("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .attr('id', 'exampleViz');
+      // Define the scales
+      var xscale = d3.scaleLinear()
+          .range([0, width])
+          .domain([-100, 100]);
+
+      var yscale = d3.scaleLinear()
+          .range([0, height])
+          .domain([-100, 100]);
+
+      function radiusInPixels(dataRadius) {
+          return Math.abs(xscale(dataRadius) - xscale(0));
+      }
+      const defs = svg.append('defs');
+
+      const radialGradient = defs.append('radialGradient')
+        .attr('id', 'gradient')
+        .attr('cx', '50%')
+        .attr('cy', '50%')
+        .attr('r', '50%');
+      radialGradient.append('stop')
+        .attr('offset', '30%')
+        .attr('stop-color', 'yellow')
+        .attr('stop-opacity', '0.8')
+        .append('animate')
+          .attr('attributeName', 'stop-color')
+          .attr('values', 'yellow;LightYellow;yellow')
+          .attr('dur', '5s')
+          .attr('repeatCount', 'indefinite');
+      radialGradient.append('stop')
+        .attr('offset', '80%')
+        .attr('stop-color', 'red')
+        .attr('stop-opacity', '0.3');
+      radialGradient.append('stop')
+        .attr('offset', '100%')
+        .attr('stop-color', 'red')
+        .attr('stop-opacity', '0');
+
+      const radialGradient2 = defs.append('radialGradient')
+        .attr('id', 'gradient2')
+        .attr('cx', '50%')
+        .attr('cy', '50%')
+        .attr('r', '50%');
+      radialGradient2.append('stop')
+        .attr('offset', '30%')
+        .attr('stop-color', 'yellow')
+        .attr('stop-opacity', '0.8')
+        .append('animate')
+          .attr('attributeName', 'stop-color')
+          .attr('values', 'yellow;LightYellow;yellow')
+          .attr('dur', '0.5s')
+          .attr('repeatCount', 'indefinite');
+      radialGradient2.append('stop')
+        .attr('offset', '80%')
+        .attr('stop-color', 'red')
+        .attr('stop-opacity', '0.3');
+      radialGradient2.append('stop')
+        .attr('offset', '100%')
+        .attr('stop-color', 'red')
+        .attr('stop-opacity', '0');
+
+      const atmoGradient = defs.append("radialGradient")
+        .attr('id', 'atmoGradient')
+        .attr('cx', '50%')
+        .attr('cy', '50%')
+        .attr('r', '50%');
+      atmoGradient.append('stop')
+        .attr('offset', '0%')
+        .attr('stop-color', 'blue')
+        .attr('stop-opacity', '0.25')
+      atmoGradient.append('stop')
+        .attr('offset', '50%')
+        .attr('stop-color', 'blue')
+        .attr('stop-opacity', '0.25')
+      atmoGradient.append('stop')
+        .attr('offset', '80%')
+        .attr('stop-color', 'blue')
+        .attr('stop-opacity', '0.7')
+      atmoGradient.append('stop')
+        .attr('offset', '100%')
+        .attr('stop-color', 'blue')
+        .attr('stop-opacity', '0');
+
+      const spotGradient = defs.append("radialGradient")
+        .attr('id', 'spotGradient')
+        .attr('cx', '50%')
+        .attr('cy', '50%')
+        .attr('r', '50%');
+      spotGradient.append('stop')
+        .attr('offset', '0%')
+        .attr('stop-color', 'black')
+        .attr('stop-opacity', '1')
+      spotGradient.append('stop')
+        .attr('offset', '50%')
+        .attr('stop-color', 'black')
+        .attr('stop-opacity', '.95')
+      spotGradient.append('stop')
+        .attr('offset', '80%')
+        .attr('stop-color', 'black')
+        .attr('stop-opacity', '0.3')
+      spotGradient.append('stop')
+        .attr('offset', '100%')
+        .attr('stop-color', 'black')
+        .attr('stop-opacity', '0');
+
+      function updateAnimationDuration(newDuration) {
+        // Select all animate elements and remove them
+        radialGradient.selectAll('animate').remove();
+
+        // Re-add animate elements with new duration
+        radialGradient.selectAll('stop')
+          .each(function() {
+            const colorCycle = d3.select(this).attr('data-color-cycle');
+            
+            d3.select(this)
+              .append('animate')
+              .attr('attributeName', 'stop-color')
+              .attr('values', colorCycle)
+              .attr('dur', newDuration + 's')
+              .attr('repeatCount', 'indefinite');
+          });
+      }
+      function animateSpot(p) {
+        svg.select("#spot")
+        .transition()
+          .duration(p)  // Duration of one complete revolution
+          .ease(d3.easeLinear)
+          .attrTween("cx", function() {
+            return function(t) {
+              const angle = 2 * Math.PI * t;
+              const x = 13*Math.cos(angle);
+              return xscale(x-70)
+              }
+          })
+          .attrTween("cy", function() {
+            return function(t) {
+              const angle = 2 * Math.PI * t;
+              const y = 13*2.25*Math.sin(angle);
+              return yscale(y)
+              };
+          })
+          .on("end", function() { animateSpot(p) });  // Loop the animation
+      }
+
+      const particles = [];
+      const colorScale = t => d3.interpolateRainbow(t % 1);
+      function add_particle() {
+          const particle = {
+              x: -55,
+              y: 0,
+              vx: Math.random() + 0.5, // velocity in x direction
+              vy: Math.random() * 1.4 - 1, // velocity in y direction
+              age: 0,
+              maxAge: 500 + Math.random() * 50
+          };
+          particles.push(particle);
+      }
+      function calculateMinDistanceToEdge(p) {
+        const halfBoxSize = 100;  // Half the side length of the box, which is 100 units
+
+        const distanceToRightEdge = halfBoxSize - p.x;   // Distance to the right edge
+        const distanceToTopEdge = halfBoxSize - p.y;     // Distance to the top edge
+        const distanceToBottomEdge = p.y + halfBoxSize;  // Distance to the bottom edge
+
+        return Math.min(distanceToRightEdge, distanceToTopEdge, distanceToBottomEdge);
+      }
+
+
+      function update_particles(p) {
+          // Add new particles periodically
+          if (Math.random() < p) {
+              add_particle();
+          }
+
+          // Update particle positions and ages
+          particles.forEach(particle => {
+              particle.x += particle.vx;
+              particle.y += particle.vy;
+              particle.age++;
+          });
+
+          // Remove old particles
+          for (let i = particles.length - 1; i >= 0; i--) {
+              if (particles[i].age > particles[i].maxAge) {
+                  particles.splice(i, 1);
+              }
+              if (particles[i].x < -100 || particles[i].x > 100) {
+                  particles.splice(i, 1)
+              } 
+              if (particles[i].y < -100 || particles[i].y > 100) {
+                  particles.splice(i, 1)
+              } 
+          }
+
+          // Bind particles to circles on the SVG
+          const circles = svg.selectAll('circle').data(particles);
+          circles.enter().append('circle')
+              .attr('r', 2)
+              .merge(circles)
+              .attr('cx', particle => xscale(particle.x))
+              .attr('cy', particle => yscale(particle.y))
+              .style('fill', particle => colorScale(particle.age/(particle.maxAge)*2))
+              .style('opacity', particle => calculateMinDistanceToEdge(particle)/100)
+              .attr('class', 'flare')
+
+          circles.exit().remove();
+      }
+      svg.append("ellipse")
+        .attr('cx', xscale(-70))
+        .attr('cy', yscale(0))
+        .attr('rx', radiusInPixels(20))
+        .attr('ry', radiusInPixels(20))
+        .style('opacity', 0)
+        .style('fill', 'url(#gradient)')
+        .attr('id', 'star')
+      .transition()
+        .duration(500)
+        .style('opacity', 1);
+      var earthPath = "static/imgs/earth-svgrepo-com.svg" 
+      svg.append("image")
+        .attr("xlink:href", earthPath)
+        .attr('width', 50)
+        .attr('height', 50)
+        .attr('x', xscale(60)-25)
+        .attr('y', yscale(0)-25)
+        .attr('id', "earth")
+        .style('opacity', 0)
+      .transition()
+        .duration(500)
+        .style('opacity', 1)
+      svg.append("ellipse")
+        .attr('cx', xscale(60))
+        .attr('cy', yscale(0))
+        .attr('rx', 30)
+        .attr('ry', 30)
+        .style('fill', 'url(#atmoGradient)')
+        .style('opacity', 0)
+        .attr('id', 'atmo')
+      .transition()
+        .duration(500)
+        .style('opacity', 1)
+
+      svg.append("ellipse")
+        .attr('cx', xscale(-57))
+        .attr('cy', yscale(0))
+        .attr('rx', radiusInPixels(1.5))
+        .attr('rx', radiusInPixels(1.5))
+        .style('opacity', 0)
+        .style('fill', 'url(#spotGradient)')
+        .attr('id', 'spot')
+      .transition()
+        .duration(500)
+        .style('opacity', 1)
+      .on('end', function() { animateSpot(5000) });
+
+
+  var _transitions = [
+        {
+          transitionForward: () => {
+            interval = d3.interval(function() { update_particles(0.5) }, 10);
+            svg.select("#atmo")
+            .transition()
+              .duration(5000)
+              .delay(1000)
+              .style('opacity', 0.75)
+              .attr('rx', 60)
+              .attr('ry', 30)
+              .attr('cx', xscale(60) + 25);
+          },
+          transitionBackward: () => {
+            svg.select("#atmo")
+            .transition()
+              .duration(200)
+              .style('opacity', 1)
+              .attr('rx', 30)
+              .attr('ry', 30)
+              .attr('cx', xscale(60));
+            interval.stop()
+            svg.selectAll(".flare").remove();
+          }
+        },
+        {
+          transitionForward: () => {
+            interval = d3.interval(function() { update_particles(0.999) }, 10);
+            svg.select("#star")
+              .style('fill', 'url(#gradient2)');
+            animateSpot(500);
+            svg.select("#atmo")
+            .transition()
+              .duration(3000)
+              .delay(500)
+              .style('opacity', 0)
+              .attr('rx', 100)
+              .attr('ry', 40)
+              .attr('cx', xscale(60) + 50);
+          },
+          transitionBackward: () => {
+            interval = d3.interval(function() { update_particles(0.5) }, 10);
+            svg.select("#star")
+              .style('fill', 'url(#gradient)');
+            animateSpot(5000);
+          }
+        }
+    ];
+    </script>
+</body>
+

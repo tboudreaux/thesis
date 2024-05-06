@@ -26,17 +26,27 @@ visibility: inherit; }
   width:50%;
 }
 
+
 .multiCol {
     display: table;
     table-layout: fixed;
-	width: 100%;
+    width: 100%;
     text-align: left;
 }
+
 .col {
-        display: table-cell;
-        vertical-align: top;
-        width: 50%;
-        padding: 2% 0 2% 3%;
+  display: table-cell;
+  vertical-align: top;
+  width: 50%;
+  padding: 2% 7% 2% 3%;
+        /* &:first-of-type { padding-left: 0; } */
+}
+
+.col2 {
+  display: table-cell;
+  vertical-align: center;
+  width: 50%;
+  padding: 15% 7% 2% 3%;
         /* &:first-of-type { padding-left: 0; } */
 }
 
@@ -232,4 +242,52 @@ blockquote + b:first-letter {
 
 .shl {
   color: #00693E;
+}
+.rounded-box { 
+    width: 300px; 
+    padding: 15px; 
+    border-radius: 10px; /* The secret ingredient for rounded corners */ 
+    outline: none; /* No outlines, we're keeping it smooth */ 
+    font-size: 24px; /* Just the right font size */ 
+    color: #333; /* A subtle text color */ 
+    background-color: #e3e3e3;
+} 
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.first-header th {
+    border-bottom: none; /* Removes the bottom border on the first header row */
+}
+
+.second-header th {
+    border-top: none; /* Removes the top border on the second header row */
+}
+
+tbody tr:first-child td {
+    border-top: 2px solid black; /* Emphasize the start of data rows */
+}
+
+.fragment.highlight-dgreen.visible {
+  color: #27799c;
+  font-weight: bold;
+
+}
+
+.fragment.highlight-dgreen {
+  color: #000000;
 }

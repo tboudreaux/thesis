@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html style="width: 100%; height=100%;">
+<head>
+    <title>Scatter Plot from CSV</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .dot {
+            stroke: none;
+        }
+        .axis-label {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body style="overflow: hidden;">
+    <script>
+      var width = 900;
+      var height = 400;
+
+      var svg = d3.select("body").append("svg")
+        .attr("width", width)
+        .attr("height", height);
+      var xscale = d3.scaleLinear()
+          .range([0, width])
+          .domain([0.5, 2]);
+      var yscale = d3.scaleLinear()
+          .range([height, 0])
+          .domain([13.5, -2]);
+
+      svg.append('line')
+        .attr('id', 'xaxis')
+        .attr('x1', xscale(0))
+        .attr('x2', xscale(0))
+        .attr('y1', yscale(12))
+        .attr('y2', yscale(12))
+        .style('stroke-width', '1px')
+        .style('stroke', 'black')
+      .transition()
+        .duration(500)
+        .attr('x2', xscale(2))
+      svg.append('line')
+        .attr('id', 'yaxis')
+        .attr('x1', xscale(0.55))
+        .attr('x2', xscale(0.55))
+        .attr('y1', yscale(0))
+        .attr('y2', yscale(0))
+        .style('stroke-width', '1px')
+        .style('stroke', 'black')
+      .transition()
+        .duration(500)
+        .attr('y1', yscale(-1))
+        .attr('y2', yscale(13))
+
+      svg.append("text")
+        .attr('x', xscale(1.2))
+        .attr('y', yscale(13))
+        .style('fill', 'black')
+        .style('font-family', 'times')
+        .text("Color")
+        .style('font-size', '35px')
+        .style('opacity', 0)
+      .transition()
+        .duration(500)
+        .style('opacity', 1)
+
+      svg.append("text")
+        .attr('x', xscale(0.45))
+        .attr('y', yscale(6))
+        .style('fill', 'black')
+        .style('font-family', 'times')
+        .text("Magnitude")
+        .style('font-size', '35px')
+        .style('opacity', 0)
+        .attr('transform', 'rotate(270, ' + xscale(0.54) + ', ' + yscale(6) + ')')
+      .transition()
+        .duration(500)
+        .style('opacity', 1)
+
+      d3.json("https://algebrist.ddns.net/~tboudreaux/presentations/thesisDefense/d3/data/CMDIsoViz.json").then(function(data) {
+        var i = 0
+        Object.keys(data.tracks).forEach(key => {
+          track = data.tracks[key]
+          svg.append("circle")
+            .attr('cx', xscale(track.color[0]))
+            .attr('cy', yscale(track.mag[0]))
+            .attr('r', 5)
+            .style('fill', 'black')
+            .style('opacity', 0)
+            .attr('id', 'Model' + i);
+          i += 1;
+        });
+        var i = 0
+        Object.keys(data.positions).forEach(key => {
+          position = data.positions[key]
+          svg.append("circle")
+            .attr('cx', xscale(position.color))
+            .attr('cy', yscale(position.mag))
+            .attr('r', 5)
+            .style('fill', 'black')
+            .style('opacity', 0)
+            .attr('id', 'ModelAT' + i);
+          i += 1;
+        });
+      });
+
+  function format_star_age(gigaYears) {
+      const years = gigaYears * 1e9;  // Convert Gigayears to years
+      let ageFormatted = '';
+      let unit = '';
+
+      if (years < 1e3) {
+          // Less than a thousand years
+          ageFormatted = years.toFixed(2);
+          unit = 'yr';
+      } else if (years < 1e6) {
+          // Thousands of years
+          ageFormatted = (years / 1e3).toFixed(2);
+          unit = 'Kyr';
+      } else if (years < 1e9) {
+          // Millions of years
+          ageFormatted = (years / 1e6).toFixed(2);
+          unit = 'Myr';
+      } else {
+          // Giga years
+          ageFormatted = (years / 1e9).toFixed(2);
+          unit = 'Gyr';
+      }
+
+      return `${ageFormatted} ${unit}`;
+  }
+
+  function resetModel(index, data, d, mNum) {
+    trackKey = Object.keys(data.tracks)[mNum]
+    track = data.tracks[trackKey]
+    svg.select("#Model" + mNum)
+    .transition()
+      .duration(d)
+      .style('opacity', 0)
+  }
+
+  function updateModel(index, data, d, mNum) {
+    trackKey = Object.keys(data.tracks)[mNum]
+    track = data.tracks[trackKey]
+    svg.append("circle")
+      .attr('cx', xscale(track.color[index]))
+      .attr('cy', yscale(track.mag[index]))
+      .attr('r', 1)
+      .style('opacity', 0)
+      .attr('class', 'tracedLine')
+      .style('fill', 'black')
+    .transition()
+      .duration(d)
+      .style('opacity', 1)
+
+    svg.select('#ageText')
+      .text(`Model Age: ${format_star_age(track.age[index])}`);
+
+    svg.select("#Model" + mNum)
+    .transition()
+      .duration(d)
+      .attr('cx', xscale(track.color[index]))
+      .attr('cy', yscale(track.mag[index]))
+    .on('end', index < track.color.length-250 ? function() { updateModel(index+1, data, d, mNum) } : function() { resetModel(0, data, 500, mNum) })
+  }
+
+  var _transitions = [
+      {
+        transitionForward: () => {
+          svg.select("#Model13")
+          .transition()
+            .duration(1000)
+            .style('opacity', 1)
+        },
+        index: 0
+      },
+      {
+        transitionForward: () => {
+          svg.append('text')
+            .attr('x', xscale(1.2))
+            .attr('y', yscale(-1))
+            .style('fill', 'black')
+            .style('font-family', 'times')
+            .style('font-size', '24pt')
+            .attr('id', 'ageText')
+
+          d3.json("https://algebrist.ddns.net/~tboudreaux/presentations/thesisDefense/d3/data/CMDIsoViz.json").then(function(data) {
+            updateModel(1, data, 5, 13);
+          });
+        },
+        index: 1
+      },
+      {
+        transitionForward: () => {
+          svg.selectAll('.tracedLine').remove();
+          svg.select('#ageText')
+            .text(`Model Age: 20 Gyr`);
+          svg.select("#Model13")
+          .transition()
+            .duration(1000)
+            .style('opacity', 0)
+          d3.json("https://algebrist.ddns.net/~tboudreaux/presentations/thesisDefense/d3/data/CMDIsoViz.json").then(function(data) {
+              for (var i = 0; i <= 15; i++){
+                svg.select("#ModelAT" + i)
+                .transition()
+                  .duration(500)
+                  .style('opacity', 1);
+              }
+          });
+        },
+        index: 2
+      },
+      {
+        transitionForward: () => {
+          d3.json("https://algebrist.ddns.net/~tboudreaux/presentations/thesisDefense/d3/data/CMDIsoViz.json").then(function(data) {
+            for (var i = 0; i < data.iso.color.length-1; i++) {
+                svg.append("line")
+                  .attr('x1', xscale(data.iso.color[i]))
+                  .attr('x2', xscale(data.iso.color[i+1]))
+                  .attr('y1', yscale(data.iso.mag[i]))
+                  .attr('y2', yscale(data.iso.mag[i+1]))
+                  .style('stroke-width', '1px')
+                  .style('stroke', 'red')
+                  .style('opacity', 0)
+                  .attr('id', `iso${i}`)
+                .transition()
+                  .duration(1000)
+                  .style('opacity', 1)
+              }
+          });
+        },
+        index: 3
+      }
+    ];
+    </script>
+</body>
+</html>
+

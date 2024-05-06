@@ -1,0 +1,1101 @@
+2024-04-11 07:45:08,980 - fidanka - load_ISO_CMDs - INFO - Identifying isochrone CMDs from /mnt/Astronomy/GraduateSchool/Thesis/GCConsistency/NGC2808/justIso.denseAlpha.fixedLowmass. This may take some time.
+2024-04-11 07:45:10,444 - fidanka - load_ISO_CMDs - INFO - Found 395 CMDs
+2024-04-11 07:45:10,447 - fidanka - load_ISO_CMDs - INFO - Organizing CMDs by population, Y, and alpha
+2024-04-11 07:45:10,447 - fidanka - load_ISO_CMDs - INFO - Populations: {'A', 'E'}
+2024-04-11 07:45:10,447 - fidanka - load_ISO_CMDs - INFO - Helium contents: {'0.30', '0.36', '0.39', '0.33', '0.27', '0.24'}
+2024-04-11 07:45:10,447 - fidanka - load_ISO_CMDs - INFO - Alpha enhancements: {'2.300', '2.100', '1.901', '1.550', '1.300', '1.800', '2.150', '1.200', '1.100', '1.050', '2.350', '2.600', '1.150', '2.500', '1.650', '1.500', '1.750', '2.800', '2.050', '1.000', '2.250', '2.000', '1.850', '1.600', '1.450', '2.700', '1.350', '1.950', '1.400', '2.200', '1.700', '2.400', '1.250'}
+2024-04-11 07:45:10,447 - fidanka - load_ISO_CMDs - INFO - This may take a few minutes...
+2024-04-11 07:45:10,469 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-2.300
+2024-04-11 07:45:11,019 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-2.300
+2024-04-11 07:45:11,023 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-2.100
+2024-04-11 07:45:11,499 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-2.100
+2024-04-11 07:45:11,502 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-1.901
+2024-04-11 07:45:11,998 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-1.901
+2024-04-11 07:45:12,002 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-1.550
+2024-04-11 07:45:12,444 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-1.550
+2024-04-11 07:45:12,447 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-1.300
+2024-04-11 07:45:12,904 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-1.300
+2024-04-11 07:45:12,907 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-1.800
+2024-04-11 07:45:13,345 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-1.800
+2024-04-11 07:45:13,348 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-2.150
+2024-04-11 07:45:13,793 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-2.150
+2024-04-11 07:45:13,796 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-1.200
+2024-04-11 07:45:14,233 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-1.200
+2024-04-11 07:45:14,236 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-1.100
+2024-04-11 07:45:14,714 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-1.100
+2024-04-11 07:45:14,718 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-1.050
+2024-04-11 07:45:15,140 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-1.050
+2024-04-11 07:45:15,144 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-2.350
+2024-04-11 07:45:15,675 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-2.350
+2024-04-11 07:45:15,678 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-2.600
+2024-04-11 07:45:16,136 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-2.600
+2024-04-11 07:45:16,141 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-1.150
+2024-04-11 07:45:16,608 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-1.150
+2024-04-11 07:45:16,613 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-2.500
+2024-04-11 07:45:17,074 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-2.500
+2024-04-11 07:45:17,077 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-1.650
+2024-04-11 07:45:17,505 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-1.650
+2024-04-11 07:45:17,508 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-1.500
+2024-04-11 07:45:17,970 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-1.500
+2024-04-11 07:45:17,974 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-1.750
+2024-04-11 07:45:18,426 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-1.750
+2024-04-11 07:45:18,430 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-2.800
+2024-04-11 07:45:18,877 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-2.800
+2024-04-11 07:45:18,881 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-2.050
+2024-04-11 07:45:19,394 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-2.050
+2024-04-11 07:45:19,397 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-1.000
+2024-04-11 07:45:19,880 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-1.000
+2024-04-11 07:45:19,884 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-2.250
+2024-04-11 07:45:20,397 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-2.250
+2024-04-11 07:45:20,400 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-2.000
+2024-04-11 07:45:20,817 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-2.000
+2024-04-11 07:45:20,821 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-1.850
+2024-04-11 07:45:21,249 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-1.850
+2024-04-11 07:45:21,253 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-1.600
+2024-04-11 07:45:21,692 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-1.600
+2024-04-11 07:45:21,696 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-1.450
+2024-04-11 07:45:22,139 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-1.450
+2024-04-11 07:45:22,143 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-2.700
+2024-04-11 07:45:22,591 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-2.700
+2024-04-11 07:45:22,596 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-1.350
+2024-04-11 07:45:23,515 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-1.350
+2024-04-11 07:45:23,519 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-1.950
+2024-04-11 07:45:24,023 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-1.950
+2024-04-11 07:45:24,027 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-1.400
+2024-04-11 07:45:24,498 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-1.400
+2024-04-11 07:45:24,502 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-2.200
+2024-04-11 07:45:24,967 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-2.200
+2024-04-11 07:45:24,971 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-1.700
+2024-04-11 07:45:25,506 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-1.700
+2024-04-11 07:45:25,509 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-2.400
+2024-04-11 07:45:25,957 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-2.400
+2024-04-11 07:45:25,960 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.30/alpha-1.250
+2024-04-11 07:45:26,396 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.30/alpha-1.250
+2024-04-11 07:45:26,410 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-2.300
+2024-04-11 07:45:26,942 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-2.300
+2024-04-11 07:45:26,945 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-2.100
+2024-04-11 07:45:27,476 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-2.100
+2024-04-11 07:45:27,479 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-1.901
+2024-04-11 07:45:27,980 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-1.901
+2024-04-11 07:45:27,983 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-1.550
+2024-04-11 07:45:28,509 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-1.550
+2024-04-11 07:45:28,512 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-1.300
+2024-04-11 07:45:29,018 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-1.300
+2024-04-11 07:45:29,022 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-1.800
+2024-04-11 07:45:29,536 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-1.800
+2024-04-11 07:45:29,539 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-2.150
+2024-04-11 07:45:30,046 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-2.150
+2024-04-11 07:45:30,050 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-1.200
+2024-04-11 07:45:30,551 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-1.200
+2024-04-11 07:45:30,554 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-1.100
+2024-04-11 07:45:31,067 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-1.100
+2024-04-11 07:45:31,071 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-1.050
+2024-04-11 07:45:31,592 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-1.050
+2024-04-11 07:45:31,595 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-2.350
+2024-04-11 07:45:32,121 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-2.350
+2024-04-11 07:45:32,125 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-2.600
+2024-04-11 07:45:32,642 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-2.600
+2024-04-11 07:45:32,646 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-1.150
+2024-04-11 07:45:33,176 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-1.150
+2024-04-11 07:45:33,180 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-2.500
+2024-04-11 07:45:33,686 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-2.500
+2024-04-11 07:45:33,689 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-1.650
+2024-04-11 07:45:34,175 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-1.650
+2024-04-11 07:45:34,178 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-1.500
+2024-04-11 07:45:34,721 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-1.500
+2024-04-11 07:45:34,724 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-1.750
+2024-04-11 07:45:35,235 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-1.750
+2024-04-11 07:45:35,238 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-2.050
+2024-04-11 07:45:35,690 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-2.050
+2024-04-11 07:45:35,693 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-1.000
+2024-04-11 07:45:36,201 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-1.000
+2024-04-11 07:45:36,204 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-2.250
+2024-04-11 07:45:36,704 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-2.250
+2024-04-11 07:45:36,707 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-2.000
+2024-04-11 07:45:37,201 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-2.000
+2024-04-11 07:45:37,204 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-1.850
+2024-04-11 07:45:37,679 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-1.850
+2024-04-11 07:45:37,683 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-1.600
+2024-04-11 07:45:38,195 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-1.600
+2024-04-11 07:45:38,198 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-1.450
+2024-04-11 07:45:38,723 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-1.450
+2024-04-11 07:45:38,727 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-2.700
+2024-04-11 07:45:39,268 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-2.700
+2024-04-11 07:45:39,272 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-1.350
+2024-04-11 07:45:39,767 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-1.350
+2024-04-11 07:45:39,770 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-1.950
+2024-04-11 07:45:40,254 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-1.950
+2024-04-11 07:45:40,257 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-1.400
+2024-04-11 07:45:40,755 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-1.400
+2024-04-11 07:45:40,758 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-2.200
+2024-04-11 07:45:41,229 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-2.200
+2024-04-11 07:45:41,232 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-1.700
+2024-04-11 07:45:41,722 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-1.700
+2024-04-11 07:45:41,725 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-2.400
+2024-04-11 07:45:42,248 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-2.400
+2024-04-11 07:45:42,252 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.36/alpha-1.250
+2024-04-11 07:45:42,750 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.36/alpha-1.250
+2024-04-11 07:45:42,762 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-2.300
+2024-04-11 07:45:43,267 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-2.300
+2024-04-11 07:45:43,271 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-2.100
+2024-04-11 07:45:43,776 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-2.100
+2024-04-11 07:45:43,779 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-1.901
+2024-04-11 07:45:44,295 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-1.901
+2024-04-11 07:45:44,298 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-1.550
+2024-04-11 07:45:44,808 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-1.550
+2024-04-11 07:45:44,812 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-1.300
+2024-04-11 07:45:45,347 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-1.300
+2024-04-11 07:45:45,350 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-1.800
+2024-04-11 07:45:45,795 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-1.800
+2024-04-11 07:45:45,799 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-2.150
+2024-04-11 07:45:46,306 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-2.150
+2024-04-11 07:45:46,309 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-1.200
+2024-04-11 07:45:46,794 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-1.200
+2024-04-11 07:45:46,798 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-1.100
+2024-04-11 07:45:47,339 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-1.100
+2024-04-11 07:45:47,343 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-1.050
+2024-04-11 07:45:47,824 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-1.050
+2024-04-11 07:45:47,828 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-2.350
+2024-04-11 07:45:48,279 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-2.350
+2024-04-11 07:45:48,283 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-2.600
+2024-04-11 07:45:48,777 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-2.600
+2024-04-11 07:45:48,781 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-1.150
+2024-04-11 07:45:49,226 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-1.150
+2024-04-11 07:45:49,230 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-2.500
+2024-04-11 07:45:49,719 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-2.500
+2024-04-11 07:45:49,723 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-1.650
+2024-04-11 07:45:50,218 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-1.650
+2024-04-11 07:45:50,222 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-1.500
+2024-04-11 07:45:50,696 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-1.500
+2024-04-11 07:45:50,700 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-1.750
+2024-04-11 07:45:51,175 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-1.750
+2024-04-11 07:45:51,179 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-2.800
+2024-04-11 07:45:51,652 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-2.800
+2024-04-11 07:45:51,655 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-2.050
+2024-04-11 07:45:52,127 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-2.050
+2024-04-11 07:45:52,131 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-1.000
+2024-04-11 07:45:52,621 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-1.000
+2024-04-11 07:45:52,625 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-2.250
+2024-04-11 07:45:53,118 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-2.250
+2024-04-11 07:45:53,123 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-2.000
+2024-04-11 07:45:54,023 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-2.000
+2024-04-11 07:45:54,027 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-1.850
+2024-04-11 07:45:54,521 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-1.850
+2024-04-11 07:45:54,525 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-1.600
+2024-04-11 07:45:55,000 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-1.600
+2024-04-11 07:45:55,003 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-1.450
+2024-04-11 07:45:55,479 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-1.450
+2024-04-11 07:45:55,482 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-2.700
+2024-04-11 07:45:55,959 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-2.700
+2024-04-11 07:45:55,963 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-1.350
+2024-04-11 07:45:56,455 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-1.350
+2024-04-11 07:45:56,459 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-1.950
+2024-04-11 07:45:56,910 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-1.950
+2024-04-11 07:45:56,914 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-1.400
+2024-04-11 07:45:57,398 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-1.400
+2024-04-11 07:45:57,401 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-2.200
+2024-04-11 07:45:57,876 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-2.200
+2024-04-11 07:45:57,879 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-1.700
+2024-04-11 07:45:58,403 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-1.700
+2024-04-11 07:45:58,406 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-2.400
+2024-04-11 07:45:58,920 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-2.400
+2024-04-11 07:45:58,923 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.39/alpha-1.250
+2024-04-11 07:45:59,413 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.39/alpha-1.250
+2024-04-11 07:45:59,425 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-2.300
+2024-04-11 07:45:59,932 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-2.300
+2024-04-11 07:45:59,935 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-2.100
+2024-04-11 07:46:00,465 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-2.100
+2024-04-11 07:46:00,468 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-1.901
+2024-04-11 07:46:01,024 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-1.901
+2024-04-11 07:46:01,027 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-1.550
+2024-04-11 07:46:01,581 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-1.550
+2024-04-11 07:46:01,584 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-1.300
+2024-04-11 07:46:02,173 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-1.300
+2024-04-11 07:46:02,176 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-1.800
+2024-04-11 07:46:02,713 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-1.800
+2024-04-11 07:46:02,716 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-2.150
+2024-04-11 07:46:03,249 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-2.150
+2024-04-11 07:46:03,253 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-1.200
+2024-04-11 07:46:03,785 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-1.200
+2024-04-11 07:46:03,789 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-1.100
+2024-04-11 07:46:04,301 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-1.100
+2024-04-11 07:46:04,306 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-1.050
+2024-04-11 07:46:04,816 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-1.050
+2024-04-11 07:46:04,819 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-2.350
+2024-04-11 07:46:05,335 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-2.350
+2024-04-11 07:46:05,338 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-2.600
+2024-04-11 07:46:05,896 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-2.600
+2024-04-11 07:46:05,900 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-1.150
+2024-04-11 07:46:06,417 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-1.150
+2024-04-11 07:46:06,421 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-2.500
+2024-04-11 07:46:06,929 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-2.500
+2024-04-11 07:46:06,933 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-1.650
+2024-04-11 07:46:07,444 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-1.650
+2024-04-11 07:46:07,447 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-1.500
+2024-04-11 07:46:07,992 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-1.500
+2024-04-11 07:46:07,997 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-1.750
+2024-04-11 07:46:08,514 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-1.750
+2024-04-11 07:46:08,518 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-2.800
+2024-04-11 07:46:09,077 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-2.800
+2024-04-11 07:46:09,081 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-2.050
+2024-04-11 07:46:09,614 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-2.050
+2024-04-11 07:46:09,618 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-1.000
+2024-04-11 07:46:10,131 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-1.000
+2024-04-11 07:46:10,135 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-2.250
+2024-04-11 07:46:10,675 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-2.250
+2024-04-11 07:46:10,679 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-2.000
+2024-04-11 07:46:11,290 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-2.000
+2024-04-11 07:46:11,294 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-1.850
+2024-04-11 07:46:11,829 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-1.850
+2024-04-11 07:46:11,833 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-1.600
+2024-04-11 07:46:12,364 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-1.600
+2024-04-11 07:46:12,368 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-1.450
+2024-04-11 07:46:12,911 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-1.450
+2024-04-11 07:46:12,915 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-2.700
+2024-04-11 07:46:13,422 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-2.700
+2024-04-11 07:46:13,426 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-1.350
+2024-04-11 07:46:13,964 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-1.350
+2024-04-11 07:46:13,968 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-1.950
+2024-04-11 07:46:14,456 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-1.950
+2024-04-11 07:46:14,460 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-1.400
+2024-04-11 07:46:14,968 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-1.400
+2024-04-11 07:46:14,972 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-2.200
+2024-04-11 07:46:15,482 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-2.200
+2024-04-11 07:46:15,485 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-1.700
+2024-04-11 07:46:15,992 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-1.700
+2024-04-11 07:46:15,995 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-2.400
+2024-04-11 07:46:16,529 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-2.400
+2024-04-11 07:46:16,533 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.33/alpha-1.250
+2024-04-11 07:46:17,052 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.33/alpha-1.250
+2024-04-11 07:46:17,065 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-2.300
+2024-04-11 07:46:17,552 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-2.300
+2024-04-11 07:46:17,555 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-2.100
+2024-04-11 07:46:18,094 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-2.100
+2024-04-11 07:46:18,099 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-1.901
+2024-04-11 07:46:18,640 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-1.901
+2024-04-11 07:46:18,644 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-1.550
+2024-04-11 07:46:19,172 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-1.550
+2024-04-11 07:46:19,175 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-1.300
+2024-04-11 07:46:19,723 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-1.300
+2024-04-11 07:46:19,727 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-1.800
+2024-04-11 07:46:20,194 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-1.800
+2024-04-11 07:46:20,198 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-2.150
+2024-04-11 07:46:20,760 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-2.150
+2024-04-11 07:46:20,764 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-1.200
+2024-04-11 07:46:21,297 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-1.200
+2024-04-11 07:46:21,300 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-1.100
+2024-04-11 07:46:21,755 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-1.100
+2024-04-11 07:46:21,759 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-1.050
+2024-04-11 07:46:22,290 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-1.050
+2024-04-11 07:46:22,294 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-2.350
+2024-04-11 07:46:22,867 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-2.350
+2024-04-11 07:46:22,871 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-2.600
+2024-04-11 07:46:23,382 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-2.600
+2024-04-11 07:46:23,385 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-1.150
+2024-04-11 07:46:23,945 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-1.150
+2024-04-11 07:46:23,949 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-2.500
+2024-04-11 07:46:24,575 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-2.500
+2024-04-11 07:46:24,579 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-1.650
+2024-04-11 07:46:25,046 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-1.650
+2024-04-11 07:46:25,050 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-1.500
+2024-04-11 07:46:25,628 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-1.500
+2024-04-11 07:46:25,632 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-1.750
+2024-04-11 07:46:26,184 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-1.750
+2024-04-11 07:46:26,188 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-2.800
+2024-04-11 07:46:26,725 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-2.800
+2024-04-11 07:46:26,730 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-2.050
+2024-04-11 07:46:27,252 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-2.050
+2024-04-11 07:46:27,256 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-1.000
+2024-04-11 07:46:27,809 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-1.000
+2024-04-11 07:46:27,813 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-2.250
+2024-04-11 07:46:28,334 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-2.250
+2024-04-11 07:46:28,338 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-2.000
+2024-04-11 07:46:28,874 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-2.000
+2024-04-11 07:46:28,878 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-1.850
+2024-04-11 07:46:29,383 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-1.850
+2024-04-11 07:46:29,388 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-1.600
+2024-04-11 07:46:29,933 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-1.600
+2024-04-11 07:46:29,938 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-1.450
+2024-04-11 07:46:30,456 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-1.450
+2024-04-11 07:46:30,460 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-2.700
+2024-04-11 07:46:31,015 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-2.700
+2024-04-11 07:46:31,021 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-1.350
+2024-04-11 07:46:31,566 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-1.350
+2024-04-11 07:46:31,570 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-1.950
+2024-04-11 07:46:32,115 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-1.950
+2024-04-11 07:46:32,120 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-1.400
+2024-04-11 07:46:32,545 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-1.400
+2024-04-11 07:46:32,549 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-2.200
+2024-04-11 07:46:33,527 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-2.200
+2024-04-11 07:46:33,531 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-1.700
+2024-04-11 07:46:34,066 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-1.700
+2024-04-11 07:46:34,070 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-2.400
+2024-04-11 07:46:34,581 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-2.400
+2024-04-11 07:46:34,585 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.27/alpha-1.250
+2024-04-11 07:46:35,093 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.27/alpha-1.250
+2024-04-11 07:46:35,109 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-2.300
+2024-04-11 07:46:35,728 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-2.300
+2024-04-11 07:46:35,732 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-2.100
+2024-04-11 07:46:36,325 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-2.100
+2024-04-11 07:46:36,329 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-1.901
+2024-04-11 07:46:36,921 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-1.901
+2024-04-11 07:46:36,925 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-1.550
+2024-04-11 07:46:37,529 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-1.550
+2024-04-11 07:46:37,532 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-1.300
+2024-04-11 07:46:38,118 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-1.300
+2024-04-11 07:46:38,121 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-1.800
+2024-04-11 07:46:38,742 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-1.800
+2024-04-11 07:46:38,746 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-2.150
+2024-04-11 07:46:39,319 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-2.150
+2024-04-11 07:46:39,322 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-1.200
+2024-04-11 07:46:39,951 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-1.200
+2024-04-11 07:46:39,956 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-1.100
+2024-04-11 07:46:40,560 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-1.100
+2024-04-11 07:46:40,563 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-1.050
+2024-04-11 07:46:41,057 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-1.050
+2024-04-11 07:46:41,061 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-2.350
+2024-04-11 07:46:41,641 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-2.350
+2024-04-11 07:46:41,644 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-2.600
+2024-04-11 07:46:42,245 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-2.600
+2024-04-11 07:46:42,249 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-1.150
+2024-04-11 07:46:42,661 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-1.150
+2024-04-11 07:46:42,664 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-2.500
+2024-04-11 07:46:43,244 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-2.500
+2024-04-11 07:46:43,248 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-1.650
+2024-04-11 07:46:43,701 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-1.650
+2024-04-11 07:46:43,704 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-1.500
+2024-04-11 07:46:44,279 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-1.500
+2024-04-11 07:46:44,283 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-1.750
+2024-04-11 07:46:44,871 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-1.750
+2024-04-11 07:46:44,874 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-2.800
+2024-04-11 07:46:45,481 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-2.800
+2024-04-11 07:46:45,485 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-2.050
+2024-04-11 07:46:46,070 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-2.050
+2024-04-11 07:46:46,074 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-1.000
+2024-04-11 07:46:46,482 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-1.000
+2024-04-11 07:46:46,485 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-2.250
+2024-04-11 07:46:47,024 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-2.250
+2024-04-11 07:46:47,027 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-2.000
+2024-04-11 07:46:47,501 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-2.000
+2024-04-11 07:46:47,505 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-1.850
+2024-04-11 07:46:48,080 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-1.850
+2024-04-11 07:46:48,084 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-1.600
+2024-04-11 07:46:48,673 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-1.600
+2024-04-11 07:46:48,676 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-1.450
+2024-04-11 07:46:49,261 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-1.450
+2024-04-11 07:46:49,265 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-2.700
+2024-04-11 07:46:49,689 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-2.700
+2024-04-11 07:46:49,693 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-1.350
+2024-04-11 07:46:50,249 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-1.350
+2024-04-11 07:46:50,252 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-1.950
+2024-04-11 07:46:50,816 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-1.950
+2024-04-11 07:46:50,819 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-1.400
+2024-04-11 07:46:51,376 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-1.400
+2024-04-11 07:46:51,379 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-2.200
+2024-04-11 07:46:51,949 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-2.200
+2024-04-11 07:46:51,952 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-1.700
+2024-04-11 07:46:52,545 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-1.700
+2024-04-11 07:46:52,548 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-2.400
+2024-04-11 07:46:53,136 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-2.400
+2024-04-11 07:46:53,139 - fidanka - load_ISO_CMDs - INFO - Loading CMD for A+0.24/alpha-1.250
+2024-04-11 07:46:53,707 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for A+0.24/alpha-1.250
+2024-04-11 07:46:53,725 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-2.300
+2024-04-11 07:46:54,232 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-2.300
+2024-04-11 07:46:54,236 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-2.100
+2024-04-11 07:46:54,722 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-2.100
+2024-04-11 07:46:54,726 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-1.901
+2024-04-11 07:46:55,223 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-1.901
+2024-04-11 07:46:55,227 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-1.550
+2024-04-11 07:46:55,747 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-1.550
+2024-04-11 07:46:55,750 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-1.300
+2024-04-11 07:46:56,256 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-1.300
+2024-04-11 07:46:56,260 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-1.800
+2024-04-11 07:46:56,755 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-1.800
+2024-04-11 07:46:56,758 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-2.150
+2024-04-11 07:46:57,264 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-2.150
+2024-04-11 07:46:57,267 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-1.200
+2024-04-11 07:46:57,765 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-1.200
+2024-04-11 07:46:57,768 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-1.100
+2024-04-11 07:46:58,262 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-1.100
+2024-04-11 07:46:58,265 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-1.050
+2024-04-11 07:46:58,782 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-1.050
+2024-04-11 07:46:58,785 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-2.350
+2024-04-11 07:46:59,344 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-2.350
+2024-04-11 07:46:59,347 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-2.600
+2024-04-11 07:46:59,836 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-2.600
+2024-04-11 07:46:59,839 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-1.150
+2024-04-11 07:47:00,368 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-1.150
+2024-04-11 07:47:00,372 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-2.500
+2024-04-11 07:47:00,861 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-2.500
+2024-04-11 07:47:00,865 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-1.650
+2024-04-11 07:47:01,397 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-1.650
+2024-04-11 07:47:01,401 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-1.500
+2024-04-11 07:47:01,892 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-1.500
+2024-04-11 07:47:01,896 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-1.750
+2024-04-11 07:47:02,384 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-1.750
+2024-04-11 07:47:02,387 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-2.800
+2024-04-11 07:47:02,842 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-2.800
+2024-04-11 07:47:02,845 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-2.050
+2024-04-11 07:47:03,348 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-2.050
+2024-04-11 07:47:03,351 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-1.000
+2024-04-11 07:47:03,847 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-1.000
+2024-04-11 07:47:03,850 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-2.250
+2024-04-11 07:47:04,304 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-2.250
+2024-04-11 07:47:04,307 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-2.000
+2024-04-11 07:47:04,784 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-2.000
+2024-04-11 07:47:04,787 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-1.850
+2024-04-11 07:47:05,300 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-1.850
+2024-04-11 07:47:05,304 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-1.600
+2024-04-11 07:47:05,768 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-1.600
+2024-04-11 07:47:05,772 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-1.450
+2024-04-11 07:47:06,278 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-1.450
+2024-04-11 07:47:06,282 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-2.700
+2024-04-11 07:47:06,790 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-2.700
+2024-04-11 07:47:06,793 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-1.350
+2024-04-11 07:47:07,292 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-1.350
+2024-04-11 07:47:07,295 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-1.950
+2024-04-11 07:47:07,779 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-1.950
+2024-04-11 07:47:07,783 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-1.400
+2024-04-11 07:47:08,280 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-1.400
+2024-04-11 07:47:08,282 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-2.200
+2024-04-11 07:47:08,718 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-2.200
+2024-04-11 07:47:08,722 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-1.700
+2024-04-11 07:47:09,173 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-1.700
+2024-04-11 07:47:09,177 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-2.400
+2024-04-11 07:47:09,626 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-2.400
+2024-04-11 07:47:09,630 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.30/alpha-1.250
+2024-04-11 07:47:10,077 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.30/alpha-1.250
+2024-04-11 07:47:10,088 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-2.300
+2024-04-11 07:47:10,592 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-2.300
+2024-04-11 07:47:10,597 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-2.100
+2024-04-11 07:47:11,091 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-2.100
+2024-04-11 07:47:11,095 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-1.901
+2024-04-11 07:47:11,616 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-1.901
+2024-04-11 07:47:11,620 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-1.550
+2024-04-11 07:47:12,208 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-1.550
+2024-04-11 07:47:12,211 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-1.300
+2024-04-11 07:47:12,770 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-1.300
+2024-04-11 07:47:12,773 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-1.800
+2024-04-11 07:47:13,281 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-1.800
+2024-04-11 07:47:13,284 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-2.150
+2024-04-11 07:47:13,777 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-2.150
+2024-04-11 07:47:13,780 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-1.200
+2024-04-11 07:47:14,298 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-1.200
+2024-04-11 07:47:14,302 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-1.100
+2024-04-11 07:47:14,805 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-1.100
+2024-04-11 07:47:14,808 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-1.050
+2024-04-11 07:47:15,315 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-1.050
+2024-04-11 07:47:15,319 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-2.350
+2024-04-11 07:47:15,801 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-2.350
+2024-04-11 07:47:15,805 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-2.600
+2024-04-11 07:47:16,295 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-2.600
+2024-04-11 07:47:16,299 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-1.150
+2024-04-11 07:47:16,772 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-1.150
+2024-04-11 07:47:16,775 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-2.500
+2024-04-11 07:47:17,268 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-2.500
+2024-04-11 07:47:17,272 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-1.650
+2024-04-11 07:47:17,735 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-1.650
+2024-04-11 07:47:17,738 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-1.500
+2024-04-11 07:47:18,205 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-1.500
+2024-04-11 07:47:18,208 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-1.750
+2024-04-11 07:47:18,670 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-1.750
+2024-04-11 07:47:18,673 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-2.800
+2024-04-11 07:47:19,167 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-2.800
+2024-04-11 07:47:19,170 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-2.050
+2024-04-11 07:47:19,675 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-2.050
+2024-04-11 07:47:19,678 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-1.000
+2024-04-11 07:47:20,147 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-1.000
+2024-04-11 07:47:20,150 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-2.250
+2024-04-11 07:47:20,656 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-2.250
+2024-04-11 07:47:20,660 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-2.000
+2024-04-11 07:47:21,139 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-2.000
+2024-04-11 07:47:21,143 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-1.850
+2024-04-11 07:47:22,194 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-1.850
+2024-04-11 07:47:22,198 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-1.600
+2024-04-11 07:47:22,685 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-1.600
+2024-04-11 07:47:22,688 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-1.450
+2024-04-11 07:47:23,135 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-1.450
+2024-04-11 07:47:23,138 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-2.700
+2024-04-11 07:47:23,627 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-2.700
+2024-04-11 07:47:23,630 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-1.350
+2024-04-11 07:47:24,052 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-1.350
+2024-04-11 07:47:24,055 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-1.950
+2024-04-11 07:47:24,523 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-1.950
+2024-04-11 07:47:24,527 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-1.400
+2024-04-11 07:47:24,986 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-1.400
+2024-04-11 07:47:24,990 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-2.200
+2024-04-11 07:47:25,440 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-2.200
+2024-04-11 07:47:25,444 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-1.700
+2024-04-11 07:47:25,955 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-1.700
+2024-04-11 07:47:25,958 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-2.400
+2024-04-11 07:47:26,452 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-2.400
+2024-04-11 07:47:26,456 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.36/alpha-1.250
+2024-04-11 07:47:26,902 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.36/alpha-1.250
+2024-04-11 07:47:26,916 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-2.300
+2024-04-11 07:47:27,393 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-2.300
+2024-04-11 07:47:27,396 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-2.100
+2024-04-11 07:47:27,878 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-2.100
+2024-04-11 07:47:27,882 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-1.901
+2024-04-11 07:47:28,392 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-1.901
+2024-04-11 07:47:28,395 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-1.550
+2024-04-11 07:47:28,894 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-1.550
+2024-04-11 07:47:28,897 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-1.300
+2024-04-11 07:47:29,442 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-1.300
+2024-04-11 07:47:29,445 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-1.800
+2024-04-11 07:47:29,965 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-1.800
+2024-04-11 07:47:29,968 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-2.150
+2024-04-11 07:47:30,449 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-2.150
+2024-04-11 07:47:30,452 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-1.200
+2024-04-11 07:47:31,035 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-1.200
+2024-04-11 07:47:31,038 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-1.100
+2024-04-11 07:47:31,538 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-1.100
+2024-04-11 07:47:31,541 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-1.050
+2024-04-11 07:47:32,003 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-1.050
+2024-04-11 07:47:32,006 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-2.350
+2024-04-11 07:47:32,486 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-2.350
+2024-04-11 07:47:32,489 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-2.600
+2024-04-11 07:47:32,927 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-2.600
+2024-04-11 07:47:32,930 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-1.150
+2024-04-11 07:47:33,404 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-1.150
+2024-04-11 07:47:33,407 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-2.500
+2024-04-11 07:47:33,893 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-2.500
+2024-04-11 07:47:33,896 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-1.650
+2024-04-11 07:47:34,377 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-1.650
+2024-04-11 07:47:34,381 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-1.500
+2024-04-11 07:47:34,864 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-1.500
+2024-04-11 07:47:34,867 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-1.750
+2024-04-11 07:47:35,377 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-1.750
+2024-04-11 07:47:35,380 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-2.800
+2024-04-11 07:47:35,871 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-2.800
+2024-04-11 07:47:35,874 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-2.050
+2024-04-11 07:47:36,372 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-2.050
+2024-04-11 07:47:36,375 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-1.000
+2024-04-11 07:47:36,875 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-1.000
+2024-04-11 07:47:36,878 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-2.250
+2024-04-11 07:47:37,331 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-2.250
+2024-04-11 07:47:37,334 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-2.000
+2024-04-11 07:47:37,806 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-2.000
+2024-04-11 07:47:37,809 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-1.850
+2024-04-11 07:47:38,271 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-1.850
+2024-04-11 07:47:38,274 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-1.600
+2024-04-11 07:47:38,785 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-1.600
+2024-04-11 07:47:38,788 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-1.450
+2024-04-11 07:47:39,278 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-1.450
+2024-04-11 07:47:39,282 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-2.700
+2024-04-11 07:47:39,773 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-2.700
+2024-04-11 07:47:39,776 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-1.350
+2024-04-11 07:47:40,293 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-1.350
+2024-04-11 07:47:40,297 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-1.950
+2024-04-11 07:47:40,776 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-1.950
+2024-04-11 07:47:40,779 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-1.400
+2024-04-11 07:47:41,280 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-1.400
+2024-04-11 07:47:41,283 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-2.200
+2024-04-11 07:47:41,742 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-2.200
+2024-04-11 07:47:41,745 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-1.700
+2024-04-11 07:47:42,209 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-1.700
+2024-04-11 07:47:42,212 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-2.400
+2024-04-11 07:47:42,698 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-2.400
+2024-04-11 07:47:42,701 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.39/alpha-1.250
+2024-04-11 07:47:43,161 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.39/alpha-1.250
+2024-04-11 07:47:43,172 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-2.300
+2024-04-11 07:47:43,677 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-2.300
+2024-04-11 07:47:43,681 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-2.100
+2024-04-11 07:47:44,219 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-2.100
+2024-04-11 07:47:44,223 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-1.901
+2024-04-11 07:47:44,740 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-1.901
+2024-04-11 07:47:44,743 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-1.550
+2024-04-11 07:47:45,263 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-1.550
+2024-04-11 07:47:45,266 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-1.300
+2024-04-11 07:47:45,755 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-1.300
+2024-04-11 07:47:45,759 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-1.800
+2024-04-11 07:47:46,297 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-1.800
+2024-04-11 07:47:46,301 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-2.150
+2024-04-11 07:47:46,798 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-2.150
+2024-04-11 07:47:46,801 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-1.200
+2024-04-11 07:47:47,291 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-1.200
+2024-04-11 07:47:47,294 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-1.100
+2024-04-11 07:47:47,774 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-1.100
+2024-04-11 07:47:47,777 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-1.050
+2024-04-11 07:47:48,264 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-1.050
+2024-04-11 07:47:48,267 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-2.350
+2024-04-11 07:47:48,742 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-2.350
+2024-04-11 07:47:48,745 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-2.600
+2024-04-11 07:47:49,263 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-2.600
+2024-04-11 07:47:49,266 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-1.150
+2024-04-11 07:47:49,771 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-1.150
+2024-04-11 07:47:49,774 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-2.500
+2024-04-11 07:47:50,234 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-2.500
+2024-04-11 07:47:50,238 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-1.650
+2024-04-11 07:47:50,734 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-1.650
+2024-04-11 07:47:50,737 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-1.500
+2024-04-11 07:47:51,241 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-1.500
+2024-04-11 07:47:51,244 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-1.750
+2024-04-11 07:47:51,750 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-1.750
+2024-04-11 07:47:51,754 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-2.800
+2024-04-11 07:47:52,255 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-2.800
+2024-04-11 07:47:52,258 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-2.050
+2024-04-11 07:47:52,747 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-2.050
+2024-04-11 07:47:52,750 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-1.000
+2024-04-11 07:47:53,225 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-1.000
+2024-04-11 07:47:53,228 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-2.250
+2024-04-11 07:47:53,704 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-2.250
+2024-04-11 07:47:53,707 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-2.000
+2024-04-11 07:47:54,209 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-2.000
+2024-04-11 07:47:54,212 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-1.850
+2024-04-11 07:47:54,755 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-1.850
+2024-04-11 07:47:54,759 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-1.600
+2024-04-11 07:47:55,237 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-1.600
+2024-04-11 07:47:55,241 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-1.450
+2024-04-11 07:47:55,729 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-1.450
+2024-04-11 07:47:55,733 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-2.700
+2024-04-11 07:47:56,208 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-2.700
+2024-04-11 07:47:56,213 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-1.350
+2024-04-11 07:47:56,674 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-1.350
+2024-04-11 07:47:56,678 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-1.950
+2024-04-11 07:47:57,172 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-1.950
+2024-04-11 07:47:57,176 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-1.400
+2024-04-11 07:47:57,694 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-1.400
+2024-04-11 07:47:57,698 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-2.200
+2024-04-11 07:47:58,174 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-2.200
+2024-04-11 07:47:58,178 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-1.700
+2024-04-11 07:47:58,666 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-1.700
+2024-04-11 07:47:58,671 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-2.400
+2024-04-11 07:47:59,135 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-2.400
+2024-04-11 07:47:59,139 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.33/alpha-1.250
+2024-04-11 07:47:59,623 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.33/alpha-1.250
+2024-04-11 07:47:59,636 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-2.300
+2024-04-11 07:48:00,124 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-2.300
+2024-04-11 07:48:00,126 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-2.100
+2024-04-11 07:48:00,600 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-2.100
+2024-04-11 07:48:00,604 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-1.901
+2024-04-11 07:48:01,069 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-1.901
+2024-04-11 07:48:01,073 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-1.550
+2024-04-11 07:48:01,627 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-1.550
+2024-04-11 07:48:01,631 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-1.300
+2024-04-11 07:48:02,213 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-1.300
+2024-04-11 07:48:02,217 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-1.800
+2024-04-11 07:48:02,671 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-1.800
+2024-04-11 07:48:02,675 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-2.150
+2024-04-11 07:48:03,158 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-2.150
+2024-04-11 07:48:03,161 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-1.200
+2024-04-11 07:48:03,697 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-1.200
+2024-04-11 07:48:03,701 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-1.100
+2024-04-11 07:48:04,216 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-1.100
+2024-04-11 07:48:04,218 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-1.050
+2024-04-11 07:48:04,759 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-1.050
+2024-04-11 07:48:04,763 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-2.350
+2024-04-11 07:48:05,283 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-2.350
+2024-04-11 07:48:05,286 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-2.600
+2024-04-11 07:48:05,748 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-2.600
+2024-04-11 07:48:05,752 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-1.150
+2024-04-11 07:48:06,250 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-1.150
+2024-04-11 07:48:06,253 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-2.500
+2024-04-11 07:48:06,730 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-2.500
+2024-04-11 07:48:06,734 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-1.650
+2024-04-11 07:48:07,208 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-1.650
+2024-04-11 07:48:07,212 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-1.500
+2024-04-11 07:48:07,672 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-1.500
+2024-04-11 07:48:07,675 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-1.750
+2024-04-11 07:48:08,117 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-1.750
+2024-04-11 07:48:08,120 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-2.800
+2024-04-11 07:48:08,572 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-2.800
+2024-04-11 07:48:08,576 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-2.050
+2024-04-11 07:48:09,009 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-2.050
+2024-04-11 07:48:09,013 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-1.000
+2024-04-11 07:48:09,490 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-1.000
+2024-04-11 07:48:09,494 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-2.250
+2024-04-11 07:48:09,928 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-2.250
+2024-04-11 07:48:09,932 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-2.000
+2024-04-11 07:48:10,420 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-2.000
+2024-04-11 07:48:10,424 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-1.850
+2024-04-11 07:48:10,891 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-1.850
+2024-04-11 07:48:10,894 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-1.600
+2024-04-11 07:48:11,412 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-1.600
+2024-04-11 07:48:11,415 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-1.450
+2024-04-11 07:48:12,070 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-1.450
+2024-04-11 07:48:12,074 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-2.700
+2024-04-11 07:48:12,539 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-2.700
+2024-04-11 07:48:12,543 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-1.350
+2024-04-11 07:48:13,071 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-1.350
+2024-04-11 07:48:13,074 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-1.950
+2024-04-11 07:48:13,540 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-1.950
+2024-04-11 07:48:13,543 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-1.400
+2024-04-11 07:48:14,059 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-1.400
+2024-04-11 07:48:14,063 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-2.200
+2024-04-11 07:48:14,521 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-2.200
+2024-04-11 07:48:14,525 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-1.700
+2024-04-11 07:48:15,043 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-1.700
+2024-04-11 07:48:15,046 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-2.400
+2024-04-11 07:48:15,496 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-2.400
+2024-04-11 07:48:15,499 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.27/alpha-1.250
+2024-04-11 07:48:15,930 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.27/alpha-1.250
+2024-04-11 07:48:15,941 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-2.300
+2024-04-11 07:48:16,489 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-2.300
+2024-04-11 07:48:16,492 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-2.100
+2024-04-11 07:48:17,044 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-2.100
+2024-04-11 07:48:17,047 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-1.901
+2024-04-11 07:48:17,601 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-1.901
+2024-04-11 07:48:17,605 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-1.550
+2024-04-11 07:48:18,175 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-1.550
+2024-04-11 07:48:18,178 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-1.300
+2024-04-11 07:48:19,414 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-1.300
+2024-04-11 07:48:19,417 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-1.800
+2024-04-11 07:48:19,927 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-1.800
+2024-04-11 07:48:19,930 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-2.150
+2024-04-11 07:48:20,448 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-2.150
+2024-04-11 07:48:20,452 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-1.200
+2024-04-11 07:48:20,997 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-1.200
+2024-04-11 07:48:21,000 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-1.100
+2024-04-11 07:48:21,518 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-1.100
+2024-04-11 07:48:21,521 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-1.050
+2024-04-11 07:48:22,050 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-1.050
+2024-04-11 07:48:22,054 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-2.350
+2024-04-11 07:48:22,581 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-2.350
+2024-04-11 07:48:22,585 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-2.600
+2024-04-11 07:48:23,129 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-2.600
+2024-04-11 07:48:23,133 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-1.150
+2024-04-11 07:48:23,674 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-1.150
+2024-04-11 07:48:23,677 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-2.500
+2024-04-11 07:48:24,249 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-2.500
+2024-04-11 07:48:24,252 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-1.650
+2024-04-11 07:48:24,805 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-1.650
+2024-04-11 07:48:24,808 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-1.500
+2024-04-11 07:48:25,363 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-1.500
+2024-04-11 07:48:25,368 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-1.750
+2024-04-11 07:48:25,877 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-1.750
+2024-04-11 07:48:25,881 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-2.800
+2024-04-11 07:48:26,426 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-2.800
+2024-04-11 07:48:26,429 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-2.050
+2024-04-11 07:48:26,950 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-2.050
+2024-04-11 07:48:26,953 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-1.000
+2024-04-11 07:48:27,468 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-1.000
+2024-04-11 07:48:27,470 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-2.250
+2024-04-11 07:48:27,996 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-2.250
+2024-04-11 07:48:27,998 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-2.000
+2024-04-11 07:48:28,530 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-2.000
+2024-04-11 07:48:28,533 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-1.850
+2024-04-11 07:48:29,066 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-1.850
+2024-04-11 07:48:29,070 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-1.600
+2024-04-11 07:48:29,587 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-1.600
+2024-04-11 07:48:29,591 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-1.450
+2024-04-11 07:48:30,144 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-1.450
+2024-04-11 07:48:30,147 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-2.700
+2024-04-11 07:48:30,696 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-2.700
+2024-04-11 07:48:30,699 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-1.350
+2024-04-11 07:48:31,240 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-1.350
+2024-04-11 07:48:31,243 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-1.950
+2024-04-11 07:48:31,735 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-1.950
+2024-04-11 07:48:31,739 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-1.400
+2024-04-11 07:48:32,261 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-1.400
+2024-04-11 07:48:32,265 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-2.200
+2024-04-11 07:48:32,773 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-2.200
+2024-04-11 07:48:32,776 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-1.700
+2024-04-11 07:48:33,291 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-1.700
+2024-04-11 07:48:33,295 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-2.400
+2024-04-11 07:48:33,790 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-2.400
+2024-04-11 07:48:33,793 - fidanka - load_ISO_CMDs - INFO - Loading CMD for E+0.24/alpha-1.250
+2024-04-11 07:48:34,308 - fidanka - load_ISO_CMDs - INFO - Loaded CMD for E+0.24/alpha-1.250
+2024-04-11 08:01:16,651 - fidanka - __init__ - INFO - Loading Bolometric Correction Tables...
+2024-04-11 08:01:16,652 - fidanka - __init__ - INFO - Bolometric Correction table ID (WFC3) requested.
+2024-04-11 08:01:16,653 - fidanka - download_MIST_bol_table - INFO - File already exists at /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3.txz
+2024-04-11 08:01:16,655 - fidanka - fetch_MIST_bol_table - INFO - Pre-existing bolometric correction tables detected, verifying checksums
+2024-04-11 08:01:16,659 - fidanka - verify_MIST_bol_tables - INFO - Loading stashed checksums...
+2024-04-11 08:01:16,662 - fidanka - verify_MIST_bol_tables - INFO - Stashed checksums loaded!
+2024-04-11 08:01:16,662 - fidanka - verify_MIST_bol_tables - INFO - Checking paths against stashed checksums...
+2024-04-11 08:01:16,662 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm150.HST_WFC3
+2024-04-11 08:01:17,504 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm150.HST_WFC3 checksum verified okay!
+2024-04-11 08:01:17,504 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehp050.HST_WFC3
+2024-04-11 08:01:18,286 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehp050.HST_WFC3 checksum verified okay!
+2024-04-11 08:01:18,286 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm400.HST_WFC3
+2024-04-11 08:01:19,016 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm400.HST_WFC3 checksum verified okay!
+2024-04-11 08:01:19,016 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm075.HST_WFC3
+2024-04-11 08:01:19,614 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm075.HST_WFC3 checksum verified okay!
+2024-04-11 08:01:19,615 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm025.HST_WFC3
+2024-04-11 08:01:20,378 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm025.HST_WFC3 checksum verified okay!
+2024-04-11 08:01:20,378 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm300.HST_WFC3
+2024-04-11 08:01:21,220 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm300.HST_WFC3 checksum verified okay!
+2024-04-11 08:01:21,220 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm200.HST_WFC3
+2024-04-11 08:01:21,925 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm200.HST_WFC3 checksum verified okay!
+2024-04-11 08:01:21,925 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm050.HST_WFC3
+2024-04-11 08:01:22,644 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm050.HST_WFC3 checksum verified okay!
+2024-04-11 08:01:22,644 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehp025.HST_WFC3
+2024-04-11 08:01:23,321 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehp025.HST_WFC3 checksum verified okay!
+2024-04-11 08:01:23,321 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehp000.HST_WFC3
+2024-04-11 08:01:24,117 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehp000.HST_WFC3 checksum verified okay!
+2024-04-11 08:01:24,117 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm350.HST_WFC3
+2024-04-11 08:01:24,824 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm350.HST_WFC3 checksum verified okay!
+2024-04-11 08:01:24,824 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm275.HST_WFC3
+2024-04-11 08:01:25,525 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm275.HST_WFC3 checksum verified okay!
+2024-04-11 08:01:25,526 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm100.HST_WFC3
+2024-04-11 08:01:26,225 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm100.HST_WFC3 checksum verified okay!
+2024-04-11 08:01:26,225 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm125.HST_WFC3
+2024-04-11 08:01:26,952 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm125.HST_WFC3 checksum verified okay!
+2024-04-11 08:01:26,952 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm175.HST_WFC3
+2024-04-11 08:01:27,521 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm175.HST_WFC3 checksum verified okay!
+2024-04-11 08:01:27,521 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehp075.HST_WFC3
+2024-04-11 08:01:28,298 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehp075.HST_WFC3 checksum verified okay!
+2024-04-11 08:01:28,298 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm250.HST_WFC3
+2024-04-11 08:01:28,916 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm250.HST_WFC3 checksum verified okay!
+2024-04-11 08:01:28,916 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm225.HST_WFC3
+2024-04-11 08:01:29,496 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/HST_WFC3/fehm225.HST_WFC3 checksum verified okay!
+2024-04-11 08:01:29,497 - fidanka - __init__ - INFO - Interperloating FeH Tables...
+2024-04-11 08:01:30,345 - fidanka - __init__ - INFO - FeH Tables Interperolated!
+2024-04-11 08:01:30,345 - fidanka - __init__ - INFO - Bolometric Correction Tables Loaded!
+2024-04-11 08:01:30,345 - fidanka - __init__ - INFO - Intializing Cache...
+2024-04-11 08:01:30,345 - fidanka - __init__ - INFO - Cache Initialized!
+2024-04-11 08:03:17,885 - fidanka - _build_interpolators - INFO - Building Interpolators
+2024-04-11 08:03:25,711 - fidanka - _build_interpolators - INFO - Interpolators Built!
+2024-04-11 08:04:12,287 - fidanka - _build_interpolators - INFO - Building Interpolators
+2024-04-11 08:04:12,725 - fidanka - _build_interpolators - INFO - Interpolators Built!
+2024-04-11 08:04:21,469 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-11 08:05:18,987 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-11 08:14:30,713 - fidanka - _build_interpolators - INFO - Building Interpolators
+2024-04-11 08:14:31,183 - fidanka - _build_interpolators - INFO - Interpolators Built!
+2024-04-11 10:26:36,865 - fidanka - _build_interpolators - INFO - Building Interpolators
+2024-04-11 10:26:37,429 - fidanka - _build_interpolators - INFO - Interpolators Built!
+2024-04-11 10:42:54,051 - fidanka - _build_interpolators - INFO - Building Interpolators
+2024-04-11 10:42:54,536 - fidanka - _build_interpolators - INFO - Interpolators Built!
+2024-04-11 10:42:59,983 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.50, Rv: 3.10)
+2024-04-11 10:43:04,347 - fidanka - _build_interpolators - INFO - Building Interpolators
+2024-04-11 10:43:04,764 - fidanka - _build_interpolators - INFO - Interpolators Built!
+2024-04-11 11:05:48,713 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.55, Rv: 3.10)
+2024-04-11 11:05:52,714 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.55, Rv: 3.10)
+2024-04-11 11:06:08,338 - fidanka - _build_interpolators - INFO - Building Interpolators
+2024-04-11 11:06:08,774 - fidanka - _build_interpolators - INFO - Interpolators Built!
+2024-04-11 11:10:58,554 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-11 11:10:58,556 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-11 11:10:58,557 - fidanka - _build_interpolators - INFO - Building Interpolators
+2024-04-11 11:10:59,009 - fidanka - _build_interpolators - INFO - Interpolators Built!
+2024-04-11 11:11:05,529 - fidanka - _build_interpolators - INFO - Building Interpolators
+2024-04-11 11:11:05,955 - fidanka - _build_interpolators - INFO - Interpolators Built!
+2024-04-11 11:11:06,002 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-11 11:11:06,005 - fidanka - _build_interpolators - INFO - Building Interpolators
+2024-04-11 11:11:06,398 - fidanka - _build_interpolators - INFO - Interpolators Built!
+2024-04-11 11:11:06,446 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.55, Rv: 3.10)
+2024-04-15 09:09:27,786 - fidanka - __init__ - INFO - Loading Bolometric Correction Tables...
+2024-04-15 09:09:27,787 - fidanka - __init__ - INFO - Bolometric Correction table ID (2mass) requested.
+2024-04-15 09:09:27,788 - fidanka - download_MIST_bol_table - INFO - File already exists at /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus.txz
+2024-04-15 09:09:27,788 - fidanka - fetch_MIST_bol_table - INFO - Pre-existing bolometric correction tables detected, verifying checksums
+2024-04-15 09:09:27,790 - fidanka - verify_MIST_bol_tables - INFO - Loading stashed checksums...
+2024-04-15 09:09:27,810 - fidanka - verify_MIST_bol_tables - INFO - Stashed checksums loaded!
+2024-04-15 09:09:27,811 - fidanka - verify_MIST_bol_tables - INFO - Checking paths against stashed checksums...
+2024-04-15 09:09:27,811 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm025.UBVRIplus
+2024-04-15 09:09:27,922 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm025.UBVRIplus checksum verified okay!
+2024-04-15 09:09:27,923 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm275.UBVRIplus
+2024-04-15 09:09:27,990 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm275.UBVRIplus checksum verified okay!
+2024-04-15 09:09:27,991 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm250.UBVRIplus
+2024-04-15 09:09:28,053 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm250.UBVRIplus checksum verified okay!
+2024-04-15 09:09:28,054 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm300.UBVRIplus
+2024-04-15 09:09:28,123 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm300.UBVRIplus checksum verified okay!
+2024-04-15 09:09:28,124 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm225.UBVRIplus
+2024-04-15 09:09:28,201 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm225.UBVRIplus checksum verified okay!
+2024-04-15 09:09:28,202 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm175.UBVRIplus
+2024-04-15 09:09:28,269 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm175.UBVRIplus checksum verified okay!
+2024-04-15 09:09:28,270 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehp000.UBVRIplus
+2024-04-15 09:09:28,328 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehp000.UBVRIplus checksum verified okay!
+2024-04-15 09:09:28,329 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehp025.UBVRIplus
+2024-04-15 09:09:28,409 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehp025.UBVRIplus checksum verified okay!
+2024-04-15 09:09:28,410 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm050.UBVRIplus
+2024-04-15 09:09:28,489 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm050.UBVRIplus checksum verified okay!
+2024-04-15 09:09:28,490 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehp075.UBVRIplus
+2024-04-15 09:09:28,570 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehp075.UBVRIplus checksum verified okay!
+2024-04-15 09:09:28,571 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm150.UBVRIplus
+2024-04-15 09:09:28,635 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm150.UBVRIplus checksum verified okay!
+2024-04-15 09:09:28,636 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehp050.UBVRIplus
+2024-04-15 09:09:28,700 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehp050.UBVRIplus checksum verified okay!
+2024-04-15 09:09:28,701 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm400.UBVRIplus
+2024-04-15 09:09:28,765 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm400.UBVRIplus checksum verified okay!
+2024-04-15 09:09:28,766 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm075.UBVRIplus
+2024-04-15 09:09:28,820 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm075.UBVRIplus checksum verified okay!
+2024-04-15 09:09:28,821 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm350.UBVRIplus
+2024-04-15 09:09:28,865 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm350.UBVRIplus checksum verified okay!
+2024-04-15 09:09:28,866 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm125.UBVRIplus
+2024-04-15 09:09:28,925 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm125.UBVRIplus checksum verified okay!
+2024-04-15 09:09:28,926 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm200.UBVRIplus
+2024-04-15 09:09:28,993 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm200.UBVRIplus checksum verified okay!
+2024-04-15 09:09:28,994 - fidanka - verify_MIST_bol_tables - INFO - Checking checksum for /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm100.UBVRIplus
+2024-04-15 09:09:29,044 - fidanka - verify_MIST_bol_tables - INFO - File /home/tboudreaux/.fidanka/bol/MIST/UBVRIplus/fehm100.UBVRIplus checksum verified okay!
+2024-04-15 09:09:29,045 - fidanka - __init__ - INFO - Interperloating FeH Tables...
+2024-04-15 09:09:29,465 - fidanka - __init__ - INFO - FeH Tables Interperolated!
+2024-04-15 09:09:29,466 - fidanka - __init__ - INFO - Bolometric Correction Tables Loaded!
+2024-04-15 09:09:29,467 - fidanka - __init__ - INFO - Intializing Cache...
+2024-04-15 09:09:29,468 - fidanka - __init__ - INFO - Cache Initialized!
+2024-04-15 09:11:59,593 - fidanka - _build_interpolators - INFO - Building Interpolators
+2024-04-15 09:12:00,491 - fidanka - _build_interpolators - INFO - Interpolators Built!
+2024-04-15 09:12:00,574 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:12:00,593 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:12:00,603 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:12:00,646 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:12:00,665 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:12:00,675 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:12:00,691 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:12:00,728 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:16,628 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:16,646 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:16,664 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:16,675 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:16,716 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:16,734 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:16,744 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:16,760 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:16,798 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:16,839 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:16,849 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:16,891 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:16,902 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:16,949 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:16,992 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:17,006 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:35,394 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:35,398 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:35,400 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:35,402 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:35,404 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:35,407 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:35,409 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:35,411 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:35,413 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:35,415 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:35,417 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:35,419 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:35,421 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:35,423 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:35,425 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:13:35,427 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:14:24,563 - fidanka - _build_interpolators - INFO - Building Interpolators
+2024-04-15 09:14:26,590 - fidanka - _build_interpolators - INFO - Interpolators Built!
+2024-04-15 09:14:26,897 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:14:26,910 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:14:26,923 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:14:26,934 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:14:26,949 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:14:26,962 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:14:26,973 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:14:26,985 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:14:27,002 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:14:27,017 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:14:27,029 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:14:27,044 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:14:27,057 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:14:27,073 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:14:27,088 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:15:40,972 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:15:40,990 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:15:41,005 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:15:41,019 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:15:41,031 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:15:41,046 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:15:41,060 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:15:41,072 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:15:41,084 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:15:41,100 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:15:41,116 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:15:41,128 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:15:41,143 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:15:41,156 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:15:41,171 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:15:41,187 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:16:20,242 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:16:20,265 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:16:20,281 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:16:20,296 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:16:20,310 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:16:20,330 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:16:20,346 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:16:20,359 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:16:20,374 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:16:20,391 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:16:20,407 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:16:20,420 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:16:20,435 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:16:20,448 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:16:20,465 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:16:20,481 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:18,835 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:18,851 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:18,865 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:18,877 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:18,890 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:18,905 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:18,918 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:18,930 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:18,943 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:18,960 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:18,975 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:18,987 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:19,002 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:19,014 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:19,029 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:19,044 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:58,787 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:58,803 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:58,816 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:58,828 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:58,840 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:58,855 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:58,868 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:58,879 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:58,892 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:58,907 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:58,921 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:58,933 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:58,949 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:58,961 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:58,976 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:20:58,992 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:49,103 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:49,121 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:49,136 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:49,151 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:49,164 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:49,181 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:49,195 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:49,210 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:49,223 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:49,239 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:49,256 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:49,269 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:49,286 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:49,299 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:49,316 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:49,333 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:53,754 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:53,771 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:53,785 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:53,798 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:53,809 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:53,825 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:53,837 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:53,849 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:53,862 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:53,877 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:53,891 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:53,903 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:53,918 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:53,930 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:53,945 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 09:22:53,960 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 10:09:18,062 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 10:09:18,092 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 10:09:18,122 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 10:09:18,147 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 10:09:18,167 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 10:09:18,187 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 10:09:18,206 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 10:09:18,227 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 10:09:18,283 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 10:09:18,348 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 10:09:18,412 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 10:09:18,473 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 10:09:18,539 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 10:09:18,571 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 10:09:18,620 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 10:09:18,671 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 10:44:07,120 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 10:46:28,024 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 12:03:12,206 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 12:03:26,962 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 12:04:33,114 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 12:04:49,012 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 12:05:07,816 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)
+2024-04-15 12:05:44,600 - fidanka - apparent_mags - INFO - Extinction Cache Hit! (Av: 0.00, Rv: 3.10)

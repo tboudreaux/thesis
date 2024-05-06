@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Thesis.aux
 The style file: aasjournal.bst
-Reallocated field_info (elt_size=4) to 12859 items from 5000.
+Reallocated field_info (elt_size=4) to 12888 items from 5000.
 Database file #1: bib/ms.bib
 Repeated entry---line 603 of file bib/ms.bib
  : @misc{Boudreaux2022
@@ -34,45 +34,45 @@ Warning--empty publisher in Manitius1995
 Warning--empty publisher in Quack2019
 Warning--empty pages in Quack2019
 Warning--empty journal in Yena2021
-You've used 271 entries,
+You've used 272 entries,
             3222 wiz_defined-function locations,
-            2634 strings with 76940 characters,
-and the built_in function-call counts, 128291 in all, are:
-= -- 10016
-> -- 10328
+            2641 strings with 77491 characters,
+and the built_in function-call counts, 128872 in all, are:
+= -- 10050
+> -- 10396
 < -- 124
-+ -- 3461
-- -- 3682
-* -- 11133
-:= -- 23646
-add.period$ -- 288
-call.type$ -- 271
-change.case$ -- 1541
-chr.to.int$ -- 265
-cite$ -- 281
-duplicate$ -- 4860
-empty$ -- 7863
-format.name$ -- 4026
-if$ -- 25743
++ -- 3483
+- -- 3706
+* -- 11195
+:= -- 23762
+add.period$ -- 289
+call.type$ -- 272
+change.case$ -- 1545
+chr.to.int$ -- 266
+cite$ -- 282
+duplicate$ -- 4878
+empty$ -- 7890
+format.name$ -- 4051
+if$ -- 25853
 int.to.chr$ -- 7
 int.to.str$ -- 0
-missing$ -- 251
-newline$ -- 835
-num.names$ -- 1087
-pop$ -- 2202
+missing$ -- 252
+newline$ -- 838
+num.names$ -- 1091
+pop$ -- 2208
 preamble$ -- 1
-purify$ -- 1540
+purify$ -- 1544
 quote$ -- 0
-skip$ -- 3883
+skip$ -- 3896
 stack$ -- 0
-substring$ -- 4669
+substring$ -- 4683
 swap$ -- 100
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2415
+type$ -- 2424
 warning$ -- 10
-while$ -- 1027
+while$ -- 1030
 width$ -- 0
-write$ -- 2730
+write$ -- 2740
 (There were 3 error messages)

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html style="width: 100%; height=100%;">
+<head>
+    <title>Scatter Plot from CSV</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .dot {
+            stroke: none;
+        }
+        .axis-label {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body style="overflow: hidden;">
+    <script>
+      var width = 900;
+      var height = 400;
+
+      var svg = d3.select("body").append("svg")
+        .attr("width", width)
+        .attr("height", height);
+      var xscale = d3.scaleLinear()
+          .range([0, width])
+          .domain([-0.05, 1.01]);
+      var yscale = d3.scaleLinear()
+          .range([height, 0])
+          .domain([0.9, 1.1]);
+
+      svg.append('line')
+        .attr('id', 'xaxis')
+        .attr('x1', xscale(0))
+        .attr('x2', xscale(0))
+        .attr('y1', yscale(0.92))
+        .attr('y2', yscale(0.92))
+        .style('stroke-width', '1px')
+        .style('stroke', 'black')
+      .transition()
+        .duration(500)
+        .attr('x2', xscale(1))
+        .attr('x1', xscale(-0.05))
+      svg.append('line')
+        .attr('id', 'yaxis')
+        .attr('x1', xscale(0.0))
+        .attr('x2', xscale(0.0))
+        .attr('y1', yscale(0.92))
+        .attr('y2', yscale(0.92))
+        .style('stroke-width', '1px')
+        .style('stroke', 'black')
+      .transition()
+        .duration(500)
+        .attr('y1', yscale(0.9))
+        .attr('y2', yscale(1.1))
+
+      svg.append("text")
+        .attr('x', xscale(0.45))
+        .attr('y', yscale(0.905))
+        .style('fill', 'black')
+        .style('font-family', 'times')
+        .text("Time")
+        .style('font-size', '35px')
+        .style('opacity', 0)
+      .transition()
+        .duration(500)
+        .style('opacity', 1)
+
+      svg.append("text")
+        .attr('x', xscale(0.075))
+        .attr('y', yscale(0.905))
+        .style('fill', 'black')
+        .style('font-family', 'times')
+        .text("Magnetic Field Strength")
+        .style('font-size', '30px')
+        .style('opacity', 0)
+        .attr('transform', 'rotate(270, ' + xscale(0) + ', ' + yscale(0.9) + ')')
+      .transition()
+        .duration(500)
+        .style('opacity', 1)
+
+      d3.json("https://algebrist.ddns.net/~tboudreaux/presentations/thesisDefense/d3/data/modelEvolve.json").then(function(data) {
+        var i = 0
+        var time = data.time;
+        Object.keys(data.fields).forEach(key => {
+          var field = data.fields[key];
+          svg.append("circle")
+            .attr('cx', xscale(time[0]))
+            .attr('cy', yscale(field[0]))
+            .attr('r', 5)
+            .style('fill', 'black')
+            .style('opacity', 0)
+            .attr('id', 'Model' + i);
+          i += 1;
+        });
+
+        Object.keys(data.mixingEvents).forEach(key => {
+          svg.append("line")
+            .attr("x1", xscale(data.mixingEvents[key]))
+            .attr("x2", xscale(data.mixingEvents[key]))
+            .attr("y1", yscale(0.92))
+            .attr("y2", yscale(0.92))
+            .style("stroke", 'black')
+            .style("stroke-width", '1px')
+            .style("stroke-dasharray", '10 5')
+            .style("opacity", 0.25)
+          .transition()
+            .duration(500)
+            .attr('y2', yscale(1.1))
+        });
+      });
+
+  function resetModel(index, data, d, mNum) {
+    key = Object.keys(data.fields)[mNum]
+    var field = data.fields[key];
+    svg.select("#Model" + mNum)
+    .transition()
+      .duration(d)
+      .attr('cx', xscale(data.time[index]))
+      .attr('cy', yscale(field[index]))
+      .style('opacity', 1)
+  }
+
+  function updateModel(index, data, d, mNum) {
+    console.log(index, data, d, mNum);
+    const color = `rgb(${(75/10) * (mNum+1)}, ${(170/10) * (mNum+1)}, ${(30/10) * (mNum+1)})`;
+    console.log(color)
+    key = Object.keys(data.fields)[mNum]
+    var field = data.fields[key];
+    svg.append("circle")
+      .attr('cx', xscale(data.time[index]))
+      .attr('cy', yscale(field[index]))
+      .attr('r', 1)
+      .style('opacity', 0)
+      .attr('class', 'tracedLine')
+      .style('fill', color)
+    .transition()
+      .duration(d)
+      .style('opacity', 1)
+
+    svg.select("#Model" + mNum)
+    .transition()
+      .duration(d)
+      .attr('cx', xscale(data.time[index]))
+      .attr('cy', yscale(field[index]))
+    .on('end', index < data.time.length ? function() { updateModel(index+1, data, d, mNum) } : function() { resetModel(0, data, 500, mNum) })
+  }
+
+  var _transitions = [
+      {
+        transitionForward: () => {
+          svg.select("#Model1")
+          .transition()
+            .duration(1000)
+            .style('opacity', 1)
+        },
+        index: 0
+      },
+      {
+        transitionForward: () => {
+          d3.json("https://algebrist.ddns.net/~tboudreaux/presentations/thesisDefense/d3/data/modelEvolve.json").then(function(data) {
+            updateModel(1, data, 1, 1);
+          });
+        },
+        index: 1
+      },
+      {
+        transitionForward: () => {
+          svg.selectAll('.tracedLine').remove();
+          d3.json("https://algebrist.ddns.net/~tboudreaux/presentations/thesisDefense/d3/data/modelEvolve.json").then(function(data) {
+              for (var i = 0; i <= data.fields.length -1; i++){
+                console.log("working on " + i);
+                svg.select("#Model" + i)
+                .transition()
+                  .duration(500)
+                  .style('opacity', 1)
+                updateModel(0, data, 1, i)
+              }
+          });
+        },
+        index: 2
+      },
+      {
+        transitionForward: () => {
+            svg.append("line")
+              .attr('x1', xscale(0))
+              .attr('x2', xscale(0))
+              .attr('y1', yscale(1))
+              .attr('y2', yscale(1))
+              .style('stroke', 'red')
+              .style('stroke-width', '2px')
+            .transition()
+              .duration(750)
+              .attr('x2', xscale(1))
+              .attr('y2', yscale(1.1))
+            svg.append("line")
+              .attr('x1', xscale(0))
+              .attr('x2', xscale(0))
+              .attr('y1', yscale(1))
+              .attr('y2', yscale(1))
+              .style('stroke', 'red')
+              .style('stroke-width', '2px')
+            .transition()
+              .duration(750)
+              .attr('x2', xscale(1))
+              .attr('y2', yscale(0.9))
+        },
+        index: 4
+      },
+    ];
+    </script>
+</body>
+</html>
+

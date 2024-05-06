@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html style="width: 100%; height=100%;">
+<head>
+    <title>Scatter Plot from CSV</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .dot {
+            stroke: none;
+        }
+        .axis-label {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body style="overflow: hidden; text-align:center;">
+    <script>
+    // Define the viewbox dimensions and margins
+      var width = 500;
+      var height = 550;
+
+      // Append SVG and group to transform by the margins
+      var svg = d3.select("body").append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+
+        // Define the scales
+        var x = d3.scaleLinear()
+            .range([0, width])
+            .domain([-20, 124]);
+
+        var y = d3.scaleLinear()
+            .range([0, height])
+            .domain([-20, 148]);
+
+        // Load the data from the CSV file
+        d3.csv("https://algebrist.ddns.net/~tboudreaux/presentations/thesisDefense/d3/data/sleepy.csv").then(function(data) {
+            // Convert data to numerical
+            data.forEach(function(d) {
+                d.x = +d.x;
+                d.y = +d.y;
+                d.b = +d.b;
+            });
+
+            svg.selectAll(".dot")
+                .data(data)
+              .enter().append("circle")
+                .attr("class", "dot")
+                .attr("r", 3)
+                .attr("cx", function(d) { return x(52); }) // Set the initial horizontal position
+                .attr("cy", function(d) { return y(64); }) // Start from the bottom of the SVG
+                .style("opacity", 0)
+                .style('fill', function(d) {
+                  var red  = 255 * d.b;
+                  var blue  = 255 * d.b;
+                  var green  = 255 * d.b;
+                  return `rgb(${red}, ${blue}, ${green})`
+                })
+              .transition() // Begin a transition for each circle
+                .duration(300) // Set the duration of the transition (e.g., 2000 milliseconds = 2 seconds)
+                .delay(function(d, i) { return Math.random() * 2000  }) // Delay each dot's start time to make the effect more "organic"
+                .style('opacity', function(d) {
+                  let xvec = d.x - 52;
+                  let yvec = d.y - 64;
+                  let distance = Math.sqrt(xvec*xvec + yvec*yvec);
+                  return 1-(distance/50);
+                } )
+                .ease(d3.easeSinInOut) // Set an easing function for a more natural movement
+                .attr("cy", function(d) { return y(d.y); }) // Animate to the final vertical position
+                .attr("cx", function(d) { return x(d.x) }); // Set the initial horizontal position
+        });
+    </script>
+</body>
+</html>
+

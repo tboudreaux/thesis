@@ -117,10 +117,33 @@
               .attr("id", "GlobularLabel")
         });
     function orbit(pix, piy, p, id, rdepthLevel) {
-      svg.select('#' + id)
-      .transition()
+      let initDelay = rdepthLevel == 0 ? Math.random() * 2000 : 0 
+      let GCPoint = svg.select('#' + id);
+
+      let order = rdepthLevel % 2 == 0 ? {'f': 3 , 's': 2 }  : {'f': 1.5 , 's': 2}
+      GCPoint.transition("scaling")
+        .duration(p/2)
+        .delay(initDelay)
+        .attr('r', order.f)
+        .on('end', function() {
+          console.log("Done Scaling Up!")
+        });
+      GCPoint.transition("scaling")
+        .duration(p/2)
+        .delay(initDelay+(p/2))
+        .attr('r', order.s)
+        .on('end', function() {console.log("Done Scaling Down!")})
+
+      if (rdepthLevel % 2 == 0){
+        d3.select("#" + id).raise()
+      } else {
+        d3.select("#" + id).lower()
+      }
+
+        
+      GCPoint.transition("moving")
         .duration(p)
-        .delay(rdepthLevel == 0 ? Math.random() * 2000 : 0)
+        .delay(initDelay)
         .attr('cx', xscale(-pix))
         .attr('cy', yscale(-piy))
         .ease(d3.easeSinInOut)
@@ -172,7 +195,11 @@
       {
         transitionForward: () => {
           document.querySelectorAll('.GCPoint').forEach(function(p) {
-            orbit(parseFloat(p.getAttribute('dx')), parseFloat(p.getAttribute('dy')), (Math.random() * 5000) + 2000, p.id, 0)
+            var x = parseFloat(p.getAttribute('dx'));
+            var y = parseFloat(p.getAttribute('dy'));
+            var r = Math.sqrt(x**2 + y**2)
+            var T = r*1000
+            orbit(x, y, T, p.id, 0)
           });
         },
         transitionBackward: () => {

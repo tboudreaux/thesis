@@ -25,7 +25,7 @@ broad temperature and density range and then rotate these tables,
 interpolating $\kappa_{R}(\rho,T_{eff}) \rightarrow \kappa_{R}(R,T_{eff})$. 
 
 
-To preform this rotation we use the \texttt{interp2d} function within
+To perform this rotation we use the \texttt{interp2d} function within
 \texttt{scipy}'s \texttt{interpolate} \citep{2020SciPy-NMeth} module to
 construct a cubic bivariate B-spline \citep{Dierckx1981} interpolating function
 $s$, with a smoothing factor of 0, representing the surface $\kappa_{R}(\rho,
@@ -34,7 +34,7 @@ we evaluate Equation \ref{eqn:Req} to find $\rho^{ij} =
 \rho(T^{j}_{eff},R^{i})$.  Opacities in $T_{eff}$, $R$ space are then inferred
 as $\kappa^{ij}_{R}(R^{i},T^{j}_{eff}) = s(\rho^{ij}, T^{j}_{eff})$. 
 
-As first-order validation of this interpolation scheme we can preform a similar
+As first-order validation of this interpolation scheme we can perform a similar
 interpolation in the opposite direction, rotating the tables back to
 $\kappa_{R}(\rho, T_{eff})$ and then comparing the initial, ``raw'', opacities
 to those which have gone through the interpolations process. Figure
