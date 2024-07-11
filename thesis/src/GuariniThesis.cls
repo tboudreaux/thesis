@@ -1,12 +1,12 @@
 % mythesis.cls
 \ProvidesClass{GuariniThesis}[2023/12/05 My custom thesis class]
 % \LoadClass{article}
-\LoadClass{book}
+\LoadClass[oneside]{book}
 
 % Load required packages
 \RequirePackage{graphicx} % Required for inserting images
 \RequirePackage{setspace}
-\RequirePackage[left=1.5in, right=1in, top=1in, bottom=1in]{geometry}
+\RequirePackage[letterpaper, left=1.5in, right=1in, top=1in, bottom=1in]{geometry}
 \RequirePackage[table]{xcolor}
 \RequirePackage{calc}
 \RequirePackage{titlesec}
@@ -235,6 +235,7 @@ Dean of the Guarini School of Graduate and Advanced Studies
 \newcommand{\GuariniAbstract}{
   \newpage
   \pagenumbering{roman}
+  \setcounter{page}{2}
   \setstretch{1.5}
   \fontsize{12}{14.4}
   \selectfont
